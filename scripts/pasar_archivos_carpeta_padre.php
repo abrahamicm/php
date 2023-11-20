@@ -30,7 +30,11 @@ function moverArchivosACarpetaPadre() {
     $archivos = scandir($directorioActual);
 
     foreach ($archivos as $archivo) {
-        if ($archivo != "." && $archivo != ".." && $archivo != basename(__FILE__)) {
+        $esDirectorioActual = ($archivo == ".");
+        $esDirectorioPadre = ($archivo == "..");
+        $esElPropioArchivo = ($archivo == basename(__FILE__));
+
+        if (!$esDirectorioActual && !$esDirectorioPadre && !$esElPropioArchivo) {
             $rutaArchivo = $directorioActual . '/' . $archivo;
             $nuevaRuta = dirname($directorioActual) . '/' . $archivo;
 
@@ -42,6 +46,7 @@ function moverArchivosACarpetaPadre() {
         }
     }
 }
+
 
 // Llamar a la función para ejecutar el script
 moverArchivosACarpetaPadre();

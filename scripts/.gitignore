@@ -1,0 +1,23 @@
+# Composer
+/vendor/
+/composer.phar
+/composer.lock
+
+# IDE/Editor specific
+.idea/
+.vscode/
+
+# User-specific files
+*.sublime-project
+*.sublime-workspace
+*.komodoproject
+.komodotools/
+
+# Sensitive or environment-specific files
+.env
+.env.local
+.env.*.php
+
+# OS-specific files
+.DS_Store
+Thumbs.db
