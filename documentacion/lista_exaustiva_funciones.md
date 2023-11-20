@@ -1,0 +1,3501 @@
+- abs - Valor absoluto
+- acos - Arco coseno
+- acosh - Arco coseno hiperbólico
+- addcslashes - Escapa una cadena al estilo de C
+- addslashes - Escapa un string con barras invertidas
+- apache_child_terminate - Finaliza un proceso de Apache después de esta llamada
+- apache_getenv - Obtiene una variable del entorno subprocess_env de Apache
+- apache_get_modules - Obtiene una lista de los módulos cargados en el servidor Apache
+- apache_get_version - Obtiene la versión del servidor Apache
+- apache_lookup_uri - Realiza una petición parcial por la URI especificada y devuelve toda la información sobre ella
+- apache_note - Obtiene y establece las notas de petición de apache
+- apache_request_headers - Obtiene todas las cabeceras HTTP
+- apache_response_headers - Obtiene todas las cabeceras HTTP de respuesta
+- apache_setenv - Establece una variable subprocess_env de Apache
+- apcu_add - Cache a new variable in the data store
+- apcu_cache_info - Recupera la información almacenada en la memoria APCu
+- apcu_cas - Actualiza un valor antiguo con un nuevo valor
+- apcu_clear_cache - Limpia el caché del APCu
+- apcu_dec - Disminuir un número almacenado
+- apcu_delete - Elimina una variable almacenada en caché
+- apcu_enabled - Si el APCu es utilizable en el entorno actual
+- apcu_entry - Atomically fetch or generate a cache entry
+- apcu_exists - Checks if entry exists
+- apcu_fetch - Fetch a stored variable from the cache
+- apcu_inc - Increase a stored number
+- apcu_key_info - Get detailed information about the cache key
+- apcu_sma_info - Retrieves APCu Shared Memory Allocation information
+- apcu_store - Cache a variable in the data store
+- array - Crea un array
+- array_change_key_case - Cambia a mayúsculas o minúsculas todas las claves en un array
+- array_chunk - Divide un array en fragmentos
+- array_column - Devuelve los valores de una sola columna del array de entrada
+- array_combine - Crea un nuevo array, usando una matriz para las claves y otra para sus valores
+- array_count_values - Cuenta todos los valores de un array
+- array_diff - Calcula la diferencia entre arrays
+- array_diff_assoc - Calcula la diferencia entre arrays con un chequeo adicional de índices
+- array_diff_key - Calcula la diferencia entre arrays empleando las claves para la comparación
+- array_diff_uassoc - Calcula la diferencia entre arrays con un chequeo adicional de índices que se realiza por una función de devolución de llamada suministrada por el usuario
+- array_diff_ukey - Calcula la diferencia entre arrays usando una función de devolución de llamada en las keys para comparación
+- array_fill - Llena un array con valores
+- array_fill_keys - Llena un array con valores, especificando las keys
+- array_filter - Filtra elementos de un array usando una función de devolución de llamada
+- array_flip - Intercambia todas las claves de un array con sus valores asociados
+- array_intersect - Calcula la intersección de arrays
+- array_intersect_assoc - Calcula la intersección de arrays con un chequeo adicional de índices
+- array_intersect_key - Calcula la intersección de arrays usando sus claves para la comparación
+- array_intersect_uassoc - Calcula la intersección de arrays con una comprobación adicional de índices, los cuales se comparan con una función de retrollamada
+- array_intersect_ukey - Calcula la intersección de arrays usando una función de devolución de llamada en las claves para la comparación
+- array_is_list - Checks whether a given array is a list
+- array_keys - Devuelve todas las claves de un array o un subconjunto de claves de un array
+- array_key_exists - Verifica si el índice o clave dada existe en el array
+- array_key_first - Obtiene la primera clave de un array
+- array_key_last - Obtiene la última clave de un array
+- array_map - Aplica la retrollamada a los elementos de los arrays dados
+- array_merge - Combina dos o más arrays
+- array_merge_recursive - Une dos o más arrays recursivamente
+- array_multisort - Ordena varios arrays, o arrays multidimensionales
+- array_pad - Rellena un array a la longitud especificada con un valor
+- array_pop - Extrae el último elemento del final del array
+- array_product - Calcula el producto de los valores de un array
+- array_push - Inserta uno o más elementos al final de un array
+- array_rand - Seleccionar una o más claves aleatorias de un array
+- array_reduce - Reduce iterativamente un array a un solo valor usando una función llamada de retorno
+- array_replace - Reemplaza los elementos del array original con elementos de array adicionales
+- array_replace_recursive - Reemplaza los elementos de los arrays pasados al primer array de forma recursiva
+- array_reverse - Devuelve un array con los elementos en orden inverso
+- array_search - Busca un valor determinado en un array y devuelve la primera clave correspondiente en caso de éxito
+- array_shift - Quita un elemento del principio del array
+- array_slice - Extraer una parte de un array
+- array_splice - Elimina una porción del array y la reemplaza con otra cosa
+- array_sum - Calcular la suma de los valores de un array
+- array_udiff - Computa la diferencia entre arrays, usando una llamada de retorno para la comparación de datos
+- array_udiff_assoc - Computa la diferencia entre arrays con una comprobación de indices adicional, compara la información mediante una función de llamada de retorno
+- array_udiff_uassoc - Computa la diferencia entre arrays con una verificación de índices adicional, compara la información y los índices mediante una función de llamada de retorno
+- array_uintersect - Computa una intersección de arrays, compara la información mediante una función de llamada de retorno
+- array_uintersect_assoc - Calcula la intersección de arrays con una comprobación de índices adicional, compara la información mediante una función de retrollamada
+- array_uintersect_uassoc - Calcula la intersección de arrays con una comprobación de índices adicional, compara la información y los índices mediante funciones de retrollamada por separado
+- array_unique - Elimina valores duplicados de un array
+- array_unshift - Añadir al inicio de un array uno a más elementos
+- array_values - Devuelve todos los valores de un array
+- array_walk - Aplicar una función proporcionada por el usuario a cada miembro de un array
+- array_walk_recursive - Aplicar una función de usuario recursivamente a cada miembro de un array
+- arsort - Ordena un array en orden inverso y mantiene la asociación de índices
+- Aserción - Verifica si la aserción es false
+- asin - Arco seno
+- asinh - Arco seno hiperbólico
+- asort - Ordena un array y mantiene la asociación de índices
+- assert_options - Establecer/obtener valores de las directivas relacionadas con las aserciones
+- atan - Arco tangente
+- atan2 - Arco tangente de dos variables
+- atanh - Arco tangente hiperbólica
+- base64_decode - Decodifica datos codificados con MIME base64
+- base64_encode - Codifica datos con MIME base64
+- basename - Devuelve el último componente de nombre de una ruta
+- base_convert - Convertir un número entre bases arbitrarias
+- bcadd - Añade dos números de precisión arbitrária
+- bccomp - Compara dos números de precisión arbitraria
+- bcdiv - Divide dos números de precisión arbitraria
+- bcmod - Obtiene el módulo de un número de precisión arbitraria
+- bcmul - Multiplica dos números de precisión arbitraria
+- bcpow - Elevar un número de precisión arbitraria a otro
+- bcpowmod - Eleva un número de precisión arbitraria a otro, reducido por un módulo especificado
+- bcscale - Establece los parametros de scale por defecto para todas las funciones matemáticas de bc
+- bcsqrt - Obtiene la raiz cuadrada de un número de precisión arbitraria
+- bcsub - Resta un número de precisión arbitraria de otro
+- bin2hex - Convierte datos binarios en su representación hexadecimal
+- bindec - Binario a decimal
+- bindtextdomain - Establece u obtiene la ruta de un dominio
+- bind_textdomain_codeset - Especifica el juego de caracteres en que los mensajes del catálogo del dominio serán devueltos
+- boolval - Obtener el valor booleano de una variable
+- bzclose - Cierra un fichero bzip2
+- bzcompress - Comprime una cadena en datos codificados en bzip2
+- bzdecompress - Descomprime datos codificados con bzip2
+- bzerrno - Devuelve el número de erro de bzip2
+- bzerror - Devuelve el número de error y la cadena del error de bzip2 en un array
+- bzerrstr - Devuelve una cadena de error de bzip2
+- bzflush - Fuerza la escritura de todos los datos del búfer
+- bzopen - Abre un fichero comprimido con bzip2
+- bzread - Lectura segura de ficheros bzip2
+- bzwrite - Escribe en un fichero bzip2 de forma segura binariamente
+- call_user_func - Llamar a una llamada de retorno dada por el primer parámetro
+- call_user_func_array - Llamar a una llamada de retorno con un array de parámetros
+- cal_days_in_month - Devolver el número de días de un mes para un año y un calendario dados
+- cal_from_jd - Convierte de una Fecha Juliana a un calendario soportado
+- cal_info - Devuelve información sobre un calendario en particular
+- cal_to_jd - Convertir un calendario soportado a la Fecha Juliana
+- ceil - Redondear fracciones hacia arriba
+- chdir - Cambia de directorio
+- checkdate - Validar una fecha gregoriana
+- checkdnsrr - Comprueba registros DNS correspondientes a un nombre de host de Internet dado o dirección IP
+- chgrp - Cambia el grupo del archivo
+- chmod - Cambia el modo de un fichero
+- chop - Alias de rtrim
+- chown - Cambia el propietario del fichero
+- chr - Devuelve un caracter específico
+- chroot - Cambia el directorio raíz
+- chunk_split - Divide una cadena en trozos más pequeños
+- class_alias - Crea un alias para una clase
+- class_exists - Verifica si la clase ha sido definida
+- class_implements - Devuelve las interfaces que son implementadas por la clase o interfaz dadas
+- class_parents - Devuelve las clases padre de la clase dada.
+- class_uses - Devolver los "traits" usados por la clase dada
+- clearstatcache - Limpia la caché de estado de un archivo
+- cli_get_process_title - Returns the current process title
+- cli_set_process_title - Sets the process title
+- closedir - Cierra un gestor de directorio
+- closelog - Cerrar conexión al log del sistema
+- CommonMark\Parse - Parsing
+- CommonMark\Render - Rendering
+- CommonMark\Render\HTML - Rendering
+- CommonMark\Render\Latex - Rendering
+- CommonMark\Render\Man - Rendering
+- CommonMark\Render\XML - Rendering
+- compact - Crear un array que contiene variables y sus valores
+- Componere\cast - Moldeado
+- Componere\cast_by_ref - Moldeado
+- com_create_guid - Generar un identificador único globalmente (GUID)
+- com_event_sink - Conectar eventos de un objeto COM a un objeto PHP
+- com_get_active_object - Devuelve un gestor a una instancia de un objeto COM ya en ejecución
+- com_load_typelib - Carga una biblioteca de tipos
+- com_message_pump - Procesar mensajes COM, durmiendo hata timeoutms milisegundos
+- com_print_typeinfo - Imprime una definición de clase de PHP para una interfaz despachable
+- connection_aborted - Verifica si el cliente se desconectó
+- connection_status - Devuelve el campo de bits de status de conexión
+- constant - Devuelve el valor de una constante
+- Contexto parámetros - Listado de parámetros de contexto
+- convert_cyr_string - Convierte de un juego de caracteres cirílico a otro juego de caracteres cirílico
+- convert_uudecode - Descodifica una cadena codificada mediante uuencode
+- convert_uuencode - Codificar mediante uuencode una cadena
+- copy - Copia un fichero
+- cos - Coseno
+- cosh - Coseno hiperbólico
+- count - Cuenta todos los elementos de un array o algo de un objeto
+- count_chars - Devuelve información sobre los caracteres usados en una cadena
+- crc32 - Calcula el polinomio crc32 de una cadena
+- create_function - Crear una función anónima (estilo lambda)
+- crypt - Hash de cadenas de un sólo sentido
+- ctype_alnum - Chequear posibles caracteres alfanuméricos
+- ctype_alpha - Chequear posibles caracteres alfabéticos
+- ctype_cntrl - Chequear posibles caracteres de control
+- ctype_digit - Chequear posibles caracteres numéricos
+- ctype_graph - Chequear posibles caracteres imprimibles, con excepción de los espacios
+- ctype_lower - Chequear posibles caracteres en minúscula
+- ctype_print - Chequear posibles caracteres imprimibles
+- ctype_punct - Chequear posibles caracteres imprimibles que no son ni espacios en blanco ni caracteres alfanuméricos
+- ctype_space - Chequear posibles caracteres de espacio en blanco
+- ctype_upper - Chequear posibles caracteres en mayúscula
+- ctype_xdigit - Chequear posibles caracteres que representen un dígito hexadecimal
+- cubrid_affected_rows - Devolver el número de filas afectadas por la última sentencia SQL
+- cubrid_bind - Vincular variables para una sentencia preparada como parámetros
+- cubrid_client_encoding - Devuelve el actual conjunto de caracteres de la conexión a CUBRID
+- cubrid_close - Cerrar la conexión de CUBRID
+- cubrid_close_prepare - Cerrar el gestor de solicitud
+- cubrid_close_request - Cerrar el gestor de solicitud
+- cubrid_column_names - Obtener los nombres de las columnas del resultado
+- cubrid_column_types - Obtener los tipos de columnas del resultado
+- cubrid_col_get - Obtener el contenido de la columna del tipo de colecctión usando OID
+- cubrid_col_size - Obtener el número de elementos de la columna del tipo de colección usando OID
+- cubrid_commit - Consigna una transacción
+- cubrid_connect - Abrir una conexión al servidor CUBRID
+- cubrid_connect_with_url - Establecer el entorno para la conexión al servidor de CUBRID
+- cubrid_current_oid - Obtener el OID de la posición del cursor actual
+- cubrid_data_seek - Mueve el puntero interno de la fila del resultado CUBRID
+- cubrid_db_name - Obtener el nombre de la base de datos desde los resultados de cubrid_list_dbs
+- cubrid_disconnect - Cerrar una conexión a una base de datos
+- cubrid_drop - Borrar una instancia usando OID
+- cubrid_errno - Devuelve el valor numérico del mensaje de error de la operación de CUBRID previa
+- cubrid_error - Se usa para obtener el mensaje de error
+- cubrid_error_code - Obtener el código de error de la llamada a una función más reciente
+- cubrid_error_code_facility - Obtener el código de error del dispositivo
+- cubrid_error_msg - Obtener el último mensaje de error de la llamada a la función más reciente
+- cubrid_execute - Ejecutar una sentencia SQL preparada
+- cubrid_fetch - Obtener la siguiente fila de un conjunto de resultados
+- cubrid_fetch_array - Extrae una fila como array asociativo, numérico o ambos
+- cubrid_fetch_assoc - Devuelve un array asociativo que se corresponde con la fila obtenida
+- cubrid_fetch_field - Devuelve un objeto con ciertas propiedades
+- cubrid_fetch_lengths - Devuelve una matriz con las longitudes de los valores de cada campo de la fila actual
+- cubrid_fetch_object - Devuelve un objeto con los nombres de las columnas
+- cubrid_fetch_row - Devuelve un array numérico con los valores de la fila actual
+- cubrid_field_flags - Devuelve una cadena con las banderas del índice del campo dado
+- cubrid_field_len - Devuelve la longitud máxima del campo especificado
+- cubrid_field_name - Devuelve el nombre del índice del campo especificado
+- cubrid_field_seek - Mueve el cursor del conjunto de resultados al índece del campo especificado
+- cubrid_field_table - Devuelve el nombre de la tabla del campo especificado
+- cubrid_field_type - Devuelve el tipo de columna que se corresponde con el índice del campo dado
+- cubrid_free_result - Liberar la memoria ocupada por los datos del resultado
+- cubrid_get - Obtener una columna usando OID
+- cubrid_get_autocommit - Devuelve el modo auto-commit de la conexión
+- cubrid_get_charset - Devolver el conjunto de caracteres de la conexión CUBRID actual
+- cubrid_get_class_name - Obtener el nombre de la clase usando OID
+- cubrid_get_client_info - Devolver la versión de la biblioteca cliente
+- cubrid_get_db_parameter - Devuelve los parámetros de la base de datos CUBRID
+- cubrid_get_query_timeout - Obtener el valor del tiempo de espera de consulta de la petición
+- cubrid_get_server_info - Devolver la versión del servidor CUBRID
+- cubrid_insert_id - Devuelve el ID generado por la última columna actualizada AUTO_INCREMENT
+- cubrid_is_instance - Comprobar si existe la instancia apuntada por OID
+- cubrid_list_dbs - Devuelve una matriz con la lista de todas las bases de datos Cubrid existentes
+- cubrid_load_from_glo - Leer información de una instancia GLO y guardarla en un fichero
+- cubrid_lob2_bind - Vincula un objeto LOB o un string como un objeto LOB a una sentencia preparada como parámetros
+- cubrid_lob2_close - Cierra un objeto LOB
+- cubrid_lob2_export - Exporta un objeto LOB a un fichero
+- cubrid_lob2_import - Importa datos BLOB/CLOB desde un fichero
+- cubrid_lob2_new - Crea un objeto LOB
+- cubrid_lob2_read - Lee desde datos BLOB/CLOB
+- cubrid_lob2_seek - Mover el cursor de un objeto LOB
+- cubrid_lob2_seek64 - Mover el cursor de un objeto LOB
+- cubrid_lob2_size - Obtiene el tamaño de un objeto LOB
+- cubrid_lob2_size64 - Obtiene el tamaño de un objeto LOB
+- cubrid_lob2_tell - Indica la posición del cursor de un objeto LOB
+- cubrid_lob2_tell64 - Indica la posición del cursor de un objeto LOB
+- cubrid_lob2_write - Escribe en un objeto LOB
+- cubrid_lob_close - Cerrar información BLOB/CLOB
+- cubrid_lob_export - Exportar datos BLOB/CLOB a un fichero
+- cubrid_lob_get - Obtener información BLOB/CLOB
+- cubrid_lob_send - Leer información BLOB/CLOB y enviarla directamente al navegador
+- cubrid_lob_size - Obtener el tamaño de datos BLOB/CLOB
+- cubrid_lock_read - Establecer un bloqueo de lectura sobre el OID dado
+- cubrid_lock_write - Establecer un bloqueo de escritura para el OID dado
+- cubrid_move_cursor - Mover el cursor en el resultado
+- cubrid_new_glo - Crear una instancia glo
+- cubrid_next_result - Obtiene el resultado de la siguiente consulta cuando se ejecutan multiples sentencias SQL
+- cubrid_num_cols - Devolver el número de columnas del conjunto de resultados
+- cubrid_num_fields - Devuelve el número de columnas del conjunto de resultados
+- cubrid_num_rows - Obtener el número de filas del conjunto de resultados
+- cubrid_pconnect - Abrir una conexión persistente a un servidor CUBRID
+- cubrid_pconnect_with_url - Abrir una conexión persistente al servidor CUBRID
+- cubrid_ping - Hacer ping en una conexión al servidor o reconectar si no hay conexión
+- cubrid_prepare - Preparar una sentencia SQL para su ejecución
+- cubrid_put - Actualizar un atributo usando OID
+- cubrid_query - Enviar una consulta CUBRID
+- cubrid_real_escape_string - Escapar caracteres especiales en una cadena para usarla en una sentencia SQL
+- cubrid_result - Devuelve el valor de un campo específico de una fila específica
+- cubrid_rollback - Retroceder una transacción
+- cubrid_save_to_glo - Guardar el fichero solicitado en una instancia GLO
+- cubrid_schema - Obtener la información del esquema solicitado
+- cubrid_send_glo - Leer información de un glo y enviarla a la salida estándar
+- cubrid_seq_drop - Borrar un elemento de una columna tipo secuencia usando OID
+- cubrid_seq_insert - Insertar un elemento en una columna tipo secuencia usando OID
+- cubrid_seq_put - Actualizar el valor del elemento de la columna de tipo secuencia usando OID
+- cubrid_set_add - Insertar un único elemento en la columna del tipo de conjunto usando OID
+- cubrid_set_autocommit - Establece el modo de confirmación automática de la conexión
+- cubrid_set_db_parameter - Configura los parámetros de la base de datos CUBRID
+- cubrid_set_drop - Borrar un elemento de la columna del tipo de conjunto usando OID
+- cubrid_set_query_timeout - Establecer el tiempo de espera de la ejecución de consultas
+- cubrid_unbuffered_query - Realiza una consulta sin traer los resultados a memoria
+- cubrid_version - Obtener la versión del módulo de PHP de CUBRID
+- curl_close - Cierra una sesión cURL
+- curl_copy_handle - Copia el recurso cURL junto con todas sus preferencias
+- curl_errno - Devuelve el último número de error
+- curl_error - Devuelve una cadena que contiene el último error de la sesión actual
+- curl_escape - Función URL que codifica el string dado
+- curl_exec - Establece una sesión cURL
+- curl_getinfo - Obtener información sobre una transferencia específica
+- curl_init - Inicia sesión cURL
+- curl_multi_add_handle - Añade un recurso cURL a un grupo de recursos cURL
+- curl_multi_close - Cierra un grupo de recursos cURL
+- curl_multi_errno - Devuelve el último número de error de cURL múltiple
+- curl_multi_exec - Ejecuta las sub-conexiones del recurso cURL actual
+- curl_multi_getcontent - Devuelve el contenido del recurso cURL si CURLOPT_RETURNTRANSFER está activado
+- curl_multi_info_read - Obtiene información de las transferencias en curso
+- curl_multi_init - Devuelve un nuevo multi recurso cURL
+- curl_multi_remove_handle - Elimina un multi recurso de un conjunto de recursos cURL
+- curl_multi_select - Espera actividad en cualquier conexión en curl_multi
+- curl_multi_setopt - Configura una opción para el multi gestor cURL
+- curl_multi_strerror - Devuelve un string con la descripción del código de error
+- curl_pause - Pausa y reanuda una conexión
+- curl_reset - Reinicializa todas las opciones de un gestor de sesión libcurl
+- curl_setopt - Configura una opción para una transferencia cURL
+- curl_setopt_array - Configura múltiples opciones para una transferencia cURL
+- curl_share_close - Cierra un gestor cURL compartido
+- curl_share_errno - Devuelve el último número del error compartido cURL
+- curl_share_init - Inicializar un gestor cURL compartido
+- curl_share_setopt - Configura una opción para un manejador cURL compartido
+- curl_share_strerror - Devuelve string con la descripción del codigo de error dado
+- curl_strerror - Devuelve un string que describe el código de error dado
+- curl_unescape - Descodifica un string codificado de URL
+- curl_upkeep - Performs any connection upkeep checks
+- curl_version - Obtiene la información de la versión de cURL
+- current - Devuelve el elemento actual en un array
+- data:// - Data (RFC 2397)
+- date - Dar formato a la fecha/hora local
+- date_default_timezone_get - Obtiene la zona horaria predeterminada usada por todas las funciones de fecha/hora en un script
+- date_default_timezone_set - Establece la zona horaria predeterminada usada por todas las funciones de fecha/hora en un script
+- date_parse - Devuelve un array asociativo con información detallada acerca de una fecha dada
+- date_parse_from_format - Obtiene información de una fecha dada formateada de acuerdo al formato especificado
+- date_sunrise - Devuelve la hora de la salida del sol de un día y ubicación dados
+- date_sunset - Devuelve la hora de la puesta de sol de un día y ubicación dados
+- date_sun_info - Devuelve una matriz con información sobre la puesta/salida del sol y el comienzo/final del crepúsculo
+- db2_autocommit - Devuelve o establece el estado de AUTOCOMMIT en una conexión de bases de datos
+- db2_bind_param - Vincula una variable PHP a un parámetro de una sentencia SQL
+- db2_client_info - Devuelve un objeto cuyas propiedades describen cliente de una base de datos DB2
+- db2_close - Cierra una conexión a base de datos
+- db2_columns - Devuelve los campos de una tabla y sus metadatos asociados.
+- db2_column_privileges - Obtiene la lista de columnas y permisos asociados a una tabla
+- db2_commit - Confirmar una transacción
+- db2_connect - Devolver una conexión a la base de datos
+- db2_conn_error - Devolver una cadena que contenga el valor SQLSTATE devuelto por el último intento de conexión.
+- db2_conn_errormsg - Devolver el último mensaje de error de la conexión y su valor SQLCODE
+- db2_cursor_type - Determinar el tipo de cursor utilizado en una consulta
+- db2_escape_string - Escapar ciertos caracteres especiales
+- db2_exec - Ejecutar directamente una sentencia SQL
+- db2_execute - Ejecutar una sentencia SQL preparada
+- db2_fetch_array - Devolver un arreglo, indexado por la posición de las columnas, que represanta una fila de un bloque de resultados
+- db2_fetch_assoc - Devolver un arreglo, indexado por el nombre de las columnas, representando una fila del bloque de resultados
+- db2_fetch_both - Devolver un arreglo, indexado por el nombre y por la posición de la columna, representando una fila de un bloque de resultados
+- db2_fetch_object - Devolver un objeto con atributos que representan a las columnas de una fila extraida
+- db2_fetch_row - Establecer el apuntador de los resultados hacia la siguiente fila o a la fila solicitada
+- db2_field_display_size - Devolver el número máximo de bytes requeridos para mostrar una columna
+- db2_field_name - Devolver el nombre de la columna indicada del resultado
+- db2_field_num - Devolver la posición de la columna indicada en un resultado
+- db2_field_precision - Devolver la precisión de la columna indicada en el resultado
+- db2_field_scale - Devolver la escala de la columna indicada en el resultado
+- db2_field_type - Devolver el tipo de dato de la columna indicada en un resultado
+- db2_field_width - Devolver el tamaño del valor contenido en la columna indicada
+- db2_foreign_keys - Devolver un resultado que contenga las llaves foraneas de una tabla
+- db2_free_result - Liberar los recursos asociados con un resultado
+- db2_free_stmt - Liberar un recurso indicado
+- db2_get_option - Devolver el valor de la opción correpondiente a una conexión o sentencia
+- db2_last_insert_id - Devolver el ID autogenerado el la última sentencia INSERT ejecutada correctamente en la conexión
+- db2_lob_read - Obtener un segmento, de tamaño definido por el usuario, de un archivo LOB
+- db2_next_result - Solicitar el siguiente resultado de un procedimiento almacendo
+- db2_num_fields - Devolver el número de campos que contiene un resultado
+- db2_num_rows - Devolver el número de filas afectadas por una sentencia SQL
+- db2_pclose - Cerrar una conexión persistente a la base de datos
+- db2_pconnect - Devolver una conexión persistente a la base de datos
+- db2_prepare - Prepara un comando SQL para su ejecución
+- db2_primary_keys - Devolver un resultado con las llaves primarias de una tabla
+- db2_procedures - Devolver un resultado con los procedimientos almacenados registrados en la base de datos
+- db2_procedure_columns - Devolver un resultado con los parámetros de los procedimientos almacenados
+- db2_result - Devolver una columna específica del resultado
+- db2_rollback - Cancelar una transacción
+- db2_server_info - Returns an object with properties that describe the DB2 database server
+- db2_set_option - Set options for connection or statement resources
+- db2_special_columns - Returns a result set listing the unique row identifier columns for a table
+- db2_statistics - Returns a result set listing the index and statistics for a table
+- db2_stmt_error - Returns a string containing the SQLSTATE returned by an SQL statement
+- db2_stmt_errormsg - Returns a string containing the last SQL statement error message
+- db2_tables - Returns a result set listing the tables and associated metadata in a database
+- db2_table_privileges - Returns a result set listing the tables and associated privileges in a database
+- dbase_add_record - Añade un registro a una base de datos
+- dbase_close - Cierra una base de datos
+- dbase_create - Crea una base de datos
+- dbase_delete_record - Borra un registro de una base de datos
+- dbase_get_header_info - Obtiene la información de cabecera de una base de datos
+- dbase_get_record - Obtiene un registro de una base de datos como una matriz indexada
+- dbase_get_record_with_names - Obtiene un registro de una base de datos como una matriz asociativa
+- dbase_numfields - Obtiene el número de campos de una base de datos
+- dbase_numrecords - Obtener el número de registros de una base de datos
+- dbase_open - Abre una base de datos
+- dbase_pack - Empaquetar una base de datos
+- dbase_replace_record - Reemplaza un registro en una base de datos
+- dba_close - Cerrar una base de datos DBA
+- dba_delete - Elimina una entrada DBA especificada por clave
+- dba_exists - Verificar si la clave existe
+- dba_fetch - Recuperar datos especificados por clave
+- dba_firstkey - Recuperar la primera clave
+- dba_handlers - Listar todos los gestores disponibles
+- dba_insert - Insertar entrada
+- dba_key_split - Separa una clave en representación de cadena en representación de array
+- dba_list - Listar todos los archivos de base de datos abiertos
+- dba_nextkey - Recuperar la siguiente clave
+- dba_open - Abrir una base de datos
+- dba_optimize - Optimizar base de datos
+- dba_popen - Abrir una base de datos de forma persistente
+- dba_replace - Reemplazar o insertar una entrada
+- dba_sync - Sincronizar base de datos
+- dcgettext - Sobrescribe el dominio de la búsqueda única del mensaje
+- dcngettext - Versión plural de dcgettext
+- debug_backtrace - Genera un rastreo
+- debug_print_backtrace - Muestra un rastreo
+- debug_zval_dump - Vuelca a la salida una cadena con la representación de un valor interno de zend
+- decbin - Decimal a binario
+- dechex - Decimal a hexadecimal
+- decoct - Decimal a octal
+- define - Define una constante con nombre
+- defined - Comprueba si existe una constante con nombre dada
+- deflate_add - Incrementally deflate data
+- deflate_init - Initialize an incremental deflate context
+- deg2rad - Convierte el número en grados a su equivalente en radianes
+- delete - Véase unlink o unset
+- dgettext - Sobrescribe el dominio actual
+- die - Equivalente a exit
+- dio_close - Cierra el descriptor de fichero fd
+- dio_fcntl - Lleva a cabo la función fcntl de la biblioteca C en el fichero fd
+- dio_open - Abre (crea si fuera necesario) un fichero a un nivel más bajo que el permitido por flujos de entrada y salida de las bibliotecas en C
+- dio_read - Leer bytes de un descriptor de fichero
+- dio_seek - Salta a una posición del descriptor de fichero desde donde proceda
+- dio_stat - Consulta información de estado del descriptor de fichero fd
+- dio_tcsetattr - Establece los atributos terminales y la tasa de baudios del puerto serie
+- dio_truncate - Trunca un descriptor de fichero fd a un determinado número de bytes
+- dio_write - Escribe datos en el descriptor de fichero con un truncado opcional
+- dir - Devuelve una instancia de la clase Directory
+- dirname - Devuelve la ruta de un directorio padre
+- diskfreespace - Alias de disk_free_space
+- disk_free_space - Devuelve el espacio disponible de un sistema de archivos o partición de disco
+- disk_total_space - Devuelve el tamaño total de un sistema de archivos o partición de disco
+- dl - Carga una extensión de PHP durante la ejecución
+- dngettext - Versión plural de dgettext
+- dns_check_record - Alias de checkdnsrr
+- dns_get_mx - Alias de getmxrr
+- dns_get_record - Fetch DNS Resource Records associated with a hostname
+- dom_import_simplexml - Obtiene un objeto DOMElement desde un objeto SimpleXMLElement
+- doubleval - Alias de floatval
+- DSN de PDO_CUBRID - Conectar con bases de datos de CUBRID
+- DSN de PDO_IBM - Conectarse a bases de datos de IBM
+- DSN de PDO_INFORMIX - Conectarse a bases de datos de Informix
+- DSN de PDO_OCI - Conectar a bases de datos de Oracle
+- DSN de PDO_ODBC - Conectarse a bases de datos de ODBC o de DB2
+- DSN de PDO_SQLSRV - Conectar a bases de datos de MS SQL Server y de SQL Azure
+- each - Devolver el par clave/valor actual de un array y avanzar el cursor del array
+- easter_date - Obtener la fecha Unix para la medianoche de Pascua de un año dado
+- easter_days - Obtener el número de días despúes del 21 de marzo en el cuál cae Pascua para un año dado
+- echo - Muestra una o más cadenas
+- eio_busy - Incrementar artificialmente la carga. Podría ser útil en pruebas, evaluaciones comparativas
+- eio_cancel - Cancelar una petición
+- eio_chmod - Cambiar los permisos de fichero/directorio
+- eio_chown - Cambiar los permisos de un fichero/directorio
+- eio_close - Cerrar un fichero
+- eio_custom - Ejecutar una petición personalizada como cualquier otra llamada eio_*
+- eio_dup2 - Duplicar un descriptor de fichero
+- eio_event_loop - Monitorizar libeio hasta que todas las peticiones sean procesadas
+- eio_fallocate - Permitir al llamador manipular directamente el espacio de disco asignado a un fichero
+- eio_fchmod - Cambiar los permisos de un fichero
+- eio_fchown - Cambiar el propietario del fichero
+- eio_fdatasync - Sincronizar el estado de ficheros que están en memoria con un dispositivo de almacenamiento
+- eio_fstat - Obtener el estado de un fichero
+- eio_fstatvfs - Obtener las estadísticas del sistema de ficheros
+- eio_fsync - Sincronizar el estado de un fichero en memoria con un dispositivo de almacenamiento
+- eio_ftruncate - Truncar un fichero
+- eio_futime - Cambiar los momentos de último y acceso y modificación de un fichero
+- eio_get_event_stream - Obtiene un flujo que representa una variable usada en comnunicaciones internas con libeio
+- eio_get_last_error - Devuelve un string que describe el último error asociado con un recurso de petición
+- eio_grp - Crear un grupo de peticiones
+- eio_grp_add - Añadir una petición al grupo de peticiones
+- eio_grp_cancel - Cancelar un grupo de peticiones
+- eio_grp_limit - Establecer el límite de un grupo
+- eio_init - (Re-)inicializa Eio
+- eio_link - Crear un enlace duro par un fichero
+- eio_lstat - Obtener el estado de un fichero
+- eio_mkdir - Crear un directorio
+- eio_mknod - Crear un fichero especial u ordinario
+- eio_nop - No hace nada, sólo recorre el ciclo de peticiones entero
+- eio_npending - Devolver el número de peticiones, excepto las no manejadas
+- eio_nready - Devolver el número de peticiones aún no tratadas
+- eio_nreqs - Devuelve el número de peticiones a ser procesadas
+- eio_nthreads - Devuelve el número de hilos actualmente en uso
+- eio_open - Abrir un fichero
+- eio_poll - Puede ser llamada siempre que existan peticiones pendientes que necesitan ser finalizadas
+- eio_read - Leer de un descriptor de fichero en un índice dado
+- eio_readahead - Perform file readahead into page cache
+- eio_readdir - Leer un directorio al completo
+- eio_readlink - Leer el valor de un enlace simbólico
+- eio_realpath - Obtener el nombre de ruta absoluto canonizado
+- eio_rename - Cambiar el nombre o la ubicación de un fichero
+- eio_rmdir - Eliminar un directorio
+- eio_seek - Reposiciona el índice del fichero abierto asociado con el argumento fd al argumento offset según la directiva whence
+- eio_sendfile - Transferir información entre descriptores de ficheros
+- eio_set_max_idle - Establecer el número máximo de hilos parados
+- eio_set_max_parallel - Esteblecer el máximo de hilos paralelos
+- eio_set_max_poll_reqs - Establecer el máximo número de peticiones procesadas en una monitorización
+- eio_set_max_poll_time - Establecer el tiempo máximo de monitorización
+- eio_set_min_parallel - Esteblecer el número de hilos paralelos mínimo
+- eio_stat - Obtener el estado de un fichero
+- eio_statvfs - Obtener las estadísticas del sistema de ficheros
+- eio_symlink - Crear un enlace simbólico
+- eio_sync - Consignar el caché de buffer cache al disco
+- eio_syncfs - Realizar una llamada al sistema de syncfs de Linux si está disponible
+- eio_sync_file_range - Sincornizar un segmento de fichero con el disco
+- eio_truncate - Truncar un fichero
+- eio_unlink - Borrar un nombre y posiblemente el fichero al que se refiere
+- eio_utime - Cambiar los momentos de último y acceso y modificación de un fichero
+- eio_write - Escribir en un fichero
+- empty - Determina si una variable está vacía
+- enchant_broker_describe - Enumera los proveedores de Enchant
+- enchant_broker_dict_exists - Si existe o no un diccionario. Usando una etiqueta no vacía
+- enchant_broker_free - Liberar el recurso de agente y sus diccionarios
+- enchant_broker_free_dict - Liberar un recurso de diccionario
+- enchant_broker_get_dict_path - Obtener la ruta del directorio para un 'backend' dado
+- enchant_broker_get_error - Devuelve el último error del agente
+- enchant_broker_init - Crear un nuevo objeto agente capaz de hacer peticiones
+- enchant_broker_list_dicts - Devuelve una lista de los diccionarios disponibles
+- enchant_broker_request_dict - Crear un diccionario usanto una etiqueta
+- enchant_broker_request_pwl_dict - Crea un diccionario usando un fichero PWL
+- enchant_broker_set_dict_path - Establecer la ruta del directorio para un 'backend' dado
+- enchant_broker_set_ordering - Declara una preferencia de diccionarios a usar para el lenguaje
+- enchant_dict_add - Add a word to personal word list
+- enchant_dict_add_to_personal - Añadir una palabra a una lista personal de palabras
+- enchant_dict_add_to_session - Añadir una palabra a esta sesión ortográfica
+- enchant_dict_check - Comprobar si una palabra está correctamente escrita o no
+- enchant_dict_describe - Describe un diccionario individual
+- enchant_dict_get_error - Devuelve el último error de la sesión ortográfica actual
+- enchant_dict_is_added - Whether or not 'word' exists in this spelling-session
+- enchant_dict_is_in_session - Si existe o no una palabra en esta sesión ortográfica
+- enchant_dict_quick_check - Verifica si la palabra está correctamente escrita y proporciona sugerencias
+- enchant_dict_store_replacement - Añadir una corrección a una palabra
+- enchant_dict_suggest - Devolverá una lista de valores si no se reúnen esas pre-condiciones
+- end - Establece el puntero interno de un array a su último elemento
+- enum_exists - Checks if the enum has been defined
+- error_clear_last - Limpiar el error más reciente
+- error_get_last - Obtener el último error que ocurrió
+- error_log - Enviar un mensaje de error a las rutinas de manejo de errores definidas
+- error_reporting - Establece cuáles errores de PHP son notificados
+- escapeshellarg - Escapar una cadena a ser usada como argumento del intérprete de comandos
+- escapeshellcmd - Escapar meta-caracteres del intérprete de comandos
+- eval - Evaluar una cadena como código de PHP
+- exec - Ejecutar un programa externo
+- exif_imagetype - Determinar el tipo de una imagen
+- exif_read_data - Lee las cabeceras EXIF desde un JPEG o un TIFF
+- exif_tagname - Obtener el nombre de la cabecera de un índice
+- exif_thumbnail - Recuperar la miniatura embebida de una imagen TIFF o JPEG
+- exit - Imprime un mensaje y termina el script actual
+- exp - Calcula la exponencial de e
+- expect:// - Flujos de Interacción de Procesos
+- expect_expectl - Espera a que la salida de un proceso coincida con un patrón, se supere un determinado periodo de tiempo, o se alcance un EOF
+- expect_popen - Ejecuta comandos por la shell Bourne, y abre el flujo PTY al proceso
+- explode - Divide un string en varios string
+- expm1 - Devuelve exp(numero)-1, calculado de tal forma que no pierde precisión incluso cuando el valor del numero se aproxima a cero.
+- expression - Bind prepared statement variables as parameters
+- extension_loaded - Encontrar si una extensión está cargada
+- extract - Importar variables a la tabla de símbolos actual desde un array
+- ezmlm_hash - Calcula el valor hash que necesita EZMLM
+- fann_cascadetrain_on_data - Entrena un conjunto de datos completo, por un período de tiempo utilizando el algoritmo de entrenamiento Cascade2
+- fann_cascadetrain_on_file - Entre un conjunto de datos completo desde un fichero, por un período de tiempo utilizando el algoritmo de entrenamiento Cascade2
+- fann_clear_scaling_params - Limpia los parámetros de escala
+- fann_copy - Crea una copia de una estructura fann
+- fann_create_from_file - Construye una red neuronal de retropropagación desde un fichero de configuración
+- fann_create_shortcut - Crea una red neuronal de retropropagación estándar que no está completamente conectada y que posee conexiones de atajo
+- fann_create_shortcut_array - Crea una red neuronal de retropropagación estándar que no está completamente conectada y que posee conexiones de atajo
+- fann_create_sparse - Crea una red neuronal de retropropagación estándar que no está conectada completamente
+- fann_create_sparse_array - Crea una red neuronal de retropropagación estándar que no está completamente conectada empleando un array con tamaños de capas
+- fann_create_standard - Crea una red neuronal de retropropagación estándar completamente conectada
+- fann_create_standard_array - Crea una red neuronal de retropropagación estándar completamente conectada empleando un array con tamaños de capas
+- fann_create_train - Crea una estructura de datos de entrenamiento vacía
+- fann_create_train_from_callback - Crea una estructura de datos de entrenamiento desde una función proporcionada por el usuario
+- fann_descale_input - Escalar datos en un vector de entrada después de obtenerlo de una RNA basada en parámetros previamente calculados
+- fann_descale_output - Escalar datos en un vector de entrada después de obtenerlo de una RNA basada en parámetros previamente calculados
+- fann_descale_train - Descalar datos de entrada y salida basados en parámetros previamente calculados
+- fann_destroy - Destruye la red por completo y libera adecuadamente toda la memoria asociada
+- fann_destroy_train - Destruye los datos de entrenamiento
+- fann_duplicate_train_data - Devuelve una copia exacta de uno datos de entrenamiento de fann
+- fann_get_activation_function - Devuelve la función de activación
+- fann_get_activation_steepness - Devuelve la pendiente de activación para el número de neurona y de capa proporcionados
+- fann_get_bias_array - Obtener el número de tendencias de cada capa de una red
+- fann_get_bit_fail - El número de bit fallidos
+- fann_get_bit_fail_limit - Devuelve el límite de fallo de bit empleado durante un entrenamiento
+- fann_get_cascade_activation_functions - Devuelve las funciones de activación en cascada
+- fann_get_cascade_activation_functions_count - Devuelve el número de funciones de activación en cascada
+- fann_get_cascade_activation_steepnesses - Devuelve las pendientes de activación en cascada
+- fann_get_cascade_activation_steepnesses_count - El número de pendientes de activación
+- fann_get_cascade_candidate_change_fraction - Devuelve la fracción de cambio de candidatas en cascada
+- fann_get_cascade_candidate_limit - Devuelve el límite de candidatas
+- fann_get_cascade_candidate_stagnation_epochs - Devuelve el número de épocas de estancamiento de candidatas en cascada
+- fann_get_cascade_max_cand_epochs - Devuelve el máximo de épocas de candidatas
+- fann_get_cascade_max_out_epochs - Devuelve el máximo de épocas de salida
+- fann_get_cascade_min_cand_epochs - Devuelve el mínimo de épocas de candidatas
+- fann_get_cascade_min_out_epochs - Devuelve el mínimo de épocas de salida
+- fann_get_cascade_num_candidates - Devuelve el número de candidatas empleadas durante un entrenamiento
+- fann_get_cascade_num_candidate_groups - Devuelve el número de grupos de candidatas
+- fann_get_cascade_output_change_fraction - Devuelve la fracción de cambio de salida en cascada
+- fann_get_cascade_output_stagnation_epochs - Devuelve el número de épocas de estancamiento de salida en cascada
+- fann_get_cascade_weight_multiplier - Devuelve el multiplicador de peso
+- fann_get_connection_array - Obtener las conexiones de la red
+- fann_get_connection_rate - Obtener el índice de conexión empleado al crear la red
+- fann_get_errno - Devuelve el número del último error
+- fann_get_errstr - Devuelve el string de último error
+- fann_get_layer_array - Obtener el número de neuronas de cada capa de la red
+- fann_get_learning_momentum - Devuelve el momento del aprendizaje
+- fann_get_learning_rate - Devuelve el índice de aprendizaje
+- fann_get_MSE - Lee el error cuadrático medio de la red
+- fann_get_network_type - Obtener el tipo de una red neuronal
+- fann_get_num_input - Obtener el número de neuronas de entrada
+- fann_get_num_layers - Obtener el número de capas de la red neuronal
+- fann_get_num_output - Obtener el número de neuronas de salida
+- fann_get_quickprop_decay - Devuelve la decadencia, que es un factor por el que los pesos deberían decrementar en cada iteración durante un entrenamiento quickprop
+- fann_get_quickprop_mu - Devuelve el factor mu
+- fann_get_rprop_decrease_factor - Devuelve el factor de disminución empleado durante un entrenamiento RPROP
+- fann_get_rprop_delta_max - Devuelve el tamaño de paso máximo
+- fann_get_rprop_delta_min - Devuelve el tamaño de paso mínimo
+- fann_get_rprop_delta_zero - Devuelve el tamaño de paso inicial
+- fann_get_rprop_increase_factor - Devuelve el factor de aumento empleado durante un entrenamiento RPROP
+- fann_get_sarprop_step_error_shift - Devuelve el desplazamiento del error de paso de sarprop
+- fann_get_sarprop_step_error_threshold_factor - Devuelve el factor de umbral del error de paso de sarprop
+- fann_get_sarprop_temperature - Devuelve la temperatura de sarprop
+- fann_get_sarprop_weight_decay_shift - Devuelve el desplazamiento de decadencia del peso de sarprop
+- fann_get_total_connections - Obtener el número total de conexiones de la red completa
+- fann_get_total_neurons - Obtener el número total de neuronas de la red completa
+- fann_get_training_algorithm - Devuelve el algoritmo de entrenamiento
+- fann_get_train_error_function - Devuelve la función de error empleada durante un entrenamiento
+- fann_get_train_stop_function - Devuelve la función de parada empleada durante el entrenamiento
+- fann_init_weights - Inicializar los pesos empleando el algoritmo de Widrow + Nguyen
+- fann_length_train_data - Devuelve el número de patrones de entrenamiento de los datos de entrenamiento
+- fann_merge_train_data - Funde los datos de entrenamiento
+- fann_num_input_train_data - Devuelve el número de entradas de cada patrón de entrenamiento de los datos de entrenamiento
+- fann_num_output_train_data - Devuelve el número de salidas de cada patrón de entrenamiento de los datos de entrenamiento
+- fann_print_error - Imprime el string de error
+- fann_randomize_weights - Dar a cada conexión un peso aleatorio entre min_weight y max_weight
+- fann_read_train_from_file - Lee un fichero que almacena datos de entrenamiento
+- fann_reset_errno - Reinicia el número del último error
+- fann_reset_errstr - Reinicia el string del último error
+- fann_reset_MSE - Reinicia el error cuadrático medio de la red
+- fann_run - Ejecutará la entrada a través de la red neuronal
+- fann_save - Guarda la red completa a un fichero de configuración
+- fann_save_train - Guarda la estructura de entrenamiento en un fichero
+- fann_scale_input - Escalar datos en un vector de entrada antes de alimentarlo a una RNA basada en parámetros previamente calculados
+- fann_scale_input_train_data - Escala las entradas de los datos de entrenamiento al rango especificado
+- fann_scale_output - Escalar datos en un vector de entrada antes de alimentarlo a una RNA basada en parámetros previamente calculados
+- fann_scale_output_train_data - Escala las salidas de los datos de entrenamiento al rango especificado
+- fann_scale_train - Escalar datos de entrada y salida basados en parámetros previamente calculados
+- fann_scale_train_data - Escala la entradas y salidas de los datos de entrenamiento al rango especificado
+- fann_set_activation_function - Establece la función de activación para la neurona y capa proporcionadas
+- fann_set_activation_function_hidden - Establece la función de activación para todas las capas ocultas
+- fann_set_activation_function_layer - Establece la función de activación para todas las neuronas de la capa proporcionada
+- fann_set_activation_function_output - Establece la función de activación para la capa de salida
+- fann_set_activation_steepness - Establece la pendiente de activación el número de neurona y capa proporcionados
+- fann_set_activation_steepness_hidden - Establece la pendiente de la activación para todas las neuronas de todas las capas ocultas
+- fann_set_activation_steepness_layer - Establece la pendiente de activación para todas las neuronas del número de capa proporcionada
+- fann_set_activation_steepness_output - Establece la pendiente de activación de la capa de salida
+- fann_set_bit_fail_limit - Establece el límite de fallo de bit empleado durante un entrenamiento
+- fann_set_callback - Establece la función de retrollamada a emplear durante el entrenamiento
+- fann_set_cascade_activation_functions - Establece el array de funciones de activación de candidatas en cascada
+- fann_set_cascade_activation_steepnesses - Establece el array de pendientes de activación de candidatas en cascada
+- fann_set_cascade_candidate_change_fraction - Establece la fracción de cambio de candidatas en cascada
+- fann_set_cascade_candidate_limit - Establece el límite de candidatas
+- fann_set_cascade_candidate_stagnation_epochs - Establece el número de épocas de estancamiento de candidatas en cascada
+- fann_set_cascade_max_cand_epochs - Establece el máximo de épocas de candidatas
+- fann_set_cascade_max_out_epochs - Establece el máximo de épocas de salida
+- fann_set_cascade_min_cand_epochs - Establece el mínimo de épocas de candidatas
+- fann_set_cascade_min_out_epochs - Establece el mínimo de épocas de salida
+- fann_set_cascade_num_candidate_groups - Establece el número de grupos de candidatas
+- fann_set_cascade_output_change_fraction - Establece la fracción de cambio de salida en cascada
+- fann_set_cascade_output_stagnation_epochs - Establece el número de épocas de estancamiento de salida en cascada
+- fann_set_cascade_weight_multiplier - Establece el multiplicador de peso
+- fann_set_error_log - Establece dónde registrar los errores
+- fann_set_input_scaling_params - Calcular los parámetros de escala de entrada para un uso futuro basados en datos de entrenamiento
+- fann_set_learning_momentum - Establece el momento del aprendizaje
+- fann_set_learning_rate - Establece el índice de aprendizaje
+- fann_set_output_scaling_params - Calcular los parámetros de escala de salida para un uso futuro basados en datos de entrenamiento
+- fann_set_quickprop_decay - Establece el factor de decadencia de quickprop
+- fann_set_quickprop_mu - Establece el factor mu de quickprop
+- fann_set_rprop_decrease_factor - Establece el factor de disminución empleado durante un entrenamiento RPROP
+- fann_set_rprop_delta_max - Establece el tamaño de paso máximo
+- fann_set_rprop_delta_min - Establece el tamaño de paso mínimo
+- fann_set_rprop_delta_zero - Establece el tamaño de paso inicial
+- fann_set_rprop_increase_factor - Establece el factor de aumento empleado durante un entrenamiento RPROP
+- fann_set_sarprop_step_error_shift - Establece el desplazamiento del error de paso de sarprop
+- fann_set_sarprop_step_error_threshold_factor - Establece el factor de umbral del error de paso de sarprop
+- fann_set_sarprop_temperature - Establece la temperatura de sarprop
+- fann_set_sarprop_weight_decay_shift - Establece el desplazamiento de decadencia del peso de sarprop
+- fann_set_scaling_params - Calcular los parámetros de escala de entrada y salida para un uso futuro basados en datos de entrenamiento
+- fann_set_training_algorithm - Establece el algoritmo de entrenamiento
+- fann_set_train_error_function - Establecer la función de error empleada durante un entrenamiento
+- fann_set_train_stop_function - Establece la función de parada empleada durante el entrenamiento
+- fann_set_weight - Establecer una conexión de la red
+- fann_set_weight_array - Establecer las conexiones de la red
+- fann_shuffle_train_data - Mezcla los datos de entrenamiento, aleatorizando el orden
+- fann_subset_train_data - Devuelve una copia de un subconjunto de los datos de entrenamiento
+- fann_test - Probar con un conjunto de entradas, y un conjunto de salidas deseadas
+- fann_test_data - Prueba un conjunto de datos de entrenamiento y calcula el ECM de dichos datos
+- fann_train - Entrenar una iteración con un conjunto de entradas y un conjunto de salidas deseadas
+- fann_train_epoch - Entrenar una época con un conjunto de datos de entrenamiento
+- fann_train_on_data - Entrena un conjunto de datos completo por un período de tiempo
+- fann_train_on_file - Entrena un conjunto de datos completo leído desde un fichero, por un período de tiempo
+- fastcgi_finish_request - Descarga todos los datos de la respuesta al cliente
+- fbird_add_user - Alias de ibase_add_user
+- fbird_affected_rows - Alias de ibase_affected_rows
+- fbird_backup - Alias de ibase_backup
+- fbird_blob_add - Alias de ibase_blob_add
+- fbird_blob_cancel - Cancel creating blob
+- fbird_blob_close - Alias de ibase_blob_close
+- fbird_blob_create - Alias de ibase_blob_create
+- fbird_blob_echo - Alias de ibase_blob_echo
+- fbird_blob_get - Alias de ibase_blob_get
+- fbird_blob_import - Alias de ibase_blob_import
+- fbird_blob_info - Alias de ibase_blob_info
+- fbird_blob_open - Alias de ibase_blob_open
+- fbird_close - Alias de ibase_close
+- fbird_commit - Alias de ibase_commit
+- fbird_commit_ret - Alias de ibase_commit_ret
+- fbird_connect - Alias de ibase_connect
+- fbird_db_info - Alias de ibase_db_info
+- fbird_delete_user - Alias de ibase_delete_user
+- fbird_drop_db - Alias de ibase_drop_db
+- fbird_errcode - Alias de ibase_errcode
+- fbird_errmsg - Alias de ibase_errmsg
+- fbird_execute - Alias de ibase_execute
+- fbird_fetch_assoc - Alias de ibase_fetch_assoc
+- fbird_fetch_object - Alias de ibase_fetch_object
+- fbird_fetch_row - Alias de ibase_fetch_row
+- fbird_field_info - Alias de ibase_field_info
+- fbird_free_event_handler - Alias de ibase_free_event_handler
+- fbird_free_query - Alias de ibase_free_query
+- fbird_free_result - Alias de ibase_free_result
+- fbird_gen_id - Alias de ibase_gen_id
+- fbird_maintain_db - Alias de ibase_maintain_db
+- fbird_modify_user - Alias de ibase_modify_user
+- fbird_name_result - Alias de ibase_name_result
+- fbird_num_fields - Alias de ibase_num_fields
+- fbird_num_params - Alias de ibase_num_params
+- fbird_param_info - Alias de ibase_param_info
+- fbird_pconnect - Alias de ibase_pconnect
+- fbird_prepare - Alias de ibase_prepare
+- fbird_query - Alias de ibase_query
+- fbird_restore - Alias de ibase_restore
+- fbird_rollback - Alias de ibase_rollback
+- fbird_rollback_ret - Alias de ibase_rollback_ret
+- fbird_server_info - Alias de ibase_server_info
+- fbird_service_attach - Alias de ibase_service_attach
+- fbird_service_detach - Alias de ibase_service_detach
+- fbird_set_event_handler - Alias de ibase_set_event_handler
+- fbird_trans - Alias de ibase_trans
+- fbird_wait_event - Alias de ibase_wait_event
+- fclose - Cierra un puntero a un archivo abierto
+- fdatasync - Synchronizes data (but not meta-data) to the file
+- fdf_add_doc_javascript - Añadir código javascript al documento FDF
+- fdf_add_template - Añadir una plantilla al documento FDF
+- fdf_close - Cierra un documento FDF
+- fdf_create - Crear un nuevo documento FDF
+- fdf_enum_values - Invocar una función definida por el usuario por cada dato del documento
+- fdf_errno - Devuelve el código de error de la última operación sobre fdf
+- fdf_error - Consultar la descripción de un código de error FDF
+- fdf_get_ap - Consultar la publicación de un campo
+- fdf_get_attachment - Extraer un fichero subido por FDF
+- fdf_get_encoding - Consultar el valor de la clave /Encoding
+- fdf_get_file - Obtener el valor de la clave /F
+- fdf_get_flags - Consultar banderas de un campo
+- fdf_get_opt - Consultar un valor del array de opciones de un campo
+- fdf_get_status - Obtener el valor de la clave /STATUS
+- fdf_get_value - Obtener el valor de un campo
+- fdf_get_version - Consulta el número de versión de la API o de un fichero FDF
+- fdf_header - Establecer cabeceras de salida específicas de FDF
+- fdf_next_field_name - Obtener el siguiente nombre de campo
+- fdf_open - Abrir un documento FDF
+- fdf_open_string - Consulta un documento FDF a partir de un string
+- fdf_remove_item - Asignar contenedor para el formulario
+- fdf_save - Guardar un documento FDF
+- fdf_save_string - Devuelve el documento FDF en forma de string
+- fdf_set_ap - Establecer la apariencia de un campo
+- fdf_set_encoding - Asignar codificación de caracteres de FDF
+- fdf_set_file - Establecer el documento PDF en donde desplegar datos FDF
+- fdf_set_flags - Establecer banderas de un campo
+- fdf_set_javascript_action - Añadir una acción javascript a un campo
+- fdf_set_on_import_javascript - Añadir código javascript para ejecutar cuando Acrobat abra el FDF
+- fdf_set_opt - Establecer una opción sobre un campo
+- fdf_set_status - Establecer el valor de la clave /STATUS
+- fdf_set_submit_form_action - Asignar acción a un campo de formulario al enviarse
+- fdf_set_target_frame - Definir contenedor en el que mostrar el formulario
+- fdf_set_value - Establecer el valor de un campo
+- fdf_set_version - Asignar número de versión a un fichero FDF
+- fdiv - Divides two numbers, according to IEEE 754
+- feof - Comprueba si el puntero a un archivo está al final del archivo
+- fflush - Vuelca la salida a un archivo
+- fgetc - Obtiene un carácter de un puntero a un archivo
+- fgetcsv - Obtiene una línea de un puntero a un fichero y la analiza en busca de campos CSV
+- fgets - Obtiene una línea desde el puntero a un fichero
+- fgetss - Obtiene un línea desde un puntero a un archivo y elimina las etiquetas HTML
+- file - Transfiere un fichero completo a un array
+- file:// - Acceso al sistema de ficheros local
+- fileatime - Obtiene el momento del último acceso a un archivo
+- filectime - Obtiene el momento del último cambio del i-nodo de un archivo
+- filegroup - Obtiene el grupo de un archivo
+- fileinode - Obtiene el i-nodo del archivo
+- filemtime - Obtiene el momento de la última modificación de un archivo
+- fileowner - Obtiene el propietario de un archivo
+- fileperms - Obtiene los permisos de un fichero
+- filesize - Obtiene el tamaño de un fichero
+- filetype - Obtiene el tipo de fichero
+- file_exists - Comprueba si existe un fichero o directorio
+- file_get_contents - Transmite un fichero completo a una cadena
+- file_put_contents - Escribir datos en un fichero
+- filter_has_var - Comprueba si existe una variable de un tipo concreto existe
+- filter_id - Indica el ID del nombre de filtro que se indique
+- filter_input - Toma una variable externa concreta por su nombre y opcionalmente la filtra
+- filter_input_array - Obtiene variables externas y opcionalmente las filtra
+- filter_list - Devuelve una lista de todos los filtros soportados
+- filter_var - Filtra una variable con el filtro que se indique
+- filter_var_array - Retorna múltiple variables y opcionalmente las filtra
+- finfo_close - Cierra el recurso fileinfo
+- finfo_open - Crea un nuevo recurso fileinfo
+- floatval - Obtener el valor flotante de una variable
+- flock - Bloqueo de ficheros recomendado y portable
+- floor - Redondear fracciones hacia abajo
+- flush - Vaciar el búfer de salida del sistema
+- fmod - Devuelve el resto en punto flotante (módulo) de la división de los argumentos
+- fnmatch - Compara un nombre de fichero con un patrón
+- fopen - Abre un fichero o un URL
+- forward_static_call - Llamar a un método estático
+- forward_static_call_array - Llamar a un método estático y pasar los argumentos como matriz
+- fpassthru - Escribe toda la información restante de un puntero a un archivo
+- fpm_get_status - Devuelve el estado actual del pool de FPM
+- fprintf - Escribir una cadena con formato a una secuencia
+- fputcsv - Dar formato CSV a una línea y escribirla en un puntero a un fichero
+- fputs - Alias de fwrite
+- fread - Lectura de un fichero en modo binario seguro
+- frenchtojd - Convierte una fecha del Calendario Republicano Francés a una fecha Juliana
+- fscanf - Analiza la entrada desde un archivo de acuerdo a un formato
+- fseek - Busca sobre un puntero a un fichero
+- fsockopen - Abre una conexión vía sockets a Internet o a un dominio Unix
+- fstat - Obtiene información acerca de un archivo usando un puntero al archivo abierto
+- fsync - Synchronizes changes to the file (including meta-data)
+- ftell - Devuelve la posición de lectura/escritura actual del puntero a un fichero
+- ftok - Convertir un nombre de ruta y un identificador de proyecto a una clave IPC de System V
+- ftp:// - Acceso a URLs por FTP(s)
+- ftp_alloc - Reserva espacio para que un archivo sea cargado
+- ftp_append - Append the contents of a file to another file on the FTP server
+- ftp_cdup - Vuelve al directorio padre
+- ftp_chdir - Cambia el directorio actual en un servidor FTP
+- ftp_chmod - Establecer permisos en un archivo via FTP
+- ftp_close - Cierra una conexión FTP
+- ftp_connect - Abre una conexión FTP
+- ftp_delete - Elimina un archivo en el servidor FTP
+- ftp_exec - Solicita la ejecución de un comando en el servidor FTP
+- ftp_fget - Descarga un archivo desde el servidor FTP y lo guarda en un archivo abierto
+- ftp_fput - Carga un archivo abierto en el servidor FTP
+- ftp_get - Descarga un archivo desde el servidor FTP
+- ftp_get_option - Recupera varios comportamientos de tiempo de ejecución de la secuencia FTP actual
+- ftp_login - Inicia sesión en una conexión FTP
+- ftp_mdtm - Devuelve el tiempo de la última modificación del archivo dado
+- ftp_mkdir - Crea un directorio
+- ftp_mlsd - Returns a list of files in the given directory
+- ftp_nb_continue - Continúa recuperando/enviando un archivo (modo no-bloqueo)
+- ftp_nb_fget - Recupera un archivo desde el servidor FTP y lo escribe en un archivo abierto (modo no-bloqueo)
+- ftp_nb_fput - Almacena un archivo desde un archivo abierto en el servidor FTP (modo no-bloqueo)
+- ftp_nb_get - Recupera un archivo desde el servidor FTP y lo escribe en un archivo local (modo no-bloqueo)
+- ftp_nb_put - Almacena un archivo en el servidor FTP (modo no-bloqueo)
+- ftp_nlist - Devuelve una lista de los archivos que se encuentran en el directorio especificado
+- ftp_pasv - Activa o desactiva el modo pasivo
+- ftp_put - Carga un archivo al servidor FTP
+- ftp_pwd - Devuelve el nombre del directorio actual
+- ftp_quit - Alias de ftp_close
+- ftp_raw - Envía un comando arbitrario a un servidor FTP
+- ftp_rawlist - Devuelve una lista detallada de archivos en el directorio especificado
+- ftp_rename - Renombra un archivo o un directorio en el servidor FTP
+- ftp_rmdir - Elimina un directorio
+- ftp_set_option - Establecer varias opciones FTP de tiempo de ejecución
+- ftp_site - Envía un comando SITE al servidor
+- ftp_size - Devuelve el tamaño del archivo dado
+- ftp_ssl_connect - Abre una conexión segura SSL-FTP
+- ftp_systype - Devuelve el identificador del tipo de sistema del servidor FTP remoto
+- ftruncate - Trunca un archivo a una longitud dada
+- function_exists - Devuelve true si la función dada ha sido definida
+- func_get_arg - Devuelve un elemento de una lista de argumentos
+- func_get_args - Devuelve un array que se compone de una lista de argumentos de función
+- func_num_args - Devuelve el número de argumentos pasados a la función
+- fwrite - Escritura de un archivo en modo binario seguro
+- gc_collect_cycles - Fuerza la recolección de los ciclos de basura existentes
+- gc_disable - Desactiva el recolector de referencia circular
+- gc_enable - Activa el colector de referencia circular
+- gc_enabled - Devuelve el estado del colector de referencia circular
+- gc_mem_caches - Reclaims memory used by the Zend Engine memory manager
+- gc_status - Gets information about the garbage collector
+- gd_info - Reunir información acerca de la biblioteca GD instalada actualmente
+- geoip_asnum_by_name - Obtiene los Números de sistemas autónomos (ASN)
+- geoip_continent_code_by_name - Obtiene la abreviación de dos letras del continente
+- geoip_country_code3_by_name - Obtiene la abreviación de tres letras del país
+- geoip_country_code_by_name - Obtiene la abreviación de dos letras del país
+- geoip_country_name_by_name - Obtiene el nombre del país completo
+- geoip_database_info - Obtener información de la base de datos GeoIP
+- geoip_db_avail - Determina si la base de datos GeoIP está disponible
+- geoip_db_filename - Devuelve el nombre del fichero correspondiente a la base de datos de GeoIP
+- geoip_db_get_all_info - Devuelve información detallada sobre todos los tipos de bases de datos GeoIP
+- geoip_domain_by_name - Obtener el nombre de dominio de segundo nivel
+- geoip_id_by_name - Obtiene el tipo de conexión a Internet
+- geoip_isp_by_name - Obtiene el nombre del proveedor de servicios de Internet (ISP)
+- geoip_netspeedcell_by_name - Obtener la velocidad de la conexión a Internet
+- geoip_org_by_name - Consultar nombre de la organización
+- geoip_record_by_name - Devuelve información detallada de la Ciudad encontrada en la base de datos de GeoIP
+- geoip_region_by_name - Consultar el código de país y de región
+- geoip_region_name_by_code - Devuelve, a partir de una combinación de código de país y de región, el nombre de región
+- geoip_setup_custom_directory - Establecer un directorio personalizado para la base de datos de GeoIP
+- geoip_time_zone_by_country_and_region - Devuelve, a partir de una combinación de país y región, la zona horaria
+- getallheaders - Recupera todas las cabeceras de petición HTTP
+- getcwd - Obtiene el directorio actual en donde se esta trabajando
+- getdate - Obtener información de la fecha/hora
+- getenv - Obtiene el valor de una variable de entorno
+- gethostbyaddr - Obtener el nombre del host de Internet correspondiente a una dirección IP dada
+- gethostbyname - Obtener la dirección IPv4 que corresponde a un nombre de host de Internet dado
+- gethostbynamel - Obtener una lista de direcciones IPv4 que corresponde a un nombre de host de Internet dado
+- gethostname - Obtiene el nombre de host
+- getimagesize - Obtener el tamaño de una imagen
+- getimagesizefromstring - Obtener el tamaño de una imagen desde una cadena
+- getlastmod - Obtiene la hora de la última modificación de la página
+- getmxrr - Obtener los registros MX correspondientes a un nombre de host de Internet
+- getmygid - Obtener el GID del dueño del script PHP
+- getmyinode - Obtiene el inode del script actual
+- getmypid - Obtiene el ID del proceso PHP
+- getmyuid - Obtiene el UID del dueño del script PHP
+- getopt - Obtiene las opciones de la lista de argumentos de la línea de comandos
+- getprotobyname - Obtener el número de protocolo asociado con el nombre de protocolo
+- getprotobynumber - Obtiene el nombre de protocolo asociado con un número de protocolo
+- getrandmax - Show largest possible random value
+- getrusage - Obtiene el uso de los recursos actuales
+- getservbyname - Obtener el número de puerto asociado con un servicio y protocolo de Internet
+- getservbyport - Obtener el servicio de Internet que corresponde con el puerto y protocolo
+- getSession - Connect to a MySQL server
+- gettext - Consultar un mensaje en el dominio actual
+- gettimeofday - Obtener la hora actual
+- gettype - Obtener el tipo de una variable
+- get_browser - Indica de lo que es capaz el navegador del usuario
+- get_called_class - El nombre de la clase enlazada estáticamente en tiempo de ejecución ("late static binding")
+- get_cfg_var - Obtiene el valor de una opción de configuración de PHP
+- get_class - Devuelve el nombre de la clase de un objeto
+- get_class_methods - Obtiene los nombres de los métodos de una clase
+- get_class_vars - Obtener las propiedades predeterminadas de una clase
+- get_current_user - Obtiene el nombre del propietario del script PHP actual
+- get_debug_type - Gets the type name of a variable in a way that is suitable for debugging
+- get_declared_classes - Devuelve una matriz con los nombres de las clases definidas
+- get_declared_interfaces - Devuelve un array con todas las interfaces declaradas
+- get_declared_traits - Devuelve un array de todos los traits declarados
+- get_defined_constants - Devuelve un array asociativo con los nombres de todas las constantes y sus valores
+- get_defined_functions - Devuelve un array de todas las funciones definidas
+- get_defined_vars - Devuelve una matriz con todas las variables definidas
+- get_extension_funcs - Devuelve una matriz con los nombres de funciones de un módulo
+- get_headers - Recupera todas las cabeceras enviadas por el servidor en respuesta a una petición HTTP
+- get_html_translation_table - Devuelve la tabla de traducción utilizada por htmlspecialchars y htmlentities
+- get_included_files - Devuelve un array con los nombres de los archivos incluidos o requeridos
+- get_include_path - Obtiene la opción de configuración include_path actual
+- get_loaded_extensions - Devuelve un array con los nombres de todos los módulos compilados y cargados
+- get_magic_quotes_gpc - Obtiene el valor actual de configuración de magic_quotes_gpc
+- get_magic_quotes_runtime - Obtiene el valor de configuración activo actual de magic_quotes_runtime
+- get_mangled_object_vars - Returns an array of mangled object properties
+- get_meta_tags - Extrae todo el contenido de atributos de etiquetas meta de un archivo y devuelve un array
+- get_object_vars - Obtiene las propiedades del objeto dado
+- get_parent_class - Recupera el nombre de la clase padre de un objeto o clase
+- get_required_files - Alias de get_included_files
+- get_resources - Returns active resources
+- get_resource_id - Returns an integer identifier for the given resource
+- get_resource_type - Devuelve el tipo de recurso
+- glob - Buscar coincidencias de nombres de ruta con un patrón
+- glob:// - Encuentra las rutas que coincidan con el patrón
+- gmdate - Formatea una fecha/hora GMT/UTC
+- gmmktime - Obtener la marca temporal de Unix para una fecha GMT
+- gmp_abs - Valor absoluto
+- gmp_add - Agrega números
+- gmp_and - AND a nivel de bit
+- gmp_binomial - Calculates binomial coefficient
+- gmp_clrbit - Limpia un bit
+- gmp_cmp - Compara los números
+- gmp_com - Calcula uno de los complementos
+- gmp_div - Alias de gmp_div_q
+- gmp_divexact - División exacta de números
+- gmp_div_q - Divide los números
+- gmp_div_qr - Divide los números y obtiene el cociente y resto
+- gmp_div_r - El resto de la división de los números
+- gmp_export - Exportar a un string binario
+- gmp_fact - Factorial
+- gmp_gcd - Calcula el máximo común divisor
+- gmp_gcdext - Calcula el máximo común divisor y multiplicadores
+- gmp_hamdist - Distancia Hamming
+- gmp_import - Importar de un string binario
+- gmp_init - Crea un número GMP
+- gmp_intval - Convertir un número GMP a entero
+- gmp_invert - Inverso del modulo
+- gmp_jacobi - Símbolo Jacobi
+- gmp_kronecker - Kronecker symbol
+- gmp_lcm - Calculate LCM
+- gmp_legendre - Símbolo Legendre
+- gmp_mod - Modulo de operación
+- gmp_mul - Multiplicación de números
+- gmp_neg - Número negativo
+- gmp_nextprime - Encuentra el siguiente número primo
+- gmp_or - Nivel de bit OR
+- gmp_perfect_power - Perfect power check
+- gmp_perfect_square - Comprueba el cuadrado perfecto
+- gmp_popcount - Cuenta la población
+- gmp_pow - Aumenta el número a la potencia
+- gmp_powm - Eleva un número a la potencia con modulo
+- gmp_prob_prime - Revisa si el número es "probablemente primo"
+- gmp_random - Numero al azar
+- gmp_random_bits - Random number
+- gmp_random_range - Get a uniformly selected integer
+- gmp_random_seed - Establece la semilla RNG
+- gmp_root - Tomar la parte entera de una raíz enésima
+- gmp_rootrem - Tomar la parte entera y el resto de una raíz enésima
+- gmp_scan0 - Escanear para 0
+- gmp_scan1 - Escanear para 1
+- gmp_setbit - Establece el bit
+- gmp_sign - El símbolo del número
+- gmp_sqrt - Calcula la raíz cuadrada
+- gmp_sqrtrem - Raíz cuadrada con resto
+- gmp_strval - Convierte un número GMP a cadena
+- gmp_sub - Resta los números
+- gmp_testbit - Prueba si un bit es establecido
+- gmp_xor - Nivel de bit XOR
+- gmstrftime - Formatear una fecha/hora GMT/UTC según la configuración local
+- gnupg_adddecryptkey - Añade una llave para desencriptar
+- gnupg_addencryptkey - Añade una llave para encriptar
+- gnupg_addsignkey - Añade una llave para firmar
+- gnupg_cleardecryptkeys - Elimina todas las llaves establecidas anteriormente para desencriptar
+- gnupg_clearencryptkeys - Elimina todas las llaves establecidas anteriormente paraencriptar
+- gnupg_clearsignkeys - Elimina todas las llaves establecidas anteriormente para firmar
+- gnupg_decrypt - Desencripta un texto dado
+- gnupg_decryptverify - Desencripta y verifica un texto dado
+- gnupg_deletekey - Delete a key from the keyring
+- gnupg_encrypt - Encripta el texto dado
+- gnupg_encryptsign - Encripta y firma un texto dado
+- gnupg_export - Exporta una llave
+- gnupg_getengineinfo - Returns the engine info
+- gnupg_geterror - Retorna el texto de error si una función falla
+- gnupg_geterrorinfo - Returns the error info
+- gnupg_getprotocol - Retorna el protocolo activo actualmente para todas las operaciones
+- gnupg_gettrustlist - Search the trust items
+- gnupg_import - Importa una llave
+- gnupg_init - Inicializa una conexión
+- gnupg_keyinfo - Retorna un array con información sobre todas las llaves que coinciden con un patrón dado
+- gnupg_listsignatures - List key signatures
+- gnupg_setarmor - Activa o desactiva la salida blindada
+- gnupg_seterrormode - Fija el modo para error_reporting
+- gnupg_setsignmode - Fija el modo para firmar
+- gnupg_sign - Firma un texto dado
+- gnupg_verify - Verifica un texto firmado
+- grapheme_extract - Función para extraer una secuencia de un clúster de grafemas predeterminados desde un buffer de texto, que puede estar codificado en UTF-8
+- grapheme_stripos - Buscar la posición (en unidades de grafema) de la primera coincidencia de una cadena insensible a mayúsculas-minúsculas
+- grapheme_stristr - Devolver parte de la cadena "pajar" desde la primera coincidencia de la cadena "aguja" insensible a mayúsculas-minúsculas hasta el final de "pajar"
+- grapheme_strlen - Obtener la longitud de un string en unidades de grafema
+- grapheme_strpos - Buscar la posición (en unidades de grafema) de la primera ocurrencia de una cadena
+- grapheme_strripos - Buscar la posición (en unidades de grafema) de la última coincidencia de una cadena insensible a mayúsculas-minúsculas
+- grapheme_strrpos - Buscar la posición (en unidades de grafema) de la última coincidencia de una cadena
+- grapheme_strstr - Devolver parte de la cadena "pajar" desde la primera coincidencia de la cadena "aguja" hasta el final de "pajar"
+- grapheme_substr - Devolver parte de una cadena
+- gregoriantojd - Convierte una fecha Gregoriana en Fecha Juliana
+- gzclose - Cierra el apuntador de un archivo gz abierto
+- gzcompress - Comprime una cadena
+- gzdecode - Decodifica una cadena comprimida con gzip
+- gzdeflate - Comprime una cadena
+- gzencode - Crea una cadena comprimida con gzip
+- gzeof - Prueba de apuntador para EOF de archivo gz
+- gzfile - Lee un archivo gz completo en una matriz
+- gzgetc - Obtiene el caracter donde está el apuntador al archivo gz
+- gzgets - Obtiene la línea del apuntador al archivo
+- gzgetss - Obtiene la línea del apuntador al archivo gz y retira las etiquetas HTML
+- gzinflate - Descomprime una cadena comprimida
+- gzopen - Abre un archivo gz
+- gzpassthru - Muestra todos los datos restantes a partir del apuntador al achivo gz
+- gzputs - Alias de gzwrite
+- gzread - Lectura de archivo gz segura a nivel binario
+- gzrewind - Reinicia la posición del apuntador a un archivo gz
+- gzseek - Ubica el apuntador a un archivo gz
+- gztell - Indica la posición de lectura/escritura del apuntador al archivo gz
+- gzuncompress - Descomprime una cadena comprimida
+- gzwrite - Escritura en un archivo gz, segura a nivel binario
+- hash - Generar un valor hash (resumen de mensaje)
+- hash_algos - Devuelve una lista con los algoritmos de cifrado soportados
+- hash_copy - Copia un recurso de contexto de cifrado
+- hash_equals - Comparación de strings segura contra ataques de temporización
+- hash_file - Generar un valor hash usando el contenido de un fichero dado
+- hash_final - Finaliza un contexto incremental y devuelve el resultado cifrado
+- hash_hkdf - Generate a HKDF key derivation of a supplied key input
+- hash_hmac - Genera un valor cifrado mediante una clave especificada usando el método HMAC
+- hash_hmac_algos - Return a list of registered hashing algorithms suitable for hash_hmac
+- hash_hmac_file - Genera un valor cifrado mediante una clave especificada usando el método HMAC y el contenido de un fichero dado
+- hash_init - Iniciar un contexto de hashing incremental
+- hash_pbkdf2 - Genera una derivación de clave PBKDF2 de una contraseña proporcionada
+- hash_update - Pega más datos en un contexto incremental de cifrado activo
+- hash_update_file - Inyecta datos en un contexto de cifrado activo desde un fichero
+- hash_update_stream - Pega datos en un contexto de cifrado activo desde un flujo de datos abierto
+- header - Enviar encabezado sin formato HTTP
+- headers_list - Devuelve una lista de encabezados de respuesta enviados (o listos para enviar)
+- headers_sent - Comprueba si o donde han enviado cabeceras
+- header_register_callback - Llamar a una función de cabecera
+- header_remove - Elimina encabezados previamente establecidos
+- hebrev - Convierte texto hebreo lógico a texto visual
+- hebrevc - Convertir texto de hebreo lógico a texto visual con conversión de línea nueva
+- hex2bin - Decodifica una cadena binaria codificada hexadecimalmente
+- hexdec - Hexadecimal a decimal
+- highlight_file - Remarcado de la sintaxis de un fichero
+- highlight_string - Remarcado de sintaxis de una cadena
+- hrtime - Get the system's high resolution time
+- htmlentities - Convierte todos los caracteres aplicables a entidades HTML
+- htmlspecialchars - Convierte caracteres especiales en entidades HTML
+- htmlspecialchars_decode - Convierte entidades HTML especiales de nuevo en caracteres
+- html_entity_decode - Convierte todas las entidades HTML a sus caracteres correspondientes
+- http:// - Acceso a URLS en HTTP(s)
+- http_build_query - Generar una cadena de consulta codificada estilo URL
+- http_response_code - Obtener o establecer el código de respuesta HTTP
+- hypot - Calcula la longitud de la hipotenusa de un triángulo de ángulo recto
+- ibase_add_user - Añade un usuario a una base de datos segura
+- ibase_affected_rows - Devuelve el número de columnas afectadas por la última consulta
+- ibase_backup - Inicia la tarea de copia de seguridad en el administrador de servicios y devuelve el control inmediatamente
+- ibase_blob_add - Añade datos a un nuevo blob
+- ibase_blob_cancel - Cancela la creación de un blob
+- ibase_blob_close - Cierra un blob
+- ibase_blob_create - Crea un nuevo blob al que añadir datos
+- ibase_blob_echo - Imprime el contenido de un blob
+- ibase_blob_get - Consulta un determinado número de bytes de un blob
+- ibase_blob_import - Crea un blob, copia un fichero en él, y lo cierra
+- ibase_blob_info - Devuelve el tamaño de un blob y otra información útil
+- ibase_blob_open - Abre un blob para su consulta
+- ibase_close - Cerrar una conexión con una base de datos InterBase
+- ibase_commit - Lleva a cabo una transacción
+- ibase_commit_ret - Lleva a cabo una transacción sin cerrarla
+- ibase_connect - Abrir una conexión a una base de datos
+- ibase_db_info - Consulta estadísticas de una base de datos
+- ibase_delete_user - Elimina un usuario de una base de datos segura
+- ibase_drop_db - Elimina una base de datos
+- ibase_errcode - Devuelve un código de error
+- ibase_errmsg - Devuelve un mensaje de error
+- ibase_execute - Ejecutar una consulta previamente preparada
+- ibase_fetch_assoc - Extra una fila en forma de array asociativo de una consulta
+- ibase_fetch_object - Consulta un objeto de una base de datos InterBase
+- ibase_fetch_row - Recuperar una fila desde una base de datos InterBase
+- ibase_field_info - Consulta información sobre un determinado campo
+- ibase_free_event_handler - Cancela un manejador de eventos ya registrado
+- ibase_free_query - Liberar la memoria reservada por una consulta preparada
+- ibase_free_result - Liberar un conjunto de resultados
+- ibase_gen_id - Incrementa el generador de nombres y devuelve su nuevo valor
+- ibase_maintain_db - Lleva a cabo una tarea de mantenimiento en el servidor de bases de datos
+- ibase_modify_user - Modifica un usuario en una base de datos segura
+- ibase_name_result - Asigna un nombre a un juego de resultados
+- ibase_num_fields - Consulta el número de campos de un resultado
+- ibase_num_params - Devuelve el número de parámetros de una sentencia preparada
+- ibase_param_info - Devuelve información sobre un parámetro de una sentencia preparada
+- ibase_pconnect - Abrir una conexión persistente con una base de datos InterBase
+- ibase_prepare - Preparar una consulta para su asociación con parámetros de sustitución y ejecución posterior
+- ibase_query - Ejecutar una consulta en una base de datos InterBase
+- ibase_restore - Inicia una tarea de restauración en el administrador de servicios y devuelve el control inmediatamente
+- ibase_rollback - Deshace una transacción
+- ibase_rollback_ret - Deshace una transacción sin cerrarla
+- ibase_server_info - Solicita información sobre un servidor de bases de datos
+- ibase_service_attach - Conecta al administrador de servicios
+- ibase_service_detach - Desconecta del administrador de servicios
+- ibase_set_event_handler - Registra una función manejadora de un determinado evento
+- ibase_trans - Comienza una transacción
+- ibase_wait_event - Espera a que la base de datos emita un determinado evento
+- iconv - Convierte un string a la codificación de caracteres indicada
+- iconv_get_encoding - Recupera variables de configuración interna de la extensión iconv
+- iconv_mime_decode - Decodifica un campo de la cabecera MIME
+- iconv_mime_decode_headers - Decodifica varios campos de cabeceras MIME en la misma llamada
+- iconv_mime_encode - Compone un campo de cabecera MIME
+- iconv_set_encoding - Establece las opciones para la conversión de codificación de caracteres
+- iconv_strlen - Retorna el número de caracteres de un string
+- iconv_strpos - Encuentra la posición de la primera aparición de una aguja en un pajar
+- iconv_strrpos - Busca la última aparición de un string
+- iconv_substr - Elimina parte del string
+- idate - Formatea una fecha/hora local como un entero
+- idn_to_ascii - Convierte un nombre de dominio a formato IDNA ASCII
+- idn_to_utf8 - Convierte un nombre de dominio de IDNA ASCII a Unicode
+- igbinary_serialize - Generates a compact, storable binary representation of a value
+- igbinary_unserialize - Creates a PHP value from a stored representation from igbinary_serialize
+- ignore_user_abort - Establecer si la desconexión de un cliente debería abortar la ejecución del script
+- image2wbmp - Exportar la imagen al navegador o a un fichero
+- imageaffine - Devuelve la imagen que contiene la imagen origen transformada afín, usando un área de recorte opcional
+- imageaffinematrixconcat - Concatena dos matrices (como al hacer muchas opciones de una vez)
+- imageaffinematrixget - Devuelve la imagen que contiene la imagen fuente transformada afín, usando un área de recorte opcional
+- imagealphablending - Establece el modo de mezcla para una imagen
+- imageantialias - Permitir o no el uso de funciones antialias
+- imagearc - Dibujar un arco
+- imageavif - Exportar la imagen al navegador o a un fichero
+- imagebmp - Output a BMP image to browser or file
+- imagechar - Dibujar un carácter horizontalmente
+- imagecharup - Dibujar un carácter verticalmente
+- imagecolorallocate - Asigna un color para una imagen
+- imagecolorallocatealpha - Asignar un color para una imagen
+- imagecolorat - Obtener el índice del color de un píxel
+- imagecolorclosest - Obtener el índice del color más próximo al color especificado
+- imagecolorclosestalpha - Obtener el índice del color más próximo al color + alpha especificado
+- imagecolorclosesthwb - Obtener el índice del color que tiene el tono, blancura y negrura
+- imagecolordeallocate - Desasignar un color de una imagen
+- imagecolorexact - Obtener el índice del color especificado
+- imagecolorexactalpha - Obtener el índice del color + alpha especificado
+- imagecolormatch - Hacer que los colores de la versión de la paleta de una imagen coincidan más estrechamente con la versión de color verdadero
+- imagecolorresolve - Obtener el índice del color especificado o su alternativa más próxima posible
+- imagecolorresolvealpha - Obtener el índice del color + alpha especificado o su alternativa más próxima posible
+- imagecolorset - Establecer el color para el índice de paleta especificada
+- imagecolorsforindex - Obtener los colores de un índice
+- imagecolorstotal - Averiguar el número de colores de la paleta de una imagen
+- imagecolortransparent - Definir un color como transparente
+- imageconvolution - Aplicar una matriz de convolución de 3x3, usando coeficiente e índice
+- imagecopy - Copiar parte de una imagen
+- imagecopymerge - Copiar y fusionar parte de una imagen
+- imagecopymergegray - Copiar y fusionar parte de una imagen con escala de grises
+- imagecopyresampled - Copia y cambia el tamaño de parte de una imagen redimensionándola
+- imagecopyresized - Copia y cambia el tamaño de parte de una imagen
+- imagecreate - Crea una nueva imagen basada en paleta
+- imagecreatefromavif - Crea una nueva imagen a partir de un fichero o de una URL
+- imagecreatefrombmp - Crea una nueva imagen a partir de un fichero o de una URL
+- imagecreatefromgd - Crear una imagen nueva desde un fichero GD o un URL
+- imagecreatefromgd2 - Crear una imagen nueva desde un fichero GD2 o un URL
+- imagecreatefromgd2part - Crear una nueva imagen desde una parte dada de un fichero GD2 o un URL
+- imagecreatefromgif - Crea una nueva imagen a partir de un fichero o de una URL
+- imagecreatefromjpeg - Crea una nueva imagen a partir de un fichero o de una URL
+- imagecreatefrompng - Crea una nueva imagen a partir de un fichero o de una URL
+- imagecreatefromstring - Crear una imagen nueva desde el flujo de imagen de la cadena
+- imagecreatefromtga - Crea una nueva imagen a partir de un fichero o de una URL
+- imagecreatefromwbmp - Crea una nueva imagen a partir de un fichero o de una URL
+- imagecreatefromwebp - Crea una nueva imagen a partir de un fichero o de una URL
+- imagecreatefromxbm - Crea una nueva imagen a partir de un fichero o de una URL
+- imagecreatefromxpm - Crea una nueva imagen a partir de un fichero o de una URL
+- imagecreatetruecolor - Crear una nueva imagen de color verdadero
+- imagecrop - Recorta una imagen usando las coordenadas, el tamaño, x, y, ancho y alto dados
+- imagecropauto - Recorta una imagen automáticamente usando uno de los modos disponibles
+- imagedashedline - Dibujar una línea discontinua
+- imagedestroy - Destruir una imagen
+- imageellipse - Dibujar una elipse
+- imagefill - Rellenar
+- imagefilledarc - Dibujar un arco parcial y rellenarlo
+- imagefilledellipse - Dibujar una elipse con relleno
+- imagefilledpolygon - Dibujar un polígono con relleno
+- imagefilledrectangle - Dibujar un rectángulo con relleno
+- imagefilltoborder - Rellenar con un color específico
+- imagefilter - Aplica un filtro a una imagen
+- imageflip - Flips an image using a given mode
+- imagefontheight - Obtener el alto de la fuente
+- imagefontwidth - Obtener el ancho de la fuente
+- imageftbbox - Devolver la caja circundante de un texto usando fuentes mediante FreeType 2
+- imagefttext - Escribir texto en la imagen usando fuentes mediante FreeType 2
+- imagegammacorrect - Aplicar una corrección gamma a la imagen GD
+- imagegd - Imprime una imagen GD2 a un navegador o archivo
+- imagegd2 - Imprime una imagen GD2 a un navegador o fichero
+- imagegetclip - Get the clipping rectangle
+- imagegetinterpolation - Get the interpolation method
+- imagegif - Exportar la imagen al navegador o a un fichero
+- imagegrabscreen - Capturar la pantalla completa
+- imagegrabwindow - Capturar una ventana
+- imageinterlace - Habilitar o deshabilitar en entrelazamiento
+- imageistruecolor - Averiguar si una imagen es de color verdadero
+- imagejpeg - Exportar la imagen al navegador o a un fichero
+- imagelayereffect - Establecer la bandera de mezcla alfa para usar los efectos de capa
+- imageline - Dibujar una línea
+- imageloadfont - Cargar una nueva fuente
+- imageopenpolygon - Draws an open polygon
+- imagepalettecopy - Copiar la paleta de una imagen a otra
+- imagepalettetotruecolor - Convierte una imagen basada en paleta a color verdadero
+- imagepng - Imprimir una imagen PNG al navegador o a un archivo
+- imagepolygon - Dibujar un polígono
+- imagerectangle - Dibuja un rectángulo
+- imageresolution - Get or set the resolution of the image
+- imagerotate - Rotar una imagen con un ángulo dado
+- imagesavealpha - Establecer la bandera para guardar la información completa del canal alfa (como oposición a la transparencia de un simple color) cuando se guardan imágenes PNG
+- imagescale - Redimensiona una imagen usando un nuevo ancho y alto
+- imagesetbrush - Establecer la imagen de pincel para el dibujo de líneas
+- imagesetclip - Set the clipping rectangle
+- imagesetinterpolation - Establecer el método de interpolación
+- imagesetpixel - Establecer un simple píxel
+- imagesetstyle - Establecer el estilo para el dibujo de líneas
+- imagesetthickness - Establecer el grosor para el dibujo de líneas
+- imagesettile - Establecer la imagen de tesela para rellenos
+- imagestring - Dibujar una cadena horizontalmente
+- imagestringup - Dibujar una cadena verticalmente
+- imagesx - Obtener el ancho de una imagen
+- imagesy - Obtener el alto de una imagen
+- imagetruecolortopalette - Convertir una imagen de color verdadero en una imagen de paleta
+- imagettfbbox - Devuelve la caja circundante de un texto usando fuentes TrueType
+- imagettftext - Escribir texto en la imagen usando fuentes TrueType
+- imagetypes - Devolver los tipos de imagen soportados por la versión actual de PHP
+- imagewbmp - Exportar la imagen al navegador o a un fichero
+- imagewebp - Imprimir una imagen WebP al navegador o fichero
+- imagexbm - Imprimir una imagen XBM en el navegador o en un fichero
+- image_type_to_extension - Obtiene la extensión de un tipo de imagen
+- image_type_to_mime_type - Obtiene el tipo Mime de un tipo de imagen devuelto por getimagesize, exif_read_data, exif_thumbnail, exif_imagetype
+- imap_8bit - Convertir una cadena 8bit a una cadena quoted-printable
+- imap_alerts - Devuelve todos los mensajes de alerte de IMAP que han sucedido
+- imap_append - Añadir un mensaje de cadena a un buzón especificado
+- imap_base64 - Decodificar un texto cifrado con BASE64
+- imap_binary - Convertir una cadena 8bit a una cadena base64
+- imap_body - Leer el cuerpo del mensaje
+- imap_bodystruct - Leer la estructura de una sección del cuerpo especificado de un mensaje especificado
+- imap_check - Comprobar el buzón actual
+- imap_clearflag_full - Limpia las banderas de mensajes
+- imap_close - Cerrar una secuencia IMAP
+- imap_create - Alias de imap_createmailbox
+- imap_createmailbox - Crear un nuevo buzón de correo
+- imap_delete - Marcar un mensaje para su borrado del buzón actual
+- imap_deletemailbox - Elimina un buzón
+- imap_errors - Devuelve todos los errores de IMAP que han ocurrido
+- imap_expunge - Borra todos los mensajes marcados para eliminación
+- imap_fetchbody - Traer una sección en particular del cuerpo del mensaje
+- imap_fetchheader - Devolver la cabecera de un mensaje
+- imap_fetchmime - Obtener las cabeceras MIME para una sección en particular del mensaje
+- imap_fetchstructure - Leer la estructura de un mensaje en particular
+- imap_fetchtext - Alias de imap_body
+- imap_fetch_overview - Leer una visión general de la información de las cabeceras del mensaje dado
+- imap_gc - Limpia la caché de IMAP
+- imap_getacl - Obtiene el ACL para un buzón dado
+- imap_getmailboxes - Leer la lista de buzones, devolviendo información detallada de cada uno
+- imap_getsubscribed - Listar todos los buzones suscritos
+- imap_get_quota - Obtener la cuota de ajustes por usuario, y las estadísticas de uso por buzón
+- imap_get_quotaroot - Obtener la cuota de ajustes por usuario
+- imap_header - Alias de imap_headerinfo
+- imap_headerinfo - Leer la cabecera del mensaje
+- imap_headers - Devuelve las cabeceras de todos los mensajes de un buzón
+- imap_is_open - Check if the IMAP stream is still valid
+- imap_last_error - Obtiene el último error de IMAP que ocurrió durante esta petición de página
+- imap_list - Leer la lista de buzones
+- imap_listmailbox - Alias de imap_list
+- imap_listscan - Devuelve la lista de buzones que coinciden con el texto dado
+- imap_listsubscribed - Alias de imap_lsub
+- imap_lsub - Listar todos los buzones suscritos
+- imap_mail - Enviar un mensaje de correo electrónico
+- imap_mailboxmsginfo - Obtener información sobre el buzón actual
+- imap_mail_compose - Crear un mensaje MIME basado en las secciones sobre y cuerpo
+- imap_mail_copy - Copiar los mensajes especificados a un buzón
+- imap_mail_move - Mover los mensajes especificados a un buzón
+- imap_mime_header_decode - Decodificar los elementos de la cabecera MIME
+- imap_msgno - Obtiene el número de secuencia de mensaje para el UID dado
+- imap_mutf7_to_utf8 - Decode a modified UTF-7 string to UTF-8
+- imap_num_msg - Obtiene el número de mensajes del buzón actual
+- imap_num_recent - Obtiene el número de mensajes recientes en el buzón actual
+- imap_open - Abrir un flujo IMAP a un buzón
+- imap_ping - Comprobar si el flujo de IMAP está aún activo
+- imap_qprint - Convertir una cadena imprimible entrecomillada a una cadena de 8 bits
+- imap_rename - Alias de imap_renamemailbox
+- imap_renamemailbox - Renombrar un buzón antiguo a un buzón nuevo
+- imap_reopen - Reabrir un flujo IMAP hacia un nuevo buzón
+- imap_rfc822_parse_adrlist - Analiza una cadena de dirección
+- imap_rfc822_parse_headers - Analizar cabeceras de correo desde una cadena
+- imap_rfc822_write_address - Devuelve una dirección de correo correctamente formateada dados el buzón, host e información personal
+- imap_savebody - Guardar una sección del cuerpo específica en un fichero
+- imap_scan - Alias de imap_listscan
+- imap_scanmailbox - Alias de imap_listscan
+- imap_search - Esta función devuelve un array de mensajes que coinciden con el criterio de búsqueda dado
+- imap_setacl - Establece el ACL para el buzón dado
+- imap_setflag_full - Establece banderas en mensajes
+- imap_set_quota - Establece una cuota para un buzón dado
+- imap_sort - Obtiene y ordena mensajes
+- imap_status - Devuelve la información de estado de un buzón
+- imap_subscribe - Suscribirse a un buzón
+- imap_thread - Devuelve un árbol de mensajes hilados
+- imap_timeout - Establece o obtiene el tiempo de espera de imap
+- imap_uid - Esta función devuelve el UID del número de secuencia del mensaje dado
+- imap_undelete - Desmarcar el mensaje que está marcado para borrar
+- imap_unsubscribe - Cancelar la inscripción de un buzón
+- imap_utf7_decode - Decodifica una cadena codificada con UTF-7 modificado
+- imap_utf7_encode - Convierte una cadena ISO-8859-1 a un texto UTF-7 modifiicado
+- imap_utf8 - Convierte texto codificado MIME en UTF-8
+- imap_utf8_to_mutf7 - Encode a UTF-8 string to modified UTF-7
+- implode - Une elementos de un array en un string
+- inet_ntop - Convertir una dirección de internet empaquetada en una representación legible por humanos
+- inet_pton - Convertir una dirección IP legible por humanos a su representación in_addr empaquetada
+- inflate_add - Incrementally inflate encoded data
+- inflate_get_read_len - Get number of bytes read so far
+- inflate_get_status - Get decompression status
+- inflate_init - Initialize an incremental inflate context
+- ini_alter - Alias de ini_set
+- ini_get - Devuelve el valor de una directiva de configuración
+- ini_get_all - Obtiene todas las opciones de configuración
+- ini_parse_quantity - Get interpreted size from ini shorthand syntax
+- ini_restore - Restablece el valor de una opción de configuración
+- ini_set - Establece el valor de una directiva de configuración
+- inotify_add_watch - Añade un seguimiento a una instancia inotify inicializada
+- inotify_init - Inicializa una instancia inotify
+- inotify_queue_len - Devuelve un número superior a cero si hay eventos pendientes
+- inotify_read - Lee eventos de una instancia inotify
+- inotify_rm_watch - Elimina un seguimiento existente de una instancia inotify
+- intdiv - División entera
+- interface_exists - Comprueba si una interfaz ha sido definida
+- intl_error_name - Obtiene un nombre simbólico a partir de un código de error dado
+- intl_get_error_code - Obtiene el último código de error
+- intl_get_error_message - Obtener una descripción del último error
+- intl_is_failure - Comprueba si el código de error dado indica un fallo
+- intval - Obtiene el valor entero de una variable
+- in_array - Comprueba si un valor existe en un array
+- ip2long - Convierte una cadena que contiene una dirección con puntos del Protocolo de Internet (IPv4) en una dirección apropiada
+- iptcembed - Incluir información IPTC binaria en una imagen JPEG
+- iptcparse - Conviertir un bloque IPTC binario en simples etiquetas
+- isset - Determina si una variable está definida y no es null
+- is_a - Comprueba si un objeto es de una clase o tiene esta clase como una de sus madres
+- is_array - Comprueba si una variable es un array
+- is_bool - Comprueba si una variable es de tipo booleano
+- is_callable - Verificar que los contenidos de una variable puedan ser llamados como una función
+- is_countable - Verifica que el contenido de una variable es un valor contable
+- is_dir - Indica si el nombre de archivo es un directorio
+- is_double - Alias de is_float
+- is_executable - Indica si el nombre de archivo es ejecutable
+- is_file - Indica si el nombre de fichero es un fichero normal
+- is_finite - Encuentra si un valor es un número finito legal
+- is_float - Comprueba si el tipo de una variable es float
+- is_infinite - Encuentra si un valor es infinito
+- is_int - Comprueba si el tipo de una variable es integer
+- is_integer - Alias de is_int
+- is_iterable - Verifica que el contenido de una variable es un valor iterable
+- is_link - Indica si el nombre de archivo es un enlace simbólico
+- is_long - Alias de is_int
+- is_nan - Encuentra si un valor no es un número
+- is_null - Comprueba si una variable es null
+- is_numeric - Comprueba si una variable es un número o un string numérico
+- is_object - Comprueba si una variable es un objeto
+- is_readable - Indica si un fichero existe y es legible
+- is_real - Alias de is_float
+- is_resource - Comprueba si una variable es un recurso
+- is_scalar - Comprueba si una variable es escalar
+- is_soap_fault - Comprueba si una llamada SOAP ha fallado
+- is_string - Comprueba si una variable es de tipo string
+- is_subclass_of - Comprueba si el objeto tiene esta clase como uno de sus padres o si la implementa
+- is_tainted - Comprobar si un string está corrompido
+- is_uploaded_file - Indica si el archivo fue subido mediante HTTP POST
+- is_writable - Indica si un archivo existe y es escribible
+- is_writeable - Alias de is_writable
+- iterator_apply - Llamar a una función para cada elemento de un iterador
+- iterator_count - Contar los elementos de un iterador
+- iterator_to_array - Copiar el iterador a un array
+- jddayofweek - Devuelve el día de la semana
+- jdmonthname - Devuelve el nombre de un mes
+- jdtofrench - Convierte una Fecha Juliana al Calendario Republicano Francés
+- jdtogregorian - Convierte una Fecha Juliana en una fecha Gregoriana
+- jdtojewish - Convierte una Fecha Juliana a una fecha del Calendario Judío
+- jdtojulian - Convierte una Fecha Juliana a una fecha del Calendario Juliano
+- jdtounix - Convierte una Fecha Juliana a una fecha Unix
+- jewishtojd - Convierte una fecha del Calendario Judío a una Fecha Juliana
+- join - Alias de implode
+- jpeg2wbmp - Convertir un archiov de imagen JPEG a un archivo de imagen WBMP
+- json_decode - Decodifica un string de JSON
+- json_encode - Retorna la representación JSON del valor dado
+- json_last_error - Devuelve el último error ocurrido
+- json_last_error_msg - Devuelve el string con el error de la última llamada a json_encode() o a json_decode()
+- json_validate - Checks if a string contains valid JSON
+- juliantojd - Convierte una fecha del Calendario Juliano a una Fecha Juliana
+- key - Obtiene una clave de un array
+- key_exists - Alias de array_key_exists
+- krsort - Ordena un array por clave en orden inverso
+- ksort - Ordena un array por clave
+- lcfirst - Pasa a minúscula el primer caracter de un string
+- lcg_value - Combined linear congruential generator
+- lchgrp - Cambia el grupo de un enlace simbólico
+- lchown - Cambia el propietario de un enlace simbólico
+- ldap_8859_to_t61 - Traducir caracteres 8859 a caracteres t61
+- ldap_add - Agregar entradas al directorio de LDAP
+- ldap_add_ext - Add entries to LDAP directory
+- ldap_bind - Realiza la autenticación con un servidor LDAP
+- ldap_bind_ext - Bind to LDAP directory
+- ldap_close - Alias de ldap_unbind
+- ldap_compare - Comparar el valor del atributo encontrado en la entrada que se especificó con un DN
+- ldap_connect - Abre una conexión a un servidor LDAP
+- ldap_control_paged_result - Enviar el control de paginación LDAP
+- ldap_control_paged_result_response - Recuperar la cookie de paginación LDAP
+- ldap_count_entries - Contar el número de entradas en una búsqueda
+- ldap_count_references - Counts the number of references in a search result
+- ldap_delete - Eliminar una entrada de un directorio
+- ldap_delete_ext - Delete an entry from a directory
+- ldap_dn2ufn - Convertir un DN a un formato de nombramiento amigable al usuario
+- ldap_err2str - Convertir un número de error de LDAP a una cadena con un mensaje de error
+- ldap_errno - Devuelve el número de error LDAP del último comando LDAP
+- ldap_error - Devuelve el mensaje de error de LDAP del último comando LDAP
+- ldap_escape - Escapa una cadena de texto para su uso en un filtro LDAP o DN
+- ldap_exop - Performs an extended operation
+- ldap_exop_passwd - PASSWD extended operation helper
+- ldap_exop_refresh - Refresh extended operation helper
+- ldap_exop_whoami - WHOAMI extended operation helper
+- ldap_explode_dn - Divide un DN en sus partes componentes
+- ldap_first_attribute - Devolver el primer atributo
+- ldap_first_entry - Devolver el primer resultado de identificación
+- ldap_first_reference - Devolver la primera referencia
+- ldap_free_result - Liberar la memoria de resultado
+- ldap_get_attributes - Obtener atributos de una entrada de búsqueda de resultados
+- ldap_get_dn - Get the DN of a result entry
+- ldap_get_entries - Obtener todas las entradas de los resultados
+- ldap_get_option - Obtener el valor actual para la opción dada
+- ldap_get_values - Obtener todos los valores de una entrada de resultados
+- ldap_get_values_len - Obtener todos los valores binarios desde una entrada de resultados
+- ldap_list - Búsqueda de un solo nivel
+- ldap_modify - Modificar una entrada de LDAP
+- ldap_modify_batch - Batch and execute modifications on an LDAP entry
+- ldap_mod_add - Agregar valores de atributo a los atributos actuales
+- ldap_mod_add_ext - Add attribute values to current attributes
+- ldap_mod_del - Borrar valores de atributo de los atributos actuales
+- ldap_mod_del_ext - Delete attribute values from current attributes
+- ldap_mod_replace - Reemplazar valores de atributos con valores nuevos
+- ldap_mod_replace_ext - Replace attribute values with new ones
+- ldap_next_attribute - Obtener el siguiente atributo en un resultado
+- ldap_next_entry - Obtener el siguiente resultado de entrada
+- ldap_next_reference - Obtener la siguiente referencia
+- ldap_parse_exop - Parse result object from an LDAP extended operation
+- ldap_parse_reference - Extraer información de la entrada de referencia
+- ldap_parse_result - Extraer información del resultado
+- ldap_read - Leer una entrada
+- ldap_rename - Modificar el nombre de una entrada
+- ldap_rename_ext - Modify the name of an entry
+- ldap_sasl_bind - Unirse a un directorio LDAP utilizando SASL
+- ldap_search - Buscar el árbol LDAP
+- ldap_set_option - Establecer el valor de la opción proporcionada
+- ldap_set_rebind_proc - Establece una función de devolución de llamada para realizar revinculaciones en el rastreo referencial
+- ldap_sort - Clasificar entradas de resultados de LDAP en el lado del cliente
+- ldap_start_tls - Inciar TLS
+- ldap_t61_to_8859 - Traduce del conjunto de caracteres t61 al conjunto de caracteres 8859
+- ldap_unbind - Desenlazar de directorio LDAP
+- levenshtein - Cálculo de la distancia Levenshtein entre dos strings
+- libxml_clear_errors - Limpia el buffer de errores de libxml
+- libxml_disable_entity_loader - Deshabilita la capacidad de cargar entidades externas
+- libxml_get_errors - Recupera un array de errores
+- libxml_get_external_entity_loader - Get the current external entity loader
+- libxml_get_last_error - Recupera el último error de libxml
+- libxml_set_external_entity_loader - Cambia el cargador externo por defecto de entidades
+- libxml_set_streams_context - Configura el contexto de flujo para el próximo documento libxml cargado o escrito
+- libxml_use_internal_errors - Deshabilita errores libxml y permite al usuario extraer información de errores según sea necesario
+- link - Crea un enlace duro
+- linkinfo - Obtiene información acerca de un enlace
+- list - Asignar variables como si fueran un array
+- localeconv - Obtener información sobre el formato numérico
+- localtime - Obtiene fecha y hora local
+- log - Logaritmo natural
+- log1p - Devuelve log(1 + numero), calculado de tal forma que no pierde precisión incluso cuando el valor del numero se aproxima a cero.
+- log10 - Logaritmo en base 10
+- long2ip - Convierte una dirección de red (IPv4) en una cadena de texto en formato con puntos estándar de internet
+- lstat - Da información acerca de un archivo o enlace simbólico
+- ltrim - Retira espacios en blanco (u otros caracteres) del inicio de un string
+- lzf_compress - Compresión LZF
+- lzf_decompress - Descompresión LZF
+- lzf_optimized_for - Determina para qué fue optimizada la extensión LZF
+- mail - Enviar correo
+- mailparse_determine_best_xfer_encoding - Obtiene la mejor forma de codificar
+- mailparse_msg_create - Crea un recurso de correo mime
+- mailparse_msg_extract_part - Extrae/decodifica una sección de mensaje
+- mailparse_msg_extract_part_file - Extrae/decodifica una sección de mensaje
+- mailparse_msg_extract_whole_part_file - Extrae una sección del mensaje incluyendo cabeceras sin descodificar la transferencia codificada
+- mailparse_msg_free - Libera un recurso MIME
+- mailparse_msg_get_part - Devuelve un gestor sobre una sección dada en un mensaje mime
+- mailparse_msg_get_part_data - Devuelve una matriz asociativa de información sobre el mensaje
+- mailparse_msg_get_structure - Devuelve una matriz de nombres de sección mime en el mensaje dado
+- mailparse_msg_parse - Procesar datos incrementalmente sobre un búfer
+- mailparse_msg_parse_file - Procesa un archivo
+- mailparse_rfc822_parse_addresses - Procesa direcciones compatibles con RFC 822
+- mailparse_stream_encode - Secuencia datos desde un apuntador de archivo, codifica y escribe a fp_destino
+- mailparse_uudecode_all - Procesa los datos desde un apuntador a archivo y extrae cada archivo embebido con codificación uu
+- max - Encontrar el valor más alto
+- mb_check_encoding - Comprueba si el string es válido para a la codificación especificada
+- mb_chr - Return character by Unicode code point value
+- mb_convert_case - Realiza una conversión a mayúsculas/minúsculas de un string
+- mb_convert_encoding - Convierte una codificación de caracteres
+- mb_convert_kana - Convierte un "kana" a otro ("zen-kaku", "han-kaku" y más)
+- mb_convert_variables - Convierte códigos de caracteres a variable/s
+- mb_decode_mimeheader - Decodifica un string en el campo de cabecera MIME
+- mb_decode_numericentity - Decodifica referencias a string numéricas de HTML en caracteres
+- mb_detect_encoding - Detecta la codificación de caracteres
+- mb_detect_order - Establece/obtiene el orden de detección de codificaciones de caracteres
+- mb_encode_mimeheader - Codifica un string para la cabecera MIME
+- mb_encode_numericentity - Convierte caracteres a referencias de string numéricas de HTML
+- mb_encoding_aliases - Obtiene los alias de un tipo de codificación conocido
+- mb_ereg - Comparación de expresiones regulares con soporte multibyte
+- mb_eregi - Comparación de expresiones regulares ignorando mayúsculas/minúsculas con soporte multibyte
+- mb_eregi_replace - Reemplaza una expresión regular con soporte multibyte ignorando mayúsculas/minúsculas
+- mb_ereg_match - Compararción de expresiones regulares para strings multibyte
+- mb_ereg_replace - Reemplaza una expresión regular con soporte multibyte
+- mb_ereg_replace_callback - Realiza una búsqueda y sustitución de una expresión regular con soporte multibyte usando una llamada de retorno
+- mb_ereg_search - Comparación de expresiones regulares multibyte para un string multibyte predefinido
+- mb_ereg_search_getpos - Devuelve la posición de inicio para la siguiente comparación de una expresión regular
+- mb_ereg_search_getregs - Recupera el resultado de la última comparación de expresión regular multibyte
+- mb_ereg_search_init - Configura el string y la expresión regular para una comparación de expresiones regulares multibyte
+- mb_ereg_search_pos - Devuelve la posición y la longitud de una parte coincidente de la expresión regular multibyte para un string multibyte predefinido
+- mb_ereg_search_regs - Devuelve la parte coincidente de una expresión regular multibyte
+- mb_ereg_search_setpos - Establece el punto de inicio de la siguiente comparación de una expresión regular
+- mb_get_info - Obtiene la configuración interna de mbstring
+- mb_http_input - Detecta la codificación de caracteres de entrada HTTP
+- mb_http_output - Establece/obtiene la codificación de caracteres de salida HTTP
+- mb_internal_encoding - Establece/obtiene la codificación de caracteres interna
+- mb_language - Establece/obtiene el idioma actual
+- mb_list_encodings - Devuelve un array con todos los tipos de codificaciones admitidas
+- mb_ord - Get Unicode code point of character
+- mb_output_handler - Función de llamada de retorno que convierte la codificación de caracteres en búfer de salida
+- mb_parse_str - Analiza datos GET/POST/COOKIE y establece varialbes globales
+- mb_preferred_mime_name - Obtener un string del conjunto de caracteres del MIME
+- mb_regex_encoding - Establecer/obtener la codificación de caracteres para expresiones regulares multibyte
+- mb_regex_set_options - Establece/obtiene las opciones predeterminadas para las funciones mbregex
+- mb_scrub - Replace ill-formed byte sequences with the substitute character
+- mb_send_mail - Envía un correo codificado
+- mb_split - Divide cadenas de caracteres multibyte usando una expresión regular
+- mb_strcut - Obtener parte de un string
+- mb_strimwidth - Obtiene un string truncado con el ancho especificado
+- mb_stripos - Busca la posición de la primera ocurrencia de un string dentro de otro, insensible a mayúsculas/minúsculas
+- mb_stristr - Busca la primera ocurrencia de un string dentro de otro, insensible a mayúsculas/minúsculas
+- mb_strlen - Obtiene la longitud de una cadena de caracteres
+- mb_strpos - Busca la posición de la primera ocurrencia de un string en otro string
+- mb_strrchr - Busca la última ocurrencia de un carácter de un string dentro de otro
+- mb_strrichr - Busca la última ocurrencia de un carácter de un string dentro de otro, insensible a mayúsculas/minúsculas
+- mb_strripos - Busca la posicion de la última ocurrencia de un string dentro de otro string, insensible a mayúsculas/minúsculas
+- mb_strrpos - Busca la posicion de la última ocurrencia de un string en otro string
+- mb_strstr - Busca la primera ocurrencia de un string dentro de otro
+- mb_strtolower - Convierte una cadena de caracteres a minúsculas
+- mb_strtoupper - Convierte un string en mayúsculas
+- mb_strwidth - Devuelve el ancho de un string
+- mb_str_pad - Pad a multibyte string to a certain length with another multibyte string
+- mb_str_split - Given a multibyte string, return an array of its characters
+- mb_substitute_character - Establece/obtiene un carácter de sustitución
+- mb_substr - Obtiene parte de una cadena de caracteres
+- mb_substr_count - Cuenta el número de ocurrencias de un substring
+- mcrypt_create_iv - Crea un vector de inicialización (IV) desde una fuente aleatoria
+- mcrypt_decrypt - Desencripta texto cifrado con los parámetros dados
+- mcrypt_encrypt - Cifra texto plano con los parámetros dados
+- mcrypt_enc_get_algorithms_name - Devuelve el nombre del algoritmo abierto
+- mcrypt_enc_get_block_size - Devuelve el tamaño del bloque del algoritmo abierto
+- mcrypt_enc_get_iv_size - Devuelve el tamaño del IV del algoritmo abierto
+- mcrypt_enc_get_key_size - Devuelve el tamaño de clave máximo soportado por el modo abierto
+- mcrypt_enc_get_modes_name - Devuelve el nombre del modo abierto
+- mcrypt_enc_get_supported_key_sizes - Devuelve un array con los tamaños de clave soportados por el algoritmo abierto
+- mcrypt_enc_is_block_algorithm - Chequea si el algoritmo del modo abierto es un algoritmo por bloques
+- mcrypt_enc_is_block_algorithm_mode - Chequea si el cifrado del modo abierto trabaja sobre bloques
+- mcrypt_enc_is_block_mode - Chequea si el modo abierto retorna bloques
+- mcrypt_enc_self_test - Ejecuta una prueba automática sobre el módulo abierto
+- mcrypt_generic - Esta función encripta datos
+- mcrypt_generic_deinit - Esta función deinicializa un módulo de cifrado
+- mcrypt_generic_init - Esta función inicializa todos los buffers requeridos para el cifrado
+- mcrypt_get_block_size - Toma el tamaño del bloque del cifrador especificado
+- mcrypt_get_cipher_name - Toma el nombre del cifrador especificado
+- mcrypt_get_iv_size - Devuelve el tamaño del IV perteneciente a una combinación cifrador/modo específica
+- mcrypt_get_key_size - Toma el tamaño de clave del cifrador especificado
+- mcrypt_list_algorithms - Obtiene un array con todos los cifradores soportados
+- mcrypt_list_modes - Obtiene un array con todos los modos soportados
+- mcrypt_module_close - Cierra el módulo mcrypt
+- mcrypt_module_get_algo_block_size - Devuelve el tamaño de bloque del algoritmo especificado
+- mcrypt_module_get_algo_key_size - Devuelve el tamaño de clave máximo soportado por el modo abierto
+- mcrypt_module_get_supported_key_sizes - Devuelve un array con los tamaños de clave soportados del algoritmo abierto
+- mcrypt_module_is_block_algorithm - Esta función chequea si el algoritmo especificado es un algoritmo por bloques
+- mcrypt_module_is_block_algorithm_mode - Devuelve si el módulo especificado es un algoritmo por bloques o no
+- mcrypt_module_is_block_mode - Devuelve si el modo especificado retorna bloques o no
+- mcrypt_module_open - Abre el módulo del algoritmo y el modo a ser utilizados
+- mcrypt_module_self_test - Esta función ejecuta una prueba automática sobre el módulo especificado
+- md5 - Calcula el 'hash' md5 de un string
+- md5_file - Calcula el resumen criptográfico md5 de un archivo dado
+- mdecrypt_generic - Desencripta datos
+- memcache_debug - Activa/desactiva debug output
+- memory_get_peak_usage - Devuelve el máximo de memoria asignada por PHP
+- memory_get_usage - Devuelve la cantidad de memoria asignada a PHP
+- memory_reset_peak_usage - Reset the peak memory usage
+- metaphone - Calcula la clave metaphone de un string
+- method_exists - Comprueba si existe un método de una clase
+- mhash - Calcula el hash
+- mhash_count - Toma el mayor ID de hash disponible
+- mhash_get_block_size - Toma el tamaño de bloque del algoritmo hash especificado
+- mhash_get_hash_name - Toma el nombre del algoritmo hash especificado
+- mhash_keygen_s2k - Genera una clave
+- microtime - Devuelve la fecha Unix actual con microsegundos
+- mime_content_type - Detecta el MIME Content-type para un fichero
+- min - Encontrar el valor más bajo
+- mkdir - Crea un directorio
+- mktime - Obtener la marca de tiempo Unix de una fecha
+- money_format - Da formato a un número como un string de moneda
+- MongoDB\BSON\fromJSON - Returns the BSON representation of a JSON value
+- MongoDB\BSON\fromPHP - Returns the BSON representation of a PHP value
+- MongoDB\BSON\toCanonicalExtendedJSON - Returns the Canonical Extended JSON representation of a BSON value
+- MongoDB\BSON\toJSON - Returns the Legacy Extended JSON representation of a BSON value
+- MongoDB\BSON\toPHP - Returns the PHP representation of a BSON value
+- MongoDB\BSON\toRelaxedExtendedJSON - Returns the Relaxed Extended JSON representation of a BSON value
+- MongoDB\Driver\Monitoring\addSubscriber - Registers a monitoring event subscriber globally
+- MongoDB\Driver\Monitoring\removeSubscriber - Unregisters a monitoring event subscriber globally
+- move_uploaded_file - Mueve un archivo subido a una nueva ubicación
+- mqseries_back - MQSeries MQBACK
+- mqseries_begin - MQseries MQBEGIN
+- mqseries_close - MQSeries MQCLOSE
+- mqseries_cmit - MQSeries MQCMIT
+- mqseries_conn - MQSeries MQCONN
+- mqseries_connx - MQSeries MQCONNX
+- mqseries_disc - MQSeries MQDISC
+- mqseries_get - MQSeries MQGET
+- mqseries_inq - MQSeries MQINQ
+- mqseries_open - MQSeries MQOPEN
+- mqseries_put - MQSeries MQPUT
+- mqseries_put1 - MQSeries MQPUT1
+- mqseries_set - MQSeries MQSET
+- mqseries_strerror - Returns the error message corresponding to a result code (MQRC)
+- msg_get_queue - Crear o adjuntar a una cola de mensajes
+- msg_queue_exists - Verificar si una cola de mensajes existe
+- msg_receive - Recibir un mensaje de la cola de mensajes
+- msg_remove_queue - Destruir una cola de mensajes
+- msg_send - Eviar un mensaje a una cola de mensajes
+- msg_set_queue - Establecer información en la estructura de datos de la cola de mensajes
+- msg_stat_queue - Devuelve información desde la estructura de datos de la cola de mensajes
+- mt_getrandmax - Show largest possible random value
+- mt_rand - Generate a random value via the Mersenne Twister Random Number Generator
+- mt_srand - Seeds the Mersenne Twister Random Number Generator
+- mysqli_escape_string - Alias de mysqli_real_escape_string
+- mysqli_execute - Alias para mysqli_stmt_execute
+- mysqli_get_client_stats - Returns client per-process statistics
+- mysqli_get_client_version - Devuelve la versión clientes de MySQL como valor de tipo integer
+- mysqli_get_links_stats - Devolver información sobre enlaces abiertos y almacenados en caché
+- mysqli_report - Alias de mysqli_driver->report_mode
+- mysql_affected_rows - Obtiene el número de filas afectadas en la anterior operación de MySQL
+- mysql_client_encoding - Devuelve el nombre del conjunto de caracteres
+- mysql_close - Cerrar una conexión de MySQL
+- mysql_connect - Abre una conexión al servidor MySQL
+- mysql_create_db - Crea una base de datos MySQL
+- mysql_data_seek - Mueve el puntero de resultados interno
+- mysql_db_name - Recupera el nombre de la base de datos desde una llamada a mysql_list_dbs
+- mysql_db_query - Selecciona una base de datos y ejecuta una consulta sobre la misma
+- mysql_drop_db - Elimina (DROP) una base de datos MySQL
+- mysql_errno - Devuelve el valor numérico del mensaje de error de la última operación MySQL
+- mysql_error - Devuelve el texto del mensaje de error de la operación MySQL anterior
+- mysql_escape_string - Escapa una cadena para ser usada en mysql_query
+- mysql_fetch_array - Recupera una fila de resultados como un array asociativo, un array numérico o como ambos
+- mysql_fetch_assoc - Recupera una fila de resultados como un array asociativo
+- mysql_fetch_field - Obtiene la información de una columna de un resultado y la devuelve como un objeto
+- mysql_fetch_lengths - Obtiene la longitud de cada salida en un resultado
+- mysql_fetch_object - Recupera una fila de resultados como un objeto
+- mysql_fetch_row - Obtiene una fila de resultados como un array numérico
+- mysql_field_flags - Obtiene las banderas asociadas al campo especificado de un resultado
+- mysql_field_len - Devuelve la longitud del campo especificado
+- mysql_field_name - Obtiene el nombre del campo especificado de un resultado
+- mysql_field_seek - Establece el puntero del resultado en un índice de campo específicado
+- mysql_field_table - Obtiene el nombre de la tabla en la que está el campo especificado
+- mysql_field_type - Obtiene el tipo del campo especificado de un resultado
+- mysql_free_result - Libera la memoria del resultado
+- mysql_get_client_info - Obtiene información del cliente MySQL
+- mysql_get_host_info - Obtener información del anfitrión de MySQL
+- mysql_get_proto_info - Obtener información del protocolo MySQL
+- mysql_get_server_info - Obtiene información del servidor MySQL
+- mysql_info - Obtiene información sobre la consulta más reciente
+- mysql_insert_id - Obtiene el ID generado en la última consulta
+- mysql_list_dbs - Lista las bases de datos disponibles en un servidor MySQL
+- mysql_list_fields - Lista los campos de una tabla de MySQL
+- mysql_list_processes - Lista los procesos de MySQL
+- mysql_list_tables - Enumerar las tablas de una base de datos MySQL
+- mysql_num_fields - Obtiene el número de campos de un resultado
+- mysql_num_rows - Obtener el número de filas de un conjunto de resultados
+- mysql_pconnect - Abre una conexión persistente a un servidor MySQL
+- mysql_ping - Efectuar un chequeo de respuesta (ping) sobre una conexión al servidor o reconectarse si no hay conexión
+- mysql_query - Enviar una consulta MySQL
+- mysql_real_escape_string - Escapa caracteres especiales en una cadena para su uso en una sentencia SQL
+- mysql_result - Obtener datos de resultado
+- mysql_select_db - Seleccionar una base de datos MySQL
+- mysql_set_charset - Establece el conjunto de caracteres del cliente
+- mysql_stat - Obtiene el estado actual del sistema
+- mysql_tablename - Obtiene el nombre de la tabla de un campo
+- mysql_thread_id - Devuelve el ID del hilo actual
+- mysql_unbuffered_query - Envía una consulta SQL a MySQL, sin recuperar ni almacenar en búfer las filas de resultados
+- natcasesort - Ordenar un array usando un algoritmo de "orden natural" insensible a mayúsculas-minúsculas
+- natsort - Ordena un array usando un algoritmo de "orden natural"
+- net_get_interfaces - Get network interfaces
+- next - Avanza el puntero interno de un array
+- ngettext - Versión plural de gettext
+- nl2br - Inserta saltos de línea HTML antes de todas las nuevas líneas de un string
+- nl_langinfo - Consulta información sobre el idioma y la configuración regional
+- number_format - Formatear un número con los millares agrupados
+- oauth_get_sbs - Genera una cadena de firma base
+- oauth_urlencode - Códifica una URI a RFC 3986
+- ob_clean - Limpiar (eliminar) el búfer de salida
+- ob_end_clean - Limpiar (eliminar) el búfer de salida y deshabilitar el almacenamiento en el mismo
+- ob_end_flush - Volcar (enviar) el búfer de salida y deshabilitar el almacenamiento en el mismo
+- ob_flush - Vaciar (enviar) el búfer de salida
+- ob_get_clean - Obtiene el contenido del búfer actual y elimina el búfer de salida actual
+- ob_get_contents - Devolver el contenido del búfer de salida
+- ob_get_flush - Volcar el búfer de salida, devolverlo como una cadena de caracteres y deshabilitar el almacenamiento en el búfer de salida
+- ob_get_length - Devolver la longitud del búfer de salida
+- ob_get_level - Devolver el nivel de anidamiento del mecanismo de almacenamiento en el búfer de salida
+- ob_get_status - Obtener el estado de los búferes de salida
+- ob_gzhandler - Función de llamada de retorno de ob_start para comprimir el búfer de salida con gzip
+- ob_iconv_handler - Convierte la codificación de caracteres al manejador del buffer de salida
+- ob_implicit_flush - Habilitar/deshabilitar el volcado implícito
+- ob_list_handlers - Enumerar todos los gestores de salida en uso
+- ob_start - Activa el almacenamiento en búfer de la salida
+- ob_tidyhandler - Función callback de ob_start para reparar el buffer
+- ocibindbyname - Alias de oci_bind_by_name
+- ocicancel - Alias de oci_cancel
+- ocicolumnisnull - Alias de oci_field_is_null
+- ocicolumnname - Alias de oci_field_name
+- ocicolumnprecision - Alias de oci_field_precision
+- ocicolumnscale - Alias de oci_field_scale
+- ocicolumnsize - Alias de oci_field_size
+- ocicolumntype - Alias de oci_field_type
+- ocicolumntyperaw - Alias de oci_field_type_raw
+- ocicommit - Alias de oci_commit
+- ocidefinebyname - Alias de oci_define_by_name
+- ocierror - Alias de oci_error
+- ociexecute - Alias de oci_execute
+- ocifetch - Alias de oci_fetch
+- ocifetchinto - Variante obsoleta de oci_fetch_array, oci_fetch_object, oci_fetch_assoc y oci_fetch_row
+- ocifetchstatement - Alias de oci_fetch_all
+- ocifreecursor - Alias de oci_free_statement
+- ocifreestatement - Alias de oci_free_statement
+- ociinternaldebug - Alias de oci_internal_debug
+- ocilogoff - Alias de oci_close
+- ocilogon - Alias de oci_connect
+- ocinewcollection - Alias de oci_new_collection
+- ocinewcursor - Alias de oci_new_cursor
+- ocinewdescriptor - Alias de oci_new_descriptor
+- ocinlogon - Alias de oci_new_connect
+- ocinumcols - Alias de oci_num_fields
+- ociparse - Alias de oci_parse
+- ociplogon - Alias de oci_pconnect
+- ociresult - Alias de oci_result
+- ocirollback - Alias de oci_rollback
+- ocirowcount - Alias de oci_num_rows
+- ociserverversion - Alias de oci_server_version
+- ocisetprefetch - Alias de oci_set_prefetch
+- ocistatementtype - Alias de oci_statement_type
+- oci_bind_array_by_name - Vincula un array de PHP con un parámetro de un array de Oracle PL/SQL
+- oci_bind_by_name - Vincula una variable de PHP a un parámetro de sustitución de Oracle
+- oci_cancel - Cancela la lectura del cursor
+- oci_client_version - Devuelve la versión de la biblioteca cliente de Oracle
+- oci_close - Cierra una conexión a Oracle
+- oci_commit - Consigna la transacción pendiente de la base de datos
+- oci_connect - Conecta a una base de datos de Oracle
+- oci_define_by_name - Asocia una variable de PHP con una columna para la obtención de consultas
+- oci_error - Devuelve el último error encontrado
+- oci_execute - Ejecuta una sentencia
+- oci_fetch - Coloca la siguiente fila de una consulta en los búferes internos
+- oci_fetch_all - Obtiene múltiples filas de una consulta y las ubica en un array bidimiensional
+- oci_fetch_array - Devuelve la siguiente fila de una consulta como un array asociativo o numérico
+- oci_fetch_assoc - Devuelve la siguiente fila de una consulta como un array asociativo
+- oci_fetch_object - Devuelve la siguiente fila de una consulta como un objeto
+- oci_fetch_row - Devuelve la siguiente fila de una consulta como un array numérico
+- oci_field_is_null - Comprueba si un campo de la fila actualmente obtenida es null
+- oci_field_name - Devuelve el nombre de un campo de una sentencia
+- oci_field_precision - Indica la precisión de un campo
+- oci_field_scale - Indica la escala de un campo
+- oci_field_size - Devuelve el tamaño de un campo
+- oci_field_type - Devuelve el nombre del tipo de datos de un campo
+- oci_field_type_raw - Indica el tipo de datos sin tratar de Oracle de un campo
+- oci_free_descriptor - Libera un descriptor
+- oci_free_statement - Libera todos los recursos asociados con una sentencia o cursor
+- oci_get_implicit_resultset - Devuelve el siguiente recurso de sentencia hija desde un recurso de sentencia padre que posee Conjuntos de resultados implícitos de Oracle Database 12c
+- oci_internal_debug - Enables or disables internal debug output
+- oci_lob_copy - Copia objetos grandes
+- oci_lob_is_equal - Compara dos localizadores LOB/FILE
+- oci_new_collection - Asigna un nuevo objeto colección
+- oci_new_connect - Conectar al servidor de Oracle usando una conexión única
+- oci_new_cursor - Asigna y devuelve un nuevo cursor (gestor de sentencia)
+- oci_new_descriptor - Inicializa un nuevo descriptor LOB o FILE vacío
+- oci_num_fields - Devuelve el número de columnas del resultado de una sentencia
+- oci_num_rows - Devuelve el número de filas afectadas durante la ejecución de una sentencia
+- oci_parse - Prepara una sentencia de Oracle para su ejecución
+- oci_password_change - Cambia la contraseña de un usuario de Oracle
+- oci_pconnect - Conectar a una base de datos de Oracle usando una conexión persistente
+- oci_register_taf_callback - Registrar una función de retrollamada definida por el usuario para TAF de Oracle Database
+- oci_result - Devuelve el valor de un campo de la fila obtenida
+- oci_rollback - Revierte la transacción pendiente de la base de datos
+- oci_server_version - Devuelve la versión de Oracle Database
+- oci_set_action - Establece el nombre de una acción
+- oci_set_call_timeout - Establece un tiempo de espera de milisegundos para las llamadas a la base de datos
+- oci_set_client_identifier - Establece el identificador del cliente
+- oci_set_client_info - Establece la información del cliente
+- oci_set_db_operation - Establece la operación de base de datos
+- oci_set_edition - Establece la edición de la base de datos
+- oci_set_module_name - Establece el nombre de un módulo
+- oci_set_prefetch - Establece el número de filas a precargar mediante consultas
+- oci_set_prefetch_lob - Establece la cantidad de datos precargados para cada CLOB o BLOB.
+- oci_statement_type - Devuelve el tipo de una sentencia
+- oci_unregister_taf_callback - Anular el registro de una función callback definida para Oracle Database TAF
+- octdec - Octal a decimal
+- odbc_autocommit - Activa el comportamiento automático de envío
+- odbc_binmode - Manejo de información de columna binaria
+- odbc_close - Cerrar una conexión ODBC
+- odbc_close_all - Cerrar todas las conexiones ODBC
+- odbc_columnprivileges - Lista las columnas y los privilegios asociados para la tabla dada
+- odbc_columns - Lista los nombres de columnas de la tabla especificada
+- odbc_commit - Envía una transacción ODBC
+- odbc_connect - Conectar a una fuente de datos
+- odbc_connection_string_is_quoted - Determines if an ODBC connection string value is quoted
+- odbc_connection_string_quote - Quotes an ODBC connection string value
+- odbc_connection_string_should_quote - Determines if an ODBC connection string value should be quoted
+- odbc_cursor - Obtener el nombre del cursor
+- odbc_data_source - Devuelve información sobre una conexión actual
+- odbc_do - Alias de odbc_exec
+- odbc_error - Obtener el último código de error
+- odbc_errormsg - Obtener el último mensaje de error
+- odbc_exec - Preparar y ejecutar una sentencia SQL
+- odbc_execute - Ejecutar una declaración preparada
+- odbc_fetch_array - Obtener una fila de resultados como una matriz asociativa
+- odbc_fetch_into - Traer una fila de resultados en una matriz
+- odbc_fetch_object - Obtener una fila de resultados como un objeto
+- odbc_fetch_row - Traer una fila
+- odbc_field_len - Obtener la longitud (precisión) de un campo
+- odbc_field_name - Obtener el nombre de una columna
+- odbc_field_num - Devolver el número de columna
+- odbc_field_precision - Alias de odbc_field_len
+- odbc_field_scale - Obtener la escala de un campo
+- odbc_field_type - Tipo de datos de un campo
+- odbc_foreignkeys - Recupera información de una lista de claves extranjeras
+- odbc_free_result - Liberar los recursos asociados con un resultado
+- odbc_gettypeinfo - Recupera información sobre los tipos de datos soportados por la fuente de datos
+- odbc_longreadlen - Manejo de columnas LONG
+- odbc_next_result - Verifica si están disponibles múltiples resultados
+- odbc_num_fields - Número de columnas de un resultado
+- odbc_num_rows - Número de filas de un resultado
+- odbc_pconnect - Abrir una conexión persistente a una base de datos
+- odbc_prepare - Prepara una declaración para su ejecución
+- odbc_primarykeys - Obtiene las claves primarias de una tabla
+- odbc_procedurecolumns - Recuperar información sobre los parámetros a procedimientos
+- odbc_procedures - Obtener la lista de procedimientos almacenados en una fuente de datos específica
+- odbc_result - Obtener información de resultado
+- odbc_result_all - Imprimir el resultado como una tabla HTML
+- odbc_rollback - Revertir una transacción
+- odbc_setoption - Ajustar la configuración de ODBC
+- odbc_specialcolumns - Recupera columnas especiales
+- odbc_statistics - Recuperar las estadísticas de un tabla
+- odbc_tableprivileges - Lista las tablas y los privilegios asociados con cada tabla
+- odbc_tables - Obtener la lista de los nombres de las tablas almacenados en una fuente de datos específica
+- ogg:// - Flujos de audio
+- opcache_compile_file - Compiles and caches a PHP script without executing it
+- opcache_get_configuration - Get configuration information about the cache
+- opcache_get_status - Get status information about the cache
+- opcache_invalidate - Invalidates a cached script
+- opcache_is_script_cached - Tells whether a script is cached in OPCache
+- opcache_reset - Resets the contents of the opcode cache
+- Opciones de contexto de HTTP - Listado de opciones de contexto de HTTP
+- Opciones de contexto de sockets - Listado de opciones de contexto de sockets
+- Opciones de contexto para CURL - Listado de opciones de contexto para CURL
+- Opciones de contexto para FTP - Listado de opciones de contexto para FTP
+- Opciones de contexto para SSL - Listado de opciones de contexto para SSL
+- Opciones de contexto Phar - Listado de opciones de contexto Phar
+- Opciones del contexto zip - Listado de opciones del contexto zip
+- openal_buffer_create - Genera un buffer OpenAL
+- openal_buffer_data - Carga un buffer con datos
+- openal_buffer_destroy - Destruye un buffer OpenAL
+- openal_buffer_get - Recupera una propiedad del buffer OpenAL
+- openal_buffer_loadwav - Carga un archivo .wav dentro de un buffer
+- openal_context_create - Crea un contexto de procesamiento de audio
+- openal_context_current - Crea el corriente contexto especificado
+- openal_context_destroy - Destruye un contexto
+- openal_context_process - Procesa un contexto especificado
+- openal_context_suspend - Suspende el contexto especificado
+- openal_device_close - Cierra un dispositivo OpenAL
+- openal_device_open - Inicia la capa de audio del OpenAL
+- openal_listener_get - Devuelve una propiedad de oyente
+- openal_listener_set - Establece una propiedad de oyente
+- openal_source_create - Genera una fuente de recursos
+- openal_source_destroy - Destruye una fuente de recursos
+- openal_source_get - Recupera una propiedad de una fuente del OpenAL
+- openal_source_pause - Pausa la fuente
+- openal_source_play - Empieza la reproducción de la fuente
+- openal_source_rewind - Rebobina la fuente
+- openal_source_set - Establece la propiedad de la fuente
+- openal_source_stop - Detiene la reproducción de la fuente
+- openal_stream - Empieza la salida de una fuente
+- opendir - Abre un gestor de directorio
+- openlog - Open connection to system logger
+- openssl_cipher_iv_length - Obtener la longitud del iv de cipher
+- openssl_cipher_key_length - Gets the cipher key length
+- openssl_cms_decrypt - Decrypt a CMS message
+- openssl_cms_encrypt - Encrypt a CMS message
+- openssl_cms_read - Export the CMS file to an array of PEM certificates
+- openssl_cms_sign - Sign a file
+- openssl_cms_verify - Verify a CMS signature
+- openssl_csr_export - Exporta una CSR como una cadena
+- openssl_csr_export_to_file - Exporta una CSR a un archivo
+- openssl_csr_get_public_key - Devuelve la clave púbilca de un CERT
+- openssl_csr_get_subject - Devuelve el sujeto de un CERT
+- openssl_csr_new - Genera una CSR
+- openssl_csr_sign - Firmar una CSR con otro certificado (o autofirmar) y generar un certificado
+- openssl_decrypt - Desencripta datos
+- openssl_dh_compute_key - Computa el secreto compartido para un valor público de una clave DH remota y una clave DH local
+- openssl_digest - Computa un método de resumen
+- openssl_encrypt - Cifra datos
+- openssl_error_string - Devolver un mensaje de error openSSL
+- openssl_free_key - Liberar el recurso de clave
+- openssl_get_cert_locations - Obtener las ubicaciones de certificados disponibles
+- openssl_get_cipher_methods - Obtiene los métodos de cifrado disponibles
+- openssl_get_curve_names - Gets list of available curve names for ECC
+- openssl_get_md_methods - Obtener los métodos de resumen disponibles
+- openssl_get_privatekey - Alias de openssl_pkey_get_private
+- openssl_get_publickey - Alias de openssl_pkey_get_public
+- openssl_open - Abre información sellada
+- openssl_pbkdf2 - Genera un string PKCS5 v2 PBKDF2, predeterminado a SHA-1
+- openssl_pkcs7_decrypt - Desencripta un mensaje S/MIME encriptado
+- openssl_pkcs7_encrypt - Encriptar un mensaje S/MIME
+- openssl_pkcs7_read - Export the PKCS7 file to an array of PEM certificates
+- openssl_pkcs7_sign - Firma un mensaje S/MIME
+- openssl_pkcs7_verify - Verifica la firma de un mensaje S/MIME firmado
+- openssl_pkcs12_export - Exporta un Archivo de Almacén de Certificado Compatible con PKCS#12 a una variable
+- openssl_pkcs12_export_to_file - Exporta un Archivo de Almacén de Certificado Compatible con PKCS#12
+- openssl_pkcs12_read - Convierte un Almacén de Certificado PKCS#12 a una matriz
+- openssl_pkey_derive - Computes shared secret for public value of remote and local DH or ECDH key
+- openssl_pkey_export - Obtiene una representación de una clave exportable a una cadena
+- openssl_pkey_export_to_file - Obtiene una representación de una clave exportable a un archivo
+- openssl_pkey_free - Libera una clave privada
+- openssl_pkey_get_details - Devuelve una matriz con los detalles de la clave
+- openssl_pkey_get_private - Obtener una clave privada
+- openssl_pkey_get_public - Extrae la clave pública del certificado y la prepara para usarla
+- openssl_pkey_new - Genera una clave privada nueva
+- openssl_private_decrypt - Desencripta información con la clave privada
+- openssl_private_encrypt - Encripta información con la clave privada
+- openssl_public_decrypt - Desencripta información con la clave pública
+- openssl_public_encrypt - Encripta información con una clave pública
+- openssl_random_pseudo_bytes - Genera una cadena de bytes pseudo-aleatoria
+- openssl_seal - Sellar (encriptar) información
+- openssl_sign - Genera una firma
+- openssl_spki_export - Exports a valid PEM formatted public key signed public key and challenge
+- openssl_spki_export_challenge - Exporta el desafío asociados con una clave pública y desafío firmados
+- openssl_spki_new - Generate a new signed public key and challenge
+- openssl_spki_verify - Verifies a signed public key and challenge
+- openssl_verify - Verificar una firma
+- openssl_x509_checkpurpose - Verifica si un certificado se puede usar para un propósito en particular
+- openssl_x509_check_private_key - Comprueba si una clave privada se corresponde a un certificado
+- openssl_x509_export - Exporta un certificado como una cadena
+- openssl_x509_export_to_file - Exporta un certificado a un archivo
+- openssl_x509_fingerprint - Calculates the fingerprint, or digest, of a given X.509 certificate
+- openssl_x509_free - Liberar un recurso de certificado
+- openssl_x509_parse - Analiza un certificado X509 y devuelve la información como un matriz
+- openssl_x509_read - Analiza un certificado X.509 y devuelve un identificador de recurso para él
+- openssl_x509_verify - Verifies digital signature of x509 certificate against a public key
+- ord - Convierte el primer byte de un string a un valor entre 0 y 255
+- output_add_rewrite_var - Añadir valores al mecanismo de reescritura de URLs
+- output_reset_rewrite_vars - Restablecer los valores del mecanismo de reescritura de URLs
+- pack - Empaqueta información a una cadena binaria
+- parallel\bootstrap - Bootstrapping
+- parallel\run - Execution
+- parse_ini_file - Analiza un fichero de configuración
+- parse_ini_string - Analiza una cadena de configuración
+- parse_str - Convierte el string en variables
+- parse_url - Analiza un URL y devuelve sus componentes
+- passthru - Ejecuta un programa externo y muestra la salida en bruto
+- password_algos - Get available password hashing algorithm IDs
+- password_get_info - Devuelve información sobre el hash proporcionado
+- password_hash - Crea un hash de contraseña
+- password_needs_rehash - Comprueba si el hash facilitado coincide con las opciones proporcionadas
+- password_verify - Comprueba que la contraseña coincida con un hash
+- pathinfo - Devuelve información acerca de la ruta de un fichero
+- pclose - Cierra un proceso de un puntero a un fichero
+- pcntl_alarm - Set an alarm clock for delivery of a signal
+- pcntl_async_signals - Enable/disable asynchronous signal handling or return the old setting
+- pcntl_errno - Alias de pcntl_get_last_error
+- pcntl_exec - Executes specified program in current process space
+- pcntl_fork - Forks the currently running process
+- pcntl_getpriority - Get the priority of any process
+- pcntl_get_last_error - Retrieve the error number set by the last pcntl function which failed
+- pcntl_rfork - Manipulates process resources
+- pcntl_setpriority - Change the priority of any process
+- pcntl_signal - Installs a signal handler
+- pcntl_signal_dispatch - Calls signal handlers for pending signals
+- pcntl_signal_get_handler - Get the current handler for specified signal
+- pcntl_sigprocmask - Sets and retrieves blocked signals
+- pcntl_sigtimedwait - Waits for signals, with a timeout
+- pcntl_sigwaitinfo - Waits for signals
+- pcntl_strerror - Retrieve the system error message associated with the given errno
+- pcntl_unshare - Dissociates parts of the process execution context
+- pcntl_wait - Waits on or returns the status of a forked child
+- pcntl_waitpid - Waits on or returns the status of a forked child
+- pcntl_wexitstatus - Returns the return code of a terminated child
+- pcntl_wifexited - Checks if status code represents a normal exit
+- pcntl_wifsignaled - Checks whether the status code represents a termination due to a signal
+- pcntl_wifstopped - Checks whether the child process is currently stopped
+- pcntl_wstopsig - Returns the signal which caused the child to stop
+- pcntl_wtermsig - Returns the signal which caused the child to terminate
+- PDO_DBLIB DSN - Conectarse a bases de datos de Microsoft SQL Server y Sybase
+- PDO_FIREBIRD DSN - Conectarse a bases de datos de Firebird
+- PDO_MYSQL DSN - Conectarse a bases de datos de MySQL
+- PDO_PGSQL DSN - Conectarse a bases de datos de PostgreSQL
+- PDO_SQLITE DSN - Conectar a las bases de datos de SQLite
+- pfsockopen - Abre Internet persistente o conexión de socket de dominio Unix
+- pg_affected_rows - Devuelve el número de registros afectados (filas)
+- pg_cancel_query - Cancelar una consulta asíncrona
+- pg_client_encoding - Obtiene la codificación del cliente
+- pg_close - Cierra una conexión PostgreSQL
+- pg_connect - Abre una conexión a PostgreSQL
+- pg_connection_busy - Permite saber si la conexión esta ocupada o no
+- pg_connection_reset - Restablece conexión (reconectar)
+- pg_connection_status - Obtener estado de la conexión
+- pg_connect_poll - Verifica el estado de un intento de conexión asíncrono en curso de PostgreSQL
+- pg_consume_input - Reads input on the connection
+- pg_convert - Conviertir valores de un array asociativo en valores adecuados para sentencias SQL
+- pg_copy_from - Insertar registros dentro de una tabla desde un array
+- pg_copy_to - Copiar una tabla a un array
+- pg_dbname - Obtiene el nombre de la base de datos
+- pg_delete - Borra registros
+- pg_end_copy - Sincronizar con PostgreSQL
+- pg_enter_pipeline_mode - Causes a connection to enter pipeline mode if it is currently idle.
+- pg_escape_bytea - Escapar un string para insertarlo en un campo bytea
+- pg_escape_identifier - Escape a identifier for insertion into a text field
+- pg_escape_literal - Escape a literal for insertion into a text field
+- pg_escape_string - Escape a string for query
+- pg_execute - Envía una solicitud para ejecutar una setencia preparada con parámetros dados, y espera el resultado
+- pg_exit_pipeline_mode - Causes a connection to exit pipeline mode
+- pg_fetch_all - Obtiene todas las filas de un resultado como un array
+- pg_fetch_all_columns - Fetches all rows in a particular result column as an array
+- pg_fetch_array - Fetch a row as an array
+- pg_fetch_assoc - Fetch a row as an associative array
+- pg_fetch_object - Fetch a row as an object
+- pg_fetch_result - Returns values from a result instance
+- pg_fetch_row - Get a row as an enumerated array
+- pg_field_is_null - Test if a field is SQL NULL
+- pg_field_name - Returns the name of a field
+- pg_field_num - Returns the field number of the named field
+- pg_field_prtlen - Returns the printed length
+- pg_field_size - Returns the internal storage size of the named field
+- pg_field_table - Returns the name or oid of the tables field
+- pg_field_type - Devuelve el nombre de tipo para el número de campo correspondiente
+- pg_field_type_oid - Returns the type ID (OID) for the corresponding field number
+- pg_flush - Flush outbound query data on the connection
+- pg_free_result - Free result memory
+- pg_get_notify - Gets SQL NOTIFY message
+- pg_get_pid - Obtiene la ID del proceso del backend
+- pg_get_result - Get asynchronous query result
+- pg_host - Devuelve el nombre de host asociado a la conexión
+- pg_insert - Insert array into table
+- pg_last_error - Obtiene una cadena con el último mensaje de error de la conexión
+- pg_last_notice - Devuelve el último aviso del servidor PostgreSQL
+- pg_last_oid - Returns the last row's OID
+- pg_lo_close - Close a large object
+- pg_lo_create - Create a large object
+- pg_lo_export - Export a large object to file
+- pg_lo_import - Import a large object from file
+- pg_lo_open - Open a large object
+- pg_lo_read - Read a large object
+- pg_lo_read_all - Reads an entire large object and send straight to browser
+- pg_lo_seek - Seeks position within a large object
+- pg_lo_tell - Returns current seek position a of large object
+- pg_lo_truncate - Truncates a large object
+- pg_lo_unlink - Delete a large object
+- pg_lo_write - Write to a large object
+- pg_meta_data - Get meta data for table
+- pg_num_fields - Returns the number of fields in a result
+- pg_num_rows - Returns the number of rows in a result
+- pg_options - Obtener las opciones asociadas con la conexión
+- pg_parameter_status - Looks up a current parameter setting of the server
+- pg_pconnect - Abre una conexión persistente a PostgreSQL
+- pg_ping - Ping a conexión de base de datos
+- pg_pipeline_status - Returns the current pipeline mode status of the libpq connection.
+- pg_pipeline_sync - Marks a synchronization point in a pipeline by sending a sync message and flushing the send buffer.
+- pg_port - Devuelve el número de puerto asociado con la conexión
+- pg_prepare - Envía una solicitud para crear una sentencia preparada con los parámetros dados, y espera que se complete
+- pg_put_line - Send a NULL-terminated string to PostgreSQL backend
+- pg_query - Ejecutar una consulta
+- pg_query_params - Submits a command to the server and waits for the result, with the ability to pass parameters separately from the SQL command text
+- pg_result_error - Get error message associated with result
+- pg_result_error_field - Returns an individual field of an error report
+- pg_result_seek - Set internal row offset in result instance
+- pg_result_status - Get status of query result
+- pg_select - Select records
+- pg_send_execute - Sends a request to execute a prepared statement with given parameters, without waiting for the result(s)
+- pg_send_prepare - Envía una solicitud para crear una instrucción preparada con los parámetros dados, sin esperar la finalización
+- pg_send_query - Sends asynchronous query
+- pg_send_query_params - Submits a command and separate parameters to the server without waiting for the result(s)
+- pg_set_client_encoding - Set the client encoding
+- pg_set_error_context_visibility - Determines the visibility of the context's error messages.
+- pg_set_error_verbosity - Determines the verbosity of messages returned by pg_last_error and pg_result_error
+- pg_socket - Obtener un identificador de sólo lectura en el socket subyacente a una conexión de PostgreSQL
+- pg_trace - Enable tracing a PostgreSQL connection
+- pg_transaction_status - Devuelve el estado actual de la transaccion del servidor
+- pg_tty - Devolver el nombre TTY asociado con la conexión
+- pg_unescape_bytea - Unescape binary for bytea type
+- pg_untrace - Desactivar el rastreo de una conexión de PostgreSQL
+- pg_update - Actualizar tabla
+- pg_version - Devuelve un array con el cliente, protocolo y versión del servidor (si está disponible)
+- phar:// - Archivo PHP
+- PharException - La clase PharException ofrece una excepción de clase específica de phar para bloques try/catch
+- php:// - Acceso a distintos flujos de E/S
+- phpcredits - Imprime los créditos de PHP
+- phpdbg_break_file - Inserts a breakpoint at a line in a file
+- phpdbg_break_function - Inserts a breakpoint at entry to a function
+- phpdbg_break_method - Inserts a breakpoint at entry to a method
+- phpdbg_break_next - Inserts a breakpoint at the next opcode
+- phpdbg_clear - Clears all breakpoints
+- phpdbg_color - Sets the color of certain elements
+- phpdbg_end_oplog - Descripción
+- phpdbg_exec - Attempts to set the execution context
+- phpdbg_get_executable - Descripción
+- phpdbg_prompt - Sets the command prompt
+- phpdbg_start_oplog - Descripción
+- phpinfo - Muestra información sobre la configuración de PHP
+- phpversion - Obtiene la versión de PHP
+- php_ini_loaded_file - Recupera la ruta de acceso al archivo php.ini cargado
+- php_ini_scanned_files - Devuelve una lista de ficheros .ini procesados del directorio adicional ini
+- php_sapi_name - Devuelve el tipo de interfaz que hay entre PHP y el servidor
+- php_strip_whitespace - Devuelve el código fuente sin los comentarios y espacios blancos
+- php_uname - Devuelve información sobre el sistema operativo en que se está ejecutando PHP
+- pi - Obtener valor de pi
+- png2wbmp - Convertir un archivo de imagen PNG a un archivo de imagen WBMP
+- popen - Abre un proceso de un puntero a un fichero
+- pos - Alias de current
+- posix_access - Determinar la accesibilidad de un archivo
+- posix_ctermid - Obtener el nombre de la ruta del terminal controlador
+- posix_eaccess - Determine accessibility of a file
+- posix_errno - Alias de posix_get_last_error
+- posix_fpathconf - Returns the value of a configurable limit
+- posix_getcwd - Nombre de la ruta del directorio actual
+- posix_getegid - Devuelve el ID efectivo de grupo del proceso actual
+- posix_geteuid - Devolver el ID efectivo de usuario del proceso actual
+- posix_getgid - Devuelve el ID real de grupo del proceso actual
+- posix_getgrgid - Devolver información sobre un grupo mediante un id de grupo
+- posix_getgrnam - Devolver información sobre un grupo mediante su nombre
+- posix_getgroups - Devolver el conjunto de grupos del proceso actual
+- posix_getlogin - Devuelve el nombre del inicio de sesión
+- posix_getpgid - Obtener el id del grupo de procesos para un control de trabajo
+- posix_getpgrp - Devolver el identificador de grupo de proceso actual
+- posix_getpid - Devolver el identificador del proceso actual
+- posix_getppid - Devolver el identificador del proceso padre
+- posix_getpwnam - Devolver información sobre un usuario mediante su nombre de usuario
+- posix_getpwuid - Devolver información sobre un usuario mediante su id de usuario
+- posix_getrlimit - Devolver información sobre los límites de recursos del sistema
+- posix_getsid - Obtener el sid actual del proceos
+- posix_getuid - Devolver el ID real de usuario del proceso actual
+- posix_get_last_error - Recuperar el número de error establecido por la última función posix que ha fallado
+- posix_initgroups - Calcular la lista de acceso al grupo
+- posix_isatty - Determinar si un descriptor de fichero es un terminal interactiva
+- posix_kill - Enviar una señal a un proceso
+- posix_mkfifo - Crear un archivo especial fifo (un pipe con nombre)
+- posix_mknod - Crear un fichero especial u ordinario (POSIX.1)
+- posix_pathconf - Returns the value of a configurable limit
+- posix_setegid - Establecer el GID efectivo del proceso actual
+- posix_seteuid - Establecer el UID efectivo del proceso actual
+- posix_setgid - Establecer el GID de proceso actual
+- posix_setpgid - Establecer el id de grupo de procesos para el control de trabajo
+- posix_setrlimit - Establecer los límites de recursos del sistema
+- posix_setsid - Hacer del proceso actual un líder de sesión
+- posix_setuid - Establecer el UID del proceso actual
+- posix_strerror - Recuperar el mensaje de error del sistema asociado con el errno dado
+- posix_sysconf - Returns system runtime information
+- posix_times - Obtener los tiempos de procesos
+- posix_ttyname - Determinar el nombre del dispositivo terminal
+- posix_uname - Obtener el nombre del sistema
+- pow - Expresión exponencial
+- preg_filter - Realiza una búsqueda y sustitución de una expresión regular
+- preg_grep - Devuelve entradas de matriz que coinciden con el patrón
+- preg_last_error - Devuelve el código de error de la última ejecución de expresión regular de PCRE
+- preg_last_error_msg - Returns the error message of the last PCRE regex execution
+- preg_match - Realiza una comparación con una expresión regular
+- preg_match_all - Realiza una comparación global de una expresión regular
+- preg_quote - Escapar caracteres en una expresión regular
+- preg_replace - Realiza una búsqueda y sustitución de una expresión regular
+- preg_replace_callback - Realiza una búsqueda y sustitución de una expresión regular usando una llamada de retorno
+- preg_replace_callback_array - Realizar una búsqueda y sustitución de expresión regular con retrollamadas
+- preg_split - Divide un string mediante una expresión regular
+- prev - Rebobina el puntero interno del array
+- print - Mostrar una cadena
+- printf - Imprimir una cadena con formato
+- print_r - Imprime información legible para humanos sobre una variable
+- proc_close - Cierra un proceso abierto mediante proc_open y devuelve el códido de salida de tal proceso
+- proc_get_status - Obtiene información sobre un proceso abierto por proc_open
+- proc_nice - Modificar la prioridad del proceso actual
+- proc_open - Ejecuta un comando y abre un puntero de fichero para entrada/salida
+- proc_terminate - Mata un proceso abierto mediante proc_open
+- property_exists - Comprueba si el objeto o la clase tienen una propiedad
+- pspell_add_to_personal - Añadir una palabra a la lista personal de palabras
+- pspell_add_to_session - Añadir la palabra a la lista de palabras en la sesión actual
+- pspell_check - Verificar una palabra
+- pspell_clear_session - Limpia la sesión actual
+- pspell_config_create - Crear una configuración usada para abrir un diccionario
+- pspell_config_data_dir - Ubicación de los ficheros de información de lenguaje
+- pspell_config_dict_dir - Ubicación de la lista principal de palabras
+- pspell_config_ignore - Ignorar palabras con menos de N caracteres
+- pspell_config_mode - Cambiar el modo de número de sugerencias devueltas
+- pspell_config_personal - Establecer un fichero que contiene una lista personal de palabras
+- pspell_config_repl - Establecer un fichero que contiene pares de sustitución
+- pspell_config_runtogether - Considerar las palabras unidas como compuestos válidos
+- pspell_config_save_repl - Deterinar si se guarda una lista de pares de sustitución junto con la lista de palabras
+- pspell_new - Cargar un nuevo diccionario
+- pspell_new_config - Cargar un nuevo diccionario con ajustes basados en una configuración dada
+- pspell_new_personal - Cargar un nuevo diccionario con una lista personal de palabras
+- pspell_save_wordlist - Guardar la lista de palabras personal a un fichero
+- pspell_store_replacement - Almacenar un par de sustitución de una palabra
+- pspell_suggest - Sugerir ortografías de una palabra
+- ps_add_bookmark - Añadir un marcapáginas a la página actual
+- ps_add_launchlink - Añadir un vínculo que lance un fichero
+- ps_add_locallink - Añadir un vínculo hacia una página del mismo documento
+- ps_add_note - Añadir una nota a la página actual
+- ps_add_pdflink - Añadir un vínculo hacia una página de un segundo documento PDF
+- ps_add_weblink - Añadir un vínculo hacia una ubicación web
+- ps_arc - Dibujar un arco en el sentido contrario a las agujas del reloj
+- ps_arcn - Dibujar un arco en el sentido de las agujas del reloj
+- ps_begin_page - Empezar una nueva página
+- ps_begin_pattern - Iniciar un nuevo patrón
+- ps_begin_template - Iniciar una nueva plantilla
+- ps_circle - Dibujar un círculo
+- ps_clip - Realizar un recorte utilizando el trazado actual
+- ps_close - Cerrar un documento PostScript
+- ps_closepath - Cerrar un trazado
+- ps_closepath_stroke - Cerrar y contornear un trazado
+- ps_close_image - Cerrar una imagen y liberar memoria
+- ps_continue_text - Continuar el texto en la siguiente línea
+- ps_curveto - Dibujar una curva
+- ps_delete - Borrar todos los recursos de un documento PostScript
+- ps_end_page - Finalizar una página
+- ps_end_pattern - Finalizar un patrón
+- ps_end_template - Finalizar una plantilla
+- ps_fill - Rellenar el trazado actual
+- ps_fill_stroke - Rellenar y contornear el trazado actual
+- ps_findfont - Cargar una fuente
+- ps_get_buffer - Obtener el buffer completo que contiene la información generada de PS
+- ps_get_parameter - Obtener ciertos parámetros
+- ps_get_value - Obtener ciertos valores
+- ps_hyphenate - Particionar silábicamente una palabra
+- ps_include_file - Leer un fichero externo con código PostScript sin tratar
+- ps_lineto - Dibujar una línea
+- ps_makespotcolor - Crear un color directo
+- ps_moveto - Establecer el punto actual
+- ps_new - Crear un nuevo objeto de documento PostScript
+- ps_open_file - Abrir un fichero para su impresión
+- ps_open_image - Leer una imagen para su colocación posterior
+- ps_open_image_file - Abre una imagen desde un fichero
+- ps_open_memory_image - Tomar una imagen de GD y devolverla como una imagen para colcarla en un documento PS
+- ps_place_image - Colocar una imágen en la página
+- ps_rect - Dibujar un rectángulo
+- ps_restore - Restaurar un contexto previamente guardado
+- ps_rotate - Establecer el factor de rotación
+- ps_save - Guardar el contexto actual
+- ps_scale - Estalecer el factor de escala
+- ps_setcolor - Establecer el color actual
+- ps_setdash - Establecer la apariencia de una línea discontinua
+- ps_setflat - Establecer la planicidad
+- ps_setfont - Establecer la fuente a usar para la siguiente impresión
+- ps_setgray - Establecer el valor de gris
+- ps_setlinecap - Establecer la apariencia de los extremos de línea
+- ps_setlinejoin - Establecer cómo están unidas las líneas conectadas
+- ps_setlinewidth - Establecer el ancho de una línea
+- ps_setmiterlimit - Establecer el límite del inglete
+- ps_setoverprintmode - Establecer el modo de sobreimpresión
+- ps_setpolydash - Establecer la apariencia de una línea discontinua
+- ps_set_border_color - Establecer el color del borde de las anotaciones
+- ps_set_border_dash - Establece la longitud de las rayas del borde de las anotaciones
+- ps_set_border_style - Establecer el estilo del borde de las anotaciones
+- ps_set_info - Establecer los campos de información del documento
+- ps_set_parameter - Establecer ciertos parámetros
+- ps_set_text_pos - Establecer la posición de la salida de texto
+- ps_set_value - Establecer ciertos valores
+- ps_shading - Crear un sombreado para su uso posterior
+- ps_shading_pattern - Crear un patrón basado en un sombreado
+- ps_shfill - Rellenar un área con un sombreado
+- ps_show - Imprimir texto
+- ps_show2 - Imprimir texto en la posición actual
+- ps_show_boxed - Imprimir texto en una caja
+- ps_show_xy - Imprimir texto en una posición dada
+- ps_show_xy2 - Imprimir texto en una posición
+- ps_stringwidth - Obtener el ancho de una cadena
+- ps_string_geometry - Establecer la geometría de una cadena de caracteres
+- ps_stroke - Dibujar el trazado actual
+- ps_symbol - Imprimir un glifo
+- ps_symbol_name - Obtener el nombre de un glifo
+- ps_symbol_width - Obtener el ancho de un glifo
+- ps_translate - Establecer una traslación
+- putenv - Establece el valor de una variable de entorno
+- quoted_printable_decode - Convierte un string quoted-printable en un string de 8 bits
+- quoted_printable_encode - Convierte un string de 8 bits en un string quoted-printable
+- quotemeta - Escapa meta caracteres
+- rad2deg - Convierte el número en radianes a su equivalente en grados
+- radius_acct_open - Crea un manejador Radius para el conteo
+- radius_add_server - Adds a server
+- radius_auth_open - Crea un identificador de Radius para la autenticación
+- radius_close - Libera todos los recursos
+- radius_config - Causes the library to read the given configuration file
+- radius_create_request - Create accounting or authentication request
+- radius_cvt_addr - Converts raw data to IP-Address
+- radius_cvt_int - Converts raw data to integer
+- radius_cvt_string - Converts raw data to string
+- radius_demangle - Demangles data
+- radius_demangle_mppe_key - Derives mppe-keys from mangled data
+- radius_get_attr - Extracts an attribute
+- radius_get_tagged_attr_data - Extracts the data from a tagged attribute
+- radius_get_tagged_attr_tag - Extracts the tag from a tagged attribute
+- radius_get_vendor_attr - Extracts a vendor specific attribute
+- radius_put_addr - Attaches an IP address attribute
+- radius_put_attr - Attaches a binary attribute
+- radius_put_int - Attaches an integer attribute
+- radius_put_string - Attaches a string attribute
+- radius_put_vendor_addr - Attaches a vendor specific IP address attribute
+- radius_put_vendor_attr - Attaches a vendor specific binary attribute
+- radius_put_vendor_int - Attaches a vendor specific integer attribute
+- radius_put_vendor_string - Attaches a vendor specific string attribute
+- radius_request_authenticator - Returns the request authenticator
+- radius_salt_encrypt_attr - Salt-encrypts a value
+- radius_send_request - Sends the request and waits for a reply
+- radius_server_secret - Returns the shared secret
+- radius_strerror - Devuelve un mensaje de error
+- rand - Generate a random integer
+- random_bytes - Get cryptographically secure random bytes
+- random_int - Get a cryptographically secure, uniformly selected integer
+- range - Crear un array que contiene un rango de elementos
+- rar:// - RAR
+- rar_wrapper_cache_stats - Caché de aciertos y errores del URL wrapper
+- rawurldecode - Decodificar cadenas codificadas estilo URL
+- rawurlencode - Codificar estilo URL de acuerdo al RFC 3986
+- readdir - Lee una entrada desde un gestor de directorio
+- readfile - Realizar la salida de un fichero
+- readgzfile - Muestra un archivo gz
+- readline - Lee una línea
+- readline_add_history - Agrega una línea a la historia
+- readline_callback_handler_install - Inicializa la interfaz de llamada de readline y la terminal, imprime el mensaje y retorna inmediatamente
+- readline_callback_handler_remove - Elimina una interfaz de llamada anteriormente agregada y retaura la configuración de terminal
+- readline_callback_read_char - Lee un carácter e informa a la interfaz de llamada de readline cuando una línea es recibida
+- readline_clear_history - Limpia el historial
+- readline_completion_function - Registra una función de autocompletado
+- readline_info - Obtiene/Modifica variables internas a readline
+- readline_list_history - Obtener el historial
+- readline_on_new_line - Informar a readline que el cursor se ha movido a una nueva línea
+- readline_read_history - Lee el historial
+- readline_redisplay - Redibuja la vista
+- readline_write_history - Escribe el historial
+- readlink - Devuelve el objetivo de un enlace simbólico
+- read_exif_data - Alias de exif_read_data
+- realpath - Devuelve el nombre de la ruta absoluta canonizado
+- realpath_cache_get - Obtiene las entradas de la caché de la ruta real
+- realpath_cache_size - Obtiene el tamaño de la caché de la ruta real
+- recode - Alias de recode_string
+- recode_file - Recodificar de fichero a fichero según la petición de recoficación
+- recode_string - Recodifica un string según una petición de recodificación
+- register_shutdown_function - Registrar una función para que sea ejecutada al cierre
+- register_tick_function - Registrar una función para que sea ejecutada en cada tick
+- rename - Renombra un fichero o directorio
+- reset - Establece el puntero interno de un array a su primer elemento
+- restore_error_handler - Recupera la función de gestión de errores previa
+- restore_exception_handler - Restaura la función de gestión de excepciones previamente definida
+- restore_include_path - Restablece el valor de la opción de configuración include_path
+- rewind - Rebobina la posición de un puntero a un archivo
+- rewinddir - Regresar el gestor de directorio
+- rmdir - Elimina un directorio
+- rnp_backend_string - Return cryptographic backend library name
+- rnp_backend_version - Return cryptographic backend library version
+- rnp_decrypt - Decrypt PGP message
+- rnp_dump_packets - Dump OpenPGP packets stream information in humand-readable format
+- rnp_dump_packets_to_json - Dump OpenPGP packets stream information to the JSON string
+- rnp_ffi_create - Create the top-level object used for interacting with the library
+- rnp_ffi_destroy - Destroy the top-level object used for interacting with the library
+- rnp_ffi_set_pass_provider - Set password provider callback function
+- rnp_import_keys - Import keys from PHP string to the keyring and receive JSON describing new/updated keys
+- rnp_import_signatures - Import standalone signatures to the keyring and receive JSON describing updated keys
+- rnp_key_export - Export a key
+- rnp_key_export_autocrypt - Export minimal key for autocrypt feature (just 5 packets: key, uid, signature, encryption subkey, signature)
+- rnp_key_export_revocation - Generate and export primary key revocation signature
+- rnp_key_get_info - Get information about the key
+- rnp_key_remove - Remove a key from keyring(s)
+- rnp_key_revoke - Revoke a key or subkey by generating and adding revocation signature
+- rnp_list_keys - Enumerate all keys present in a keyring by specified identifer type
+- rnp_load_keys - Load keys from PHP string
+- rnp_load_keys_from_path - Load keys from specified path
+- rnp_locate_key - Search for the key
+- rnp_op_encrypt - Encrypt message
+- rnp_op_generate_key - Generate key
+- rnp_op_sign - Perform signing operation on a binary data, return embedded signature(s)
+- rnp_op_sign_cleartext - Perform signing operation on a textual data, return cleartext signed message
+- rnp_op_sign_detached - Perform signing operation, return detached signature(s)
+- rnp_op_verify - Verify embedded or cleartext signatures
+- rnp_op_verify_detached - Verify detached signatures
+- rnp_save_keys - Save keys to PHP string
+- rnp_save_keys_to_path - Save keys to specified path
+- rnp_supported_features - Get supported features in JSON format
+- rnp_version_string - RNP library version
+- rnp_version_string_full - Full version string of RNP library
+- round - Redondea un float
+- rpmaddtag - Add tag retrieved in query
+- rpmdbinfo - Get information from installed RPM
+- rpmdbsearch - Search RPM packages
+- rpmgetsymlink - Get target of a symlink
+- rpminfo - Get information from a RPM file
+- rpmvercmp - RPM version comparison
+- rrdc_disconnect - Close any outstanding connection to rrd caching daemon
+- rrd_create - Crea un archivo de base de datos rrd
+- rrd_error - Obtener el último mensaje de error
+- rrd_fetch - Recuperar los datos de gráfico como un array
+- rrd_first - Obtiene la marca de tiempo UNIX de la primera muestra desde el archivo rrd
+- rrd_graph - Crea la imagen de un conjunto de datos
+- rrd_info - Obtiene información sobre el archivo rrd
+- rrd_last - Obtiene la marca de tiempo UNIX de la última muestra
+- rrd_lastupdate - Obtiene información sobre los últimos datos actualizados
+- rrd_restore - Restaura el archivo RRD desde el XML dump
+- rrd_tune - Cambia algunas opciones de cabecera del archivo de base de datos RRD database
+- rrd_update - Actualizar la base de datos RRD
+- rrd_version - Obtiene información acerca de la biblioteca subyacente rrdtool
+- rrd_xport - Exporta la información acerca de la base de datos RRD
+- rsort - Ordena un array en orden inverso
+- rtrim - Retira los espacios en blanco (u otros caracteres) del final de un string
+- runkit7_object_id - Return the integer object handle for given object
+- runkit7_zval_inspect - Returns information about the passed in value with data types, reference counts, etc
+- runkit_constant_add - Similar a define(), excepto que también permite definir en definiciones de clase
+- runkit_constant_redefine - Redefinir una constante ya definida
+- runkit_constant_remove - Eliminar/Borrar una constante ya definida
+- runkit_function_add - Añadir una nueva función, similar a create_function
+- runkit_function_copy - Copiar una función a un nombre de función nuevo
+- runkit_function_redefine - Reemplazar una definición de función con una nueva implementación
+- runkit_function_remove - Eliminar una definición de función
+- runkit_function_rename - Cambiar el nombre de una función
+- runkit_import - Procesar un archivo PHP importando definiciones de funciones y clases, sobrescribiendo cuando sea apropiado
+- runkit_method_add - Añadir dinámicamente un nuevo método a una clase dada
+- runkit_method_copy - Copia un método de una clase a otra
+- runkit_method_redefine - Cambiar dinámicamente el código del método dado
+- runkit_method_remove - Eliminar dinámicamente el método dado
+- runkit_method_rename - Cambiar dinámicamente el nombre del método dado
+- runkit_superglobals - Devolver el array indexado numéricamente de las superglobales registradas
+- sapi_windows_cp_conv - Convert string from one codepage to another
+- sapi_windows_cp_get - Get current codepage
+- sapi_windows_cp_is_utf8 - Indicates whether the codepage is UTF-8 compatible
+- sapi_windows_cp_set - Set process codepage
+- sapi_windows_generate_ctrl_event - Send a CTRL event to another process
+- sapi_windows_set_ctrl_handler - Set or remove a CTRL event handler
+- sapi_windows_vt100_support - Get or set VT100 support for the specified stream associated to an output buffer of a Windows console.
+- scandir - Enumera los ficheros y directorios ubicados en la ruta especificada
+- scoutapm_get_calls - Returns a list of instrumented calls that have occurred
+- scoutapm_list_instrumented_functions - List functions scoutapm will instrument.
+- seaslog_get_author - Get SeasLog author.
+- seaslog_get_version - Get SeasLog version.
+- sem_acquire - Adquirir un semáforo
+- sem_get - Obtener el id de un semáforo
+- sem_release - Liberar un semáforo
+- sem_remove - Eliminar un semáforo
+- serialize - Genera una representación apta para el almacenamiento de un valor
+- session_abort - Desecha los cambios en el array de sesión y finaliza la sesión
+- session_cache_expire - Devuelve la caducidad de la caché actual
+- session_cache_limiter - Obtener y/o establecer el limitador de caché actual
+- session_commit - Alias de session_write_close
+- session_create_id - Crear un nuevo ID de sesión
+- session_decode - Decodifica la información de sesión desde una cadena de sesión codificada
+- session_destroy - Destruye toda la información registrada de una sesión
+- session_encode - Codifica los datos de la sesión actual como un string codificado de sesión
+- session_gc - Realizar una recolección de basura de datos de sesión
+- session_get_cookie_params - Obtener los parámetros de la cookie de sesión
+- session_id - Obtener y/o establecer el id de sesión actual
+- session_module_name - Obtiene y/o establece el módulo de sesión actual
+- session_name - Obtener y/o establecer el nombre de la sesión actual
+- session_regenerate_id - Actualiza el id de sesión actual con uno generado más reciente
+- session_register_shutdown - Función de cierre de sesiones
+- session_reset - Reinicializar el array de sesión con los valores originales
+- session_save_path - Obtener y/o establecer la ruta de almacenamiento de la sesión actual
+- session_set_cookie_params - Establecer los parámetros de la cookie de sesión
+- session_set_save_handler - Establece funciones de almacenamiento de sesiones a nivel de usuario
+- session_start - Iniciar una nueva sesión o reanudar la existente
+- session_status - Devuelve el estado de la sesión actual
+- session_unset - Libera todas las variables de sesión
+- session_write_close - Escribir información de sesión y finalizar la sesión
+- setcookie - Enviar una cookie
+- setlocale - Establecer la información del localismo
+- setrawcookie - Enviar una cookie sin codificar su valor
+- settype - Establece el tipo de una variable
+- set_error_handler - Establecer una función de gestión de errores definida por el usuario
+- set_exception_handler - Establece una función de gestión de excepciones definida por el usuario
+- set_file_buffer - Alias de stream_set_write_buffer
+- set_include_path - Establece la opción de configuración include_path
+- set_time_limit - Limita el tiempo máximo de ejecución
+- sha1 - Calcula el 'hash' sha1 de un string
+- sha1_file - Calcula el hash sha1 de un archivo
+- shell_exec - Ejecutar un comando mediante el intérprete de comandos y devolver la salida completa como una cadena
+- shmop_close - Cerrar un segmento de memoria compartida
+- shmop_delete - Borrar segmento de memoria compartida
+- shmop_open - Crea o abre un segmento de memoria compartida
+- shmop_read - Leer datos desde un segmento de memoria compartida
+- shmop_size - Obtiene el tamaño de un segmento de memoria compartida
+- shmop_write - Escribir datos en un segmento de memoria compartida
+- shm_attach - Crea o abre un segmento de memoria compartida
+- shm_detach - Desconectarse del segmento de memoria compartida
+- shm_get_var - Devuelve una variable desde la memoria compartida
+- shm_has_var - Verificar si existe una entrada específica
+- shm_put_var - Inserta o actualiza una variable en la memoria compartida
+- shm_remove - Elimina la memoria compartida de sistemas Unix
+- shm_remove_var - Eliminar una variable de la memoria compartida
+- show_source - Alias de highlight_file
+- shuffle - Mezcla un array
+- simdjson_decode - Decodes a JSON string
+- simdjson_is_valid - Check if a JSON string is valid
+- simdjson_key_count - Returns the value at a JSON pointer.
+- simdjson_key_exists - Check if the JSON contains the value referred to by a JSON pointer.
+- simdjson_key_value - Decodes the value of a JSON string located at the requested JSON pointer.
+- similar_text - Calcula la similitud entre dos strings
+- simplexml_import_dom - Obtiene un objeto SimpleXMLElement de un nodo DOM
+- simplexml_load_file - Interpreta un fichero XML en un objeto
+- simplexml_load_string - Interpreta un string de XML en un objeto
+- sin - Seno
+- sinh - Seno hiperbólico
+- sizeof - Alias de count
+- sleep - Retrasar la ejecución
+- snmp2_get - Fetch an SNMP object
+- snmp2_getnext - Fetch the SNMP object which follows the given object id
+- snmp2_real_walk - Return all objects including their respective object ID within the specified one
+- snmp2_set - Set the value of an SNMP object
+- snmp2_walk - Fetch all the SNMP objects from an agent
+- snmp3_get - Fetch an SNMP object
+- snmp3_getnext - Fetch the SNMP object which follows the given object id
+- snmp3_real_walk - Return all objects including their respective object ID within the specified one
+- snmp3_set - Set the value of an SNMP object
+- snmp3_walk - Fetch all the SNMP objects from an agent
+- snmpget - Fetch an SNMP object
+- snmpgetnext - Fetch the SNMP object which follows the given object id
+- snmprealwalk - Return all objects including their respective object ID within the specified one
+- snmpset - Set the value of an SNMP object
+- snmpwalk - Fetch all the SNMP objects from an agent
+- snmpwalkoid - Query for a tree of information about a network entity
+- snmp_get_quick_print - Fetches the current value of the NET-SNMP library's quick_print setting
+- snmp_get_valueretrieval - Return the method how the SNMP values will be returned
+- snmp_read_mib - Reads and parses a MIB file into the active MIB tree
+- snmp_set_enum_print - Return all values that are enums with their enum value instead of the raw integer
+- snmp_set_oid_numeric_print - Alias de snmp_set_oid_output_format
+- snmp_set_oid_output_format - Set the OID output format
+- snmp_set_quick_print - Set the value of enable within the NET-SNMP library
+- snmp_set_valueretrieval - Specify the method how the SNMP values will be returned
+- socket_accept - Acepta una conexión de un socket
+- socket_addrinfo_bind - Create and bind to a socket from a given addrinfo
+- socket_addrinfo_connect - Create and connect to a socket from a given addrinfo
+- socket_addrinfo_explain - Get information about addrinfo
+- socket_addrinfo_lookup - Get array with contents of getaddrinfo about the given hostname
+- socket_atmark - Determines whether socket is at out-of-band mark
+- socket_bind - Vincula un nombre a un socket
+- socket_clear_error - Limpia el error del socket o el último código de error
+- socket_close - Cierra un recurso socket
+- socket_cmsg_space - Calcular el tamaño del búfer de mensajes
+- socket_connect - Inicia una conexión sobre un socket
+- socket_create - Crear un socket (extremo de comunicación)
+- socket_create_listen - Abre un socket en un puerto para aceptar conexiones
+- socket_create_pair - Crea un par de sockets indistinguibles y los almacena en una matriz
+- socket_export_stream - Export a socket into a stream that encapsulates a socket
+- socket_getopt - Alias de socket_get_option
+- socket_getpeername - Pregunta a la parte remota del socket dado que puede resultar en un host/puerto o en una ruta de sistema de archivos Unix, dependiendo de su tipo
+- socket_getsockname - Preguntar a la parte local del socket dado que puede resultar en un host/puerto o en una ruta de sistema de archivos Unix, dependiendo de su tipo
+- socket_get_option - Obtiene las opciones de socket para el socket
+- socket_get_status - Alias de stream_get_meta_data
+- socket_import_stream - Importar un flujo a stream
+- socket_last_error - Devuelve el último error sobre un socket
+- socket_listen - Escucha una conexión sobre un socket
+- socket_read - Lee un máximo de longitud de bytes desde un socket
+- socket_recv - Recibe información desde un socket conectado
+- socket_recvfrom - Recibe información desde un socket que esté o no orientado a conexión
+- socket_recvmsg - Leer un mensaje
+- socket_select - Ejecuta la llamada a select() del sistema sobre las matrices de sockets dadas con un tiempo límite especificado
+- socket_send - Envía información a un socket conectado
+- socket_sendmsg - Enviar un mensaje
+- socket_sendto - Envía un mensaje a un socket, ya esté conectado o no
+- socket_setopt - Alias de socket_set_option
+- socket_set_block - Establece el modo de bloqueo de un recurso socket
+- socket_set_blocking - Alias de stream_set_blocking
+- socket_set_nonblock - Establece el modo de no-bloqueo para el descriptor de archivo fd
+- socket_set_option - Establece las opciones de socket para el socket
+- socket_set_timeout - Alias de stream_set_timeout
+- socket_shutdown - Cierra un socket para dejar de recibir, enviar, o ambos
+- socket_strerror - Devuelve una cadena que describe un error de socket
+- socket_write - Escribir en un socket
+- socket_wsaprotocol_info_export - Exports the WSAPROTOCOL_INFO Structure
+- socket_wsaprotocol_info_import - Imports a Socket from another Process
+- socket_wsaprotocol_info_release - Releases an exported WSAPROTOCOL_INFO Structure
+- sodium_add - Add large numbers
+- sodium_base642bin - Decodes a base64-encoded string into raw binary.
+- sodium_bin2base64 - Encodes a raw binary string with base64.
+- sodium_bin2hex - Encode to hexadecimal
+- sodium_compare - Compare large numbers
+- sodium_crypto_aead_aes256gcm_decrypt - Verify then decrypt a message with AES-256-GCM
+- sodium_crypto_aead_aes256gcm_encrypt - Encrypt then authenticate with AES-256-GCM
+- sodium_crypto_aead_aes256gcm_is_available - Check if hardware supports AES256-GCM
+- sodium_crypto_aead_aes256gcm_keygen - Generate a random AES-256-GCM key
+- sodium_crypto_aead_chacha20poly1305_decrypt - Verify then decrypt with ChaCha20-Poly1305
+- sodium_crypto_aead_chacha20poly1305_encrypt - Encrypt then authenticate with ChaCha20-Poly1305
+- sodium_crypto_aead_chacha20poly1305_ietf_decrypt - Verify that the ciphertext includes a valid tag
+- sodium_crypto_aead_chacha20poly1305_ietf_encrypt - Encrypt a message
+- sodium_crypto_aead_chacha20poly1305_ietf_keygen - Generate a random ChaCha20-Poly1305 (IETF) key.
+- sodium_crypto_aead_chacha20poly1305_keygen - Generate a random ChaCha20-Poly1305 key.
+- sodium_crypto_aead_xchacha20poly1305_ietf_decrypt - (Preferred) Verify then decrypt with XChaCha20-Poly1305
+- sodium_crypto_aead_xchacha20poly1305_ietf_encrypt - (Preferred) Encrypt then authenticate with XChaCha20-Poly1305
+- sodium_crypto_aead_xchacha20poly1305_ietf_keygen - Generate a random XChaCha20-Poly1305 key.
+- sodium_crypto_auth - Compute a tag for the message
+- sodium_crypto_auth_keygen - Generate a random key for sodium_crypto_auth
+- sodium_crypto_auth_verify - Verifies that the tag is valid for the message
+- sodium_crypto_box - Authenticated public-key encryption
+- sodium_crypto_box_keypair - Randomly generate a secret key and a corresponding public key
+- sodium_crypto_box_keypair_from_secretkey_and_publickey - Create a unified keypair string from a secret key and public key
+- sodium_crypto_box_open - Authenticated public-key decryption
+- sodium_crypto_box_publickey - Extract the public key from a crypto_box keypair
+- sodium_crypto_box_publickey_from_secretkey - Calculate the public key from a secret key
+- sodium_crypto_box_seal - Anonymous public-key encryption
+- sodium_crypto_box_seal_open - Anonymous public-key decryption
+- sodium_crypto_box_secretkey - Extracts the secret key from a crypto_box keypair
+- sodium_crypto_box_seed_keypair - Deterministically derive the key pair from a single key
+- sodium_crypto_core_ristretto255_add - Adds an element
+- sodium_crypto_core_ristretto255_from_hash - Maps a vector
+- sodium_crypto_core_ristretto255_is_valid_point - Determines if a point on the ristretto255 curve
+- sodium_crypto_core_ristretto255_random - Generates a random key
+- sodium_crypto_core_ristretto255_scalar_add - Adds a scalar value
+- sodium_crypto_core_ristretto255_scalar_complement - The sodium_crypto_core_ristretto255_scalar_complement purpose
+- sodium_crypto_core_ristretto255_scalar_invert - Inverts a scalar value
+- sodium_crypto_core_ristretto255_scalar_mul - Multiplies a scalar value
+- sodium_crypto_core_ristretto255_scalar_negate - Negates a scalar value
+- sodium_crypto_core_ristretto255_scalar_random - Generates a random key
+- sodium_crypto_core_ristretto255_scalar_reduce - Reduces a scalar value
+- sodium_crypto_core_ristretto255_scalar_sub - Subtracts a scalar value
+- sodium_crypto_core_ristretto255_sub - Subtracts an element
+- sodium_crypto_generichash - Get a hash of the message
+- sodium_crypto_generichash_final - Complete the hash
+- sodium_crypto_generichash_init - Initialize a hash for streaming
+- sodium_crypto_generichash_keygen - Generate a random generichash key
+- sodium_crypto_generichash_update - Add message to a hash
+- sodium_crypto_kdf_derive_from_key - Derive a subkey
+- sodium_crypto_kdf_keygen - Generate a random root key for the KDF interface
+- sodium_crypto_kx_client_session_keys - Calculate the client-side session keys.
+- sodium_crypto_kx_keypair - Creates a new sodium keypair
+- sodium_crypto_kx_publickey - Extract the public key from a crypto_kx keypair
+- sodium_crypto_kx_secretkey - Extract the secret key from a crypto_kx keypair.
+- sodium_crypto_kx_seed_keypair - Description
+- sodium_crypto_kx_server_session_keys - Calculate the server-side session keys.
+- sodium_crypto_pwhash - Derive a key from a password, using Argon2
+- sodium_crypto_pwhash_scryptsalsa208sha256 - Derives a key from a password, using scrypt
+- sodium_crypto_pwhash_scryptsalsa208sha256_str - Get an ASCII encoded hash
+- sodium_crypto_pwhash_scryptsalsa208sha256_str_verify - Verify that the password is a valid password verification string
+- sodium_crypto_pwhash_str - Get an ASCII-encoded hash
+- sodium_crypto_pwhash_str_needs_rehash - Determine whether or not to rehash a password
+- sodium_crypto_pwhash_str_verify - Verifies that a password matches a hash
+- sodium_crypto_scalarmult - Compute a shared secret given a user's secret key and another user's public key
+- sodium_crypto_scalarmult_base - Alias de sodium_crypto_box_publickey_from_secretkey
+- sodium_crypto_scalarmult_ristretto255 - Computes a shared secret
+- sodium_crypto_scalarmult_ristretto255_base - Calculates the public key from a secret key
+- sodium_crypto_secretbox - Authenticated shared-key encryption
+- sodium_crypto_secretbox_keygen - Generate random key for sodium_crypto_secretbox
+- sodium_crypto_secretbox_open - Authenticated shared-key decryption
+- sodium_crypto_secretstream_xchacha20poly1305_init_pull - Initialize a secretstream context for decryption
+- sodium_crypto_secretstream_xchacha20poly1305_init_push - Initialize a secretstream context for encryption
+- sodium_crypto_secretstream_xchacha20poly1305_keygen - Generate a random secretstream key.
+- sodium_crypto_secretstream_xchacha20poly1305_pull - Decrypt a chunk of data from an encrypted stream
+- sodium_crypto_secretstream_xchacha20poly1305_push - Encrypt a chunk of data so that it can safely be decrypted in a streaming API
+- sodium_crypto_secretstream_xchacha20poly1305_rekey - Explicitly rotate the key in the secretstream state
+- sodium_crypto_shorthash - Compute a short hash of a message and key
+- sodium_crypto_shorthash_keygen - Get random bytes for key
+- sodium_crypto_sign - Sign a message
+- sodium_crypto_sign_detached - Sign the message
+- sodium_crypto_sign_ed25519_pk_to_curve25519 - Convert an Ed25519 public key to a Curve25519 public key
+- sodium_crypto_sign_ed25519_sk_to_curve25519 - Convert an Ed25519 secret key to a Curve25519 secret key
+- sodium_crypto_sign_keypair - Randomly generate a secret key and a corresponding public key
+- sodium_crypto_sign_keypair_from_secretkey_and_publickey - Join a secret key and public key together
+- sodium_crypto_sign_open - Check that the signed message has a valid signature
+- sodium_crypto_sign_publickey - Extract the Ed25519 public key from a keypair
+- sodium_crypto_sign_publickey_from_secretkey - Extract the Ed25519 public key from the secret key
+- sodium_crypto_sign_secretkey - Extract the Ed25519 secret key from a keypair
+- sodium_crypto_sign_seed_keypair - Deterministically derive the key pair from a single key
+- sodium_crypto_sign_verify_detached - Verify signature for the message
+- sodium_crypto_stream - Generate a deterministic sequence of bytes from a seed
+- sodium_crypto_stream_keygen - Generate a random sodium_crypto_stream key.
+- sodium_crypto_stream_xchacha20 - Expands the key and nonce into a keystream of pseudorandom bytes
+- sodium_crypto_stream_xchacha20_keygen - Returns a secure random key
+- sodium_crypto_stream_xchacha20_xor - Encrypts a message using a nonce and a secret key (no authentication)
+- sodium_crypto_stream_xchacha20_xor_ic - Encrypts a message using a nonce and a secret key (no authentication)
+- sodium_crypto_stream_xor - Encrypt a message without authentication
+- sodium_hex2bin - Decodes a hexadecimally encoded binary string
+- sodium_increment - Increment large number
+- sodium_memcmp - Test for equality in constant-time
+- sodium_memzero - Overwrite a string with NUL characters
+- sodium_pad - Add padding data
+- sodium_unpad - Remove padding data
+- solr_get_version - Devuelve la versión actual de la extensión Apache Solr
+- sort - Ordena un array
+- soundex - Calcula la clave soundex de un string
+- spl_autoload - Implementación predeterminada para __autoload()
+- spl_autoload_call - Probar todos las funciones registradas __autoload() para cargar la clase solicitada
+- spl_autoload_extensions - Registrar y devolver las extensiones de ficheros predeterminadas para spl_autoload
+- spl_autoload_functions - Devolver todas las funciones __autoload() registradas
+- spl_autoload_register - Registrar las funciones dadas como implementación de __autoload()
+- spl_autoload_unregister - Desregistrar una función dada como implementación de __autoload()
+- spl_classes - Devuelve las clases SPL disponibles
+- spl_object_hash - Devuelve el id del hash del objeto dado
+- spl_object_id - Return the integer object handle for given object
+- sprintf - Devuelve un string formateado
+- sqlsrv_begin_transaction - Inicia una transacción de base de datos
+- sqlsrv_cancel - Cancela una sentencia de base de datos
+- sqlsrv_client_info - Devuelve información sobre el cliente y la conexión especificada
+- sqlsrv_close - Cierra una conexión abierta y libera los recursos asociados a la conexión
+- sqlsrv_commit - Consolida una transacción que se inició con sqlsrv_begin_transaction
+- sqlsrv_configure - Cambia la configuración de los drivers del gestionador de errores y de log
+- sqlsrv_connect - Abre una conexión a una base de datos Microsoft SQL Server
+- sqlsrv_errors - Devuelve información de errores y alertas (warnings) de la última operación SQLSRV realizada
+- sqlsrv_execute - Ejecuta una sentencia preparada con sqlsrv_prepare
+- sqlsrv_fetch - Hace que esté disponible para ser leída la siguiente fila del conjunto de resultado
+- sqlsrv_fetch_array - Devuelve una fila como un array
+- sqlsrv_fetch_object - Devuelve la siguiente fila de datos de un conjunto resultado como un objeto
+- sqlsrv_field_metadata - Obtiene la metadata de los campos de una consulta preparada por sqlsrv_prepare o sqlsrv_query
+- sqlsrv_free_stmt - Frees all resources for the specified statement
+- sqlsrv_get_config - Returns the value of the specified configuration setting
+- sqlsrv_get_field - Gets field data from the currently selected row
+- sqlsrv_has_rows - Indicates whether the specified statement has rows
+- sqlsrv_next_result - Makes the next result of the specified statement active
+- sqlsrv_num_fields - Retrieves the number of fields (columns) on a statement
+- sqlsrv_num_rows - Retrieves the number of rows in a result set
+- sqlsrv_prepare - Prepares a query for execution
+- sqlsrv_query - Prepares and executes a query
+- sqlsrv_rollback - Rolls back a transaction that was begun with sqlsrv_begin_transaction
+- sqlsrv_rows_affected - Returns the number of rows modified by the last INSERT, UPDATE, or DELETE query executed
+- sqlsrv_send_stream_data - Sends data from parameter streams to the server
+- sqlsrv_server_info - Returns information about the server
+- sqrt - Raíz cuadrada
+- srand - Seed the random number generator
+- sscanf - Interpreta un string de entrada de acuerdo con un formato
+- ssdeep_fuzzy_compare - Calculates the match score between two fuzzy hash signatures
+- ssdeep_fuzzy_hash - Create a fuzzy hash from a string
+- ssdeep_fuzzy_hash_filename - Create a fuzzy hash from a file
+- ssh2:// - Secure Shell 2
+- ssh2_auth_agent - Authenticate over SSH using the ssh agent
+- ssh2_auth_hostbased_file - Authenticate using a public hostkey
+- ssh2_auth_none - Authenticate as "none"
+- ssh2_auth_password - Authenticate over SSH using a plain password
+- ssh2_auth_pubkey_file - Authenticate using a public key
+- ssh2_connect - Conecta a un servidor SSH
+- ssh2_disconnect - Close a connection to a remote SSH server
+- ssh2_exec - Execute a command on a remote server
+- ssh2_fetch_stream - Fetch an extended data stream
+- ssh2_fingerprint - Retrieve fingerprint of remote server
+- ssh2_forward_accept - Accept a connection created by a listener
+- ssh2_forward_listen - Bind a port on the remote server and listen for connections
+- ssh2_methods_negotiated - Return list of negotiated methods
+- ssh2_poll - Poll the channels/listeners/streams for events
+- ssh2_publickey_add - Add an authorized publickey
+- ssh2_publickey_init - Initialize Publickey subsystem
+- ssh2_publickey_list - List currently authorized publickeys
+- ssh2_publickey_remove - Remove an authorized publickey
+- ssh2_scp_recv - Solicita un fichero mediante SCP
+- ssh2_scp_send - Envía un fichero mediante SCP
+- ssh2_send_eof - Send EOF to stream
+- ssh2_sftp - Inicializar el subsistema SFTP
+- ssh2_sftp_chmod - Changes file mode
+- ssh2_sftp_lstat - Stat a symbolic link
+- ssh2_sftp_mkdir - Create a directory
+- ssh2_sftp_readlink - Return the target of a symbolic link
+- ssh2_sftp_realpath - Resolve the realpath of a provided path string
+- ssh2_sftp_rename - Rename a remote file
+- ssh2_sftp_rmdir - Remove a directory
+- ssh2_sftp_stat - Stat a file on a remote filesystem
+- ssh2_sftp_symlink - Create a symlink
+- ssh2_sftp_unlink - Delete a file
+- ssh2_shell - Request an interactive shell
+- ssh2_tunnel - Open a tunnel through a remote server
+- stat - Da información acerca de un fichero
+- stats_absolute_deviation - Returns the absolute deviation of an array of values
+- stats_cdf_beta - Calculates any one parameter of the beta distribution given values for the others
+- stats_cdf_binomial - Calculates any one parameter of the binomial distribution given values for the others
+- stats_cdf_cauchy - Calculates any one parameter of the Cauchy distribution given values for the others
+- stats_cdf_chisquare - Calculates any one parameter of the chi-square distribution given values for the others
+- stats_cdf_exponential - Calculates any one parameter of the exponential distribution given values for the others
+- stats_cdf_f - Calculates any one parameter of the F distribution given values for the others
+- stats_cdf_gamma - Calculates any one parameter of the gamma distribution given values for the others
+- stats_cdf_laplace - Calculates any one parameter of the Laplace distribution given values for the others
+- stats_cdf_logistic - Calculates any one parameter of the logistic distribution given values for the others
+- stats_cdf_negative_binomial - Calculates any one parameter of the negative binomial distribution given values for the others
+- stats_cdf_noncentral_chisquare - Calculates any one parameter of the non-central chi-square distribution given values for the others
+- stats_cdf_noncentral_f - Calculates any one parameter of the non-central F distribution given values for the others
+- stats_cdf_noncentral_t - Calculates any one parameter of the non-central t-distribution give values for the others
+- stats_cdf_normal - Calculates any one parameter of the normal distribution given values for the others
+- stats_cdf_poisson - Calculates any one parameter of the Poisson distribution given values for the others
+- stats_cdf_t - Calculates any one parameter of the t-distribution given values for the others
+- stats_cdf_uniform - Calculates any one parameter of the uniform distribution given values for the others
+- stats_cdf_weibull - Calculates any one parameter of the Weibull distribution given values for the others
+- stats_covariance - Computes the covariance of two data sets
+- stats_dens_beta - Probability density function of the beta distribution
+- stats_dens_cauchy - Probability density function of the Cauchy distribution
+- stats_dens_chisquare - Probability density function of the chi-square distribution
+- stats_dens_exponential - Probability density function of the exponential distribution
+- stats_dens_f - Probability density function of the F distribution
+- stats_dens_gamma - Probability density function of the gamma distribution
+- stats_dens_laplace - Probability density function of the Laplace distribution
+- stats_dens_logistic - Probability density function of the logistic distribution
+- stats_dens_normal - Probability density function of the normal distribution
+- stats_dens_pmf_binomial - Probability mass function of the binomial distribution
+- stats_dens_pmf_hypergeometric - Probability mass function of the hypergeometric distribution
+- stats_dens_pmf_negative_binomial - Probability mass function of the negative binomial distribution
+- stats_dens_pmf_poisson - Probability mass function of the Poisson distribution
+- stats_dens_t - Probability density function of the t-distribution
+- stats_dens_uniform - Probability density function of the uniform distribution
+- stats_dens_weibull - Probability density function of the Weibull distribution
+- stats_harmonic_mean - Returns the harmonic mean of an array of values
+- stats_kurtosis - Computes the kurtosis of the data in the array
+- stats_rand_gen_beta - Generates a random deviate from the beta distribution
+- stats_rand_gen_chisquare - Generates a random deviate from the chi-square distribution
+- stats_rand_gen_exponential - Generates a random deviate from the exponential distribution
+- stats_rand_gen_f - Generates a random deviate from the F distribution
+- stats_rand_gen_funiform - Generates uniform float between low (exclusive) and high (exclusive)
+- stats_rand_gen_gamma - Generates a random deviate from the gamma distribution
+- stats_rand_gen_ibinomial - Generates a random deviate from the binomial distribution
+- stats_rand_gen_ibinomial_negative - Generates a random deviate from the negative binomial distribution
+- stats_rand_gen_int - Generates random integer between 1 and 2147483562
+- stats_rand_gen_ipoisson - Generates a single random deviate from a Poisson distribution
+- stats_rand_gen_iuniform - Generates integer uniformly distributed between LOW (inclusive) and HIGH (inclusive)
+- stats_rand_gen_noncentral_chisquare - Generates a random deviate from the non-central chi-square distribution
+- stats_rand_gen_noncentral_f - Generates a random deviate from the noncentral F distribution
+- stats_rand_gen_noncentral_t - Generates a single random deviate from a non-central t-distribution
+- stats_rand_gen_normal - Generates a single random deviate from a normal distribution
+- stats_rand_gen_t - Generates a single random deviate from a t-distribution
+- stats_rand_get_seeds - Get the seed values of the random number generator
+- stats_rand_phrase_to_seeds - Generate two seeds for the RGN random number generator
+- stats_rand_ranf - Generates a random floating point number between 0 and 1
+- stats_rand_setall - Set seed values to the random generator
+- stats_skew - Computes the skewness of the data in the array
+- stats_standard_deviation - Returns the standard deviation
+- stats_stat_binomial_coef - Returns a binomial coefficient
+- stats_stat_correlation - Returns the Pearson correlation coefficient of two data sets
+- stats_stat_factorial - Returns the factorial of an integer
+- stats_stat_independent_t - Returns the t-value from the independent two-sample t-test
+- stats_stat_innerproduct - Returns the inner product of two vectors
+- stats_stat_paired_t - Returns the t-value of the dependent t-test for paired samples
+- stats_stat_percentile - Returns the percentile value
+- stats_stat_powersum - Returns the power sum of a vector
+- stats_variance - Returns the variance
+- stomp_connect_error - Devuelve una cadena descripción de el último error al conectar
+- stomp_version - Obtiene la versión actual de la extensión stomp
+- strcasecmp - Comparación de string segura a nivel binario e insensible a mayúsculas y minúsculas
+- strchr - Alias de strstr
+- strcmp - Comparación de string segura a nivel binario
+- strcoll - Comparación de cadenas basada en la localidad
+- strcspn - Averiguar la longitud del segmento inicial que no coincida con una máscara
+- stream_bucket_append - Añade un recipiente a una cadena de recipientes
+- stream_bucket_make_writeable - Devuelve un objeto recipiente desde una cadena de recipientes para operarar con él
+- stream_bucket_new - Crear un nuevo recipiente para usarlo en el flujo actual
+- stream_bucket_prepend - Añade un recipiente al principio de una cadena de recipientes
+- stream_context_create - Crear un contexto de flujo
+- stream_context_get_default - Recuperar el contexto de flujo predeterminado
+- stream_context_get_options - Recuperar las opciones para un flujo/envoltura/contexto
+- stream_context_get_params - Recuperar los parámetros de un contexto
+- stream_context_set_default - Establecer el contexto de flujo predeterminado
+- stream_context_set_option - Establece una opción para un flujo/envoltura/contexto
+- stream_context_set_options - Sets options on the specified context
+- stream_context_set_params - Establecer parámetros para un flujo/envoltura/contexto
+- stream_copy_to_stream - Copia información desde un flujo a otro
+- stream_filter_append - Enlaza un filtro a un flujo
+- stream_filter_prepend - Adjunta un filtro a un flujo
+- stream_filter_register - Registrar un filtro de flujo definido por el usuario
+- stream_filter_remove - Elimina un filtro de un flujo
+- stream_get_contents - Transfiere el resto de un flujo a una cadena
+- stream_get_filters - Recuperar la lista de los filtros registrados
+- stream_get_line - Obtiene una línea del recurso de flujo hasta un delimitador dado
+- stream_get_meta_data - Recuperar meta-información o de cabecera de punteros a flujos/archivo
+- stream_get_transports - Recuperar la lista de transportes de socket registrados
+- stream_get_wrappers - Recupera la lista de los flujos registrados
+- stream_isatty - Check if a stream is a TTY
+- stream_is_local - Comprueba si un flujo es un flujo local
+- stream_notification_callback - Una función de retrollamada para el parámetro de contexto de notificación
+- stream_register_wrapper - Alias de stream_wrapper_register
+- stream_resolve_include_path - Resuelve el nombre de archivo en la ruta incluida
+- stream_select - Ejecuta el equivalente de la llamada al sistema select() sobre las matrices de flujos dadas con un tiempo de espera especificado por tv_sec y tv_usec
+- stream_set_blocking - Establecer el modo bloqueo/no-bloqueo en un flujo
+- stream_set_chunk_size - Establecer el tamaño de trozo de flujo
+- stream_set_read_buffer - Establece el búfer de lectura de archivos en el flujo dado
+- stream_set_timeout - Establecer un perido de tiempo de espera en un flujo
+- stream_set_write_buffer - Establece el búfer para escritura de ficheros en el flujo dado
+- stream_socket_accept - Acepta una conexión sobre un socket creado por stream_socket_server
+- stream_socket_client - Abrir una conexión de socket de dominio de Internet o Unix
+- stream_socket_enable_crypto - Activa/desactiva la encriptación en un socket ya conectado
+- stream_socket_get_name - Recuperar el nombre de los sockets locales o remotos
+- stream_socket_pair - Crea un pareja de flujos de socket conectados e indistinguibles
+- stream_socket_recvfrom - Recibir información de un socket, conectado o no
+- stream_socket_sendto - Envía un mensaje a un socket, ya esté conectado o no
+- stream_socket_server - Crear un socket de servidor de dominio de Internet o de Unix
+- stream_socket_shutdown - Cerrar una conexión full-duplex
+- stream_supports_lock - Indica si el flujo soporta bloqueo
+- stream_wrapper_register - Registra una envoltura de URL implementada como una clase de PHP
+- stream_wrapper_restore - Restablece una envoltura incluida que se dejó de registrar previamente
+- stream_wrapper_unregister - Deja de registrar una envoltura de URL
+- strftime - Formatea una fecha/hora local según una configuración local
+- stripcslashes - Desmarca la cadena marcada con addcslashes
+- stripos - Encuentra la posición de la primera aparición de un substring en un string sin considerar mayúsculas ni minúsculas
+- stripslashes - Quita las barras de un string con comillas escapadas
+- strip_tags - Retira las etiquetas HTML y PHP de un string
+- stristr - strstr insensible a mayúsculas y minúsculas
+- strlen - Obtiene la longitud de un string
+- strnatcasecmp - Comparación de strings, insensible a mayúsculas y minúsculas, utilizando un algoritmo de "orden natural"
+- strnatcmp - Comparación de strings utilizando un algoritmo de "orden natural"
+- strncasecmp - Comparación de los primeros n caracteres de cadenas, segura con material binario e insensible a mayúsculas y minúsculas
+- strncmp - Comparación segura a nivel binario de los primeros n caracteres entre strings
+- strpbrk - Buscar una cadena por cualquiera de los elementos de un conjunto de caracteres
+- strpos - Encuentra la posición de la primera ocurrencia de un substring en un string
+- strptime - Analiza una fecha/hora generada con strftime
+- strrchr - Encuentra la última aparición de un caracter en un string
+- strrev - Invierte una string
+- strripos - Encuentra la posición de la última aparición de un substring insensible a mayúsculas y minúsculas en un string
+- strrpos - Encuentra la posición de la última aparición de un substring en un string
+- strspn - Averigua la longitud del segmento inicial de un string que consista únicamente en caracteres contenidos dentro de una máscara dada
+- strstr - Encuentra la primera aparición de un string
+- strtok - Tokeniza string
+- strtolower - Convierte un string a minúsculas
+- strtotime - Convierte una descripción de fecha/hora textual en Inglés a una fecha Unix
+- strtoupper - Convierte un string a mayúsculas
+- strtr - Convierte caracteres o reemplaza substrings
+- strval - Obtiene el valor de cadena de una variable
+- str_contains - Determine if a string contains a given substring
+- str_decrement - Decrement an alphanumeric string
+- str_ends_with - Checks if a string ends with a given substring
+- str_getcsv - Convierte un string con formato CSV a un array
+- str_increment - Increment an alphanumeric string
+- str_ireplace - Versión insensible a mayúsculas y minúsculas de str_replace
+- str_pad - Rellena un string hasta una longitud determinada con otro string
+- str_repeat - Repite un string
+- str_replace - Reemplaza todas las apariciones del string buscado con el string de reemplazo
+- str_rot13 - Realizar la transformación rot13 sobre una cadena
+- str_shuffle - Reordena aleatoriamente una cadena
+- str_split - Convierte un string en un array
+- str_starts_with - Checks if a string starts with a given substring
+- str_word_count - Devuelve información sobre las palabras utilizadas en un string
+- substr - Devuelve parte de una cadena
+- substr_compare - Comparación segura a nivel binario de dos o más strings desde un índice hasta una longitud de caracteres dada
+- substr_count - Cuenta el número de apariciones del substring
+- substr_replace - Reemplaza el texto dentro de una porción de un string
+- svn_add - Programa la adición de un artículo en un directorio de trabajo
+- svn_auth_get_parameter - Recupera un parámetros de autenticación
+- svn_auth_set_parameter - Establece un parámetro de autenticación
+- svn_blame - Obtiene las acusaciones SVN de un archivo
+- svn_cat - Devuelve el contenido de un fichero en un repositorio
+- svn_checkout - Descarga una copia de trabajo desde el repositorio
+- svn_cleanup - Limpieza recursiva del directorio de trabajo, finalizando operaciones no completadas y eliminado bloqueos
+- svn_client_version - Devuelve la versión de las librerias del cliente SVN
+- svn_commit - Envía los cambios desde el directorio local de trabajo al repositorio
+- svn_delete - Elimina ítems de una copia de trabajo o repositorio
+- svn_diff - Compara dos rutas de acceso recursivamente
+- svn_export - Exporta el contenido de un directorio SVN
+- svn_fs_abort_txn - Cancelar una transacción, devuelve true si todo está bien, false de lo contrario
+- svn_fs_apply_text - Crea y devuelve una secuencia que se utilizará para reemplazar
+- svn_fs_begin_txn2 - Crear una nueva transacción
+- svn_fs_change_node_prop - Retorna verdadero si todo está ok, falso en caso contrario
+- svn_fs_check_path - Determina que tipo de elemento está apuntado por una ruta de acceso determinada, en un repositorio fsroot
+- svn_fs_contents_changed - Devuelve verdadero si el contenido es diferente, falso en caso contrario
+- svn_fs_copy - Copia un fichero o un directorio, devuelve true en caso de éxito, de lo contrario devuelve false
+- svn_fs_delete - Elimina un fichero o directorio, devuelve true en caso de éxito, en caso contrario devuele false
+- svn_fs_dir_entries - Enumera los directorios que hay bajo una ruta de acceso determinada; devuelve un array con los nombres de los directorios
+- svn_fs_file_contents - Devuelve un flujo de acceso al contenido de un fichero para una versión del sistema de ficheros dada
+- svn_fs_file_length - Devuelve la longitud de un fichero para una versión dada de sistema de ficheros
+- svn_fs_is_dir - Devuelve true si la ruta apunta a un directorio, false en caso contrario
+- svn_fs_is_file - Devuelve true si la ruta apunta a un fichero, falso en caso contrario
+- svn_fs_make_dir - Crea un nuevo directorio vacío, devuelve true en caso de éxito, en caso contrario devuelve false
+- svn_fs_make_file - Crea un nuevo fichero vacío, devuelve true en caso de éxito, false en caso contrario
+- svn_fs_node_created_rev - Devuelve la revisión en la que la ruta de acceso bajo fsroot fue creado
+- svn_fs_node_prop - Devuelve el valor de una propiedad de un nodo
+- svn_fs_props_changed - Devuelve verdadero si las propiedades son diferentes, falso en caso contrario
+- svn_fs_revision_prop - Recupera el valor de una propiedad con determinado nombre
+- svn_fs_revision_root - Obtiene un gestor en una versión específica del repositorio 'root'
+- svn_fs_txn_root - Crea y retorna una transacción 'root'
+- svn_fs_youngest_rev - Devuelve el número de la revisión más reciente del sistema de ficheros
+- svn_import - Importa una ruta de acceso sin versión, dentro de un repositorio
+- svn_log - Devuelve el log histórico de mensajes de un repositorio URL
+- svn_ls - Devuelve una lista del contenido del directorio en el repositorio URL, opcionalmente el número de revisión
+- svn_mkdir - Crea un directorio en la copia de trabajo actual o repositorio
+- svn_repos_create - Crea un nuevo repositorio de subversión
+- svn_repos_fs - Obtiene un gestor del sistema de ficheros para un repositorio
+- svn_repos_fs_begin_txn_for_commit - Crea una nueva transacción
+- svn_repos_fs_commit_txn - Consolida una transacción y devuelve la nueva revisión
+- svn_repos_hotcopy - Realiza una copia en caliente del repositorio en pathrepospath; y lo copia en destpath
+- svn_repos_open - Abre una cerradura compartida en un repositorio
+- svn_repos_recover - Ejecuta los procesos de recuperación en el repositorio localizado en un path determinado
+- svn_revert - Deshace los cambios en la copia de trabajo
+- svn_status - Devuelve el estado de la copia de trabajo de los ficheros y directorios
+- svn_update - Actualiza la copia de trabajo
+- swoole_async_dns_lookup - Async and non-blocking hostname to IP lookup
+- swoole_async_read - Read file stream asynchronously
+- swoole_async_readfile - Read a file asynchronously
+- swoole_async_set - Update the async I/O options
+- swoole_async_write - Write data to a file stream asynchronously
+- swoole_async_writefile - Write data to a file asynchronously
+- swoole_clear_error - Clear errors in the socket or on the last error code
+- swoole_client_select - Get the file description which are ready to read/write or error
+- swoole_cpu_num - Get the number of CPU
+- swoole_errno - Get the error code of the latest system call
+- swoole_error_log - Output error messages to the log
+- swoole_event_add - Add new callback functions of a socket into the EventLoop
+- swoole_event_defer - Add callback function to the next event loop
+- swoole_event_del - Remove all event callback functions of a socket
+- swoole_event_exit - Exit the eventloop, only available at the client side
+- swoole_event_set - Update the event callback functions of a socket
+- swoole_event_wait - Start the event loop
+- swoole_event_write - Write data to a socket
+- swoole_get_local_ip - Get the IPv4 IP addresses of each NIC on the machine
+- swoole_last_error - Get the lastest error message
+- swoole_load_module - Load a swoole extension
+- swoole_select - Select the file descriptions which are ready to read/write or error in the eventloop
+- swoole_set_process_name - Set the process name
+- swoole_strerror - Convert the Errno into error messages
+- swoole_timer_after - Trigger a one time callback function in the future
+- swoole_timer_exists - Check if a timer callback function is existed
+- swoole_timer_tick - Trigger a timer tick callback function by time interval
+- swoole_version - Get the version of Swoole
+- symlink - Crea un enlace simbólico
+- syslog - Genera un mensaje log de sistema
+- system - Ejecutar un programa externo y mostrar su salida
+- sys_getloadavg - Obtiene la carga media del sistema
+- sys_get_temp_dir - Devuelve la ruta del directorio para archivos temporales
+- taint - Corrompe un string
+- tan - Tangente
+- tanh - Tangente hiperbólica
+- tcpwrap_check - Realiza una comprobación tcpwrap
+- tempnam - Crea un fichero con un nombre de fichero único
+- textdomain - Establece el dominio actual
+- tidy_access_count - Devuelve el número de alertas de accesibilidad Tidy encontradas en un documento dado
+- tidy_config_count - Devuelve el número de errores de configuración Tidy encontrados en un documento dado
+- tidy_error_count - Devuelve el número de errores Tidy encontrados en un documento dado
+- tidy_get_output - Devuelve una cadena que contiene las etiquetas analizadas por Tidy
+- tidy_warning_count - Devuelve el número de alertas encontradas en un documendo dado
+- time - Devuelve la fecha Unix actual
+- timezone_name_from_abbr - Devuelve el nombre de la zona horaria desde su abreviatura
+- timezone_version_get - Obtiene la versión de la base de datos timezonedb
+- time_nanosleep - Retrasar por un número de segundos y nanosegundos
+- time_sleep_until - Hacer que el script duerma hasta el momento especificado
+- tmpfile - Crea un archivo temporal
+- token_get_all - Divide la fuente dada en tokens PHP
+- token_name - Obtiene el nombre simbólico de un token PHP dado
+- touch - Establece el momento de acceso y modificación de un archivo
+- trader_acos - Arcocoseno trigonométrico de vectores
+- trader_ad - Línea A/D Chaikin
+- trader_add - Suma aritmética de vectores
+- trader_adosc - Oscilador A/D Chaikin
+- trader_adx - Índice de movimiento direccional medio
+- trader_adxr - Tasación del índice de movimiento direccional medio
+- trader_apo - Oscilador de precio absoluto
+- trader_aroon - Aroon
+- trader_aroonosc - Oscilador Aroon
+- trader_asin - Arcoseno trigonométrico de vectores
+- trader_atan - Arcotangente trigonométrica de vectores
+- trader_atr - Rango verdadero medio
+- trader_avgprice - Precio medio
+- trader_bbands - Bandas de Bollinger
+- trader_beta - Beta
+- trader_bop - Equilibrio de poder
+- trader_cci - Índice de Canal de Comodidad
+- trader_cdl2crows - Dos Cuervos
+- trader_cdl3blackcrows - Tres Cuervos Negros
+- trader_cdl3inside - Tres Velas Interiores Alcistas/Bajistas
+- trader_cdl3linestrike - Triple Golpe
+- trader_cdl3outside - Tres Velas Exteriores Alcistas/Bajistas
+- trader_cdl3starsinsouth - Tres Estrellas en el Sur
+- trader_cdl3whitesoldiers - Tres Soldados Blancos Avanzando
+- trader_cdlabandonedbaby - Bebé Abandonado
+- trader_cdladvanceblock - Avance en Bloque
+- trader_cdlbelthold - Belt-hold
+- trader_cdlbreakaway - Escape
+- trader_cdlclosingmarubozu - Vela Cerrada Marubozu
+- trader_cdlconcealbabyswall - Pequeña Golondrina Escondida
+- trader_cdlcounterattack - Contraataque
+- trader_cdldarkcloudcover - Cubierta de Nube Oscura
+- trader_cdldoji - Doji
+- trader_cdldojistar - Estrella Doji
+- trader_cdldragonflydoji - Doji Libélula
+- trader_cdlengulfing - Patrón envolvente
+- trader_cdleveningdojistar - Estrella Vespertina Doji
+- trader_cdleveningstar - Estrella de Atardecer
+- trader_cdlgapsidesidewhite - Velas blancas paralelas de hueco alcista/bajista
+- trader_cdlgravestonedoji - Doji Lápida
+- trader_cdlhammer - Martillo
+- trader_cdlhangingman - Hombre Colgado
+- trader_cdlharami - Patrón Harami
+- trader_cdlharamicross - Patrón Cruz Harami
+- trader_cdlhighwave - Vela de Onda Alta
+- trader_cdlhikkake - Patrón Hikkake
+- trader_cdlhikkakemod - Patrón Hikkake Modificado
+- trader_cdlhomingpigeon - Paloma Mensajera
+- trader_cdlidentical3crows - Tres Cuervos Idénticos
+- trader_cdlinneck - Patrón Formación en el cuello
+- trader_cdlinvertedhammer - Martilllo Invertido
+- trader_cdlkicking - Patada
+- trader_cdlkickingbylength - Patada - alza/baja determinada por el marubozu más largo
+- trader_cdlladderbottom - Suelo de escalera
+- trader_cdllongleggeddoji - Doji Zancudo
+- trader_cdllongline - Vela de Línea Larga
+- trader_cdlmarubozu - Marubozu
+- trader_cdlmatchinglow - Mínimos coincidentes
+- trader_cdlmathold - Mat Hold
+- trader_cdlmorningdojistar - Lucero del Alba Doji
+- trader_cdlmorningstar - Lucero del Alba
+- trader_cdlonneck - Patrón Sobre el cuello
+- trader_cdlpiercing - Patrón penetrante
+- trader_cdlrickshawman - Calesero
+- trader_cdlrisefall3methods - Triple Formación Alcista/Bajista
+- trader_cdlseparatinglines - Lineas Separadas
+- trader_cdlshootingstar - Estrella Fugaz
+- trader_cdlshortline - Vela de Línea Corta
+- trader_cdlspinningtop - Peonza
+- trader_cdlstalledpattern - Patrón Añejo
+- trader_cdlsticksandwich - Bocadillo
+- trader_cdltakuri - Takuri (Libélula Doji con sombra muy larga)
+- trader_cdltasukigap - Hueco Tasuki
+- trader_cdlthrusting - Patrón de empuje
+- trader_cdltristar - Patrón de tres estrellas
+- trader_cdlunique3river - Tres ríos únicos
+- trader_cdlupsidegap2crows - Dos Cuervos tras un Huevo al Alza
+- trader_cdlxsidegap3methods - Métodos de Tres Huevos al Alza/Baja
+- trader_ceil - Redondeo hacia arriba de vectores
+- trader_cmo - Oscilador de momento de Chande
+- trader_correl - Coeficiente de correlación de Pearson (r)
+- trader_cos - Coseno trigonométrico de vectores
+- trader_cosh - Coseno hiperbólico de un vector
+- trader_dema - Media móvil exponencial doble
+- trader_div - División aritmética de vectores
+- trader_dx - Índice de movimiento direccional
+- trader_ema - Media móvil exponencial
+- trader_errno - Obtener el código de error
+- trader_exp - Exponencial aritmética de vectores
+- trader_floor - Redondeo hacia abajo de vectores
+- trader_get_compat - Obtiene el modo de compatibilidad
+- trader_get_unstable_period - Obtiene el periodo inestable
+- trader_ht_dcperiod - Transformación de Hilbert - Período de ciclo dominante
+- trader_ht_dcphase - Transformación de Hilbert - Fase de ciclo dominante
+- trader_ht_phasor - Transformación de Hilbert - Componentes de un fasor
+- trader_ht_sine - Transformación de Hilbert - Sinusoide
+- trader_ht_trendline - Transformación de Hilbert - Línea de tendencia instantánea
+- trader_ht_trendmode - Transformación de Hilbert - Tendencia vs Modo de ciclo
+- trader_kama - Media móvil adaptativa de Kaufman
+- trader_linearreg - Regresión lineal
+- trader_linearreg_angle - Ángulo de regresión lineal
+- trader_linearreg_intercept - Intercepción de regresión lineal
+- trader_linearreg_slope - Pendiente de regresión lineal
+- trader_ln - Logaritmo natural de vectores
+- trader_log10 - Logaritmo en base 10 de vectores
+- trader_ma - Media móvil
+- trader_macd - Convergencia/divergencia de la media móvil
+- trader_macdext - MACD con tipo MA controlable
+- trader_macdfix - Convergencia/divergencia fija 12/26 de la media móvil
+- trader_mama - Media móvil adaptativa MESA
+- trader_mavp - Media móvil con periodo variable
+- trader_max - Valor mayor sobre un periodo especificado
+- trader_maxindex - Índice del valor mayor sobre un periodo especificado
+- trader_medprice - Precio medio
+- trader_mfi - Índice de flujo de dinero
+- trader_midpoint - Punto medio sobre un periodo
+- trader_midprice - Precio de punto medio sobre un periodo
+- trader_min - Valor más bajo sobre un periodo especificado
+- trader_minindex - Índice del valor más bajo sobre un periodo especificado
+- trader_minmax - Valores más altos y bajos sobre un periodo especificado
+- trader_minmaxindex - Índices de los valores más bajos y altos sobre un periodo especificado
+- trader_minus_di - Indicador direccional menos
+- trader_minus_dm - Movimiento direccional menos
+- trader_mom - Momentum
+- trader_mult - Multiplicación aritmética de vectores
+- trader_natr - Rango verdadero de la media normalizada
+- trader_obv - Volumen sobre balance
+- trader_plus_di - Indicador direccional más
+- trader_plus_dm - Movimiento direccional más
+- trader_ppo - Oscilador de precio porcentual
+- trader_roc - Ritmo de cambio : ((precio/precioAnterior)-1)*100
+- trader_rocp - Porcentaje del ritmo de cabio: (precio-precioAnterior)/precioAnterior
+- trader_rocr - Ratio del ritmo de cambio: (precio/precioAnterior)
+- trader_rocr100 - Ratio del ritmo de cambio en escala 100: (precio/precioAnterior)*100
+- trader_rsi - Índice de fuerza relativa
+- trader_sar - Sistema parabólico
+- trader_sarext - Sistema parabólico - Extendido
+- trader_set_compat - Establece el modo de compatibilidad
+- trader_set_unstable_period - Establece el periodo inestable
+- trader_sin - Seno trigonométrico de vectores
+- trader_sinh - Seno hiperbólico de vectores
+- trader_sma - Media móvil simple
+- trader_sqrt - Raíz cuadrada de vectores
+- trader_stddev - Desviación estándar
+- trader_stoch - Estocástico
+- trader_stochf - Estocástico rápido
+- trader_stochrsi - Índice de fuerza relativa estocástica
+- trader_sub - Sustracción artimética de vectores
+- trader_sum - Sumatorio
+- trader_t3 - Media móvil exponencial triple (T3)
+- trader_tan - Tangente trigonométrica de vectores
+- trader_tanh - Tangente hiperbólica trigonométrica de vectores
+- trader_tema - Media móvil exponencial triple
+- trader_trange - Rango verdadero
+- trader_trima - Media móvil triangular
+- trader_trix - Ritmo de cambio de 1 día (RDC) de una MME suave triple
+- trader_tsf - Previsión de series de tiempo
+- trader_typprice - Precio típico
+- trader_ultosc - Oscilador final
+- trader_var - Varianza
+- trader_wclprice - Precio de cierre ponderado
+- trader_willr - %R de Williams
+- trader_wma - Media móvil ponderada
+- trait_exists - Comprobar si el trait existe
+- trigger_error - Generar un mensaje de error/advertencia/aviso de nivel de usuario
+- trim - Elimina espacio en blanco (u otro tipo de caracteres) del inicio y el final de la cadena
+- uasort - Ordena un array con una función de comparación definida por el usuario y mantiene la asociación de índices
+- ucfirst - Convierte el primer caracter de una cadena a mayúsculas
+- ucwords - Convierte a mayúsculas el primer caracter de cada palabra de una cadena
+- UI\Draw\Text\Font\fontFamilies - Recuperar las familias de fuentes
+- UI\quit - Quit UI Loop
+- UI\run - Enter UI Loop
+- uksort - Ordena un array según sus claves usando una función de comparación definida por el usuario
+- umask - Cambia la máscara de usuario actual
+- uniqid - Generar un ID único
+- unixtojd - Convertir una fecha Unix en una Fecha Juliana
+- unlink - Borra un fichero
+- unpack - Desempaqueta datos de una cadena binaria
+- unregister_tick_function - Dejar de registrar una función para su ejecución en cada tick
+- unserialize - Crea un valor PHP a partir de una representación almacenada
+- unset - Destruye una o más variables especificadas
+- untaint - Sanea un string
+- uopz_add_function - Adds non-existent function or method
+- uopz_allow_exit - Allows control over disabled exit opcode
+- uopz_backup - Backup a function
+- uopz_compose - Compose a class
+- uopz_copy - Copy a function
+- uopz_delete - Delete a function
+- uopz_del_function - Deletes previously added function or method
+- uopz_extend - Extend a class at runtime
+- uopz_flags - Get or set flags on function or class
+- uopz_function - Creates a function at runtime
+- uopz_get_exit_status - Retrieve the last set exit status
+- uopz_get_hook - Gets previously set hook on function or method
+- uopz_get_mock - Get the current mock for a class
+- uopz_get_property - Gets value of class or instance property
+- uopz_get_return - Gets a previous set return value for a function
+- uopz_get_static - Gets the static variables from function or method scope
+- uopz_implement - Implements an interface at runtime
+- uopz_overload - Overload a VM opcode
+- uopz_redefine - Redefine a constant
+- uopz_rename - Rename a function at runtime
+- uopz_restore - Restore a previously backed up function
+- uopz_set_hook - Sets hook to execute when entering a function or method
+- uopz_set_mock - Use mock instead of class for new objects
+- uopz_set_property - Sets value of existing class or instance property
+- uopz_set_return - Provide a return value for an existing function
+- uopz_set_static - Sets the static variables in function or method scope
+- uopz_undefine - Undefine a constant
+- uopz_unset_hook - Removes previously set hook on function or method
+- uopz_unset_mock - Unset previously set mock
+- uopz_unset_return - Unsets a previously set return value for a function
+- urldecode - Decodifica una cadena cifrada como URL
+- urlencode - Codifica como URL una cadena
+- user_error - Alias de trigger_error
+- use_soap_error_handler - Establecer si se desea utilizar el manejador de errores de SOAP
+- usleep - Retrasar la ejecución en microsegundos
+- usort - Ordena un array según sus valores usando una función de comparación definida por el usuario
+- utf8_decode - Convierte un string desde UTF-8 a ISO-8859-1, sustituyendo los caracteres no válidos o no representables
+- utf8_encode - Convierte una cadena de ISO-8859-1 a UTF-8
+- variant_abs - Devuelve el valor absoluto de una variante
+- variant_add - "Suma" dos variantes y devuelve el resultado
+- variant_and - Realiza una operación AND a nivel de bits entre dos variantes
+- variant_cast - Convertir una variante en un nuevo objeto variante de otro tipo
+- variant_cat - Concatena dos valores de variantes y devuelve el resultado
+- variant_cmp - Compara dos variantes
+- variant_date_from_timestamp - Devuelve una representación de variante de fecha de una fecha Unix
+- variant_date_to_timestamp - Convierte un valor de una variante de fecha/hora en una fecha Unix
+- variant_div - Devuelve el resultado de dividir dos variantes
+- variant_eqv - Realiza una equivalencia a nivel de bits en dos variantes
+- variant_fix - Devuelve la parte entera de una variante
+- variant_get_type - Devuelve el tipo de un objeto variante
+- variant_idiv - Convierte variantes a enteros y después devuelve el resultado dividiéndolos
+- variant_imp - Realiza una implicación a nivel de bits de dos variantes
+- variant_int - Devuelve la parte entera de una variante
+- variant_mod - Divide dos variantes y devuelve sólo el resto
+- variant_mul - Multiplica los valores de dos variantes
+- variant_neg - Realiza una negación lógica de una variante
+- variant_not - Realiza una negación NOT a nivel de bits en una variante
+- variant_or - Realiza una disyunción lógica de dos variantes
+- variant_pow - Devuelve el resultado de realizar la exponenciación con dos variantes
+- variant_round - Redondea una variante al número de lugares decimales especificado
+- variant_set - Asigna un nuevo valor para un objeto variante
+- variant_set_type - Convierte una variante en otro tipo "in situ"
+- variant_sub - Resta el valor de la variante derecha del valor de la varienta izquierda
+- variant_xor - Realiza una exclución lógica de dos variantes
+- var_dump - Muestra información sobre una variable
+- var_export - Imprime o devuelve una representación string de una variable analizable
+- var_representation - Returns a short, readable, parsable string representation of a variable
+- version_compare - Compara dos números de versiones estandarizados de PHP
+- vfprintf - Escribe un string con formato en un flujo
+- virtual - Realiza una sub-petición de Apache
+- vprintf - Muestra una cadena con formato
+- vsprintf - Devuelve una cadena con formato
+- wddx_add_vars - Agrega variables a un paquete WDDX con un ID específico
+- wddx_deserialize - Deserializa un packet WDDX
+- wddx_packet_end - Finaliza un paquete WDDX con un ID específico
+- wddx_packet_start - Inicia un nuevo paquete WDDX con una estructura a dentro
+- wddx_serialize_value - Serializa una simple valor dentro de un paquete WDDX
+- wddx_serialize_vars - Serializa variables en un paquete WDDX
+- win32_continue_service - Reanuda un servicio pausado
+- win32_create_service - Crea una nueva entrada de servicio en la base de datos del ACS
+- win32_delete_service - Borra una entrada de servicio de la base de datos del ACS
+- win32_get_last_control_message - Devuelve el último mensaje de control que fue enviado a este servicio
+- win32_pause_service - Pausa un servicio
+- win32_query_service_status - Pregunta sobre el estado de un servicio
+- win32_send_custom_control - Enviar un control personalizado al servicio
+- win32_set_service_exit_code - Define o devuelve el código de salida para el servicio en curso
+- win32_set_service_exit_mode - Define o devuelve el modo de salida para el servicio en curso
+- win32_set_service_status - Actualiza el estado del servicio
+- win32_start_service - Inicia un servicio
+- win32_start_service_ctrl_dispatcher - Registra el script con el ACS, por lo que puede actuar como el servicio con el nombre dado
+- win32_stop_service - Detiene un servicio
+- wincache_fcache_fileinfo - Retrieves information about files cached in the file cache
+- wincache_fcache_meminfo - Recupera información sobre el uso de memoria caché de ficheros
+- wincache_lock - Obtiene un bloqueo exclusivo en una clave dada
+- wincache_ocache_fileinfo - Retrieves information about files cached in the opcode cache
+- wincache_ocache_meminfo - Retrieves information about opcode cache memory usage
+- wincache_refresh_if_changed - Refreshes the cache entries for the cached files
+- wincache_rplist_fileinfo - Retrieves information about resolve file path cache
+- wincache_rplist_meminfo - Retrieves information about memory usage by the resolve file path cache
+- wincache_scache_info - Retrieves information about files cached in the session cache
+- wincache_scache_meminfo - Recupera información sobre el uso de memoria caché de sesión
+- wincache_ucache_add - Adds a variable in user cache only if variable does not already exist in the cache
+- wincache_ucache_cas - Compara la variable con el valor antiguo y le asigna un nuevo valor a este
+- wincache_ucache_clear - Elimina todo el contenido de la caché del usuario
+- wincache_ucache_dec - Disminuye el valor asociado a la clave
+- wincache_ucache_delete - Elimina las variables de la memoria caché del usuario
+- wincache_ucache_exists - Comprueba si una variable existe en la caché del usuario
+- wincache_ucache_get - Obtiene una variable almacenada en la caché del usuario
+- wincache_ucache_inc - Incrementa el valor asociado a la clave
+- wincache_ucache_info - Recupera información sobre los datos almacenados en la caché del usuario
+- wincache_ucache_meminfo - Recupera información sobre el uso de memoria caché de usuario
+- wincache_ucache_set - Adds a variable in user cache and overwrites a variable if it already exists in the cache
+- wincache_unlock - Libera un bloqueo exclusivo sobre una clave dada
+- wordwrap - Ajusta un string hasta un número dado de caracteres
+- xattr_get - Obtener un atributo extendido
+- xattr_list - Obtener una lista de atributos extendidos
+- xattr_remove - Elimina un atributo extendido
+- xattr_set - Establece un atributo extendido
+- xattr_supported - Comprueba si soporta los atributos extendidos del sistema de archivos
+- xdiff_file_bdiff - Realiza una diferencia binaria de dos archivos
+- xdiff_file_bdiff_size - Lee el tamaño de un archivo creado tras aplicar una diferencia binaria
+- xdiff_file_bpatch - Parchea un archivo con una diferencia binaria
+- xdiff_file_diff - Hacer un diff unificado de dos archivos
+- xdiff_file_diff_binary - Alias de xdiff_file_bdiff
+- xdiff_file_merge3 - Une 3 archivos en uno
+- xdiff_file_patch - Parchea un archivo con un diff unificado
+- xdiff_file_patch_binary - Alias de xdiff_file_bpatch
+- xdiff_file_rabdiff - Hacer una diferencia binaria de dos archivos utilizando el algoritmo polinomial de huella digital (fingerprinting) de Rabin
+- xdiff_string_bdiff - Hacer una diferencia binaria de dos cadenas
+- xdiff_string_bdiff_size - Lee el tamaño de un archivo creado tras aplicar una diferencia binaria
+- xdiff_string_bpatch - Parchear una cadena con una diferencia binaria
+- xdiff_string_diff - Hacer un diff unificado de dos strings
+- xdiff_string_diff_binary - Alias de xdiff_string_bdiff
+- xdiff_string_merge3 - Unir tres cadenas en una
+- xdiff_string_patch - Parchear una cadena con un diff unificado
+- xdiff_string_patch_binary - Alias de xdiff_string_bpatch
+- xdiff_string_rabdiff - Hacer una diferencia binaria de dos cadenas utilizando el algoritmo polinomial de huella digital (fingerprinting) de Rabin
+- xhprof_disable - Detiene el perfilador xhprof
+- xhprof_enable - Inicia perfil xhprof
+- xhprof_sample_disable - Detiene la muestra del perfilador xhprof
+- xhprof_sample_enable - Iniciar el analisis de XHProf en modo de muestreo
+- xmlrpc_decode - Decodifica el XML en los tipos de PHP nativos
+- xmlrpc_decode_request - Decodifica el XML en los tipos de PHP nativos
+- xmlrpc_encode - Genera XML para un valor PHP
+- xmlrpc_encode_request - Genera XML para el requerimiento de un método
+- xmlrpc_get_type - Obtiene el tipo del xmlrpc para un valor PHP
+- xmlrpc_is_fault - Determina si el valor de un arreglo representa una falla del XMLRPC
+- xmlrpc_parse_method_descriptions - Decodifica el XML en una lista de las descripciones del método
+- xmlrpc_server_add_introspection_data - Agrega una documentación introspectiva
+- xmlrpc_server_call_method - Analiza los requerimientos del XML y las llamadas de los métodos
+- xmlrpc_server_create - Crea un servidor xmlrpc
+- xmlrpc_server_destroy - Destruye los recursos del servidor
+- xmlrpc_server_register_introspection_callback - Registra una función PHP para generar la documentación
+- xmlrpc_server_register_method - Registra una función PHP para que el recurso del método coincida con method_name
+- xmlrpc_set_type - Establece el tipo del xmlrpc, base64 o fecha-hora, para un valor de cadena PHP
+- xml_error_string - Obtiene la cadena de un error dado en un intérprete XML
+- xml_get_current_byte_index - Obtiene la indexación del byte actual en un intérprete XML
+- xml_get_current_column_number - Obtiene el número de columna actual para un intérprete XML
+- xml_get_current_line_number - Obtiene el número de línea actual para un intérprete XML
+- xml_get_error_code - Obtiene un código de error en un intérprete XML
+- xml_parse - Inicia un intérprete sobre un documento XML
+- xml_parser_create - Crea un intérprete XML
+- xml_parser_create_ns - Crea un analizador XML con soporte para espacios de nombres
+- xml_parser_free - Liberar una analizador XML
+- xml_parser_get_option - Obtiene el valor de las opciones de un intérprete XML
+- xml_parser_set_option - Configura las opciones en un intérprete XML
+- xml_parse_into_struct - Interpreta datos XML en una estructura de array
+- xml_set_character_data_handler - Configura el manejador de los datos de caracteres
+- xml_set_default_handler - Configura el manejador predeterminado
+- xml_set_element_handler - Configura los manejadores para los elementos de inicio y final
+- xml_set_end_namespace_decl_handler - Configura el manejador de declaración de final del namespace
+- xml_set_external_entity_ref_handler - Configura el manejador de referencia a entidades externas
+- xml_set_notation_decl_handler - Configura el manejador de declaraciones de notación
+- xml_set_object - Usa un intérprete XML Parser dentro de un objeto
+- xml_set_processing_instruction_handler - Configura el manejador de instrucciones de proceso (PI)
+- xml_set_start_namespace_decl_handler - Configura el manejador de declaración de inicio del namespace
+- xml_set_unparsed_entity_decl_handler - Configura el manejador de declaración de entidades no analizadas
+- yaml_emit - Devuelve la representación de un valor YAML
+- yaml_emit_file - Enviar la representación YAML de un valor a un fichero
+- yaml_parse - Analiza una secuencia de texto en formato YAML
+- yaml_parse_file - Analiza una secuencia de texto en formato YAML desde un fichero
+- yaml_parse_url - Analiza una secuencia de texto Yaml desde una URL
+- yaz_addinfo - Devuelve un error adicional de información
+- yaz_ccl_conf - Configura el analizador CCL
+- yaz_ccl_parse - Inviocar el analizador Invoke CCL
+- yaz_close - Close YAZ connection
+- yaz_connect - Prepara una conexión a un servidor Z39.50
+- yaz_database - Especifica las bases de datos dentro de una sesión
+- yaz_element - Especifica el nombre del elemento establecido para recuperar
+- yaz_errno - Devuelve el número de error
+- yaz_error - Devuelve la descripción del error
+- yaz_es - Prepara para una solicitud de servicio extendido
+- yaz_es_result - Resulados de Servicios Extendidos de Inspección
+- yaz_get_option - Devuelve el valor de opción para la conexión
+- yaz_hits - Devuelve el número de éxitos de la última búsqueda
+- yaz_itemorder - Prepara para la solicitud Z39.50 Item Order con el paquete ILL-Request
+- yaz_present - Se prepara para la recuperación (Z39.50 presente)
+- yaz_range - Específica un rango de registros a recuperar
+- yaz_record - Devuelve un registro
+- yaz_scan - Prepara para un escaneo YAZ
+- yaz_scan_result - Devuelve el resultado de un escaneado
+- yaz_schema - Especifica el esquema para la recuperación
+- yaz_search - Prepara una búsqueda
+- yaz_set_option - Configura una o más opciones de la conexión
+- yaz_sort - Configura los criterios de búsqueda
+- yaz_syntax - Especifica la sintaxis de registro preferida para la recuperación
+- yaz_wait - Espera que las peticiones Z39.50 se completeten
+- zend_thread_id - Devuelve un identificador único del thread actual
+- zend_version - Obtiene la versión del motor Zend actual
+- zip_close - Cierra un fichero ZIP
+- zip_entry_close - Cierra la entrada a un directorio
+- zip_entry_compressedsize - Obtiene el tamaño comprimido de una entrada de directorio
+- zip_entry_compressionmethod - Devuelve el método de compresión de una entrada de directorio
+- zip_entry_filesize - Devuelve el tamaño del fichero actual de una entrada de directorio
+- zip_entry_name - Devuelve el nombre de la entrada de un directorio
+- zip_entry_open - Abrir una entrada de directorio para lectura
+- zip_entry_read - Leer desde una entrada de directorio abierta
+- zip_open - Abre un fichero ZIP
+- zip_read - Leer la siguiente entrada en el fichero ZIP
+- zlib:// - Flujos de compresión
+- zlib_decode - Descomprime datos codificados en craw/gzip/zlib
+- zlib_encode - Comprime datos con la codificación especificada
+- zlib_get_coding_type - Retorna el tipo de codificación utilizada para hacer la compresión
+- zookeeper_dispatch - Calls callbacks for pending operations
+- _
+- __autoload - Intenta cargar una clase sin definir
+__halt_compiler - Detiene la ejecución del compilador

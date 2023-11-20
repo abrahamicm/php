@@ -1,0 +1,5308 @@
+- AllowDynamicProperties::__construct - Construct a new AllowDynamicProperties attribute instance
+- APCUIterator::__construct - Construye un objeto iterador APCUIterator
+- APCUIterator::current - Obtener el elemento actual
+- APCUIterator::getTotalCount - Obtiene el conteo total
+- APCUIterator::getTotalHits - Obtener resultados totales de la memoria caché
+- APCUIterator::getTotalSize - Obtiene el tamaño total del caché
+- APCUIterator::key - Obtiene la clave del iterador
+- APCUIterator::next - Mueve el puntero al siguiente elemento
+- APCUIterator::rewind - Rebobina el iterador
+- APCUIterator::valid - Comprueba si la posición actual es válida
+- AppendIterator::__construct - Construye un AppendIterator
+- AppendIterator::append - Añade un iterador
+- AppendIterator::current - Obtiene el valor actual
+- AppendIterator::getArrayIterator - Obtiene el getArrayIterator
+- AppendIterator::getIteratorIndex - Obtiene un índice de iteradores
+- AppendIterator::key - Obtiene la clave actual
+- AppendIterator::next - Desplazarse al siguiente elemento
+- AppendIterator::rewind - Rebobina el iterador
+- AppendIterator::valid - Comprueba la validación del elemento actual
+- ArrayAccess::offsetExists - Comprobar si existe un índice
+- ArrayAccess::offsetGet - Offset para recuperar
+- ArrayAccess::offsetSet - Asignar un valor al índice esepecificado
+- ArrayAccess::offsetUnset - Destruye un offset
+- ArrayIterator::__construct - Construye un ArrayIterator
+- ArrayIterator::append - Añade un elemento
+- ArrayIterator::asort - Ordena array por sus valores
+- ArrayIterator::count - Cuenta elementos
+- ArrayIterator::current - Devuelve la entrada actual del array
+- ArrayIterator::getArrayCopy - Obtener copia de un array
+- ArrayIterator::getFlags - Obtener opciones
+- ArrayIterator::key - Devuelve la clave actual del array
+- ArrayIterator::ksort - Ordena un array por sus claves
+- ArrayIterator::natcasesort - Ordena un array de forma natural, sensible a mayúsculas
+- ArrayIterator::natsort - Ordena un array de forma natural
+- ArrayIterator::next - Desplaza a la siguiente entrada
+- ArrayIterator::offsetExists - Compruebar si el índice existe
+- ArrayIterator::offsetGet - Obtener el valor de un índice
+- ArrayIterator::offsetSet - Establece el valor para un índice
+- ArrayIterator::offsetUnset - Destruye el valor de un índice
+- ArrayIterator::rewind - Rebobinar array al inicio
+- ArrayIterator::seek - Buscar la posición
+- ArrayIterator::serialize - Serializar
+- ArrayIterator::setFlags - Definir opciones de comportamiento
+- ArrayIterator::uasort - Ordenado definido por el usuario
+- ArrayIterator::uksort - Ordenado definido por el usuario
+- ArrayIterator::unserialize - Deserializar
+- ArrayIterator::valid - Comprueba si un array contiene más entradas
+- ArrayObject::__construct - Construir un nuevo objeto Array
+- ArrayObject::append - Añade un valor
+- ArrayObject::asort - Ordena las entradas por valor
+- ArrayObject::count - Obtener el número de propiedades públicas en la clase ArrayObject
+- ArrayObject::exchangeArray - Intercambia el array por otro
+- ArrayObject::getArrayCopy - Crea una copia de la clase ArrayObject
+- ArrayObject::getFlags - Obtiene las flags de comportamiento
+- ArrayObject::getIterator - Crear un nuevo iterador desde una instancia ArrayObject
+- ArrayObject::getIteratorClass - Obtiene el nombre de clase iterador para ArrayObject
+- ArrayObject::ksort - Ordena las entradas por clave
+- ArrayObject::natcasesort - Ordena un array usando un algoritmo orden natural
+- ArrayObject::natsort - Ordena entradas usando un algoritmo de orden natural
+- ArrayObject::offsetExists - Devuelve si el índice solicitado existe
+- ArrayObject::offsetGet - Devuelve el valor del índice especificado
+- ArrayObject::offsetSet - Establece el valor en el índice especificado
+- ArrayObject::offsetUnset - Destruye el valor para el índice especificado
+- ArrayObject::serialize - Serializar un ArrayObject
+- ArrayObject::setFlags - Establece las flags de comportamiento
+- ArrayObject::setIteratorClass - Establece el nombre de clase iterador para ArrayObject
+- ArrayObject::uasort - Ordena las entradas con una función de comparación definida por el usuario y mantiene asociación de claves
+- ArrayObject::uksort - Ordena las entradas por clave usando una función de comparación definida por el usuario
+- ArrayObject::unserialize - Deserializar el objeto ArrayObject
+- Attribute::__construct - Construct a new Attribute instance
+- BackedEnum::from - Maps a scalar to an enum instance
+- BackedEnum::tryFrom - Maps a scalar to an enum instance or null
+- BaseResult::getWarnings - Fetch warnings from last operation
+- BaseResult::getWarningsCount - Fetch warning count from last operation
+- CachingIterator::__construct - Construir un nuevo objeto CachingIterator para el iterador
+- CachingIterator::__toString - Devolver la representación en formato cadena del elemento actual
+- CachingIterator::count - El número de elementos en el iterador
+- CachingIterator::current - Devuelve el elemento actual
+- CachingIterator::getCache - Recuperar el contenido de la caché
+- CachingIterator::getFlags - Obtener las banderas utilizadas
+- CachingIterator::hasNext - Comprueba que el iterador interno tenga un elemento siguiente válido
+- CachingIterator::key - Devuelve la clave del elemento actual
+- CachingIterator::next - Desplaza el iterador adelante
+- CachingIterator::offsetExists - Comprobar existencia de un índice
+- CachingIterator::offsetGet - El propósito offsetGet
+- CachingIterator::offsetSet - El propósito offsetSet
+- CachingIterator::offsetUnset - El propósito offsetUnset
+- CachingIterator::rewind - Rebobina el iterador
+- CachingIterator::setFlags - El propósito de setFlags
+- CachingIterator::valid - Comprueba que el elemento actual sea válido
+- CallbackFilterIterator::__construct - Crear un iterador filtrado desde otro iterador
+- CallbackFilterIterator::accept - Llama la llamada de retorno con el valor actual, la clave actual y el iterador interior como argumentos
+- Client::__construct - Client constructor
+- Client::getClient - Get client session
+- Closure::__construct - Constructor que anula la instanciación
+- Closure::bind - Duplicar un cierre con un objeto vinculado y ámbito de clase especificados
+- Closure::bindTo - Duplicar el cierre con un objeto vinculado y ámbito de clase nuevos
+- Closure::call - Vincula y llama al cierre
+- Closure::fromCallable - Convierte un 'callable' en un cierre
+- Collator::__construct - Crear un objeto Collator
+- Collator::asort - Ordenar un array manteniendo la relación de índices
+- Collator::compare - Comparar dos cadenas Unicode
+- Collator::create - Crear un cotejador
+- Collator::getAttribute - Obtener el valor de un atributo de cotejo
+- Collator::getErrorCode - Obtener el último código de error del cotejeador
+- Collator::getErrorMessage - Obtener el texto del último código de error del cotejador
+- Collator::getLocale - Obtener el nombre de la configuración regional del cotejador
+- Collator::getSortKey - Obtener la clave de ordenación de una cadena
+- Collator::getStrength - Obtener la fuerza de cotejo actual
+- Collator::setAttribute - Establecer el atributo de cotejo
+- Collator::setStrength - Establecer la fuerza (strength) de un cotejo
+- Collator::sort - Ordenar un array usando cotejador especificado
+- Collator::sortWithSortKeys - Ordenar un array usando el cotejador y las claves de ordenación especificados
+- Collectable::isGarbage - Determinar si un objeto ha sido marcado como basura
+- Collection::__construct - Collection constructor
+- Collection::add - Add collection document
+- Collection::addOrReplaceOne - Add or replace collection document
+- Collection::count - Get document count
+- Collection::createIndex - Create collection index
+- Collection::dropIndex - Drop collection index
+- Collection::existsInDatabase - Check if collection exists in database
+- Collection::find - Search for document
+- Collection::getName - Get collection name
+- Collection::getOne - Get one document
+- Collection::getSchema - Get schema object
+- Collection::getSession - Get session object
+- Collection::modify - Modify collection documents
+- Collection::remove - Remove collection documents
+- Collection::removeOne - Remove one collection document
+- Collection::replaceOne - Replace one collection document
+- CollectionAdd::__construct - CollectionAdd constructor
+- CollectionAdd::execute - Execute the statement
+- CollectionFind::__construct - CollectionFind constructor
+- CollectionFind::bind - Bind value to query placeholder
+- CollectionFind::execute - Execute the statement
+- CollectionFind::fields - Set document field filter
+- CollectionFind::groupBy - Set grouping criteria
+- CollectionFind::having - Set condition for aggregate functions
+- CollectionFind::limit - Limit number of returned documents
+- CollectionFind::lockExclusive - Execute operation with EXCLUSIVE LOCK
+- CollectionFind::lockShared - Execute operation with SHARED LOCK
+- CollectionFind::offset - Skip given number of elements to be returned
+- CollectionFind::sort - Set the sorting criteria
+- CollectionModify::__construct - CollectionModify constructor
+- CollectionModify::arrayAppend - Append element to an array field
+- CollectionModify::arrayInsert - Insert element into an array field
+- CollectionModify::bind - Bind value to query placeholder
+- CollectionModify::execute - Execute modify operation
+- CollectionModify::limit - Limit number of modified documents
+- CollectionModify::patch - Patch document
+- CollectionModify::replace - Replace document field
+- CollectionModify::set - Set document attribute
+- CollectionModify::skip - Skip elements
+- CollectionModify::sort - Set the sorting criteria
+- CollectionModify::unset - Unset the value of document fields
+- CollectionRemove::__construct - CollectionRemove constructor
+- CollectionRemove::bind - Bind value to placeholder
+- CollectionRemove::execute - Execute remove operation
+- CollectionRemove::limit - Limit number of documents to remove
+- CollectionRemove::sort - Set the sorting criteria
+- ColumnResult::__construct - ColumnResult constructor
+- ColumnResult::getCharacterSetName - Get character set
+- ColumnResult::getCollationName - Get collation name
+- ColumnResult::getColumnLabel - Get column label
+- ColumnResult::getColumnName - Get column name
+- ColumnResult::getFractionalDigits - Get fractional digit length
+- ColumnResult::getLength - Get column field length
+- ColumnResult::getSchemaName - Get schema name
+- ColumnResult::getTableLabel - Get table label
+- ColumnResult::getTableName - Get table name
+- ColumnResult::getType - Get column type
+- ColumnResult::isNumberSigned - Check if signed type
+- ColumnResult::isPadded - Check if padded
+- CommonMark\CQL::__construct - CQL Construction
+- CommonMark\CQL::__invoke - CQL Execution
+- CommonMark\Interfaces\IVisitable::accept - Visitation
+- CommonMark\Interfaces\IVisitor::enter - Visitation
+- CommonMark\Interfaces\IVisitor::leave - Visitation
+- CommonMark\Node::accept - Visitation
+- CommonMark\Node::appendChild - AST Manipulation
+- CommonMark\Node::insertAfter - AST Manipulation
+- CommonMark\Node::insertBefore - AST Manipulation
+- CommonMark\Node::prependChild - AST Manipulation
+- CommonMark\Node::replace - AST Manipulation
+- CommonMark\Node::unlink - AST Manipulation
+- CommonMark\Node\BulletList::__construct - BulletList Construction
+- CommonMark\Node\CodeBlock::__construct - CodeBlock Construction
+- CommonMark\Node\Heading::__construct - Heading Construction
+- CommonMark\Node\Image::__construct - Image Construction
+- CommonMark\Node\Link::__construct - Link Construction
+- CommonMark\Node\OrderedList::__construct - Constructor OrderedList
+- CommonMark\Node\Text::__construct - Text Construction
+- CommonMark\Parser::__construct - Parsing
+- CommonMark\Parser::finish - Parsing
+- CommonMark\Parser::parse - Parsing
+- COMPersistHelper::__construct - Construct a COMPersistHelper object
+- COMPersistHelper::GetCurFileName - Get current filename
+- COMPersistHelper::GetMaxStreamSize - Get maximum stream size
+- COMPersistHelper::InitNew - Initialize object to default state
+- COMPersistHelper::LoadFromFile - Load object from file
+- COMPersistHelper::LoadFromStream - Load object from stream
+- COMPersistHelper::SaveToFile - Save object to file
+- COMPersistHelper::SaveToStream - Save object to stream
+- Componere\Abstract\Definition::addInterface - Añadir Interface
+- Componere\Abstract\Definition::addMethod - Añadir método
+- Componere\Abstract\Definition::addTrait - Añadir rasgo
+- Componere\Abstract\Definition::getReflector - Reflection
+- Componere\Definition::__construct - Constructor Definition
+- Componere\Definition::addConstant - Añade constante
+- Componere\Definition::addProperty - Añade propiedad
+- Componere\Definition::getClosure - Obtener Cierre
+- Componere\Definition::getClosures - Obtener Cierres
+- Componere\Definition::isRegistered - Detección del estado
+- Componere\Definition::register - Registro
+- Componere\Method::__construct - Constructor Method
+- Componere\Method::getReflector - Reflection
+- Componere\Method::setPrivate - Modificación de la accesibilidad
+- Componere\Method::setProtected - Modificación de la accesibilidad
+- Componere\Method::setStatic - Modificación de la accesibilidad
+- Componere\Patch::__construct - Constructor Patch
+- Componere\Patch::apply - Aplicación
+- Componere\Patch::derive - Derivación del parche
+- Componere\Patch::getClosure - Obtener Cierre
+- Componere\Patch::getClosures - Obtener Cierres
+- Componere\Patch::isApplied - Detección del estado
+- Componere\Patch::revert - Reversión
+- Componere\Value::__construct - Constructor Value
+- Componere\Value::hasDefault - Interacción de Value
+- Componere\Value::isPrivate - Detección de accesibilidad
+- Componere\Value::isProtected - Detección de accesibilidad
+- Componere\Value::isStatic - Detección de accesibilidad
+- Componere\Value::setPrivate - Modificación de la accesibilidad
+- Componere\Value::setProtected - Modificación de la accesibilidad
+- Componere\Value::setStatic - Modificación de la accesibilidad
+- Countable::count - Cuenta los elementos de un objeto
+- CrudOperationBindable::bind - Bind value to placeholder
+- CrudOperationLimitable::limit - Set result limit
+- CrudOperationSkippable::skip - Number of operations to skip
+- CrudOperationSortable::sort - Sort results
+- CURLFile::__construct - Crear un objeto CURLFile
+- CURLFile::getFilename - Recupera el nombre de un fichero
+- CURLFile::getMimeType - Recupera el tipo MIME
+- CURLFile::getPostFilename - Recupera el nombre de fichero para POST
+- CURLFile::setMimeType - Configura el tipo MIME
+- CURLFile::setPostFilename - Establecer el nombre de fichero para POST
+- DatabaseObject::existsInDatabase - Check if object exists in database
+- DatabaseObject::getName - Get object name
+- DatabaseObject::getSession - Get session name
+- date_add - Alias de DateTime::add
+- date_create - Alias de DateTime::__construct
+- date_create_from_format - Alias de DateTime::createFromFormat
+- date_create_immutable - Alias de DateTimeImmutable::__construct
+- date_create_immutable_from_format - Alias de DateTimeImmutable::createFromFormat
+- date_date_set - Alias de DateTime::setDate
+- date_diff - Alias de DateTime::diff
+- date_format - Alias de DateTime::format
+- date_get_last_errors - Alias de DateTime::getLastErrors
+- date_interval_create_from_date_string - Alias de DateInterval::createFromDateString
+- date_interval_format - Alias de DateInterval::format
+- date_isodate_set - Alias de DateTime::setISODate
+- date_modify - Alias de DateTime::modify
+- date_offset_get - Alias de DateTime::getOffset
+- date_sub - Alias de DateTime::sub
+- date_time_set - Alias de DateTime::setTime
+- date_timestamp_get - Alias de DateTime::getTimestamp
+- date_timestamp_set - Alias de DateTime::setTimestamp
+- date_timezone_get - Alias de DateTime::getTimezone
+- date_timezone_set - Alias de DateTime::setTimezone
+- DateInterval::__construct - Crea un nuevo objeto DateInterval
+- DateInterval::createFromDateString - Establece un objeto DateInterval desde las partes relativas de una cadena
+- DateInterval::format - Formatea el intervalo
+- DatePeriod::__construct - Crea un nuevo objeto DatePeriod
+- DatePeriod::createFromISO8601String - Creates a new DatePeriod object from an ISO8601 string
+- DatePeriod::getDateInterval - Obtener el intervalo
+- DatePeriod::getEndDate - Obtener la fecha final
+- DatePeriod::getRecurrences - Gets the number of recurrences
+- DatePeriod::getStartDate - Obtener la fecha inicial
+- DateTime::__construct - Devuelve un nuevo objeto DateTime
+- DateTime::__set_state - El gestor __set_state
+- DateTime::__wakeup - El gestor __wakeup
+- DateTime::add - Añade una cantidad de días, meses, años, horas, minutos y segundos a un objeto DateTime
+- DateTime::createFromFormat - Analiza una cadena con un instante según un formato especificado
+- DateTime::createFromImmutable - Returns new DateTime instance encapsulating the given DateTimeImmutable object
+- DateTime::createFromInterface - Returns new DateTime object encapsulating the given DateTimeInterface object
+- DateTime::diff - Devuelve la diferencia entre dos objetos DateTime
+- DateTime::format - Devuelve la fecha formateada según el formato dado
+- DateTime::getLastErrors - Devuelve las advertencias y los errores
+- DateTime::getOffset - Devuelve el índice de la zona horaria
+- DateTime::getTimestamp - Obtiene la marca de tiempo Unix
+- DateTime::getTimezone - Develve la zona horaria relativa al objeto DateTime dado
+- DateTime::modify - Altera la marca temporal
+- DateTime::setDate - Establece la fecha
+- DateTime::setISODate - Establece la fecha ISO
+- DateTime::setTime - Establece la hora
+- DateTime::setTimestamp - Establece la fecha y la hora basándose en una marca temporal de Unix
+- DateTime::setTimezone - Establece la zona horaria para el objeto DateTime
+- DateTime::sub - Sustrae una cantidad de días, meses, años, horas, minutos y segundos de un objeto DateTime
+- DateTimeImmutable::__construct - Devuelve un nuevo objeto DateTimeImmutable
+- DateTimeImmutable::__set_state - El gestor __set_state
+- DateTimeImmutable::add - Añade una cantidad de días, meses, años, horas, minutos y segundos
+- DateTimeImmutable::createFromFormat - Devuelve un nuevo objeto DateTimeImmutable formateado según el formato especificado
+- DateTimeImmutable::createFromInterface - Returns new DateTimeImmutable object encapsulating the given DateTimeInterface object
+- DateTimeImmutable::createFromMutable - Devuelve un nuevo objeto DateTimeImmutable que encapsula el objeto DateTime dado
+- DateTimeImmutable::getLastErrors - Devuelve las advertencias y errores
+- DateTimeImmutable::modify - Crea un nuevo objeto con la marca de tiempo modificada
+- DateTimeImmutable::setDate - Establece la fecha
+- DateTimeImmutable::setISODate - Establece la fecha ISO
+- DateTimeImmutable::setTime - Establece la hora
+- DateTimeImmutable::setTimestamp - Establece la fecha y hora basadas en una marca de tiempo Unix
+- DateTimeImmutable::setTimezone - Establece la zona horaria
+- DateTimeImmutable::sub - Sustrae una cantidad de días, meses, años, horas, minutos y segundos
+- DateTimeZone::__construct - Crea un nuevo objeto DateTimeZone
+- DateTimeZone::getLocation - Devuelve la información de la ubicación para una zona horaria
+- DateTimeZone::getName - Devuelve el nombre de la zona horaria
+- DateTimeZone::getOffset - Devuelve el índice de la zona horaria de GMT
+- DateTimeZone::getTransitions - Devuelve todas las transiciones para una zona horaria
+- DateTimeZone::listAbbreviations - Devuelve una matriz asociativa que contiene el horario de verano (dst), el índice y el nombre de la zona horaria
+- DateTimeZone::listIdentifiers - Devuelve un array indexado numéricamente que contiene todos los identificadores de zonas horarias definidos
+- Directory::close - Cierra un gestor de directorio
+- Directory::read - Lee una entrada desde el controlador de directorio
+- Directory::rewind - Rebobina el manejador de directorio
+- DirectoryIterator::__construct - Construye un iterador nuevo directorio de una ruta
+- DirectoryIterator::__toString - Obtiene el nombre del fichero como un string
+- DirectoryIterator::current - Devuelve el elemento actual del DirectoryIterator
+- DirectoryIterator::getBasename - Obtener el nombre base del elemento actual DirectoryIterator
+- DirectoryIterator::getExtension - Obtiene la extensión de un fichero
+- DirectoryIterator::getFilename - Devuelve el nombre del fichero del elemento actual DirectoryIterator
+- DirectoryIterator::isDot - Determina si el elemento actual DirectoryIterator es '.' o '..'
+- DirectoryIterator::key - Devuelve la clave del elemento actual DirectoryIterator
+- DirectoryIterator::next - Avanza al siguiente elemento DirectoryIterator
+- DirectoryIterator::rewind - Robobina DirectoryIterator hasta volver al inicio
+- DirectoryIterator::seek - Mueve el apuntador interno del elemento DirectoryIterator
+- DirectoryIterator::valid - Comprueba si la actual posición de DirectoryIterator es un fichero válido
+- DocResult::__construct - DocResult constructor
+- DocResult::fetchAll - Get all rows
+- DocResult::fetchOne - Get one row
+- DocResult::getWarnings - Get warnings from last operation
+- DocResult::getWarningsCount - Get warning count from last operation
+- DOMAttr::__construct - Crea un nuevo objeto DOMAttr
+- DOMAttr::isId - Verifica si un atributo es un ID definido.
+- DOMCdataSection::__construct - Construye un nuevo objeto DOMCdataSection
+- DOMCharacterData::after - Adds nodes after the character data
+- DOMCharacterData::appendData - Añade el string de caracteres al final de los datos de carácter del nodo.
+- DOMCharacterData::before - Adds nodes before the node
+- DOMCharacterData::deleteData - Eliminar una serie de caracteres del nodo
+- DOMCharacterData::insertData - Inserta un string en la posición de 16-bit especificada
+- DOMCharacterData::remove - Removes the character data
+- DOMCharacterData::replaceData - Reemplaza un substring dentro de un nodo DOMCharacterData
+- DOMCharacterData::replaceWith - Replaces the character data with new nodes
+- DOMCharacterData::substringData - Extrae una serie de datos del nodo
+- DOMComment::__construct - Crea un nuevo objeto DOMComment
+- DOMDocument::__construct - Crea un nuevo objeto DOMDocument
+- DOMDocument::adoptNode - Transfer a node from another document
+- DOMDocument::append - Appends nodes after the last child node
+- DOMDocument::createAttribute - Crear nuevo attribute
+- DOMDocument::createAttributeNS - Crea un nuevo nodo atributo con un namespace asociado.
+- DOMDocument::createCDATASection - Crea un nuevo nodo cdata
+- DOMDocument::createComment - Crea un nuevo nodo de comentario
+- DOMDocument::createDocumentFragment - Crea un nuevo fragmento de documento
+- DOMDocument::createElement - Crea un nuevo nodo elemento
+- DOMDocument::createElementNS - Crea un nuevo nodo elemento con el nombre de espacio asociado
+- DOMDocument::createEntityReference - Create new entity reference node
+- DOMDocument::createProcessingInstruction - Crea un nuevo nodo PI
+- DOMDocument::createTextNode - Crea un nuevo nodo de texto
+- DOMDocument::getElementById - Busca un elemento con cierto id
+- DOMDocument::getElementsByTagName - Busca todos los elementos con el nombre de etiqueta local dado
+- DOMDocument::getElementsByTagNameNS - Busca todos los elementos con el nombre de etiqueta dado en el espacio de nombre especificado.
+- DOMDocument::importNode - Importa un nodo dentro del documento actual
+- DOMDocument::load - Cargar un documento XML de un archivo.
+- DOMDocument::loadHTML - Cargar HTML de una cadena
+- DOMDocument::loadHTMLFile - Cargar HTML desde un fichero
+- DOMDocument::loadXML - Cargar XML desde una cadena
+- DOMDocument::normalizeDocument - Normaliza el documento
+- DOMDocument::prepend - Prepends nodes before the first child node
+- DOMDocument::registerNodeClass - Registra una clase extendida usada para crear tipos de nodos base
+- DOMDocument::relaxNGValidate - Realiza una validación relaxNG del documento
+- DOMDocument::relaxNGValidateSource - Realiza una validación relaxNG del documento
+- DOMDocument::replaceChildren - Replace children in document
+- DOMDocument::save - Copia el árbol XML interno a un archivo
+- DOMDocument::saveHTML - Copia el documento interno a una cadena usando el formato HTML
+- DOMDocument::saveHTMLFile - Copia el documento interno a un fichero usando el formato HTML
+- DOMDocument::saveXML - Copia el arbol XML interno a un string
+- DOMDocument::schemaValidate - Valida un documento basado en un esquema
+- DOMDocument::schemaValidateSource - Valida un documento basado en un esquema
+- DOMDocument::validate - Valida el documento basado en su DTD
+- DOMDocument::xinclude - Sustituye XIncludes en un objeto DOMDocument
+- DOMDocumentFragment::__construct - Constructs a DOMDocumentFragment object
+- DOMDocumentFragment::append - Appends nodes after the last child node
+- DOMDocumentFragment::appendXML - Añade información XML sin formato
+- DOMDocumentFragment::prepend - Prepends nodes before the first child node
+- DOMDocumentFragment::replaceChildren - Replace children in fragment
+- DOMElement::__construct - Crea un nuevo objeto DOMElement
+- DOMElement::after - Adds nodes after the element
+- DOMElement::append - Appends nodes after the last child node
+- DOMElement::before - Adds nodes before the element
+- DOMElement::getAttribute - Devuelve el valor de un atributo
+- DOMElement::getAttributeNames - Get attribute names
+- DOMElement::getAttributeNode - Devuelve el nodo de un atributo
+- DOMElement::getAttributeNodeNS - Devuelve el nodo de un atributo
+- DOMElement::getAttributeNS - Devuelve el valor de un atributo
+- DOMElement::getElementsByTagName - Obtiene los elementos por nombre de etiqueta
+- DOMElement::getElementsByTagNameNS - Obtener los elementos por la URI del espacio de nombres y el nombre local
+- DOMElement::hasAttribute - Comprueba si existe un atributo
+- DOMElement::hasAttributeNS - Comprueba si un atributo existe
+- DOMElement::insertAdjacentElement - Insert adjacent element
+- DOMElement::insertAdjacentText - Insert adjacent text
+- DOMElement::prepend - Prepends nodes before the first child node
+- DOMElement::remove - Removes the element
+- DOMElement::removeAttribute - Elimina un atributo
+- DOMElement::removeAttributeNode - Elimina un atributo
+- DOMElement::removeAttributeNS - Elimina un atributo
+- DOMElement::replaceChildren - Replace children in element
+- DOMElement::replaceWith - Replaces the element with new nodes
+- DOMElement::setAttribute - Añade un nuevo atributo
+- DOMElement::setAttributeNode - Añade un nuevo nodo de atributo al elemento
+- DOMElement::setAttributeNodeNS - Aña de un nuevo nodo de atributo al elemento
+- DOMElement::setAttributeNS - Añade un nuevo atributo
+- DOMElement::setIdAttribute - Declara el atributo especificado por su nombre como de tipo ID
+- DOMElement::setIdAttributeNode - Declara el atributo especificado por su nodo como de tipo ID
+- DOMElement::setIdAttributeNS - Declara el atributo especificado por su nombre local y su URI del espacio de nombres como de tipo ID
+- DOMElement::toggleAttribute - Toggle attribute
+- DOMEntityReference::__construct - Crea un nuevo objeto DOMEntityReference
+- DOMImplementation::__construct - Crea un nuevo objeto DOMImplementation
+- DOMImplementation::createDocument - Crea un objeto DOMDocument del tipo especificado con su elemento documento
+- DOMImplementation::createDocumentType - Crear un objeto DOMDocumentType vacío
+- DOMImplementation::hasFeature - Comprueba si la implementación de DOM implementa una característica específica
+- DOMNamedNodeMap::count - Get number of nodes in the map
+- DOMNamedNodeMap::getIterator - Retrieve an external iterator
+- DOMNamedNodeMap::getNamedItem - Recupera un nodo especificado por su nombre
+- DOMNamedNodeMap::getNamedItemNS - Recupera un nodo especificado por el nombre local y la URI del espacio de nombres
+- DOMNamedNodeMap::item - Recupera un nodo especificado por su índice
+- DOMNode::appendChild - Añade un nuevo hijo al final de los hijos
+- DOMNode::C14N - Canonizar nodos a una cadena
+- DOMNode::C14NFile - Canonizar nodos a un fichero
+- DOMNode::cloneNode - Clona un nodo
+- DOMNode::contains - Checks if node contains other node
+- DOMNode::getLineNo - Obtener el número de línea de un nodo
+- DOMNode::getNodePath - Obtener un XPath de un nodo
+- DOMNode::getRootNode - Get root node
+- DOMNode::hasAttributes - Comprueba si un nodo tiene atributos
+- DOMNode::hasChildNodes - Comprueba si el nodo tiene hijos
+- DOMNode::insertBefore - Añade un nuevo hijo antes del nodo de referencia
+- DOMNode::isDefaultNamespace - Comprueba si la URI del espacio de nombres especificada es el espacio de nombres predeterminado
+- DOMNode::isEqualNode - Checks that both nodes are equal
+- DOMNode::isSameNode - Indica si dos nodos son el mismo nodo
+- DOMNode::isSupported - Comprueba si una característica está soportada para la versión especificada
+- DOMNode::lookupNamespaceUri - Obtiene la URI del espacio de nombres del nodo basado en el prefijo
+- DOMNode::lookupPrefix - Obtiene el prefijo del espacio de nombres del nodo basándoes en la URI del espacio de nombres
+- DOMNode::normalize - Normaliza el nodo
+- DOMNode::removeChild - Elimina un hijo de la lista de hijos.
+- DOMNode::replaceChild - Reemplaza un hijo
+- DOMNodeList::count - Obtiene el número de nodos en la lista
+- DOMNodeList::getIterator - Retrieve an external iterator
+- DOMNodeList::item - Recupera un nodo especificado por un índice
+- DOMProcessingInstruction::__construct - Crea un nuevo objeto DOMProcessingInstruction
+- DOMText::__construct - Crea un nuevo objeto DOMText
+- DOMText::isElementContentWhitespace - Devuelve si este nodo de texto contiene espacios en blanco en el contenido del elemento
+- DOMText::isWhitespaceInElementContent - Indica si este nodo de texto contiene espacios en blanco
+- DOMText::splitText - Rompe este nodo en dos nodos en el índice especificado
+- DOMXPath::__construct - Crea un nuevo objeto DOMXPath
+- DOMXPath::evaluate - Evalúa la expresión XPath dada y devuelve un resultado escrito si es posible
+- DOMXPath::query - Evalúa la expresión XPath dada
+- DOMXPath::registerNamespace - Registra el espacio de nombres con el objeto DOMXPath
+- DOMXPath::registerPhpFunctions - Registra funciones de PHP como funciones XPath
+- Ds\Collection::clear - Removes all values
+- Ds\Collection::copy - Returns a shallow copy of the collection
+- Ds\Collection::isEmpty - Returns whether the collection is empty
+- Ds\Collection::toArray - Converts the collection to an array
+- Ds\Deque::__construct - Creates a new instance
+- Ds\Deque::allocate - Allocates enough memory for a required capacity
+- Ds\Deque::apply - Updates all values by applying a callback function to each value
+- Ds\Deque::capacity - Returns the current capacity
+- Ds\Deque::clear - Removes all values from the deque
+- Ds\Deque::contains - Determines if the deque contains given values
+- Ds\Deque::copy - Returns a shallow copy of the deque
+- Ds\Deque::count - Returns the number of values in the collection
+- Ds\Deque::filter - Creates a new deque using a callable to determine which values to include
+- Ds\Deque::find - Attempts to find a value's index
+- Ds\Deque::first - Returns the first value in the deque
+- Ds\Deque::get - Returns the value at a given index
+- Ds\Deque::insert - Inserts values at a given index
+- Ds\Deque::isEmpty - Returns whether the deque is empty
+- Ds\Deque::join - Joins all values together as a string
+- Ds\Deque::jsonSerialize - Returns a representation that can be converted to JSON
+- Ds\Deque::last - Returns the last value
+- Ds\Deque::map - Returns the result of applying a callback to each value
+- Ds\Deque::merge - Returns the result of adding all given values to the deque
+- Ds\Deque::pop - Removes and returns the last value
+- Ds\Deque::push - Adds values to the end of the deque
+- Ds\Deque::reduce - Reduces the deque to a single value using a callback function
+- Ds\Deque::remove - Removes and returns a value by index
+- Ds\Deque::reverse - Reverses the deque in-place
+- Ds\Deque::reversed - Returns a reversed copy
+- Ds\Deque::rotate - Rotates the deque by a given number of rotations
+- Ds\Deque::set - Updates a value at a given index
+- Ds\Deque::shift - Removes and returns the first value
+- Ds\Deque::slice - Returns a sub-deque of a given range
+- Ds\Deque::sort - Sorts the deque in-place
+- Ds\Deque::sorted - Returns a sorted copy
+- Ds\Deque::sum - Returns the sum of all values in the deque
+- Ds\Deque::toArray - Converts the deque to an array
+- Ds\Deque::unshift - Adds values to the front of the deque
+- Ds\Hashable::equals - Determines whether an object is equal to the current instance
+- Ds\Hashable::hash - Returns a scalar value to be used as a hash value
+- Ds\Map::__construct - Creates a new instance
+- Ds\Map::allocate - Allocates enough memory for a required capacity
+- Ds\Map::apply - Updates all values by applying a callback function to each value
+- Ds\Map::capacity - Returns the current capacity
+- Ds\Map::clear - Removes all values
+- Ds\Map::copy - Returns a shallow copy of the map
+- Ds\Map::count - Returns the number of values in the map
+- Ds\Map::diff - Creates a new map using keys that aren't in another map
+- Ds\Map::filter - Creates a new map using a callable to determine which pairs to include
+- Ds\Map::first - Returns the first pair in the map
+- Ds\Map::get - Returns the value for a given key
+- Ds\Map::hasKey - Determines whether the map contains a given key
+- Ds\Map::hasValue - Determines whether the map contains a given value
+- Ds\Map::intersect - Creates a new map by intersecting keys with another map
+- Ds\Map::isEmpty - Returns whether the map is empty
+- Ds\Map::jsonSerialize - Returns a representation that can be converted to JSON
+- Ds\Map::keys - Returns a set of the map's keys
+- Ds\Map::ksort - Sorts the map in-place by key
+- Ds\Map::ksorted - Returns a copy, sorted by key
+- Ds\Map::last - Returns the last pair of the map
+- Ds\Map::map - Returns the result of applying a callback to each value
+- Ds\Map::merge - Returns the result of adding all given associations
+- Ds\Map::pairs - Returns a sequence containing all the pairs of the map
+- Ds\Map::put - Associates a key with a value
+- Ds\Map::putAll - Associates all key-value pairs of a traversable object or array
+- Ds\Map::reduce - Reduces the map to a single value using a callback function
+- Ds\Map::remove - Removes and returns a value by key
+- Ds\Map::reverse - Reverses the map in-place
+- Ds\Map::reversed - Returns a reversed copy
+- Ds\Map::skip - Returns the pair at a given positional index
+- Ds\Map::slice - Returns a subset of the map defined by a starting index and length
+- Ds\Map::sort - Sorts the map in-place by value
+- Ds\Map::sorted - Returns a copy, sorted by value
+- Ds\Map::sum - Returns the sum of all values in the map
+- Ds\Map::toArray - Converts the map to an array
+- Ds\Map::union - Creates a new map using values from the current instance and another map
+- Ds\Map::values - Returns a sequence of the map's values
+- Ds\Map::xor - Creates a new map using keys of either the current instance or of another map, but not of both
+- Ds\Pair::__construct - Creates a new instance
+- Ds\Pair::clear - Removes all values
+- Ds\Pair::copy - Returns a shallow copy of the pair
+- Ds\Pair::isEmpty - Returns whether the pair is empty
+- Ds\Pair::jsonSerialize - Returns a representation that can be converted to JSON
+- Ds\Pair::toArray - Converts the pair to an array
+- Ds\PriorityQueue::__construct - Creates a new instance
+- Ds\PriorityQueue::allocate - Allocates enough memory for a required capacity
+- Ds\PriorityQueue::capacity - Returns the current capacity
+- Ds\PriorityQueue::clear - Removes all values
+- Ds\PriorityQueue::copy - Returns a shallow copy of the queue
+- Ds\PriorityQueue::count - Returns the number of values in the queue
+- Ds\PriorityQueue::isEmpty - Returns whether the queue is empty
+- Ds\PriorityQueue::jsonSerialize - Returns a representation that can be converted to JSON
+- Ds\PriorityQueue::peek - Returns the value at the front of the queue
+- Ds\PriorityQueue::pop - Removes and returns the value with the highest priority
+- Ds\PriorityQueue::push - Pushes values into the queue
+- Ds\PriorityQueue::toArray - Converts the queue to an array
+- Ds\Queue::__construct - Creates a new instance
+- Ds\Queue::allocate - Allocates enough memory for a required capacity
+- Ds\Queue::capacity - Returns the current capacity
+- Ds\Queue::clear - Removes all values
+- Ds\Queue::copy - Returns a shallow copy of the queue
+- Ds\Queue::count - Returns the number of values in the queue
+- Ds\Queue::isEmpty - Returns whether the queue is empty
+- Ds\Queue::jsonSerialize - Regresa una representacion que puede ser convertida a JSON
+- Ds\Queue::peek - Returns the value at the front of the queue
+- Ds\Queue::pop - Removes and returns the value at the front of the queue
+- Ds\Queue::push - Añade un elemento a la cola
+- Ds\Queue::toArray - Convierte la cola en un array
+- Ds\Sequence::allocate - Allocates enough memory for a required capacity
+- Ds\Sequence::apply - Updates all values by applying a callback function to each value
+- Ds\Sequence::capacity - Returns the current capacity
+- Ds\Sequence::contains - Determines if the sequence contains given values
+- Ds\Sequence::filter - Creates a new sequence using a callable to determine which values to include
+- Ds\Sequence::find - Attempts to find a value's index
+- Ds\Sequence::first - Returns the first value in the sequence
+- Ds\Sequence::get - Returns the value at a given index
+- Ds\Sequence::insert - Inserts values at a given index
+- Ds\Sequence::join - Joins all values together as a string
+- Ds\Sequence::last - Returns the last value
+- Ds\Sequence::map - Returns the result of applying a callback to each value
+- Ds\Sequence::merge - Returns the result of adding all given values to the sequence
+- Ds\Sequence::pop - Removes and returns the last value
+- Ds\Sequence::push - Adds values to the end of the sequence
+- Ds\Sequence::reduce - Reduces the sequence to a single value using a callback function
+- Ds\Sequence::remove - Removes and returns a value by index
+- Ds\Sequence::reverse - Reverses the sequence in-place
+- Ds\Sequence::reversed - Returns a reversed copy
+- Ds\Sequence::rotate - Rotates the sequence by a given number of rotations
+- Ds\Sequence::set - Updates a value at a given index
+- Ds\Sequence::shift - Removes and returns the first value
+- Ds\Sequence::slice - Returns a sub-sequence of a given range
+- Ds\Sequence::sort - Sorts the sequence in-place
+- Ds\Sequence::sorted - Returns a sorted copy
+- Ds\Sequence::sum - Returns the sum of all values in the sequence
+- Ds\Sequence::unshift - Adds values to the front of the sequence
+- Ds\Set::__construct - Creates a new instance
+- Ds\Set::add - Adds values to the set
+- Ds\Set::allocate - Allocates enough memory for a required capacity
+- Ds\Set::capacity - Returns the current capacity
+- Ds\Set::clear - Removes all values
+- Ds\Set::contains - Determines if the set contains all values
+- Ds\Set::copy - Returns a shallow copy of the set
+- Ds\Set::count - Returns the number of values in the set
+- Ds\Set::diff - Creates a new set using values that aren't in another set
+- Ds\Set::filter - Creates a new set using a callable to determine which values to include
+- Ds\Set::first - Returns the first value in the set
+- Ds\Set::get - Returns the value at a given index
+- Ds\Set::intersect - Creates a new set by intersecting values with another set
+- Ds\Set::isEmpty - Returns whether the set is empty
+- Ds\Set::join - Joins all values together as a string
+- Ds\Set::jsonSerialize - Returns a representation that can be converted to JSON
+- Ds\Set::last - Returns the last value in the set
+- Ds\Set::merge - Returns the result of adding all given values to the set
+- Ds\Set::reduce - Reduces the set to a single value using a callback function
+- Ds\Set::remove - Removes all given values from the set
+- Ds\Set::reverse - Reverses the set in-place
+- Ds\Set::reversed - Returns a reversed copy
+- Ds\Set::slice - Returns a sub-set of a given range
+- Ds\Set::sort - Sorts the set in-place
+- Ds\Set::sorted - Returns a sorted copy
+- Ds\Set::sum - Returns the sum of all values in the set
+- Ds\Set::toArray - Converts the set to an array
+- Ds\Set::union - Creates a new set using values from the current instance and another set
+- Ds\Set::xor - Creates a new set using values in either the current instance or in another set, but not in both
+- Ds\Stack::__construct - Creates a new instance
+- Ds\Stack::allocate - Allocates enough memory for a required capacity
+- Ds\Stack::capacity - Returns the current capacity
+- Ds\Stack::clear - Removes all values
+- Ds\Stack::copy - Returns a shallow copy of the stack
+- Ds\Stack::count - Returns the number of values in the stack
+- Ds\Stack::isEmpty - Returns whether the stack is empty
+- Ds\Stack::jsonSerialize - Returns a representation that can be converted to JSON
+- Ds\Stack::peek - Returns the value at the top of the stack
+- Ds\Stack::pop - Removes and returns the value at the top of the stack
+- Ds\Stack::push - Pushes values onto the stack
+- Ds\Stack::toArray - Converts the stack to an array
+- Ds\Vector::__construct - Creates a new instance
+- Ds\Vector::allocate - Allocates enough memory for a required capacity
+- Ds\Vector::apply - Updates all values by applying a callback function to each value
+- Ds\Vector::capacity - Returns the current capacity
+- Ds\Vector::clear - Removes all values
+- Ds\Vector::contains - Determines if the vector contains given values
+- Ds\Vector::copy - Returns a shallow copy of the vector
+- Ds\Vector::count - Returns the number of values in the collection
+- Ds\Vector::filter - Creates a new vector using a callable to determine which values to include
+- Ds\Vector::find - Attempts to find a value's index
+- Ds\Vector::first - Returns the first value in the vector
+- Ds\Vector::get - Returns the value at a given index
+- Ds\Vector::insert - Inserts values at a given index
+- Ds\Vector::isEmpty - Returns whether the vector is empty
+- Ds\Vector::join - Joins all values together as a string
+- Ds\Vector::jsonSerialize - Returns a representation that can be converted to JSON
+- Ds\Vector::last - Returns the last value
+- Ds\Vector::map - Returns the result of applying a callback to each value
+- Ds\Vector::merge - Returns the result of adding all given values to the vector
+- Ds\Vector::pop - Removes and returns the last value
+- Ds\Vector::push - Adds values to the end of the vector
+- Ds\Vector::reduce - Reduces the vector to a single value using a callback function
+- Ds\Vector::remove - Removes and returns a value by index
+- Ds\Vector::reverse - Reverses the vector in-place
+- Ds\Vector::reversed - Returns a reversed copy
+- Ds\Vector::rotate - Rotates the vector by a given number of rotations
+- Ds\Vector::set - Updates a value at a given index
+- Ds\Vector::shift - Removes and returns the first value
+- Ds\Vector::slice - Returns a sub-vector of a given range
+- Ds\Vector::sort - Sorts the vector in-place
+- Ds\Vector::sorted - Returns a sorted copy
+- Ds\Vector::sum - Returns the sum of all values in the vector
+- Ds\Vector::toArray - Converts the vector to an array
+- Ds\Vector::unshift - Adds values to the front of the vector
+- EmptyIterator::current - El método current()
+- EmptyIterator::key - El método key()
+- EmptyIterator::next - El método next()
+- EmptyIterator::rewind - El método rewind()
+- EmptyIterator::valid - El método valid()
+- Error::__clone - Clonar el error
+- Error::__construct - Construir el objeto error
+- Error::__toString - Representación de string del error
+- Error::getCode - Obtener el código de error
+- Error::getFile - Obtener el fichero en el que ocurrío el error
+- Error::getLine - Obtener la línea en la que ocurrió el error
+- Error::getMessage - Obtener el mensaje de error
+- Error::getPrevious - Devuelve el objeto Throwable anterior
+- Error::getTrace - Obtener la traza de la pila
+- Error::getTraceAsString - Obtener la traza de la pila como un string
+- ErrorException::__construct - Constructor de la excepción
+- ErrorException::getSeverity - Obtiene la severidad de la excepción
+- Ev::backend - Devuelve un entero que describe el back-end utilizado por libev
+- Ev::depth - Devuelve la profundidad de la recursividad
+- Ev::embeddableBackends - Returns the set of backends that are embeddable in other event loops
+- Ev::feedSignal - Feed a signal event info Ev
+- Ev::feedSignalEvent - Feed signal event into the default loop
+- Ev::iteration - Return the number of times the default event loop has polled for new events
+- Ev::now - Returns the time when the last iteration of the default event loop has started
+- Ev::nowUpdate - Establishes the current time by querying the kernel, updating the time returned by Ev::now in the progress
+- Ev::recommendedBackends - Returns a bit mask of recommended backends for current platform
+- Ev::resume - Resume previously suspended default event loop
+- Ev::run - Begin checking for events and calling callbacks for the default loop
+- Ev::sleep - Block the process for the given number of seconds
+- Ev::stop - Stops the default event loop
+- Ev::supportedBackends - Returns the set of backends supported by current libev configuration
+- Ev::suspend - Suspend the default event loop
+- Ev::time - Returns the current time in fractional seconds since the epoch
+- Ev::verify - Performs internal consistency checks(for debugging)
+- EvCheck::__construct - Constructs the EvCheck watcher object
+- EvCheck::createStopped - Create instance of a stopped EvCheck watcher
+- EvChild::__construct - Constructs the EvChild watcher object
+- EvChild::createStopped - Create instance of a stopped EvCheck watcher
+- EvChild::set - Configures the watcher
+- EvEmbed::__construct - Constructs the EvEmbed object
+- EvEmbed::createStopped - Create stopped EvEmbed watcher object
+- EvEmbed::set - Configures the watcher
+- EvEmbed::sweep - Realizar un único barrido sin bloqueos sobre el bucle embebido
+- Event::__construct - Constructs Event object
+- Event::add - Makes event pending
+- Event::addSignal - Alias de Event::add
+- Event::addTimer - Alias de Event::add
+- Event::del - Makes event non-pending
+- Event::delSignal - Alias de Event::del
+- Event::delTimer - Alias de Event::del
+- Event::free - Make event non-pending and free resources allocated for this event
+- Event::getSupportedMethods - Returns array with of the names of the methods supported in this version of Libevent
+- Event::pending - Detects whether event is pending or scheduled
+- Event::set - Re-configures event
+- Event::setPriority - Set event priority
+- Event::setTimer - Re-configures timer event
+- Event::signal - Constructs signal event object
+- Event::timer - Constructs timer event object
+- EventBase::__construct - Construye un objeto EventBase
+- EventBase::dispatch - Despacha eventos pendientes
+- EventBase::exit - Detiene el envío de los eventos
+- EventBase::free - Recursos ddisponibles asignados para esta base de eventos
+- EventBase::getFeatures - Devuelve una máscara de bits de funcionalidades soportadas
+- EventBase::getMethod - Devuelve el método de evento utilizado
+- EventBase::getTimeOfDayCached - Devuelve el tiempo del evento base actual
+- EventBase::gotExit - Verifica si se ha indicado al bucle del evento de salir
+- EventBase::gotStop - Verifica si se ha indicado al bucle del evento de salir
+- EventBase::loop - Despacha eventos pendientes
+- EventBase::priorityInit - Define el número de prioridades por evento base
+- EventBase::reInit - Reinicializa el evento base (después de un 'fork')
+- EventBase::stop - Solicita a event_base que detenga la emisión de eventos
+- EventBuffer::__construct - Construye el objeto EventBuffer
+- EventBuffer::add - Añade datos al final de un buffer de eventos
+- EventBuffer::addBuffer - Mueve todos los datos de un buffer a la instancia actual de EventBuffer
+- EventBuffer::appendFrom - Mueve el número de bytes especificados desde un buffer fuente, al final del buffer actual
+- EventBuffer::copyout - Copia un número específico de bytes del principio del buffer
+- EventBuffer::drain - Elimina un número específico de bytes del principio del buffer sin copiarlo a ningún lugar
+- EventBuffer::enableLocking - Descripción
+- EventBuffer::expand - Reserva espacio en el buffer
+- EventBuffer::freeze - Evita que las llamadas puedan modificar un buffer de eventos
+- EventBuffer::lock - Bloquea un buffer
+- EventBuffer::prepend - Prepend data to the front of the buffer
+- EventBuffer::prependBuffer - Moves all data from source buffer to the front of current buffer
+- EventBuffer::pullup - Linearizes data within buffer and returns it's contents as a string
+- EventBuffer::read - Read data from an evbuffer and drain the bytes read
+- EventBuffer::readFrom - Read data from a file onto the end of the buffer
+- EventBuffer::readLine - Extracts a line from the front of the buffer
+- EventBuffer::search - Scans the buffer for an occurrence of a string
+- EventBuffer::searchEol - Scans the buffer for an occurrence of an end of line
+- EventBuffer::substr - Substracts a portion of the buffer data
+- EventBuffer::unfreeze - Re-enable calls that modify an event buffer
+- EventBuffer::unlock - Releases lock acquired by EventBuffer::lock
+- EventBuffer::write - Write contents of the buffer to a file or socket
+- EventBufferEvent::__construct - Constructs EventBufferEvent object
+- EventBufferEvent::close - Closes file descriptor associated with the current buffer event
+- EventBufferEvent::connect - Connect buffer event's file descriptor to given address or UNIX socket
+- EventBufferEvent::connectHost - Connects to a hostname with optionally asyncronous DNS resolving
+- EventBufferEvent::createPair - Creates two buffer events connected to each other
+- EventBufferEvent::disable - Disable events read, write, or both on a buffer event
+- EventBufferEvent::enable - Enable events read, write, or both on a buffer event
+- EventBufferEvent::free - Free a buffer event
+- EventBufferEvent::getDnsErrorString - Returns string describing the last failed DNS lookup attempt
+- EventBufferEvent::getEnabled - Returns bitmask of events currently enabled on the buffer event
+- EventBufferEvent::getInput - Returns underlying input buffer associated with current buffer event
+- EventBufferEvent::getOutput - Returns underlying output buffer associated with current buffer event
+- EventBufferEvent::read - Read buffer's data
+- EventBufferEvent::readBuffer - Drains the entire contents of the input buffer and places them into buf
+- EventBufferEvent::setCallbacks - Assigns read, write and event(status) callbacks
+- EventBufferEvent::setPriority - Assign a priority to a bufferevent
+- EventBufferEvent::setTimeouts - Set the read and write timeout for a buffer event
+- EventBufferEvent::setWatermark - Adjusts read and/or write watermarks
+- EventBufferEvent::sslError - Returns most recent OpenSSL error reported on the buffer event
+- EventBufferEvent::sslFilter - Crea un nuevo evento búfer SSL búfer para enviar sus datos a otro evento búfer
+- EventBufferEvent::sslGetCipherInfo - Returns a textual description of the cipher
+- EventBufferEvent::sslGetCipherName - Returns the current cipher name of the SSL connection
+- EventBufferEvent::sslGetCipherVersion - Returns version of cipher used by current SSL connection
+- EventBufferEvent::sslGetProtocol - Returns the name of the protocol used for current SSL connection
+- EventBufferEvent::sslRenegotiate - Tells a bufferevent to begin SSL renegotiation
+- EventBufferEvent::sslSocket - Creates a new SSL buffer event to send its data over an SSL on a socket
+- EventBufferEvent::write - Adds data to a buffer event's output buffer
+- EventBufferEvent::writeBuffer - Adds contents of the entire buffer to a buffer event's output buffer
+- EventConfig::__construct - Constructs EventConfig object
+- EventConfig::avoidMethod - Tells libevent to avoid specific event method
+- EventConfig::requireFeatures - Enters a required event method feature that the application demands
+- EventConfig::setFlags - Sets one or more flags to configure the eventual EventBase will be initialized
+- EventConfig::setMaxDispatchInterval - Prevents priority inversion
+- EventDnsBase::__construct - Constructs EventDnsBase object
+- EventDnsBase::addNameserverIp - Adds a nameserver to the DNS base
+- EventDnsBase::addSearch - Adds a domain to the list of search domains
+- EventDnsBase::clearSearch - Removes all current search suffixes
+- EventDnsBase::countNameservers - Gets the number of configured nameservers
+- EventDnsBase::loadHosts - Loads a hosts file (in the same format as /etc/hosts) from hosts file
+- EventDnsBase::parseResolvConf - Scans the resolv.conf-formatted file
+- EventDnsBase::setOption - Set the value of a configuration option
+- EventDnsBase::setSearchNdots - Set the 'ndots' parameter for searches
+- EventHttp::__construct - Constructs EventHttp object(the HTTP server)
+- EventHttp::accept - Makes an HTTP server accept connections on the specified socket stream or resource
+- EventHttp::addServerAlias - Adds a server alias to the HTTP server object
+- EventHttp::bind - Binds an HTTP server on the specified address and port
+- EventHttp::removeServerAlias - Removes server alias
+- EventHttp::setAllowedMethods - Sets the what HTTP methods are supported in requests accepted by this server, and passed to user callbacks
+- EventHttp::setCallback - Sets a callback for specified URI
+- EventHttp::setDefaultCallback - Sets default callback to handle requests that are not caught by specific callbacks
+- EventHttp::setMaxBodySize - Sets maximum request body size
+- EventHttp::setMaxHeadersSize - Sets maximum HTTP header size
+- EventHttp::setTimeout - Sets the timeout for an HTTP request
+- EventHttpConnection::__construct - Constructs EventHttpConnection object
+- EventHttpConnection::getBase - Returns event base associated with the connection
+- EventHttpConnection::getPeer - Gets the remote address and port associated with the connection
+- EventHttpConnection::makeRequest - Makes an HTTP request over the specified connection
+- EventHttpConnection::setCloseCallback - Set callback for connection close
+- EventHttpConnection::setLocalAddress - Sets the IP address from which HTTP connections are made
+- EventHttpConnection::setLocalPort - Sets the local port from which connections are made
+- EventHttpConnection::setMaxBodySize - Sets maximum body size for the connection
+- EventHttpConnection::setMaxHeadersSize - Sets maximum header size
+- EventHttpConnection::setRetries - Sets the retry limit for the connection
+- EventHttpConnection::setTimeout - Sets the timeout for the connection
+- EventHttpRequest::__construct - Constructs EventHttpRequest object
+- EventHttpRequest::addHeader - Adds an HTTP header to the headers of the request
+- EventHttpRequest::cancel - Cancels a pending HTTP request
+- EventHttpRequest::clearHeaders - Removes all output headers from the header list of the request
+- EventHttpRequest::closeConnection - Closes associated HTTP connection
+- EventHttpRequest::findHeader - Finds the value belonging a header
+- EventHttpRequest::free - Frees the object and removes associated events
+- EventHttpRequest::getBufferEvent - Returns EventBufferEvent object
+- EventHttpRequest::getCommand - Returns the request command(method)
+- EventHttpRequest::getConnection - Returns EventHttpConnection object
+- EventHttpRequest::getHost - Returns the request host
+- EventHttpRequest::getInputBuffer - Returns the input buffer
+- EventHttpRequest::getInputHeaders - Returns associative array of the input headers
+- EventHttpRequest::getOutputBuffer - Returns the output buffer of the request
+- EventHttpRequest::getOutputHeaders - Returns associative array of the output headers
+- EventHttpRequest::getResponseCode - Returns the response code
+- EventHttpRequest::getUri - Returns the request URI
+- EventHttpRequest::removeHeader - Removes an HTTP header from the headers of the request
+- EventHttpRequest::sendError - Send an HTML error message to the client
+- EventHttpRequest::sendReply - Send an HTML reply to the client
+- EventHttpRequest::sendReplyChunk - Send another data chunk as part of an ongoing chunked reply
+- EventHttpRequest::sendReplyEnd - Complete a chunked reply, freeing the request as appropriate
+- EventHttpRequest::sendReplyStart - Initiate a chunked reply
+- EventListener::__construct - Creates new connection listener associated with an event base
+- EventListener::disable - Disables an event connect listener object
+- EventListener::enable - Enables an event connect listener object
+- EventListener::getBase - Returns event base associated with the event listener
+- EventListener::getSocketName - Retreives the current address to which the listener's socket is bound
+- EventListener::setCallback - The setCallback purpose
+- EventListener::setErrorCallback - Set event listener's error callback
+- EventSslContext::__construct - Constructs an OpenSSL context for use with Event classes
+- EventUtil::__construct - The abstract constructor
+- EventUtil::getLastSocketErrno - Returns the most recent socket error number
+- EventUtil::getLastSocketError - Returns the most recent socket error
+- EventUtil::getSocketFd - Returns numeric file descriptor of a socket, or stream
+- EventUtil::getSocketName - Retreives the current address to which the socket is bound
+- EventUtil::setSocketOption - Sets socket options
+- EventUtil::sslRandPoll - Generates entropy by means of OpenSSL's RAND_poll()
+- EvFork::__construct - Constructs the EvFork watcher object
+- EvFork::createStopped - Creates a stopped instance of EvFork watcher class
+- EvIdle::__construct - Constructs the EvIdle watcher object
+- EvIdle::createStopped - Creates instance of a stopped EvIdle watcher object
+- EvIo::__construct - Constructs EvIo watcher object
+- EvIo::createStopped - Create stopped EvIo watcher object
+- EvIo::set - Configures the watcher
+- EvLoop::__construct - Constructs the event loop object
+- EvLoop::backend - Returns an integer describing the backend used by libev
+- EvLoop::check - Creates EvCheck object associated with the current event loop instance
+- EvLoop::child - Creates EvChild object associated with the current event loop
+- EvLoop::defaultLoop - Returns or creates the default event loop
+- EvLoop::embed - Creates an instance of EvEmbed watcher associated with the current EvLoop object
+- EvLoop::fork - Creates EvFork watcher object associated with the current event loop instance
+- EvLoop::idle - Creates EvIdle watcher object associated with the current event loop instance
+- EvLoop::invokePending - Invoke all pending watchers while resetting their pending state
+- EvLoop::io - Create EvIo watcher object associated with the current event loop instance
+- EvLoop::loopFork - Must be called after a fork
+- EvLoop::now - Returns the current "event loop time"
+- EvLoop::nowUpdate - Establishes the current time by querying the kernel, updating the time returned by EvLoop::now in the progress
+- EvLoop::periodic - Creates EvPeriodic watcher object associated with the current event loop instance
+- EvLoop::prepare - Creates EvPrepare watcher object associated with the current event loop instance
+- EvLoop::resume - Resume previously suspended default event loop
+- EvLoop::run - Begin checking for events and calling callbacks for the loop
+- EvLoop::signal - Creates EvSignal watcher object associated with the current event loop instance
+- EvLoop::stat - Creates EvStat watcher object associated with the current event loop instance
+- EvLoop::stop - Stops the event loop
+- EvLoop::suspend - Suspend the loop
+- EvLoop::timer - Creates EvTimer watcher object associated with the current event loop instance
+- EvLoop::verify - Performs internal consistency checks(for debugging)
+- EvPeriodic::__construct - Constructs EvPeriodic watcher object
+- EvPeriodic::again - Simply stops and restarts the periodic watcher again
+- EvPeriodic::at - Returns the absolute time that this watcher is supposed to trigger next
+- EvPeriodic::createStopped - Create a stopped EvPeriodic watcher
+- EvPeriodic::set - Configures the watcher
+- EvPrepare::__construct - Construye un objeto observador de EvPrepare
+- EvPrepare::createStopped - Crea una instancia detenida del watcher (testigo) EvPrepare
+- EvSignal::__construct - Construye el objeto observador EvSignal
+- EvSignal::createStopped - Create stopped EvSignal watcher object
+- EvSignal::set - Configura el testigo
+- EvStat::__construct - Constructs EvStat watcher object
+- EvStat::attr - Returns the values most recently detected by Ev
+- EvStat::createStopped - Create a stopped EvStat watcher object
+- EvStat::prev - Returns the previous set of values returned by EvStat::attr
+- EvStat::set - Configures the watcher
+- EvStat::stat - Initiates the stat call
+- EvTimer::__construct - Constructs an EvTimer watcher object
+- EvTimer::again - Restarts the timer watcher
+- EvTimer::createStopped - Creates EvTimer stopped watcher object
+- EvTimer::set - Configures the watcher
+- EvWatcher::__construct - Abstract constructor of a watcher object
+- EvWatcher::clear - Clear watcher pending status
+- EvWatcher::feed - Feeds the given revents set into the event loop
+- EvWatcher::getLoop - Returns the loop responsible for the watcher
+- EvWatcher::invoke - Invokes the watcher callback with the given received events bit mask
+- EvWatcher::keepalive - Configures whether to keep the loop from returning
+- EvWatcher::setCallback - Sets new callback for the watcher
+- EvWatcher::start - Starts the watcher
+- EvWatcher::stop - Stops the watcher
+- Exception::__clone - Clona la excepción
+- Exception::__construct - Constructor de la excepción
+- Exception::__toString - Representación de la excepción en formato cadena
+- Exception::getCode - Obtiene el código de una excepción
+- Exception::getFile - Obtiene el fichero en el que se creó la excepción
+- Exception::getLine - Obtiene la línea en el que se creó la excepción
+- Exception::getMessage - Obtiene el mensaje de Excepción
+- Exception::getPrevious - Devuelve la Throwable anterior
+- Exception::getTrace - Obtiene la traza de la pila
+- Exception::getTraceAsString - Obtiene la traza de la pila como una cadena de caracteres
+- Executable::execute - Execute statement
+- ExecutionStatus::__construct - ExecutionStatus constructor
+- Expression::__construct - Expression constructor
+- FANNConnection::__construct - El constructor de la conexión
+- FANNConnection::getFromNeuron - Devuelve las posiciones de la neurona inicial
+- FANNConnection::getToNeuron - Devuelve las posiciones de la neurona terminal
+- FANNConnection::getWeight - Devuelve el peso de la conexión
+- FANNConnection::setWeight - Establece el peso de la conexión
+- FFI::addr - Creates an unmanaged pointer to C data
+- FFI::alignof - Gets the alignment
+- FFI::arrayType - Dynamically constructs a new C array type
+- FFI::cast - Performs a C type cast
+- FFI::cdef - Creates a new FFI object
+- FFI::free - Releases an unmanaged data structure
+- FFI::isNull - Checks whether a FFI\CData is a null pointer
+- FFI::load - Loads C declarations from a C header file
+- FFI::memcmp - Compares memory areas
+- FFI::memcpy - Copies one memory area to another
+- FFI::memset - Fills a memory area
+- FFI::new - Creates a C data structure
+- FFI::scope - Instantiates an FFI object with C declarations parsed during preloading
+- FFI::sizeof - Gets the size of C data or types
+- FFI::string - Creates a PHP string from a memory area
+- FFI::type - Creates an FFI\CType object from a C declaration
+- FFI::typeof - Gets the FFI\CType of FFI\CData
+- FFI\CType::getAlignment - Description
+- FFI\CType::getArrayElementType - Description
+- FFI\CType::getArrayLength - Description
+- FFI\CType::getAttributes - Description
+- FFI\CType::getEnumKind - Description
+- FFI\CType::getFuncABI - Description
+- FFI\CType::getFuncParameterCount - Description
+- FFI\CType::getFuncParameterType - Description
+- FFI\CType::getFuncReturnType - Description
+- FFI\CType::getKind - Description
+- FFI\CType::getName - Description
+- FFI\CType::getPointerType - Description
+- FFI\CType::getSize - Description
+- FFI\CType::getStructFieldNames - Description
+- FFI\CType::getStructFieldOffset - Description
+- FFI\CType::getStructFieldType - Description
+- Fiber::__construct - Creates a new Fiber instance
+- Fiber::getCurrent - Gets the currently executing Fiber instance
+- Fiber::getReturn - Gets the value returned by the Fiber
+- Fiber::isRunning - Determines if the fiber is running
+- Fiber::isStarted - Determines if the fiber has started
+- Fiber::isSuspended - Determines if the fiber is suspended
+- Fiber::isTerminated - Determines if the fiber has terminated
+- Fiber::resume - Resumes execution of the fiber with a value
+- Fiber::start - Start execution of the fiber
+- Fiber::suspend - Suspends execution of the current fiber
+- Fiber::throw - Resumes execution of the fiber with an exception
+- FiberError::__construct - Constructor to disallow direct instantiation
+- FilesystemIterator::__construct - Construye un nuevo iterador filesystem
+- FilesystemIterator::current - El fichero actual
+- FilesystemIterator::getFlags - Obtiene el manejo de flags
+- FilesystemIterator::key - Recupera la clave del fichero actual
+- FilesystemIterator::next - Moverse al siguiente fichero
+- FilesystemIterator::rewind - Rebobina hasta volver al inicio
+- FilesystemIterator::setFlags - Establece las flags de manejo
+- FilterIterator::__construct - Construye un filterIterator
+- FilterIterator::accept - Comprueba si el elemento actual del iterador es aceptable
+- FilterIterator::current - Obtiene el valor del elemento actual
+- FilterIterator::key - Obtiene la clave actual
+- FilterIterator::next - Mueve el iterador a la siguiente posición
+- FilterIterator::rewind - Rebobina el iterador
+- FilterIterator::valid - Comprueba si el elemento actual es válido
+- finfo::__construct - Alias de finfo_open
+- finfo::buffer - Alias de finfo_buffer()
+- finfo::file - Alias de finfo_file()
+- finfo::set_flags - Alias de finfo_set_flags()
+- GearmanClient::__construct - Crea una instancia de GearmanClient
+- GearmanClient::addOptions - Añade opciones al cliente
+- GearmanClient::addServer - Añade un servidor de trabajos al cliente
+- GearmanClient::addServers - Añade una lista de servidores de trabajos al cliente
+- GearmanClient::addTask - Añade una tarea para ser ejecutada en paralelo
+- GearmanClient::addTaskBackground - Ejecuta una tarea en segundo plano para ser ejecutada en paralelo
+- GearmanClient::addTaskHigh - Añade una tarea de alta prioridad para ser ejecutada en paralelo
+- GearmanClient::addTaskHighBackground - Añade una tarea de alta prioridad ejecutada en segundo plano y en paralelo
+- GearmanClient::addTaskLow - Añade una tarea de baja prioridad para ejecutar en paralelo
+- GearmanClient::addTaskLowBackground - Añade una tarea de baja prioridad en segundo plano para ser ejecutada en paralelo
+- GearmanClient::addTaskStatus - Añade una tarea para obtener el estado
+- GearmanClient::clearCallbacks - Elimina todas las funciones de retorno de llamada
+- GearmanClient::clone - Crea una copia de un objeto GearmanClient
+- GearmanClient::context - Obtiene el contexto de la aplicación
+- GearmanClient::data - Retorna los datos de aplicación (obsoleto)
+- GearmanClient::do - Ejecuta una sola tarea y retorna el resultado [obsoleto]
+- GearmanClient::doBackground - Ejecuta una tarea en segundo plano
+- GearmanClient::doHigh - Ejecuta una tarea de prioridad alta
+- GearmanClient::doHighBackground - Ejecuta una tarea de alta prioridad en segundo plano
+- GearmanClient::doJobHandle - Obtiene el manejador de trabajo para la tarea en ejecución
+- GearmanClient::doLow - Ejecuta una tarea de baja prioridad
+- GearmanClient::doLowBackground - Ejecuta una tarea de prioridad baja en segundo plano
+- GearmanClient::doNormal - Ejecutar una única tarea y devolver un resultado
+- GearmanClient::doStatus - Obtiene el estado de la tarea en ejecución
+- GearmanClient::echo - Envía datos a todos los servidores de trabajo para ver si retornan [obsoleto]
+- GearmanClient::error - Retorna un string con el último error encontrado
+- GearmanClient::getErrno - Obtiene un valor errno
+- GearmanClient::jobStatus - Obtiene el estado de un trabajo en segundo plano
+- GearmanClient::ping - Envar datos a todos los servidores de trabajo para ver si los repiten
+- GearmanClient::removeOptions - Elimina opciones del cliente
+- GearmanClient::returnCode - Obtiene el último código de retorno de Gearman
+- GearmanClient::runTasks - Ejecuta una lista de tareas en paralelo
+- GearmanClient::setClientCallback - Función de llamada de retorno cuando hay un paquete de datos para una tarea (obsoleto)
+- GearmanClient::setCompleteCallback - Especifica una función a ser llamada cuando se complete una tarea
+- GearmanClient::setContext - Establece el contexto de la aplicación
+- GearmanClient::setCreatedCallback - Establece una llamada de retornopara cuando se encola una tarea
+- GearmanClient::setData - Establece los datos de aplicación (obsoleto)
+- GearmanClient::setDataCallback - Función de llamada de retorno para cuando hay un paquete de datos para la tarea
+- GearmanClient::setExceptionCallback - Establece una llamada de retorno para excepciones del trabajador
+- GearmanClient::setFailCallback - Establece una llamada de retorno para cuando falla un trabajo
+- GearmanClient::setOptions - Establece opciones del cliente
+- GearmanClient::setStatusCallback - Establece una llamada de retorno para obtener el estado de una tarea
+- GearmanClient::setTimeout - Establece el tiempo máximo de inactividad para actividad de entrada/salida en el socket
+- GearmanClient::setWarningCallback - Establece una llamada de retorno para los warnings del trabajador
+- GearmanClient::setWorkloadCallback - Establece una llamada de retorno para aceptar actualizaciones incrementales de datos
+- GearmanClient::timeout - Obtiene el tiempo máximo de inactividad de entrada/salida para el socket
+- GearmanClient::wait - Wait for I/O activity on all connections in a client
+- GearmanJob::__construct - Crea una instancia de GearmanJob
+- GearmanJob::complete - Envía el resultado y el estado completo (obsoleto)
+- GearmanJob::data - Envía datos para un trabajo en ejecución (obsoleto)
+- GearmanJob::exception - Envía una excepción para un trabajo en ejecución (obsoleto)
+- GearmanJob::fail - Envía el estado de fallo (obsoleto)
+- GearmanJob::functionName - Retorna el nombre de la función
+- GearmanJob::handle - Retorna el manejador para el trabajo
+- GearmanJob::returnCode - Obtiene el último código de retorno
+- GearmanJob::sendComplete - Envía el resultado y el estado completado
+- GearmanJob::sendData - Envía datos para un trabajo en ejecución
+- GearmanJob::sendException - Envía una excepción para un trabajo en ejecución
+- GearmanJob::sendFail - Envía el estado de fallo
+- GearmanJob::sendStatus - Envía el estado
+- GearmanJob::sendWarning - Envía una advertencia
+- GearmanJob::setReturn - Establece el valor de retorno
+- GearmanJob::status - Envía el estado (obsoleto)
+- GearmanJob::unique - Obtiene el identificador único
+- GearmanJob::warning - Envía un aviso (obsoleto)
+- GearmanJob::workload - Obtiene la carga de trabajo
+- GearmanJob::workloadSize - Obtiene el tamaño de la carga de trabajo
+- GearmanTask::__construct - Crea una instancia de GearmanTask
+- GearmanTask::create - Crea una tarea (obsoleto)
+- GearmanTask::data - Obtiene los datos retornados para una tarea
+- GearmanTask::dataSize - Obtiene el tamaño de la información retornada
+- GearmanTask::function - Obtiene el nombre de la función asociada (obsoleto)
+- GearmanTask::functionName - Retorna el nombre de la función asociada
+- GearmanTask::isKnown - Determina si la tarea es conocida
+- GearmanTask::isRunning - Comprueba si la tarea está siendo ejecutada
+- GearmanTask::jobHandle - Retorna el manejador del trabajo
+- GearmanTask::recvData - Guarda un trabajo o los datos resultantes de una tarea en un buffer
+- GearmanTask::returnCode - Retorna el último código de error
+- GearmanTask::sendData - Envía datos a una tarea (obsoleto)
+- GearmanTask::sendWorkload - Envía datos a una tarea
+- GearmanTask::taskDenominator - Obtiene el denominador del porcentaje de tarea completada
+- GearmanTask::taskNumerator - Retorna el numerador del tanto por ciento completado de la tarea, expresado como una fracción
+- GearmanTask::unique - Obtiene el identificador único de una tarea
+- GearmanTask::uuid - Obtiene el identificador único de una tarea (obsoleto)
+- GearmanWorker::__construct - Crea una instancia GearmanWorker
+- GearmanWorker::addFunction - Registra y añade una función de retorno
+- GearmanWorker::addOptions - Añade opciones al trabajador
+- GearmanWorker::addServer - Añade un servidor de trabajo
+- GearmanWorker::addServers - Añade servidores de trabajo
+- GearmanWorker::clone - Crea una copia del trabajador
+- GearmanWorker::echo - Comprueba la respuesta de un servidor de trabajo
+- GearmanWorker::error - Retorna el último error que ha ocurrido
+- GearmanWorker::getErrno - Obtiene el código de error
+- GearmanWorker::options - Retorna las opciones del trabajador
+- GearmanWorker::register - Registra una función en el servidor de trabajo
+- GearmanWorker::removeOptions - Elimina las opciones del trabajador
+- GearmanWorker::returnCode - Obtiene el último código de retorno de Gearman
+- GearmanWorker::setId - Asigna un identificador al trabajador de tal forma que pueda ser rastreado cuando se solicite a gearmand la lista de los trabajadores disponibles
+- GearmanWorker::setOptions - Establece las opciones del trabajador
+- GearmanWorker::setTimeout - Establece un tiempo de espera máximo para actividad de entrada/salida del socket
+- GearmanWorker::timeout - Retorna el tiempo máximo de espera para actividad de entrada/salida del socket
+- GearmanWorker::unregister - Elimina el registro del nombre de una función en los servidores de trabajo
+- GearmanWorker::unregisterAll - Elimina el registro de todas los nombres de funciones en los servidores de trabajo
+- GearmanWorker::wait - Espera cualquier actividad de uno de los servidores de trabajo
+- GearmanWorker::work - Espera y realiza un trabajo
+- Gender\Gender::__construct - Construye un objeto Gender
+- Gender\Gender::connect - Conecta con un diccionario de nombres externo
+- Gender\Gender::country - Obtener la representación textual de un país
+- Gender\Gender::get - Obtener el género de un nombre
+- Gender\Gender::isNick - Comprueba si name0 es un alias de name1
+- Gender\Gender::similarNames - Obtener nombres similares
+- Generator::__wakeup - Serialize callback
+- Generator::current - Obtener el valor producido
+- Generator::getReturn - Obtener el valor devuelto de un generador
+- Generator::key - Obtener la clave generada
+- Generator::next - Continua la ejecución del generador
+- Generator::rewind - Rebobina el iterador
+- Generator::send - Enviar un valor al generador
+- Generator::throw - Lanzar una excepción dentro generador
+- Generator::valid - Verificar si el iterador ha sido cerrado
+- GlobIterator::__construct - Construye un directorio usando glob
+- GlobIterator::count - Obtiene el número de directorios y ficheros
+- Gmagick::__construct - El constructor Gmagick
+- Gmagick::addimage - Añade una nueva imagen a la lista de imágenes del objeto Gmagick
+- Gmagick::addnoiseimage - Añade ruido aleatorio a la imagen
+- Gmagick::annotateimage - Anota una imagen con texto
+- Gmagick::blurimage - Añade un filtro de borrosidad a la imagen
+- Gmagick::borderimage - Rodea la imagen con un borde
+- Gmagick::charcoalimage - Simula un dibujo a carboncillo
+- Gmagick::chopimage - Elimina una región de una imagen y la recorta
+- Gmagick::clear - Limpia todos los recursos asociados con el objeto Gmagick
+- Gmagick::commentimage - Añade un comentario a una imagen
+- Gmagick::compositeimage - Compone una imagen en otra
+- Gmagick::cropimage - Extrae una región de la imagen
+- Gmagick::cropthumbnailimage - Crea una miniatura recortada
+- Gmagick::current - Devuelve la refencia al objeto Gmagick acutal
+- Gmagick::cyclecolormapimage - Desplaza un mapa de color de una imagen
+- Gmagick::deconstructimages - Devuelve ciertas diferencias de píxeles entre imágenes
+- Gmagick::despeckleimage - Reduce el ruido granular de una imagen
+- Gmagick::destroy - Destruye un objeto Gmagick
+- Gmagick::drawimage - Renderiza el objeto GmagickDraw en la imagen actual
+- Gmagick::edgeimage - Mejora los bordes dentro de una imagen
+- Gmagick::embossimage - Devuelve una imagen en escala de grises con un efecto tridimensional
+- Gmagick::enhanceimage - Mejora la calidad de una imagen con ruido
+- Gmagick::equalizeimage - Ecualiza el histograma de la imagen
+- Gmagick::flipimage - Crea una imagen espejo vertical
+- Gmagick::flopimage - Crea una imagen espejo horizontal
+- Gmagick::frameimage - Añade un borde tridimensional simulado
+- Gmagick::gammaimage - Corrección gamma de una imagen
+- Gmagick::getcopyright - Devuelve el copyright de la API GraphicsMagick como una cadena
+- Gmagick::getfilename - El nombre de archivo asociado a una secuencia de imágenes
+- Gmagick::getimagebackgroundcolor - Devuelve el color de fondo de la imagen
+- Gmagick::getimageblueprimary - Devuelve el punto primario azul de la cromaticidad
+- Gmagick::getimagebordercolor - Devuelve el color del borde de la imagen
+- Gmagick::getimagechanneldepth - Obtiene la profundidad de un canal de imagen en particular
+- Gmagick::getimagecolors - Devuelve el color del índice del mapa de color especificado
+- Gmagick::getimagecolorspace - Obtiene el espacio de colores de la imagen
+- Gmagick::getimagecompose - Devuelve el operador de composición asociado a la imagen
+- Gmagick::getimagedelay - Obetiene el retraso de la imagen
+- Gmagick::getimagedepth - Obtiene la profundidad de la imagen
+- Gmagick::getimagedispose - Obtiene el método de disposición de la imagen
+- Gmagick::getimageextrema - Obtiene los extremos de la imagen
+- Gmagick::getimagefilename - Devuelve el nombre de archivo de una imagen en particular de una secuencia
+- Gmagick::getimageformat - Devuelve el formato de una imagen en particular de una secuencia
+- Gmagick::getimagegamma - Obtiene el valor gamma de la imagen
+- Gmagick::getimagegreenprimary - Devuelve el punto primario verde de la cromaticidad
+- Gmagick::getimageheight - Devuelve el alto de la imagen
+- Gmagick::getimagehistogram - Obtiene el histograma de la imagen
+- Gmagick::getimageindex - Obtiene el índice de la imagen activa actual
+- Gmagick::getimageinterlacescheme - Obtiene la combinación de entrelazado de la imagen
+- Gmagick::getimageiterations - Obtiene las iteraciones de la imagen
+- Gmagick::getimagematte - Comprobar si la imagen tiene un canal mate
+- Gmagick::getimagemattecolor - Devuelve el color mate de la imagen
+- Gmagick::getimageprofile - Devuelve el perfil nominado de la imagen
+- Gmagick::getimageredprimary - Devuelve el punto primario rojo de la cromaticidad
+- Gmagick::getimagerenderingintent - Obtiene la propuesta de renderización de la imagen
+- Gmagick::getimageresolution - Obtiene la resolución X e Y de la imagen
+- Gmagick::getimagescene - Obtiene la escena de la imagen
+- Gmagick::getimagesignature - Genera un resumen de un mensaje SHA-256
+- Gmagick::getimagetype - Obtiene el tipo de imagen potencial.
+- Gmagick::getimageunits - Obtiene las unidades de resolución de la imagen
+- Gmagick::getimagewhitepoint - Devuelve el punto blanco de la cromaticidad
+- Gmagick::getimagewidth - Devuelve el ancho de la imagen
+- Gmagick::getpackagename - Devuelve el nombre del paquete de GraphicsMagick
+- Gmagick::getquantumdepth - Obtiene la profundidad de la cuantía de Gmagick como una cadena
+- Gmagick::getreleasedate - Devuelve la fecha de distribución de GraphicsMagick como una cadena
+- Gmagick::getsamplingfactors - Obtiene el factor de muestreo horizontal y vertical
+- Gmagick::getsize - Devuelve el tamaño asociado con el objeto Gmagick
+- Gmagick::getversion - Devuelve la versión de la API GraphicsMagick
+- Gmagick::hasnextimage - Comprueba si el objeto tiene más imágenes
+- Gmagick::haspreviousimage - Verifica si el objeto tiene una imagen previa
+- Gmagick::implodeimage - Crea una nueva imagen como una copia
+- Gmagick::labelimage - Añade una etiqueta a una imagen
+- Gmagick::levelimage - Ajusta los niveles de la imagen
+- Gmagick::magnifyimage - Escala una imagen x2 proporcionalmente
+- Gmagick::mapimage - Reemplaza los colores de una imagen con el color más cercano de una imagen de referencia
+- Gmagick::medianfilterimage - Aplica un filtro digital
+- Gmagick::minifyimage - Escala una imagen proporcionalmente a la mitad de su tamaño
+- Gmagick::modulateimage - Controla el brillo, la saturación y el tono
+- Gmagick::motionblurimage - Simula borrosidad en movimiento
+- Gmagick::newimage - Crea una nueva imagen
+- Gmagick::nextimage - Moverse a la siguiente imagen
+- Gmagick::normalizeimage - Mejora el contraste de una imagen a color
+- Gmagick::oilpaintimage - Simula una pintura al óleo
+- Gmagick::previousimage - Moverse a la imagen previa del objeto
+- Gmagick::profileimage - Añade o elimina un perfil de una imagen
+- Gmagick::quantizeimage - Analiza los colores dentro de una imagen de referencia
+- Gmagick::quantizeimages - Analiza los colores dentro de una secuencia de imágenes
+- Gmagick::queryfontmetrics - Devuelve una matriz que representa las métricas de la fuente
+- Gmagick::queryfonts - Devuelve las fuentes configuradas
+- Gmagick::queryformats - Devuelve los formatos admitidos por Gmagick
+- Gmagick::radialblurimage - Hace borrosa de forma radial una imagen
+- Gmagick::raiseimage - Crea un efecto de botón en 3D simulado
+- Gmagick::read - Lee una imagen desde un nombre de archivo
+- Gmagick::readimage - Lee una imagen desde un nombre de archivo
+- Gmagick::readimageblob - Lee una imagen desde una cadena binaria
+- Gmagick::readimagefile - Lee una imagen desde un descriptor de archivo abierto
+- Gmagick::reducenoiseimage - Suaviza los contornos de una imagen
+- Gmagick::removeimage - Elimina una imagen de la lista de imágenes
+- Gmagick::removeimageprofile - Elimina el perfil nombrado de la imagen y lo devuelve
+- Gmagick::resampleimage - Re-muestrea la imagen a la resolución deseada
+- Gmagick::resizeimage - Escala una imagen
+- Gmagick::rollimage - Compensa una imagen
+- Gmagick::rotateimage - Rota una imagen
+- Gmagick::scaleimage - Escala el tamaño de una imagen
+- Gmagick::separateimagechannel - Separa un canal de la imagen
+- Gmagick::setCompressionQuality - Establece la calidad de compresión predeterminada del objeto
+- Gmagick::setfilename - Establece el nombre de archivo antes de que se lea o escriba una imagen
+- Gmagick::setimagebackgroundcolor - Establece el color de fondo de la imagen
+- Gmagick::setimageblueprimary - Establece el punto primario azul de la cromaticidad de la imagen
+- Gmagick::setimagebordercolor - Establece el color de borde de la imagen
+- Gmagick::setimagechanneldepth - Establece la profundidad de una canal de imagen en particular
+- Gmagick::setimagecolorspace - Establece el espacio de color de una imagen
+- Gmagick::setimagecompose - Establece el operador de composción de una imagen
+- Gmagick::setimagedelay - Establece el retardo de una imagen
+- Gmagick::setimagedepth - Establece la profundidad de una imagen
+- Gmagick::setimagedispose - Establece el método de disposición de una imagen
+- Gmagick::setimagefilename - Establece el nombre de archivo de una imagen en particular en una secuencia
+- Gmagick::setimageformat - Establece el formato de una imagen en particular
+- Gmagick::setimagegamma - Establece el valor gamma de la imagen
+- Gmagick::setimagegreenprimary - Establece el punto primario verde de la cromaticidad de la imagen
+- Gmagick::setimageindex - Establece la posición del iterador en la lista de imágenes especificada con el parámetro index
+- Gmagick::setimageinterlacescheme - Establece la combinación de entrelazado de la imagen
+- Gmagick::setimageiterations - Establece las iteraciones de la imagen
+- Gmagick::setimageprofile - Añade un perfil nombrado al objeto Gmagick
+- Gmagick::setimageredprimary - Establece el punto primario rojo de la cromaticidad de la imagen
+- Gmagick::setimagerenderingintent - Establece el propósito de renderización de la imagen
+- Gmagick::setimageresolution - Establece la resolución de la imagen
+- Gmagick::setimagescene - Establece la escena de la imagen
+- Gmagick::setimagetype - Establece el tipo de imagen
+- Gmagick::setimageunits - Establece las unidades de resolución de la imagen
+- Gmagick::setimagewhitepoint - Establece el punto blanco de cromaticidad de la imagen
+- Gmagick::setsamplingfactors - Establece los factores de muestreo de la imagen
+- Gmagick::setsize - Establece el tamaño del objeto Gmagick
+- Gmagick::shearimage - Crea un paralelogramo
+- Gmagick::solarizeimage - Aplica un efecto de solarización a la imagen
+- Gmagick::spreadimage - Despalza aleatoriamente cada píxel en un bloque
+- Gmagick::stripimage - Elimina todos los perfiles y comentarios de una imagen
+- Gmagick::swirlimage - Arremolina los píxeles desde el centro de la imagen
+- Gmagick::thumbnailimage - Cambia el tamaño de una imagen
+- Gmagick::trimimage - Elimina los extremos de la imagen
+- Gmagick::write - Alias de Gmagick::writeimage
+- Gmagick::writeimage - Escribe una imagen al nombre de archivo especificado
+- GmagickDraw::annotate - Dibuja texto en la imagen
+- GmagickDraw::arc - Dibuja un arco
+- GmagickDraw::bezier - Dibuja una curva Bézier
+- GmagickDraw::ellipse - Dibuja una elipse en la imagen
+- GmagickDraw::getfillcolor - Devuelve el color de relleno
+- GmagickDraw::getfillopacity - Devuelve la opacidad usada cuando se dibuja
+- GmagickDraw::getfont - Devuelve el tipo de letra
+- GmagickDraw::getfontsize - Devuelve el tamaño de punto de la fuente
+- GmagickDraw::getfontstyle - Devuelve el estilo de fuente
+- GmagickDraw::getfontweight - Devuelve el peso de la fuente
+- GmagickDraw::getstrokecolor - Devuelve el color usado para contornear perfiles de objetos
+- GmagickDraw::getstrokeopacity - Devuelve la opacidad de los perfiles del objeto contorneado
+- GmagickDraw::getstrokewidth - Devuelve el ancho del contorno usado para dibular perfiles del objeto
+- GmagickDraw::gettextdecoration - Devuelve la decoración del texto
+- GmagickDraw::gettextencoding - Devuelve el conjunto de codificación usado para anotaciones de texto
+- GmagickDraw::line - Dibuja una línea en la imagen
+- GmagickDraw::point - Dibuja un punto
+- GmagickDraw::polygon - Dibuja un polígono
+- GmagickDraw::polyline - Dibuja una polilínea
+- GmagickDraw::rectangle - Dibuja un rectángulo
+- GmagickDraw::rotate - Aplica la rotación especificada al espacio de coordenadas actual
+- GmagickDraw::roundrectangle - Dibuja un rectángulo redondeado
+- GmagickDraw::scale - Ajusta el factor de escala
+- GmagickDraw::setfillcolor - Establece el color de relleno a usar cuando se dibujan objetos rellenos
+- GmagickDraw::setfillopacity - Establece la opacidad del relleno
+- GmagickDraw::setfont - Establece la fuente especificada completamente a usar cuando se anota texto
+- GmagickDraw::setfontsize - Establece el tamaño de punto de la fuente a usar cuando se anota texto
+- GmagickDraw::setfontstyle - Establece el estilo de fuente a usar cuando se anota texto
+- GmagickDraw::setfontweight - Establece el peso de la fuente
+- GmagickDraw::setstrokecolor - Establece el color usado para contornear los perfiles del objeto
+- GmagickDraw::setstrokeopacity - Especifica la opacidad del los perfiles del objeto contorneado
+- GmagickDraw::setstrokewidth - Establece el ancho del contorno usado para dibujar los perfiles del objeto.
+- GmagickDraw::settextdecoration - Especifica una decoración
+- GmagickDraw::settextencoding - Especifica el conjunto de codificación del texto
+- GmagickPixel::__construct - El constructor GmagickPixel
+- GmagickPixel::getcolor - Devuelve el color
+- GmagickPixel::getcolorcount - Devuelve la cuenta de color asociada a este color
+- GmagickPixel::getcolorvalue - Obtiene el valor normalizado del canal de color proporcionado
+- GmagickPixel::setcolor - Establece el color
+- GmagickPixel::setcolorvalue - Establece el valor normalizado de uno de los canales
+- HRTime\PerformanceCounter::getFrequency - La frecuencia del cronómetro en pulsos por segundo
+- HRTime\PerformanceCounter::getTicks - Current ticks from the system
+- HRTime\PerformanceCounter::getTicksSince - Ticks elapsed since the given value
+- HRTime\StopWatch::getElapsedTicks - Get elapsed ticks for all intervals
+- HRTime\StopWatch::getElapsedTime - Obtener el tiempo transcurrido para todos los intervalos
+- HRTime\StopWatch::getLastElapsedTicks - Get elapsed ticks for the last interval
+- HRTime\StopWatch::getLastElapsedTime - Obtener el tiempo transcurrido para el último intervalo
+- HRTime\StopWatch::isRunning - Whether the measurement is running
+- HRTime\StopWatch::start - Start time measurement
+- HRTime\StopWatch::stop - Stop time measurement
+- Imagick::__construct - El constructor Imagick
+- Imagick::__toString - Devuelve la imagen como un string
+- Imagick::adaptiveBlurImage - Añade un filtro de borrosidad adaptativo a la imagen
+- Imagick::adaptiveResizeImage - Redimensiona una imagen adaptativamente con información dependiente de la triangulación
+- Imagick::adaptiveSharpenImage - Afila la imagen adaptativamente
+- Imagick::adaptiveThresholdImage - Selecciona un umbral para cada píxel basado en un rango de intensidad
+- Imagick::addImage - Añade una nueva imagen a la lista de imágenes del objeto Imagick
+- Imagick::addNoiseImage - Añade ruido aleatorio a la imagen
+- Imagick::affineTransformImage - Transforma una imagen
+- Imagick::animateImages - Anima una imagen o imágenes
+- Imagick::annotateImage - Anota una imagen con texto
+- Imagick::appendImages - Añade un conjunto de imágenes
+- Imagick::autoLevelImage - Adjusts the levels of a particular image channel
+- Imagick::averageImages - Calcula la media de un conjunto de imágenes
+- Imagick::blackThresholdImage - Fuerza a todos los píxeles bajo un umbral a ser negros
+- Imagick::blueShiftImage - Mutes the colors of the image
+- Imagick::blurImage - Añade un filtro de borrosidad a la imagen
+- Imagick::borderImage - Rodea la imagen con un borde
+- Imagick::brightnessContrastImage - Change the brightness and/or contrast of an image
+- Imagick::charcoalImage - Simula un dibujo a carboncillo
+- Imagick::chopImage - Borra una región de una imagen y la recorta
+- Imagick::clampImage - Description
+- Imagick::clear - Borra todos los recursos asociados con un objeto Imagick
+- Imagick::clipImage - Recorta a lo largo del primer trazado desde un perfil 8BIM
+- Imagick::clipImagePath - Clips along the named paths from the 8BIM profile, if present
+- Imagick::clipPathImage - Recorta a lo largo de trazados nominados desde un perfil 8BIM
+- Imagick::clone - Hace una copia exacta de un objeto Imagick
+- Imagick::clutImage - Reemplaza los colores de una imagen
+- Imagick::coalesceImages - Compone un conjunto de imágenes
+- Imagick::colorFloodfillImage - Cambia el valor del color de cualquier píxel que coincida con el objetivo
+- Imagick::colorizeImage - Mezcla el color de relleno con la imagen
+- Imagick::colorMatrixImage - Apply color transformation to an image
+- Imagick::combineImages - Combina una o más imágenes en una sóla imagen
+- Imagick::commentImage - Añade un comentario a la imagen
+- Imagick::compareImageChannels - Devuelve la diferencia entre una o más imágenes
+- Imagick::compareImageLayers - Devuelve la región circundante máxima entre imágenes
+- Imagick::compareImages - Compara una imagen con otra reconstruida
+- Imagick::compositeImage - Compone una imagen en otra
+- Imagick::contrastImage - Cambia el contraste de una imagen
+- Imagick::contrastStretchImage - Mejora el contraste de una imagen en color
+- Imagick::convolveImage - Aplica una semilla de convolución a medida a la imagen
+- Imagick::count - Get the number of images
+- Imagick::cropImage - Extrae una región de la imagen
+- Imagick::cropThumbnailImage - Crea una miniatura recortada
+- Imagick::current - Devuelve una referencia del objeto Imagick actual
+- Imagick::cycleColormapImage - Desplaza el mapa de colores de una imagen
+- Imagick::decipherImage - Descifra una imagen
+- Imagick::deconstructImages - Devuelve ciertas diferencias de píxeles entre imágenes
+- Imagick::deleteImageArtifact - Borra un artefacto de imagen
+- Imagick::deleteImageProperty - Deletes an image property
+- Imagick::deskewImage - Elimina la torción de la imagen
+- Imagick::despeckleImage - Reduce el ruido granular de una imagen
+- Imagick::destroy - Destruye un objeto Imagick
+- Imagick::displayImage - Muestra una imagen
+- Imagick::displayImages - Muestra una imagen o una secuencia de imágenes
+- Imagick::distortImage - Deforma una imagen utilizando varios métodos de distorsión
+- Imagick::drawImage - Renderiza el objeto ImagickDraw a la imagen actual
+- Imagick::edgeImage - Mejora los bordes de la imagen
+- Imagick::embossImage - Devuelve una imagen en escala de grises con un efecto tridimensional
+- Imagick::encipherImage - Cifra una imagen
+- Imagick::enhanceImage - Mejora la calidad de una imagen con ruido
+- Imagick::equalizeImage - Ecualiza el histograma de la imagen
+- Imagick::evaluateImage - Aplica una expresión a una imagen
+- Imagick::exportImagePixels - Exporta píxeles de imagen en bruto
+- Imagick::extentImage - Establecer el tamaño de la imagen
+- Imagick::filter - Applies a custom convolution kernel to the image
+- Imagick::flattenImages - Fusiona una secuencia de imágenes
+- Imagick::flipImage - Crea una imagen espejo vertical
+- Imagick::floodFillPaintImage - Cambia el valor del color de cualquier píxel que coincida con el objetivo
+- Imagick::flopImage - Crea una imagen espejo horizontal
+- Imagick::forwardFourierTransformImage - Implements the discrete Fourier transform (DFT)
+- Imagick::frameImage - Añade un borde tridimensional simulado
+- Imagick::functionImage - Aplica una función a la imagen
+- Imagick::fxImage - Evalúa una expresión por cada píxel de la imagen
+- Imagick::gammaImage - Corrección gamma de una imagen
+- Imagick::gaussianBlurImage - Hace borrosa una imagen
+- Imagick::getColorspace - Obtiene el espacio de color
+- Imagick::getCompression - Obtiene el tipo de compresión del objeto
+- Imagick::getCompressionQuality - Obtiene la calidad de compresión del objeto
+- Imagick::getCopyright - Devuelve el copyright de la API ImageMagick como una cadena
+- Imagick::getFilename - El nombre de archivo asociado a una secuencia de imágenes
+- Imagick::getFont - Obtiene la fuente
+- Imagick::getFormat - Devuelve el formato de un objeto Imagick
+- Imagick::getGravity - Obtiene la gravedad
+- Imagick::getHomeURL - Devuelve la URL de inicio de ImageMagick
+- Imagick::getImage - Devuelve un nuevo objeto Imagick
+- Imagick::getImageAlphaChannel - Obtiene el canal alfa de una imagen
+- Imagick::getImageArtifact - Obtener el artefacto de imagen
+- Imagick::getImageAttribute - Returns a named attribute
+- Imagick::getImageBackgroundColor - Devuelve el color de fondo de la imagen
+- Imagick::getImageBlob - Devuelve la secuencia de imágenes como un valor de tipo blob
+- Imagick::getImageBluePrimary - Devuelve el punto primario azul de la cromaticidad
+- Imagick::getImageBorderColor - Devuelve el color del borde de la imagen
+- Imagick::getImageChannelDepth - Obtiene la profundidad de un canal de imagen en particular
+- Imagick::getImageChannelDistortion - Compara los canales de imagen de una imagen con una imagen reconstruida
+- Imagick::getImageChannelDistortions - Obtiene las distorsiones del canal
+- Imagick::getImageChannelExtrema - Obtiene los extremos de uno o más canales de imagen
+- Imagick::getImageChannelKurtosis - Obtiene la curtosis y la asimetría estadística de un canal específico
+- Imagick::getImageChannelMean - Obtiene la media y la desviación estándar
+- Imagick::getImageChannelRange - Obtiene el rango del canal
+- Imagick::getImageChannelStatistics - Devuelve las estadísticas de cada canal de la imagen
+- Imagick::getImageClipMask - Obtiene la máscara de recorte de la imagen
+- Imagick::getImageColormapColor - Devuelve el color del índice del mapa de colores especficado
+- Imagick::getImageColors - Obtiene el número de colores únicos de la imagen
+- Imagick::getImageColorspace - Obtiene el espacio de color de la imagen
+- Imagick::getImageCompose - Devuelve el operador de composición asociado a la imagen
+- Imagick::getImageCompression - Obtiene el tipo de compresión de la imagen actual
+- Imagick::getImageCompressionQuality - Obtiene la calidad de compresión de la imagen actual
+- Imagick::getImageDelay - Obtiene el retraso de la imagen
+- Imagick::getImageDepth - Obtiene la profundidad de la imagen
+- Imagick::getImageDispose - Obtiene el método de disposición de la imagen
+- Imagick::getImageDistortion - Compara una imagen con una imagen reconstruida
+- Imagick::getImageExtrema - Obtiene los extremos de la imagen
+- Imagick::getImageFilename - Devuelve el nombre de archivo de una imagen en particular de una secuencia
+- Imagick::getImageFormat - Devuelve el formato de una imagen en particular de una secuencia
+- Imagick::getImageGamma - Obtiene el valor gamma de la imagen
+- Imagick::getImageGeometry - Obtiene el ancho y el alto como un array asociativo
+- Imagick::getImageGravity - Obtiene la gravedad de la imagen
+- Imagick::getImageGreenPrimary - Devuelve el punto primario verde de la cromaticidad
+- Imagick::getImageHeight - Devuelve el alto de la imagen
+- Imagick::getImageHistogram - Obtiene el histograma de la imagen
+- Imagick::getImageIndex - Obtiene el índice de la imagen activa actual
+- Imagick::getImageInterlaceScheme - Obtiene la combinación de entrelazado de la imagen
+- Imagick::getImageInterpolateMethod - Devuelve el método de interpolación
+- Imagick::getImageIterations - Obtiene las iteraciones de la imagen
+- Imagick::getImageLength - Devuelve la longitud de la imagen en bytes
+- Imagick::getImageMatte - Devuelve si la imagen tiene un canal mate
+- Imagick::getImageMatteColor - Devuelve el color mate de la imagen
+- Imagick::getImageMimeType - Returns the image mime-type
+- Imagick::getImageOrientation - Obtiene la orientación de la imagen
+- Imagick::getImagePage - Devuelve la geometría de la página
+- Imagick::getImagePixelColor - Devuelve el color del píxel especificado
+- Imagick::getImageProfile - Devuelve el perfil nominado de la imagen
+- Imagick::getImageProfiles - Devuelve los perfiles de la imagen
+- Imagick::getImageProperties - Devuelve las propiedades de la imagen
+- Imagick::getImageProperty - Devuelve la propiedad nominada de la imagen
+- Imagick::getImageRedPrimary - Devuelve el punto primario rojo de la cromaticidad
+- Imagick::getImageRegion - Extrae una región de la imagen
+- Imagick::getImageRenderingIntent - Obtiene el propósito de renderización de la imagen
+- Imagick::getImageResolution - Obtiene la resolución X e Y de la imagen
+- Imagick::getImagesBlob - Devuelve todas las secuencias de imágenes como un blob
+- Imagick::getImageScene - Obtiene la escena de la imagen
+- Imagick::getImageSignature - Genera un resumen de un mensaje SHA-256
+- Imagick::getImageSize - Devuelve la longitud de la imagen en bytes
+- Imagick::getImageTicksPerSecond - Obtiene los pulsos por segundo de la imagen
+- Imagick::getImageTotalInkDensity - Obtiene la densidad de tinta total de la imagen
+- Imagick::getImageType - Obtiene el tipo de imagen potencial
+- Imagick::getImageUnits - Obtiene las unidades de resolución de la imagen
+- Imagick::getImageVirtualPixelMethod - Devuelve el método de píxel virtual
+- Imagick::getImageWhitePoint - Devuelve el punto blanco de la cromaticidad
+- Imagick::getImageWidth - Devuelve el ancho de la imagen
+- Imagick::getInterlaceScheme - Obtiene la combinación de entrelazado de un objeto
+- Imagick::getIteratorIndex - Obtiene el índice de la imagen activa actual
+- Imagick::getNumberImages - Devuelve el número de imágenes del objeto
+- Imagick::getOption - Devuelve un valor asociado con la clave especificada
+- Imagick::getPackageName - Devuelve el nombre del paquete de ImageMagick
+- Imagick::getPage - Devuelve la geometría de la página
+- Imagick::getPixelIterator - Devuelve un objeto MagickPixelIterator
+- Imagick::getPixelRegionIterator - Obtinene un objeto ImagickPixelIterator de una sección de imagen
+- Imagick::getPointSize - Obtiene el tamaño de punto
+- Imagick::getQuantum - Returns the ImageMagick quantum range
+- Imagick::getQuantumDepth - Obtiene la profundidad de la cuantía
+- Imagick::getQuantumRange - Devuelve el rango de cuantía de Imagick
+- Imagick::getRegistry - Get a StringRegistry entry
+- Imagick::getReleaseDate - Devuelve la fecha de distribución de ImageMagick
+- Imagick::getResource - Devuelve el uso de memoria del recurso especificado
+- Imagick::getResourceLimit - Devuelve el límite del recurso especificado
+- Imagick::getSamplingFactors - Obtiene el factor de muestreo horizontal y vertical
+- Imagick::getSize - Devuelve el tamaño asociado con el objeto Imagick
+- Imagick::getSizeOffset - Devuelve el índice de tamaño
+- Imagick::getVersion - Devuelve la versión de la API ImageMagick
+- Imagick::haldClutImage - Reemplaza los colores de la imagen
+- Imagick::hasNextImage - Comprueba si el objeto tiene más imágenes
+- Imagick::hasPreviousImage - Verifica si el objeto tiene una imagen previa
+- Imagick::identifyFormat - Formats a string with image details
+- Imagick::identifyImage - Identifica una imagen y obtiene sus atributos
+- Imagick::implodeImage - Crea una nueva imagen como una copia
+- Imagick::importImagePixels - Importa los píxeles de una imagen
+- Imagick::inverseFourierTransformImage - Implements the inverse discrete Fourier transform (DFT)
+- Imagick::labelImage - Añade una etiqueta a una imagen
+- Imagick::levelImage - Ajusta los niveles de la imagen
+- Imagick::linearStretchImage - Estrecha con saturación la intensidad de la imagen
+- Imagick::liquidRescaleImage - Anima una imagen o imágenes
+- Imagick::listRegistry - Description
+- Imagick::magnifyImage - Escala una imagen x2 proporcionalmente
+- Imagick::mapImage - Reemplaza los colores de una imagen con el color más cercano de una imagen de referencia
+- Imagick::matteFloodfillImage - Cambia el valor de transparencia de un color
+- Imagick::medianFilterImage - Aplica un filtro digital
+- Imagick::mergeImageLayers - Fusiona las capas de una imagen
+- Imagick::minifyImage - Escala una imagen proporcionalmente a la mitad de su tamaño
+- Imagick::modulateImage - Controla el brillo, la saturación y el tono
+- Imagick::montageImage - Crea una imagen compuesta
+- Imagick::morphImages - Metamorfosea un conjunto de imágenes
+- Imagick::morphology - Applies a user supplied kernel to the image according to the given morphology method.
+- Imagick::mosaicImages - Forma un mosaico de imágenes
+- Imagick::motionBlurImage - Simula borrosidad en movimiento
+- Imagick::negateImage - Invierte los colores en la imagen de referencia
+- Imagick::newImage - Crea una nueva imagen
+- Imagick::newPseudoImage - Crea una nueva imagen
+- Imagick::nextImage - Se mueve a la siguiente imagen
+- Imagick::normalizeImage - Mejora el contraste de una imagen a color
+- Imagick::oilPaintImage - Simula una pintura al óleo
+- Imagick::opaquePaintImage - Cambia el color de cualquier píxel que coincida con el objetivo
+- Imagick::optimizeImageLayers - Elimina porciones repetidas de imágenes para optimizarlas
+- Imagick::orderedPosterizeImage - Realiza un entramado ordenado
+- Imagick::paintFloodfillImage - Cambia el valor del color de cualquier píxel que coincida con el objetivo
+- Imagick::paintOpaqueImage - Cambia cualquier píxel que coincida con el color
+- Imagick::paintTransparentImage - Cambia cualquier píxel que coincida con el color definido para el relleno
+- Imagick::pingImage - Trae los atributos básicos de una imagen
+- Imagick::pingImageBlob - Traer los atributos rápidamente
+- Imagick::pingImageFile - Obtener los atrbutos básicos de la imagen de una manera liviana
+- Imagick::polaroidImage - Simula una fotografía Polaroid
+- Imagick::posterizeImage - Reduce la imagen a un número limitado de niveles de color
+- Imagick::previewImages - Precisa rápidamente los parámetros apropiados para el procesamiento de la imagen
+- Imagick::previousImage - Se mueve a la imagen previa del objeto
+- Imagick::profileImage - Añade o elimina un perfil de una imagen
+- Imagick::quantizeImage - Analiza los colores dentro de una imagen de referencia
+- Imagick::quantizeImages - Analiza los colores dentro de una secuencia de imágenes
+- Imagick::queryFontMetrics - Devuelve una matriz que representa las métricas de la fuente
+- Imagick::queryFonts - Devuelve las fuentes configuradas
+- Imagick::queryFormats - Devuelve los formatos soportados por Imagick
+- Imagick::radialBlurImage - Hace borrosa de forma radial una imagen
+- Imagick::raiseImage - Crea un efecto de botón en 3D simulado
+- Imagick::randomThresholdImage - Crea una imagen de alto contraste y dos colores
+- Imagick::readImage - Lee una imagen desde un nombre de fichero
+- Imagick::readImageBlob - Lee una imagen desde un string binario
+- Imagick::readImageFile - Lee una imagen desde un gestor de fichero abierto
+- Imagick::readimages - Reads image from an array of filenames
+- Imagick::recolorImage - Re-colorea una imagen
+- Imagick::reduceNoiseImage - Suaviza los contornos de una imagen
+- Imagick::remapImage - Re-mapea los colores de una imagen
+- Imagick::removeImage - Quita una imagen de la lista de imágenes
+- Imagick::removeImageProfile - Elimina el perfil nominado de la imagen y lo devuelve
+- Imagick::render - Renderiza todos los comandos de dibujo precedentes
+- Imagick::resampleImage - Remuestrea la imagen a la resolución deseada
+- Imagick::resetImagePage - Reinicia una página de imagen
+- Imagick::resizeImage - Escala una imagen
+- Imagick::rollImage - Compensa una imagen
+- Imagick::rotateImage - Rota una imagen
+- Imagick::rotationalBlurImage - Rotational blurs an image
+- Imagick::roundCorners - Redondea las esquinas de una imagen
+- Imagick::sampleImage - Escala una imagen con un muestreo de píxeles
+- Imagick::scaleImage - Escala el tamaño de una imagen
+- Imagick::segmentImage - Segmenta una imagen
+- Imagick::selectiveBlurImage - Description
+- Imagick::separateImageChannel - Separa un canal de la imagen
+- Imagick::sepiaToneImage - Pone una imagen en tono sepia
+- Imagick::setBackgroundColor - Establece el color de fondo por omisión del objeto
+- Imagick::setColorspace - Establecer el espacio de color
+- Imagick::setCompression - Establece el tipo de compresión predeterminado del objeto
+- Imagick::setCompressionQuality - Establece la calidad de compresión predeterminda del objeto
+- Imagick::setFilename - Establece el nombre de archivo antes de que se lea o escriba una imagen
+- Imagick::setFirstIterator - Establece el iterador Imagick para la primera imagen
+- Imagick::setFont - Establece el tipo de letra
+- Imagick::setFormat - Establece el formato del objeto Imagick
+- Imagick::setGravity - Establece la gravedad
+- Imagick::setImage - Reemplaza una imagen en el objeto
+- Imagick::setImageAlphaChannel - Establece el canal alfa de la imagen
+- Imagick::setImageArtifact - Establecer un artefacto de imagen
+- Imagick::setImageAttribute - Description
+- Imagick::setImageBackgroundColor - Establece el color de fondo de la imagen
+- Imagick::setImageBias - Establece el sesgo de la imagen para cualquier método que convolucione una imagen
+- Imagick::setImageBiasQuantum - Sets the image bias
+- Imagick::setImageBluePrimary - Establece el punto primario azul de la cromaticidad de la imagen
+- Imagick::setImageBorderColor - Establece el color de borde de la imagen
+- Imagick::setImageChannelDepth - Establece la profundidad de una canal de imagen en particular
+- Imagick::setImageClipMask - Establece la máscara de recorte de una imagen
+- Imagick::setImageColormapColor - Establece el color de un índice de mapa de color especificado
+- Imagick::setImageColorspace - Establece el espacio de color de una imagen
+- Imagick::setImageCompose - Establece el operador de composción de una imagen
+- Imagick::setImageCompression - Establece la compresión de una imagen
+- Imagick::setImageCompressionQuality - Establece la calidad de compresión de una imagen
+- Imagick::setImageDelay - Establece el retardo de una imagen
+- Imagick::setImageDepth - Establece la profundidad de una imagen
+- Imagick::setImageDispose - Establece el método de disposición de una imagen
+- Imagick::setImageExtent - Establece el tamaño de una imagen
+- Imagick::setImageFilename - Establece el nombre de archivo de una imagen en particular
+- Imagick::setImageFormat - Establece el formato de una imagen en particular
+- Imagick::setImageGamma - Establece el valor gamma de la imagen
+- Imagick::setImageGravity - Establece la gravedad de la imagen
+- Imagick::setImageGreenPrimary - Establece el punto primario verde de la cromaticidad de la imagen
+- Imagick::setImageIndex - Establece la posición del iterador
+- Imagick::setImageInterlaceScheme - Establece la compresión de la imagen
+- Imagick::setImageInterpolateMethod - Establece el método de interpolación de píxeles
+- Imagick::setImageIterations - Establece las iteraciones de una imagen
+- Imagick::setImageMatte - Establece el canal mate de la imagen
+- Imagick::setImageMatteColor - Establece el color mate de la imagen
+- Imagick::setImageOpacity - Establece el nivel de opacidad de la imagen
+- Imagick::setImageOrientation - Establece la orientación de la imagen
+- Imagick::setImagePage - Establece la geometría de la página de la imagen
+- Imagick::setImageProfile - Añade un perfil nominado al objeto Imagick
+- Imagick::setImageProperty - Establece una propiedad de la imagen
+- Imagick::setImageRedPrimary - Establece el punto primario rojo de la cromaticidad de la imagen
+- Imagick::setImageRenderingIntent - Establece el propósito de renderización de la imagen
+- Imagick::setImageResolution - Establece la resolución de la imagen
+- Imagick::setImageScene - Establece la escena de la imagen
+- Imagick::setImageTicksPerSecond - Establece los ticks por segundo de la imagen
+- Imagick::setImageType - Establece el tipo de imagen
+- Imagick::setImageUnits - Establece las unidades de resolución de la imagen
+- Imagick::setImageVirtualPixelMethod - Establece el método de píxel virtual de la imagen
+- Imagick::setImageWhitePoint - Establece el punto blanco de cromaticidad de la imagen
+- Imagick::setInterlaceScheme - Establece la compresión de la imagen
+- Imagick::setIteratorIndex - Establece la posición del iterador
+- Imagick::setLastIterator - Establece el iterador de Imagick a la última imagen
+- Imagick::setOption - Establece una opción
+- Imagick::setPage - Establece la geometría de página del objeto Imagick
+- Imagick::setPointSize - Establece el tamaño del punto
+- Imagick::setProgressMonitor - Description
+- Imagick::setRegistry - Description
+- Imagick::setResolution - Establece la resolución de la imagen
+- Imagick::setResourceLimit - Establece el límite de un recurso en particular en megabytes
+- Imagick::setSamplingFactors - Establece los factores de muestreo de la imagen
+- Imagick::setSize - Establece el tamaño del objeto Imagick
+- Imagick::setSizeOffset - Establece el tamaño y el índice del objeto Imagick
+- Imagick::setType - Establece el atributo tipo de imagen
+- Imagick::shadeImage - Crea un efecto en 3D
+- Imagick::shadowImage - Simula una sombra de imagen
+- Imagick::sharpenImage - Afila una imagen
+- Imagick::shaveImage - Recorta píxeles de los extremos de la imagen
+- Imagick::shearImage - Crea un paralelogramo
+- Imagick::sigmoidalContrastImage - Ajusta el contraste de una imagen
+- Imagick::sketchImage - Simula el bosquejo de un lapiz
+- Imagick::smushImages - Description
+- Imagick::solarizeImage - Aplica un efecto de solarización a la imagen
+- Imagick::sparseColorImage - Interpola colores
+- Imagick::spliceImage - Une un color sólido en la imagen
+- Imagick::spreadImage - Despalza aleatoriamente cada píxel en un bloque
+- Imagick::statisticImage - Description
+- Imagick::steganoImage - Oculta una marca de agua digital dentro de la imagen
+- Imagick::stereoImage - Compone dos imágenes
+- Imagick::stripImage - Elimina todos los perfiles y comentarios de una imagen
+- Imagick::subImageMatch - Description
+- Imagick::swirlImage - Arremolina los píxeles desde el centro de la imagen
+- Imagick::textureImage - Reviste repetidamente la textura de la imagen
+- Imagick::thresholdImage - Cambia el valor de píexeles individuales basdos en un umbral
+- Imagick::thumbnailImage - Cambia el tamaño de una imagen
+- Imagick::tintImage - Aplica un vector de color a cada píxel en la imagen
+- Imagick::transformImage - Método conveniente para establecer el tamaño del recorte y la geometría de la imagen
+- Imagick::transformImageColorspace - Transforma una imagen a un nuevo espacio de color
+- Imagick::transparentPaintImage - Pinta píxeles transparentes
+- Imagick::transposeImage - Crea una imagen espejo vertical
+- Imagick::transverseImage - Crea una imagen espejo horizontal
+- Imagick::trimImage - Elimina los extremos de la imagen
+- Imagick::uniqueImageColors - Desecha todos los colores de los píxeles excepto uno
+- Imagick::unsharpMaskImage - Afila una imagen
+- Imagick::valid - Comprueba si el elemento actual es válido
+- Imagick::vignetteImage - Añade un filtro de viñeta a la imagen
+- Imagick::waveImage - Aplica un filtro de onda a la imagen
+- Imagick::whiteThresholdImage - Fuerza a todos los píxeles por encima del umbral a ser blancos
+- Imagick::writeImage - Escribe una imagen al nombre de fichero especificado
+- Imagick::writeImageFile - Escribe una imagen a un gestor de archivo
+- Imagick::writeImages - Escribe una imagen o secuencia de imágenes
+- Imagick::writeImagesFile - Escribe fotogramas al gestor de archivo
+- ImagickDraw::__construct - El constructor ImagickDraw
+- ImagickDraw::affine - Ajusta la matriz de transformación afín actual
+- ImagickDraw::annotation - Dibuja texto en la imagen
+- ImagickDraw::arc - Dibuja un arco
+- ImagickDraw::bezier - Dibuja una curva de Bézier
+- ImagickDraw::circle - Dibuja un círculo
+- ImagickDraw::clear - Borra el objeto ImagickDraw
+- ImagickDraw::clone - Hace una copia exacta del objeto ImagickDraw especificado
+- ImagickDraw::color - Dibuja color en una imagen
+- ImagickDraw::comment - Añade un comentario
+- ImagickDraw::composite - Compone una imagen dentro de la imagen actual
+- ImagickDraw::destroy - Libera todos los recursos asociados
+- ImagickDraw::ellipse - Dibuja una elipse en la imagen
+- ImagickDraw::getClipPath - Obtiene el ID del trazado de recorte actual
+- ImagickDraw::getClipRule - Devuelve la regla de relleno de un polígono actual
+- ImagickDraw::getClipUnits - Devuelve la interpretación de unidades del trazado de recorte
+- ImagickDraw::getFillColor - Devuelve el color de relleno
+- ImagickDraw::getFillOpacity - Devuelve la opacidad usada cuando se dibuja
+- ImagickDraw::getFillRule - Devuelve la regla de relleno
+- ImagickDraw::getFont - Devuelve la fuente
+- ImagickDraw::getFontFamily - Devuelve la familia de la fuente
+- ImagickDraw::getFontSize - Devuelve el tamaño de punto de la fuente
+- ImagickDraw::getFontStretch - Description
+- ImagickDraw::getFontStyle - Devuelve el estilo de fuente
+- ImagickDraw::getFontWeight - Devuelve el peso de la fuente
+- ImagickDraw::getGravity - Devuelve la gravedad de emplazamiento del texto
+- ImagickDraw::getStrokeAntialias - Devuelve la configuración de antialias de contorno actual
+- ImagickDraw::getStrokeColor - Devuelve el color usado por los perfiles de objetos contorneados
+- ImagickDraw::getStrokeDashArray - Devuelve un array que representa el patrón de rayas y huecos usado por trazados contorneados
+- ImagickDraw::getStrokeDashOffset - Devuelve el índice dentro del patrón de discontinuidad para iniciar la discontinuidad
+- ImagickDraw::getStrokeLineCap - Devuelve la forma que se va a usar al final de los subtrazados abiertos cuando están contorneados
+- ImagickDraw::getStrokeLineJoin - Devuelve la forma que se va a usar en la esquinas de los trazados cuando están contorneados
+- ImagickDraw::getStrokeMiterLimit - Devuelve el límite del inglete del contorno
+- ImagickDraw::getStrokeOpacity - Devuelve la opacidad del perfil de objetos contorneados
+- ImagickDraw::getStrokeWidth - Devuelve al ancho del contorno usado para dibujar contornos de objetos
+- ImagickDraw::getTextAlignment - Devuelve la alineación del texto
+- ImagickDraw::getTextAntialias - Devuelve la configuración de antialias del texto actual
+- ImagickDraw::getTextDecoration - Devuelve la decoración del texto
+- ImagickDraw::getTextEncoding - Devuelve la codificación usada para anotaciones de texto
+- ImagickDraw::getTextInterlineSpacing - Description
+- ImagickDraw::getTextInterwordSpacing - Description
+- ImagickDraw::getTextKerning - Description
+- ImagickDraw::getTextUnderColor - Devuelve el color debajo del texto
+- ImagickDraw::getVectorGraphics - Devuelve una cadena que contiene gráficos vectoriales
+- ImagickDraw::line - Dibuja una línea
+- ImagickDraw::matte - Pinta sobre el canal de opacidad de la imagen
+- ImagickDraw::pathClose - Añade un elemento de trazado al trazado actual
+- ImagickDraw::pathCurveToAbsolute - Dibuja una curva cúbica de Bézier
+- ImagickDraw::pathCurveToQuadraticBezierAbsolute - Dibuja una curva Bézier cuadrática
+- ImagickDraw::pathCurveToQuadraticBezierRelative - Dibuja una curva Bézier cuadrática
+- ImagickDraw::pathCurveToQuadraticBezierSmoothAbsolute - Dibuja una curva Bézier cuadrática
+- ImagickDraw::pathCurveToQuadraticBezierSmoothRelative - Dibuja una curva Bézier cuadrática
+- ImagickDraw::pathCurveToRelative - Dibuja una curva cúbica de Bézier
+- ImagickDraw::pathCurveToSmoothAbsolute - Dibuja una curva cúbica de Bézier
+- ImagickDraw::pathCurveToSmoothRelative - Dibuja una curva cúbica de Bézier
+- ImagickDraw::pathEllipticArcAbsolute - Dibuja un arco elíptico
+- ImagickDraw::pathEllipticArcRelative - Dibuja un arco elíptico
+- ImagickDraw::pathFinish - Finaliza el trazado actual
+- ImagickDraw::pathLineToAbsolute - Dibuja un trazado de línea
+- ImagickDraw::pathLineToHorizontalAbsolute - Dibuja un trazado de línea horizontal
+- ImagickDraw::pathLineToHorizontalRelative - Dibuja una línea horizontal
+- ImagickDraw::pathLineToRelative - Dibuja un trazado de línea
+- ImagickDraw::pathLineToVerticalAbsolute - Dibuja un línea vertical
+- ImagickDraw::pathLineToVerticalRelative - Dibuja un trazado de línea vertical
+- ImagickDraw::pathMoveToAbsolute - Inicia un nuevo sub-trazado
+- ImagickDraw::pathMoveToRelative - Inicia un nuevo sub-trazado
+- ImagickDraw::pathStart - Declara el inicio de una lista de dibujo de trazados
+- ImagickDraw::point - Dibuja un punto
+- ImagickDraw::polygon - Dibuja un polígono
+- ImagickDraw::polyline - Dibuja una poli-línea
+- ImagickDraw::pop - Destruye el objeto ImagickDraw actual de la pila, y lo devuelve al objeto ImagickDraw previamente metido
+- ImagickDraw::popClipPath - Finaliza una definición de un trazado de recorte
+- ImagickDraw::popDefs - Finaliza una lista de definiciones
+- ImagickDraw::popPattern - Finaliza una definición de patrón
+- ImagickDraw::push - Clona el objeto ImagickDraw actual y lo mete en la pila
+- ImagickDraw::pushClipPath - Inicia la definición de un trazado de recorte
+- ImagickDraw::pushDefs - Indica que los siguientes comandos crean elementos con nombre para un procesamiento previo
+- ImagickDraw::pushPattern - Indica que los comandos subsiguientes hasta un comando ImagickDraw::opPattern() comprenden la definición de un patrón nominado
+- ImagickDraw::rectangle - Dibuja un rectángulo
+- ImagickDraw::render - Renderiza todos los comandos de dibujo precedentes en la imagen
+- ImagickDraw::resetVectorGraphics - Description
+- ImagickDraw::rotate - Aplica la rotación especificada al espacio de coordenadas actual
+- ImagickDraw::roundRectangle - Dibuja un rectángulo redondeado
+- ImagickDraw::scale - Ajusta el factor de escala
+- ImagickDraw::setClipPath - Asocia un trazado de recorte nominado con la imagen
+- ImagickDraw::setClipRule - Establece la regla de relleno de polígonos a usar por el trazado de recorte
+- ImagickDraw::setClipUnits - Establece la interpretación de las unidades de un trazado de recorte
+- ImagickDraw::setFillAlpha - Establece la opacidad a usar cuando se dibuja utilizando el color de relleno o la textura de relleno
+- ImagickDraw::setFillColor - Establece el color de relleno que se va a usar para dibujar objetos rellenos
+- ImagickDraw::setFillOpacity - Establece la opacidad para usarla cuando se dibuja utilizando el color de relleno o la textura de relleno
+- ImagickDraw::setFillPatternURL - Establece la URL a usar como un patrón de relleno para objetos rellenos
+- ImagickDraw::setFillRule - Establece la regla de relleno a usar mientras se dibujan polígonos
+- ImagickDraw::setFont - Establece la fuente especificada completamente para usarla cuando se escribe texto
+- ImagickDraw::setFontFamily - Establece la familia de fuentes para usarla cuando se escribe texto
+- ImagickDraw::setFontSize - Establece el tamaño de punto de la fuente para usarlo cuando se escribe texto
+- ImagickDraw::setFontStretch - Establece el estiramiento de la fuente para usarla cuando se escribe texto
+- ImagickDraw::setFontStyle - Establece el estilo de fuente para usarlo cuando se escribe texto
+- ImagickDraw::setFontWeight - Establece el peso de fuente
+- ImagickDraw::setGravity - Establece la gravedad de ubicación del texto
+- ImagickDraw::setResolution - Description
+- ImagickDraw::setStrokeAlpha - Especifica la opacidad de los perfiles de los objetos contorneados
+- ImagickDraw::setStrokeAntialias - Controla si los perfiles contorneados tiene antialias
+- ImagickDraw::setStrokeColor - Establece el color usado por los perfiles de objetos contorneados
+- ImagickDraw::setStrokeDashArray - Especifica el patrón de rayas y huecos usado por los trazados de contorno
+- ImagickDraw::setStrokeDashOffset - Especifica el índice dentro del patrón de discontinuidad para iniciar la discontinuidad
+- ImagickDraw::setStrokeLineCap - Especifica la forma que se va a usar al final de los subtrazados abiertos cuando están contorneados
+- ImagickDraw::setStrokeLineJoin - Especifica la forma que se va a usar en la esquinas de los trazados cuando están contorneados
+- ImagickDraw::setStrokeMiterLimit - Especifica el límite del inglete
+- ImagickDraw::setStrokeOpacity - Especifica la opacidad de los perfiles de los objetos contorneados
+- ImagickDraw::setStrokePatternURL - Establece el patrón usado para los perfiles de objetos contorneados
+- ImagickDraw::setStrokeWidth - Establece el ancho del contorno a usar para dibujar perfiles de objetos
+- ImagickDraw::setTextAlignment - Especifica una alineación de texto
+- ImagickDraw::setTextAntialias - Controla si el texto tiene antialias
+- ImagickDraw::setTextDecoration - Especifica una decoración
+- ImagickDraw::setTextEncoding - Especifica el conjunto de codificación del texto
+- ImagickDraw::setTextInterlineSpacing - Description
+- ImagickDraw::setTextInterwordSpacing - Description
+- ImagickDraw::setTextKerning - Description
+- ImagickDraw::setTextUnderColor - Especifica el color de un rectángulo de fondo
+- ImagickDraw::setVectorGraphics - Establece los gráficos vectoriales
+- ImagickDraw::setViewbox - Establece el tamaño de todos los lienzos
+- ImagickDraw::skewX - Tuerce el sistema de coordenadas actual en la dirección horizontal
+- ImagickDraw::skewY - Tuerce el sistema de coordenadas actual en la dirección vertical
+- ImagickDraw::translate - Aplica una traslación del sistema de coordenadas actual
+- ImagickKernel::addKernel - Description
+- ImagickKernel::addUnityKernel - Description
+- ImagickKernel::fromBuiltIn - Description
+- ImagickKernel::fromMatrix - Description
+- ImagickKernel::getMatrix - Description
+- ImagickKernel::scale - Description
+- ImagickKernel::separate - Description
+- ImagickPixel::__construct - El constructor ImagickPixel
+- ImagickPixel::clear - Borra los recursos asociados con este objeto
+- ImagickPixel::destroy - Desasigna los recursos asociados con este objeto
+- ImagickPixel::getColor - Devuelve el color
+- ImagickPixel::getColorAsString - Devuelve el color como string
+- ImagickPixel::getColorCount - Devuelve la cuenta de color asociada a este
+- ImagickPixel::getColorQuantum - Description
+- ImagickPixel::getColorValue - Obtiene el valor normalizado del canal de color proporcionado
+- ImagickPixel::getColorValueQuantum - Description
+- ImagickPixel::getHSL - Devuelve el color HSL normalizado del objeto ImagickPixel
+- ImagickPixel::getIndex - Description
+- ImagickPixel::isPixelSimilar - Comprobar la distancia entre este color y otro
+- ImagickPixel::isPixelSimilarQuantum - Description
+- ImagickPixel::isSimilar - Comprobar la distancia entre este color y otro
+- ImagickPixel::setColor - Establece el color
+- ImagickPixel::setColorCount - Description
+- ImagickPixel::setColorValue - Establece el valor normalizado de uno de los canales
+- ImagickPixel::setColorValueQuantum - Description
+- ImagickPixel::setHSL - Establece el color HSL normalizado
+- ImagickPixel::setIndex - Description
+- ImagickPixelIterator::__construct - El constructor ImagickPixelIterator
+- ImagickPixelIterator::clear - Borra los recursos asociados con un objeto PixelIterator
+- ImagickPixelIterator::destroy - Desasigna los recursos asociacdos con un objeto PixelIterator
+- ImagickPixelIterator::getCurrentIteratorRow - Devuelve la fila actual de objetos ImagickPixel
+- ImagickPixelIterator::getIteratorRow - Devuelve la fila actual del iterador de píxel
+- ImagickPixelIterator::getNextIteratorRow - Devuelve la fila siguiente del iterador de píxel
+- ImagickPixelIterator::getPreviousIteratorRow - Devuelve la fila previa
+- ImagickPixelIterator::newPixelIterator - Devuelve un nuevo iterador de píxel
+- ImagickPixelIterator::newPixelRegionIterator - Devuelve un nuevo iterador de píxel
+- ImagickPixelIterator::resetIterator - Reinicia el iterador de píxel
+- ImagickPixelIterator::setIteratorFirstRow - Establece el iterador de píxel a la primera fila de píxeles
+- ImagickPixelIterator::setIteratorLastRow - Establece el iterador de píxel a la última fila de píxeles
+- ImagickPixelIterator::setIteratorRow - Establecer la fila del iterador de píxel
+- ImagickPixelIterator::syncIterator - Sincornizar el iterador de píxel
+- InfiniteIterator::__construct - Construye un InfiniteIterator
+- InfiniteIterator::next - Mueve el iterador interno hacía adelante o se rebobina
+- InternalIterator::__construct - Private constructor to disallow direct instantiation
+- InternalIterator::current - Return the current element
+- InternalIterator::key - Return the key of the current element
+- InternalIterator::next - Move forward to next element
+- InternalIterator::rewind - Rewind the Iterator to the first element
+- InternalIterator::valid - Check if current position is valid
+- IntlBreakIterator::__construct - Constructor privado para denegar la instanciación
+- IntlBreakIterator::createCharacterInstance - Crear un iterador de ruptura para los límites de secuencias de caracters combinados
+- IntlBreakIterator::createCodePointInstance - Crear un iterador de ruptura para los límites de puntos de código
+- IntlBreakIterator::createLineInstance - Crear un iterador de ruptura para las lógicamente posibles saltos de línea
+- IntlBreakIterator::createSentenceInstance - Crear un iterador de ruptura para rupturas de sentencias
+- IntlBreakIterator::createTitleInstance - Crear un iterador de ruptura para rupturas de marcos de título
+- IntlBreakIterator::createWordInstance - Crear un iterador de ruptura para ruptura de palabras
+- IntlBreakIterator::current - Obtiene el índice de la posición actual
+- IntlBreakIterator::first - Coloca la posición al primer caracter en el texto
+- IntlBreakIterator::following - Avanza el iterador al primer límite siguiendo un offset específico
+- IntlBreakIterator::getErrorCode - Obtener el código del último error del objeto
+- IntlBreakIterator::getErrorMessage - Obtener el último mensaje de error del objeto
+- IntlBreakIterator::getLocale - Obtiene el locale asociado al objeto
+- IntlBreakIterator::getPartsIterator - Crear un iterador para fragmentos de navegación entre límites
+- IntlBreakIterator::getText - Obtiene el texto que está siendo escaneado
+- IntlBreakIterator::isBoundary - Indicar si un índice es un índice de límites
+- IntlBreakIterator::last - Establecer la posición del iterador al índice tras el último carácter
+- IntlBreakIterator::next - Avanzar el iterador al siguiente límite
+- IntlBreakIterator::preceding - Establecer la posición del iterador al primer límite antes de un índice
+- IntlBreakIterator::previous - Establecer la posición del iterador al límite inmediatamente anterior al actual
+- IntlBreakIterator::setText - Establecer el texto a escanear
+- IntlCalendar::__construct - Constructor privado para no permitir la creación de instancias
+- IntlCalendar::add - Añadir una candidad (con signo) de tiempo al campo
+- IntlCalendar::after - Indica si el instante de este objeto es posterior al del proporcionado
+- IntlCalendar::before - Indica si el instante de este objeto es anterior al del proporcionado
+- IntlCalendar::clear - Limpiar uno o todos los campos
+- IntlCalendar::createInstance - Crear un nuevo IntlCalendar
+- IntlCalendar::equals - Comparar el instante de dos objetos IntlCalendar
+- IntlCalendar::fieldDifference - Calcular la diferencia entre el instante dado y el de este objeto
+- IntlCalendar::fromDateTime - Crear un IntlCalendar desde un objeto DateTime o tring
+- IntlCalendar::get - Obtiene el valor de un campo
+- IntlCalendar::getActualMaximum - El valor máximo de un campo, considerando el instante actual del objeto
+- IntlCalendar::getActualMinimum - El valor mínimo de un campo, considerando el instante actual del objeto
+- IntlCalendar::getAvailableLocales - Obtener un array con las zonas para las que existen datos
+- IntlCalendar::getDayOfWeekType - Inidcar si un día es un día de entresemana, del fin de semana o un día de transición entre ambos
+- IntlCalendar::getErrorCode - Obtener el código de error del objeto
+- IntlCalendar::getErrorMessage - Obtener el últime mensaje de error del objeto
+- IntlCalendar::getFirstDayOfWeek - Obtener el primer día de la semana de la región del calendario
+- IntlCalendar::getGreatestMinimum - Obtener el valor mínimo local más grande de un campo
+- IntlCalendar::getKeywordValuesForLocale - Obtener un conjunto de valores de palabras clave de zonas
+- IntlCalendar::getLeastMaximum - Obtener el máximo local más pequeño de un campo
+- IntlCalendar::getLocale - Obtener la configuración regional asociada al objeto
+- IntlCalendar::getMaximum - Obtener el valor máximo global de un campo
+- IntlCalendar::getMinimalDaysInFirstWeek - Obtener el número mínimo de días que puede tener la primera semana de un año o mes
+- IntlCalendar::getMinimum - Obtener el valor mínimo de un campo
+- IntlCalendar::getNow - Obtener el número que representa el instante actual
+- IntlCalendar::getRepeatedWallTimeOption - Obtener el comportamiento para tratar horas repetidas
+- IntlCalendar::getSkippedWallTimeOption - Obtener el comportamiento para tratar horas omitidas
+- IntlCalendar::getTime - Obtiene el tiempo representado por el objeto
+- IntlCalendar::getTimeZone - Obtener la zona horaria del objeto
+- IntlCalendar::getType - Obtener el tipo de calendario
+- IntlCalendar::getWeekendTransition - Obtener el instante del día en la que comienza o termina el fin de semana
+- IntlCalendar::inDaylightTime - Indicar si el instante del objeto está en el horario de verano
+- IntlCalendar::isEquivalentTo - Indicar si otro calendario es igual pero para un instante diferente
+- IntlCalendar::isLenient - Indicar si la interpretación de una fecha/hora está en modo tolerante
+- IntlCalendar::isSet - Determina si un campo está definido
+- IntlCalendar::isWeekend - Determina si una cierta fecha es fin de semana
+- IntlCalendar::roll - Añadir un valor a un campo si acarrear más campos significativos
+- IntlCalendar::set - Establecer un campo de instante o varios campos en común de una vez
+- IntlCalendar::setDate - Set a date fields
+- IntlCalendar::setDateTime - Set a date and time fields
+- IntlCalendar::setFirstDayOfWeek - Establecer el día en el que se estima que empieza la semana
+- IntlCalendar::setLenient - Establecer si la interpretación de la fecha/hora es tolerante
+- IntlCalendar::setMinimalDaysInFirstWeek - Establecer el número de días mínimo que puede tener la primera semana de un año o mes
+- IntlCalendar::setRepeatedWallTimeOption - Establecer el comportamiento para tratar horas repetidas en transiciones negativas de índices de zonas horarias
+- IntlCalendar::setSkippedWallTimeOption - Establecer el comportamiento para tratar horas omitidas en transiciones positivas de índices de zonas horarias
+- IntlCalendar::setTime - Establecer el momento del calendario en milisegundos desde la época
+- IntlCalendar::setTimeZone - Establecer la zona horaria usada por este calendario
+- IntlCalendar::toDateTime - Convertir un objeto IntlCalendar a un objeto DateTime
+- IntlChar::charAge - Obtener la «edad» del punto de código
+- IntlChar::charDigitValue - Obtener el valor del dígito decimal de un carácter de dígito decimal
+- IntlChar::charDirection - Obtener el valor de la categoría bidireccional de un punto de código
+- IntlChar::charFromName - Buscar un carácter Unicode por su nombre y devolver su valor de punto de código
+- IntlChar::charMirror - Obtener el carácter de «imagen reflejada» de un punto de código
+- IntlChar::charName - Obtener el nombre de un carácter Unicode
+- IntlChar::charType - Obtener el valor de la categoría general de un punto de código
+- IntlChar::chr - Devolver el carácter Unicode mediante su valor de punto de código
+- IntlChar::digit - Obtener el valor del dígito decimal de un punto de código para una base dada
+- IntlChar::enumCharNames - Enumerar todos los caracteres de Unicode con asignación dentro de un rango
+- IntlChar::enumCharTypes - Enumerar todos los puntos de código con sus categorías generales de Unicode
+- IntlChar::foldCase - Realiza un «plegamiento» de un punto de código
+- IntlChar::forDigit - Obtener la representación de un carácter para un dígito y base dados
+- IntlChar::getBidiPairedBracket - Obtener la pareja del carácter parentético de un punto de código
+- IntlChar::getBlockCode - Obtener el bloque de asignación de Unicode que contiene a un punto de código
+- IntlChar::getCombiningClass - Obtener la clase de combinación de un punto de cógido
+- IntlChar::getFC_NFKC_Closure - Obtener la propiedad FC_NFKC_Closure de un punto de código
+- IntlChar::getIntPropertyMaxValue - Obtener el valor máximo de una propiedad de Unicode
+- IntlChar::getIntPropertyMinValue - Obtener el valor mínimo de una propiedad de Unicode
+- IntlChar::getIntPropertyValue - Obtener el valor de una propiedad de Unicode para un punto de código
+- IntlChar::getNumericValue - Obtener el valor numérico de un punto de código de Unicode
+- IntlChar::getPropertyEnum - Obtener el valor de la constante de una propiedad para un nombre de propiedad dado
+- IntlChar::getPropertyName - Obtener el nombre Unicode de una propiedad
+- IntlChar::getPropertyValueEnum - Obtener el valor de una propiedad para un nombre de valor dado
+- IntlChar::getPropertyValueName - Obtener el nombre Unicode para un valor de una propiedad
+- IntlChar::getUnicodeVersion - Obtener la versión de Unicode
+- IntlChar::hasBinaryProperty - Comprobar una propiedad de Unicode binaria para un punto de código
+- IntlChar::isalnum - Comporbar si un punto de código es un carácter alfanumérico
+- IntlChar::isalpha - Comprobar si un punto de código es un caracter de letra
+- IntlChar::isbase - Comprobar si un punto de código es un carácter base
+- IntlChar::isblank - Comprobar si un punto de código es un carácter «en blanco» o de «espacio horizontal»
+- IntlChar::iscntrl - Comprobar si un punto de código es un carácter de control
+- IntlChar::isdefined - Comprobar si un punto de código está definido
+- IntlChar::isdigit - Comprobar si un punto de código es un carácter de dígito
+- IntlChar::isgraph - Comprobar si un punto de código es un caráter gráfico
+- IntlChar::isIDIgnorable - Comprobar si un punto de código es un carácter ignorable
+- IntlChar::isIDPart - Comprobar si un punto de código es permisible en un identificador
+- IntlChar::isIDStart - Comprobar si un punto de código es permisible como el primer carácter de un identificador
+- IntlChar::isISOControl - Comprobar si un punto de código es un código de control de ISO
+- IntlChar::isJavaIDPart - Comprobar si un punto de código es permisible en un identificador de Java
+- IntlChar::isJavaIDStart - Comprobar si un punto de código es permisible como el primer carácter de un identificador de Java
+- IntlChar::isJavaSpaceChar - Comprobar si un punto de código es un carácter de espacio según Java
+- IntlChar::islower - Comprobar si un punto de código es una letra minúscula
+- IntlChar::isMirrored - Comprobar si un punto de código posee la propiedad Bidi_Mirrored
+- IntlChar::isprint - Comprobar si un punto de código es un carácter imprimible
+- IntlChar::ispunct - Comprobar si un punto de código es un carácter de puntuación
+- IntlChar::isspace - Comprobar si un punto de código es un carácter de espacio
+- IntlChar::istitle - Comprobar si un punto de código es una letra titular
+- IntlChar::isUAlphabetic - Comprobar si un punto de código tiene la propiedad de Unicode Alphabetic
+- IntlChar::isULowercase - Comprobar si un punto de código tiene la propiedad de Unicode Lowercase
+- IntlChar::isupper - Comprobar si un punto de código tiene la categoría general "Lu" (letra mayúscula)
+- IntlChar::isUUppercase - Comprobar si un punto de código tiene la propiedad de Unicode Uppercase
+- IntlChar::isUWhiteSpace - Comprobar si un punto de código tiene la propiedad de Unicode White_Space
+- IntlChar::isWhitespace - Comprobar si un punto de código es un carácter de espacio en blanco según ICU
+- IntlChar::isxdigit - Comprobar si el punto de código es un dígito hexadecimal
+- IntlChar::ord - Devolver el valor del punto de código de Unicode de un carácter
+- IntlChar::tolower - Convertir a minúsculas un carácter Unicode
+- IntlChar::totitle - Convertir un carácter Unicode a letra titular
+- IntlChar::toupper - Convertir a mayúsculas un carácter Unicode
+- IntlCodePointBreakIterator::getLastCodePoint - Obtener el último punto de código ignorado después de que el iterdor avance o retroceda
+- IntlDateFormatter::create - Crear un formateador de fechas
+- IntlDateFormatter::format - Formatear el valor fecha/hora como una cadena
+- IntlDateFormatter::formatObject - Formatea un objeto
+- IntlDateFormatter::getCalendar - Obtener el tipo de calendario usado por el objeto IntlDateFormatter
+- IntlDateFormatter::getCalendarObject - Obtener una copia del objeto calendario del formateador
+- IntlDateFormatter::getDateType - Obtener el tipo de fecha usada por un formateador de IntlDateFormatter
+- IntlDateFormatter::getErrorCode - Obtener el código del error de la última operación
+- IntlDateFormatter::getErrorMessage - Obtener el texto del error de la última operación
+- IntlDateFormatter::getLocale - Obtener la configuración regional usada por un formateador
+- IntlDateFormatter::getPattern - Obtener el patrón utilizado por un formateador de IntlDateFormatter
+- IntlDateFormatter::getTimeType - Obtener el tipo de hora usada por un formateador de IntlDateFormatter
+- IntlDateFormatter::getTimeZone - Obtener la zona horaria del formateador
+- IntlDateFormatter::getTimeZoneId - Obtener el ID de la zona horario usada por un formateador de IntlDateFormatter
+- IntlDateFormatter::isLenient - Obtener la tolerancia usada por un formateador de IntlDateFormatter
+- IntlDateFormatter::localtime - Convertir una cadena en un valor de marca de tiempo basado en un campo
+- IntlDateFormatter::parse - Convertir una cadena en un valor de marca de tiempo
+- IntlDateFormatter::setCalendar - Establecer el tipo de calendario usado por el formateador
+- IntlDateFormatter::setLenient - Establecer la tolerancia del analizador
+- IntlDateFormatter::setPattern - Establecer el patrón utilizado por el formateador de IntlDateFormatter
+- IntlDateFormatter::setTimeZone - Establece la zona horaria del formateador
+- IntlIterator::current - Obtiene el elemento actual
+- IntlIterator::key - Obtiene la clave actual
+- IntlIterator::next - Adelanta hasta el siguiente elemento
+- IntlIterator::rewind - Mueve el iterador al primer elemento
+- IntlIterator::valid - Comprueba si la posición actual es válida
+- IntlPartsIterator::getBreakIterator - Obtener un IntlBreakIterator respaldando este iterador de partes
+- IntlRuleBasedBreakIterator::__construct - Crear un iterador desde un conjunto de reglas
+- IntlRuleBasedBreakIterator::getBinaryRules - Obtener la forma binaria de las reglas compiladas
+- IntlRuleBasedBreakIterator::getRules - Obtener el conjunto de reglas empleado para crear este objeto
+- IntlRuleBasedBreakIterator::getRuleStatus - Obtener el mayor valor de estado de las reglas de ruptura que determinaron la posición de ruptura actual
+- IntlRuleBasedBreakIterator::getRuleStatusVec - Obtener los valores de estado de las reglas de ruptura que determinaron la posición de ruptura acutal
+- IntlTimeZone::__construct - Private constructor to disallow direct instantiation
+- IntlTimeZone::countEquivalentIDs - Obtener el número de ID del grupo de equivalencias que incluye el ID dado
+- IntlTimeZone::createDefault - Crear una nueva copia de la zona horaria predeterminada para este host
+- IntlTimeZone::createEnumeration - Obtener una enumeración de ID de zonas horarias asociados al país o índice dado
+- IntlTimeZone::createTimeZone - Crear un objeto de zona horaria para el ID dado
+- IntlTimeZone::createTimeZoneIDEnumeration - Get an enumeration over system time zone IDs with the given filter conditions
+- IntlTimeZone::fromDateTimeZone - Crear un objeto de zona horaria desde DateTimeZone
+- IntlTimeZone::getCanonicalID - Obtener el ID canónico de la zona horaria del sistema o el ID normalizado de la zona horaria personalizada para el ID de zona horaria dado
+- IntlTimeZone::getDisplayName - Obtener un nombre de esta zona horaria apto para la presentación al usuario
+- IntlTimeZone::getDSTSavings - Obtener la cantidad de tiempo a añadir a la hora local estándar para obtener la hora local actual
+- IntlTimeZone::getEquivalentID - Obtener un ID del grupo de equivalencias que incluya el ID dado
+- IntlTimeZone::getErrorCode - Obtener el último código de error del objeto
+- IntlTimeZone::getErrorMessage - Obtener el último mensaje de error del objeto
+- IntlTimeZone::getGMT - Crear una zona horaria GMT (UTC)
+- IntlTimeZone::getID - Obtener el ID de la zona horaria
+- IntlTimeZone::getIDForWindowsID - Translate a Windows timezone into a system timezone
+- IntlTimeZone::getOffset - Obtener la zona horaria sin tratar y el índice GMT para el momento dado
+- IntlTimeZone::getRawOffset - Obtener el índice GMT sin tratar (antes de tomar en cuenta el horario de verano)
+- IntlTimeZone::getRegion - Get the region code associated with the given system time zone ID
+- IntlTimeZone::getTZDataVersion - Obtener la versión de los datos de zonas horarias actualmente usada por ICU
+- IntlTimeZone::getUnknown - Get the "unknown" time zone
+- IntlTimeZone::getWindowsID - Translate a system timezone into a Windows timezone
+- IntlTimeZone::hasSameRules - Comprobar si esta zona horaria tiene las mismas reglas e índices que otra
+- IntlTimeZone::toDateTimeZone - Convertir a un objeto DateTimeZone
+- IntlTimeZone::useDaylightTime - Comprobar si esta zona horaria utiliza el horario de verano
+- Iterator::current - Devuelve el elemento actual
+- Iterator::key - Devuelve la clave del elemento actual
+- Iterator::next - Avanza al siguiente elemento
+- Iterator::rewind - Rebobine la Iterator al primer elemento
+- Iterator::valid - Comprueba si la posición actual es válido
+- IteratorAggregate::getIterator - Recuperar un Iterator externo
+- IteratorIterator::__construct - Crear un iterador de cualquier cosa que se pueda recorrer
+- IteratorIterator::current - Obtener el valor actual
+- IteratorIterator::getInnerIterator - Obtener el iterador interno
+- IteratorIterator::key - Obtener la clave del elemento actual
+- IteratorIterator::next - Avanzar al siguiente elemento
+- IteratorIterator::rewind - Rebobinar al primer elemento
+- IteratorIterator::valid - Comprobar si el iterador es válido
+- JsonSerializable::jsonSerialize - Especifica los datos que deberían serializarse para JSON
+- LimitIterator::__construct - Construye un LimitIterator
+- LimitIterator::current - Obtiene el elemento actual
+- LimitIterator::getPosition - Devuelve la posición actual
+- LimitIterator::key - Obtiene la clave actual
+- LimitIterator::next - Mueve el iterador a la siguiente posición
+- LimitIterator::rewind - Rebobina el iterador a un punto específicado
+- LimitIterator::seek - Mueve el apuntador interno a la posición dada
+- LimitIterator::valid - Comprobar si el elemento actual es válido
+- Locale::acceptFromHttp - Intentar encontrar la mejor configuración regional basada en la cabecera "Accept-Language" de HTTP
+- Locale::canonicalize - Canonizar el string de configuración regional
+- Locale::composeLocale - Devolver un ID regional correctamente ordenado y delimitado
+- Locale::filterMatches - Comprobar si unfiltro de etiquetas de lenguaje coincide con una configuración regional
+- Locale::getAllVariants - Obtener las variantes de la configuración regional de entrada
+- Locale::getDefault - Obtener el valor de la configuración regional predeterminada del identificador global 'default_locale' de INTL
+- Locale::getDisplayLanguage - Devolver un nombre manifiesto debidamente localizado del lenguaje de la configuración regional de entrada
+- Locale::getDisplayName - Devolver un nombre manifiesto debidamente localizado de la configuración regional de entrada
+- Locale::getDisplayRegion - Devolver un nombre manifiesto debidamente localizado de la región de la configuración regional de entrada
+- Locale::getDisplayScript - Devolver un nombre manifiesto debidamente localizado de la escritura de la configuración regional de entrada
+- Locale::getDisplayVariant - Devolver un nombre manifiesto debidamente localizado de las variantes de la configuración regional de entrada
+- Locale::getKeywords - Obtener las palabras clave de la configuración regional de entrada
+- Locale::getPrimaryLanguage - Obtener el lenguaje principal de la configuración regional de entrada
+- Locale::getRegion - Obtener la región de la configuración local de entrada
+- Locale::getScript - Obtener la escritura de la configuración regional de entrada
+- Locale::lookup - Busca en la lista de etiquetas de lenguaje la mejor coincidencia para el lenguaje
+- Locale::parseLocale - Devolver un array de claves-valores de los elementos de las subetiquetas del ID regional
+- Locale::setDefault - Establecer la configuración regional predeterminada en tiempo de ejecución
+- Lua::__construct - Constructor de Lua
+- Lua::assign - Asigna una variable de PHP a Lua
+- Lua::call - Llama funciones de Lua
+- Lua::eval - Evalúa una cadena de texto como código Lua
+- Lua::getVersion - Obtiene la versión
+- Lua::include - Analiza un fichero script Lua
+- Lua::registerCallback - Registra una función PHP en Lua
+- LuaClosure::__invoke - Invoke luaclosure
+- LuaSandbox::callFunction - Call a function in a Lua global variable
+- LuaSandbox::disableProfiler - Disable the profiler
+- LuaSandbox::enableProfiler - Enable the profiler.
+- LuaSandbox::getCPUUsage - Fetch the current CPU time usage of the Lua environment
+- LuaSandbox::getMemoryUsage - Fetch the current memory usage of the Lua environment
+- LuaSandbox::getPeakMemoryUsage - Fetch the peak memory usage of the Lua environment
+- LuaSandbox::getProfilerFunctionReport - Fetch profiler data
+- LuaSandbox::getVersionInfo - Return the versions of LuaSandbox and Lua
+- LuaSandbox::loadBinary - Load a precompiled binary chunk into the Lua environment
+- LuaSandbox::loadString - Load Lua code into the Lua environment
+- LuaSandbox::pauseUsageTimer - Pause the CPU usage timer
+- LuaSandbox::registerLibrary - Register a set of PHP functions as a Lua library
+- LuaSandbox::setCPULimit - Set the CPU time limit for the Lua environment
+- LuaSandbox::setMemoryLimit - Set the memory limit for the Lua environment
+- LuaSandbox::unpauseUsageTimer - Unpause the timer paused by LuaSandbox::pauseUsageTimer
+- LuaSandbox::wrapPhpFunction - Wrap a PHP callable in a LuaSandboxFunction
+- LuaSandboxFunction::__construct - Unused
+- LuaSandboxFunction::call - Call a Lua function
+- LuaSandboxFunction::dump - Dump the function as a binary blob
+- Memcache::add - Añadir un valor en el servidor
+- Memcache::addServer - Añadir servidor memcache al grupo de conexiones
+- Memcache::close - Cierra la conexión al servidor memcached
+- Memcache::connect - Abre una conexión al servidor memcached
+- Memcache::decrement - Decrementa numéricamente un valor
+- Memcache::delete - Elimina un valor del servidor
+- Memcache::flush - Limpia todos los valores existentes en el servidor
+- Memcache::get - Obtener valor del servidor
+- Memcache::getExtendedStats - Obtener estadísticas de todos los servidores en el grupo
+- Memcache::getServerStatus - Devuelve el estado del servidor
+- Memcache::getStats - Obtiene estadísticas del servidor
+- Memcache::getVersion - Devuelve la versión del servidor
+- Memcache::increment - Incrementa numéricamente un valor
+- Memcache::pconnect - Abre una conexión persistente a memcached
+- Memcache::replace - Reemplaza el valor de un valor existente
+- Memcache::set - Guarda datos en el servidor
+- Memcache::setCompressThreshold - Activa compresión automática de valores con datos largos
+- Memcache::setServerParams - Cambia parámetros del servidor y estado en tiempo de ejecucción
+- Memcached::__construct - Crear una instancia de Memcached
+- Memcached::add - Añade un ítem asociado a una nueva clave
+- Memcached::addByKey - Añade un ítem asociado a una nueva clave en un servidor específico
+- Memcached::addServer - Añade un servidor a la provisión de servidores
+- Memcached::addServers - Añadir varios servidores a la agrupación de servidores
+- Memcached::append - Añadir datos a un ítem existente
+- Memcached::appendByKey - Añadir datos a un ítem existente en un servidor específico
+- Memcached::cas - Comparar e intercambiar un ítem
+- Memcached::casByKey - Comparar e intercambiar un ítem en un servidor específico
+- Memcached::decrement - Decrementar un valor numérico de un ítem
+- Memcached::decrementByKey - Decrementar un valor numérico de un ítem almacenado en un servidor específico
+- Memcached::delete - Eliminar un ítem
+- Memcached::deleteByKey - Eliminar un ítem de un servidor específico
+- Memcached::deleteMulti - Eliminar varios ítems
+- Memcached::deleteMultiByKey - Eliminar varios ítems de un servidor específico
+- Memcached::fetch - Obtener el siguiente resultado
+- Memcached::fetchAll - Obtener todos los resultados restantes
+- Memcached::flush - Invalidar todos los ítems de la caché
+- Memcached::get - Obtener un ítem
+- Memcached::getAllKeys - Obtiene las claves almacenadas en todos los servidores
+- Memcached::getByKey - Obtiene un ítem de un servidor específico
+- Memcached::getDelayed - Obtener varios ítems
+- Memcached::getDelayedByKey - Solicitar varios ítems de un servidor específico
+- Memcached::getMulti - Obtener varios ítems
+- Memcached::getMultiByKey - Recuperar varios ítems de un servidor específico
+- Memcached::getOption - Obtener el valor de una opción de Memcached
+- Memcached::getResultCode - Devuelve el código resultante de la última operación
+- Memcached::getResultMessage - Devolver un mensaje que describe el resultado de la última operación
+- Memcached::getServerByKey - Hacer corresponder una clave con un servidor
+- Memcached::getServerList - Obtener la lista de servidores de la agrupación
+- Memcached::getStats - Obtener las estadísticas de la agrupación de servidores
+- Memcached::getVersion - Obtener la información de la versión de la agrupación de servidores
+- Memcached::increment - Incrementar un valor numérico de un ítem
+- Memcached::incrementByKey - Incrementar un valor numérico de un ítem, almacenado en un servidor específico
+- Memcached::isPersistent - Comprueba si se está utilizando una conexión persistente a memcache
+- Memcached::isPristine - Comprobar si la instancia se creó recientemente
+- Memcached::prepend - Anteponer datos a un ítem existente
+- Memcached::prependByKey - Anteponer datos a un ítem existente en un servidor específico
+- Memcached::quit - Cierra cualquier conexión abierta
+- Memcached::replace - Reemplaza un ítem asociado a una clave existente
+- Memcached::replaceByKey - Reemplazar un ítem bajo una clave existente en un servidor específico
+- Memcached::resetServerList - Limpia todos los servidores de la lista de servidores
+- Memcached::set - Guardar un ítem
+- Memcached::setByKey - Guardar un ítem en un servidor específico
+- Memcached::setMulti - Almacenar varios ítems
+- Memcached::setMultiByKey - Almacena varios ítems en un servidor específico
+- Memcached::setOption - Establecer una opción de Memcached
+- Memcached::setOptions - Establecer opciones de Memcached
+- Memcached::setSaslAuthData - Establecer las credenciales para la autenticación
+- Memcached::touch - Establecer una nueva expiración para un ítem
+- Memcached::touchByKey - Establecer una nueva expiración para un ítem de un servidor específico
+- MessageFormatter::create - Construir un nuevo Formateador de Mensajes
+- MessageFormatter::format - Dar formato al mensaje
+- MessageFormatter::formatMessage - Formateo rápido de un mensaje
+- MessageFormatter::getErrorCode - Obtener el código de error de la última operación
+- MessageFormatter::getErrorMessage - Obtener el texto del error de la última operación
+- MessageFormatter::getLocale - Obtener la configuración regional desde la que se creó el formateador
+- MessageFormatter::getPattern - Obtener el patrón usado por el formateador
+- MessageFormatter::parse - Procesar la cadena de entrada según un patrón
+- MessageFormatter::parseMessage - Procesar rápidamente una cadena de entrada
+- MessageFormatter::setPattern - Establecer el patrón usado por el formateador
+- MongoDB\BSON\Binary::__construct - Construct a new Binary
+- MongoDB\BSON\Binary::__toString - Returns the Binary's data
+- MongoDB\BSON\Binary::getData - Returns the Binary's data
+- MongoDB\BSON\Binary::getType - Returns the Binary's type
+- MongoDB\BSON\Binary::jsonSerialize - Returns a representation that can be converted to JSON
+- MongoDB\BSON\Binary::serialize - Serialize a Binary
+- MongoDB\BSON\Binary::unserialize - Unserialize a Binary
+- MongoDB\BSON\BinaryInterface::__toString - Returns the BinaryInterface's data
+- MongoDB\BSON\BinaryInterface::getData - Returns the BinaryInterface's data
+- MongoDB\BSON\BinaryInterface::getType - Returns the BinaryInterface's type
+- MongoDB\BSON\DBPointer::__construct - Construct a new DBPointer (unused)
+- MongoDB\BSON\DBPointer::__toString - Returns an empty string
+- MongoDB\BSON\DBPointer::jsonSerialize - Returns a representation that can be converted to JSON
+- MongoDB\BSON\DBPointer::serialize - Serialize a DBPointer
+- MongoDB\BSON\DBPointer::unserialize - Unserialize a DBPointer
+- MongoDB\BSON\Decimal128::__construct - Construct a new Decimal128
+- MongoDB\BSON\Decimal128::__toString - Returns the string representation of this Decimal128
+- MongoDB\BSON\Decimal128::jsonSerialize - Returns a representation that can be converted to JSON
+- MongoDB\BSON\Decimal128::serialize - Serialize a Decimal128
+- MongoDB\BSON\Decimal128::unserialize - Unserialize a Decimal128
+- MongoDB\BSON\Decimal128Interface::__toString - Returns the string representation of this Decimal128Interface
+- MongoDB\BSON\Int64::__construct - Construct a new Int64
+- MongoDB\BSON\Int64::__toString - Returns the string representation of this Int64
+- MongoDB\BSON\Int64::jsonSerialize - Returns a representation that can be converted to JSON
+- MongoDB\BSON\Int64::serialize - Serialize an Int64
+- MongoDB\BSON\Int64::unserialize - Unserialize an Int64
+- MongoDB\BSON\Javascript::__construct - Construct a new Javascript
+- MongoDB\BSON\Javascript::__toString - Returns the Javascript's code
+- MongoDB\BSON\Javascript::getCode - Returns the Javascript's code
+- MongoDB\BSON\Javascript::getScope - Returns the Javascript's scope document
+- MongoDB\BSON\Javascript::jsonSerialize - Returns a representation that can be converted to JSON
+- MongoDB\BSON\Javascript::serialize - Serialize a Javascript
+- MongoDB\BSON\Javascript::unserialize - Unserialize a Javascript
+- MongoDB\BSON\JavascriptInterface::__toString - Returns the JavascriptInterface's code
+- MongoDB\BSON\JavascriptInterface::getCode - Returns the JavascriptInterface's code
+- MongoDB\BSON\JavascriptInterface::getScope - Returns the JavascriptInterface's scope document
+- MongoDB\BSON\MaxKey::__construct - Construct a new MaxKey
+- MongoDB\BSON\MaxKey::jsonSerialize - Returns a representation that can be converted to JSON
+- MongoDB\BSON\MaxKey::serialize - Serialize a MaxKey
+- MongoDB\BSON\MaxKey::unserialize - Unserialize a MaxKey
+- MongoDB\BSON\MinKey::__construct - Construct a new MinKey
+- MongoDB\BSON\MinKey::jsonSerialize - Returns a representation that can be converted to JSON
+- MongoDB\BSON\MinKey::serialize - Serialize a MinKey
+- MongoDB\BSON\MinKey::unserialize - Unserialize a MinKey
+- MongoDB\BSON\ObjectId::__construct - Construct a new ObjectId
+- MongoDB\BSON\ObjectId::__toString - Returns the hexidecimal representation of this ObjectId
+- MongoDB\BSON\ObjectId::getTimestamp - Returns the timestamp component of this ObjectId
+- MongoDB\BSON\ObjectId::jsonSerialize - Returns a representation that can be converted to JSON
+- MongoDB\BSON\ObjectId::serialize - Serialize an ObjectId
+- MongoDB\BSON\ObjectId::unserialize - Unserialize an ObjectId
+- MongoDB\BSON\ObjectIdInterface::__toString - Returns the hexidecimal representation of this ObjectIdInterface
+- MongoDB\BSON\ObjectIdInterface::getTimestamp - Returns the timestamp component of this ObjectIdInterface
+- MongoDB\BSON\Regex::__construct - Construct a new Regex
+- MongoDB\BSON\Regex::__toString - Returns the string representation of this Regex
+- MongoDB\BSON\Regex::getFlags - Returns the Regex's flags
+- MongoDB\BSON\Regex::getPattern - Returns the Regex's pattern
+- MongoDB\BSON\Regex::jsonSerialize - Returns a representation that can be converted to JSON
+- MongoDB\BSON\Regex::serialize - Serialize a Regex
+- MongoDB\BSON\Regex::unserialize - Unserialize a Regex
+- MongoDB\BSON\RegexInterface::__toString - Returns the string representation of this RegexInterface
+- MongoDB\BSON\RegexInterface::getFlags - Returns the RegexInterface's flags
+- MongoDB\BSON\RegexInterface::getPattern - Returns the RegexInterface's pattern
+- MongoDB\BSON\Serializable::bsonSerialize - Provides an array or document to serialize as BSON
+- MongoDB\BSON\Symbol::__construct - Construct a new Symbol (unused)
+- MongoDB\BSON\Symbol::__toString - Returns the Symbol as a string
+- MongoDB\BSON\Symbol::jsonSerialize - Returns a representation that can be converted to JSON
+- MongoDB\BSON\Symbol::serialize - Serialize a Symbol
+- MongoDB\BSON\Symbol::unserialize - Unserialize a Symbol
+- MongoDB\BSON\Timestamp::__construct - Construct a new Timestamp
+- MongoDB\BSON\Timestamp::__toString - Returns the string representation of this Timestamp
+- MongoDB\BSON\Timestamp::getIncrement - Returns the increment component of this Timestamp
+- MongoDB\BSON\Timestamp::getTimestamp - Returns the timestamp component of this Timestamp
+- MongoDB\BSON\Timestamp::jsonSerialize - Returns a representation that can be converted to JSON
+- MongoDB\BSON\Timestamp::serialize - Serialize a Timestamp
+- MongoDB\BSON\Timestamp::unserialize - Unserialize a Timestamp
+- MongoDB\BSON\TimestampInterface::__toString - Returns the string representation of this TimestampInterface
+- MongoDB\BSON\TimestampInterface::getIncrement - Returns the increment component of this TimestampInterface
+- MongoDB\BSON\TimestampInterface::getTimestamp - Returns the timestamp component of this TimestampInterface
+- MongoDB\BSON\Undefined::__construct - Construct a new Undefined (unused)
+- MongoDB\BSON\Undefined::__toString - Returns an empty string
+- MongoDB\BSON\Undefined::jsonSerialize - Returns a representation that can be converted to JSON
+- MongoDB\BSON\Undefined::serialize - Serialize a Undefined
+- MongoDB\BSON\Undefined::unserialize - Unserialize a Undefined
+- MongoDB\BSON\Unserializable::bsonUnserialize - Constructs the object from a BSON array or document
+- MongoDB\BSON\UTCDateTime::__construct - Construct a new UTCDateTime
+- MongoDB\BSON\UTCDateTime::__toString - Returns the string representation of this UTCDateTime
+- MongoDB\BSON\UTCDateTime::jsonSerialize - Returns a representation that can be converted to JSON
+- MongoDB\BSON\UTCDateTime::serialize - Serialize a UTCDateTime
+- MongoDB\BSON\UTCDateTime::toDateTime - Returns the DateTime representation of this UTCDateTime
+- MongoDB\BSON\UTCDateTime::unserialize - Unserialize a UTCDateTime
+- MongoDB\BSON\UTCDateTimeInterface::__toString - Returns the string representation of this UTCDateTimeInterface
+- MongoDB\BSON\UTCDateTimeInterface::toDateTime - Returns the DateTime representation of this UTCDateTimeInterface
+- MongoDB\Driver\BulkWrite::__construct - Create a new BulkWrite
+- MongoDB\Driver\BulkWrite::count - Count number of write operations in the bulk
+- MongoDB\Driver\BulkWrite::delete - Add a delete operation to the bulk
+- MongoDB\Driver\BulkWrite::insert - Add an insert operation to the bulk
+- MongoDB\Driver\BulkWrite::update - Add an update operation to the bulk
+- MongoDB\Driver\ClientEncryption::__construct - Create a new ClientEncryption object
+- MongoDB\Driver\ClientEncryption::addKeyAltName - Adds an alternate name to a key document
+- MongoDB\Driver\ClientEncryption::createDataKey - Creates a key document
+- MongoDB\Driver\ClientEncryption::decrypt - Decrypt a value
+- MongoDB\Driver\ClientEncryption::deleteKey - Deletes a key document
+- MongoDB\Driver\ClientEncryption::encrypt - Encrypt a value
+- MongoDB\Driver\ClientEncryption::encryptExpression - Encrypts a match or aggregate expression
+- MongoDB\Driver\ClientEncryption::getKey - Gets a key document
+- MongoDB\Driver\ClientEncryption::getKeyByAltName - Gets a key document by an alternate name
+- MongoDB\Driver\ClientEncryption::getKeys - Gets all key documents
+- MongoDB\Driver\ClientEncryption::removeKeyAltName - Removes an alternate name from a key document
+- MongoDB\Driver\ClientEncryption::rewrapManyDataKey - Rewraps data keys
+- MongoDB\Driver\Command::__construct - Create a new Command
+- MongoDB\Driver\Cursor::__construct - Create a new Cursor (not used)
+- MongoDB\Driver\Cursor::current - Returns the current element
+- MongoDB\Driver\Cursor::getId - Returns the ID for this cursor
+- MongoDB\Driver\Cursor::getServer - Returns the server associated with this cursor
+- MongoDB\Driver\Cursor::isDead - Checks if the cursor is exhausted or may have additional results
+- MongoDB\Driver\Cursor::key - Returns the current result's index within the cursor
+- MongoDB\Driver\Cursor::next - Advances the cursor to the next result
+- MongoDB\Driver\Cursor::rewind - Rewind the cursor to the first result
+- MongoDB\Driver\Cursor::setTypeMap - Sets a type map to use for BSON unserialization
+- MongoDB\Driver\Cursor::toArray - Returns an array containing all results for this cursor
+- MongoDB\Driver\Cursor::valid - Checks if the current position in the cursor is valid
+- MongoDB\Driver\CursorId::__construct - Create a new CursorId (not used)
+- MongoDB\Driver\CursorId::__toString - String representation of the cursor ID
+- MongoDB\Driver\CursorId::serialize - Serialize a CursorId
+- MongoDB\Driver\CursorId::unserialize - Unserialize a CursorId
+- MongoDB\Driver\CursorInterface::getId - Returns the ID for this cursor
+- MongoDB\Driver\CursorInterface::getServer - Returns the server associated with this cursor
+- MongoDB\Driver\CursorInterface::isDead - Checks if the cursor may have additional results
+- MongoDB\Driver\CursorInterface::setTypeMap - Sets a type map to use for BSON unserialization
+- MongoDB\Driver\CursorInterface::toArray - Returns an array containing all results for this cursor
+- MongoDB\Driver\Exception\CommandException::getResultDocument - Returns the result document for the failed command
+- MongoDB\Driver\Exception\RuntimeException::hasErrorLabel - Returns whether an error label is associated with an exception
+- MongoDB\Driver\Exception\WriteException::getWriteResult - Returns the WriteResult for the failed write operation
+- MongoDB\Driver\Manager::__construct - Create new MongoDB Manager
+- MongoDB\Driver\Manager::addSubscriber - Registers a monitoring event subscriber with this Manager
+- MongoDB\Driver\Manager::createClientEncryption - Create a new ClientEncryption object
+- MongoDB\Driver\Manager::executeBulkWrite - Execute one or more write operations
+- MongoDB\Driver\Manager::executeCommand - Execute a database command
+- MongoDB\Driver\Manager::executeQuery - Execute a database query
+- MongoDB\Driver\Manager::executeReadCommand - Execute a database command that reads
+- MongoDB\Driver\Manager::executeReadWriteCommand - Execute a database command that reads and writes
+- MongoDB\Driver\Manager::executeWriteCommand - Execute a database command that writes
+- MongoDB\Driver\Manager::getEncryptedFieldsMap - Return the encryptedFieldsMap auto encryption option for the Manager
+- MongoDB\Driver\Manager::getReadConcern - Return the ReadConcern for the Manager
+- MongoDB\Driver\Manager::getReadPreference - Return the ReadPreference for the Manager
+- MongoDB\Driver\Manager::getServers - Return the servers to which this manager is connected
+- MongoDB\Driver\Manager::getWriteConcern - Return the WriteConcern for the Manager
+- MongoDB\Driver\Manager::removeSubscriber - Unregisters a monitoring event subscriber with this Manager
+- MongoDB\Driver\Manager::selectServer - Select a server matching a read preference
+- MongoDB\Driver\Manager::startSession - Start a new client session for use with this client
+- MongoDB\Driver\Monitoring\CommandFailedEvent::getCommandName - Returns the command name
+- MongoDB\Driver\Monitoring\CommandFailedEvent::getDurationMicros - Returns the command's duration in microseconds
+- MongoDB\Driver\Monitoring\CommandFailedEvent::getError - Returns the Exception associated with the failed command
+- MongoDB\Driver\Monitoring\CommandFailedEvent::getOperationId - Returns the command's operation ID
+- MongoDB\Driver\Monitoring\CommandFailedEvent::getReply - Returns the command reply document
+- MongoDB\Driver\Monitoring\CommandFailedEvent::getRequestId - Returns the command's request ID
+- MongoDB\Driver\Monitoring\CommandFailedEvent::getServer - Returns the Server on which the command was executed
+- MongoDB\Driver\Monitoring\CommandFailedEvent::getServerConnectionId - Returns the server connection ID for the command
+- MongoDB\Driver\Monitoring\CommandFailedEvent::getServiceId - Returns the load balancer service ID for the command
+- MongoDB\Driver\Monitoring\CommandStartedEvent::getCommand - Returns the command document
+- MongoDB\Driver\Monitoring\CommandStartedEvent::getCommandName - Returns the command name
+- MongoDB\Driver\Monitoring\CommandStartedEvent::getDatabaseName - Returns the database on which the command was executed
+- MongoDB\Driver\Monitoring\CommandStartedEvent::getOperationId - Returns the command's operation ID
+- MongoDB\Driver\Monitoring\CommandStartedEvent::getRequestId - Returns the command's request ID
+- MongoDB\Driver\Monitoring\CommandStartedEvent::getServer - Returns the Server on which the command was executed
+- MongoDB\Driver\Monitoring\CommandStartedEvent::getServerConnectionId - Returns the server connection ID for the command
+- MongoDB\Driver\Monitoring\CommandStartedEvent::getServiceId - Returns the load balancer service ID for the command
+- MongoDB\Driver\Monitoring\CommandSubscriber::commandFailed - Notification method for a failed command
+- MongoDB\Driver\Monitoring\CommandSubscriber::commandStarted - Notification method for a started command
+- MongoDB\Driver\Monitoring\CommandSubscriber::commandSucceeded - Notification method for a successful command
+- MongoDB\Driver\Monitoring\CommandSucceededEvent::getCommandName - Returns the command name
+- MongoDB\Driver\Monitoring\CommandSucceededEvent::getDurationMicros - Returns the command's duration in microseconds
+- MongoDB\Driver\Monitoring\CommandSucceededEvent::getOperationId - Returns the command's operation ID
+- MongoDB\Driver\Monitoring\CommandSucceededEvent::getReply - Returns the command reply document
+- MongoDB\Driver\Monitoring\CommandSucceededEvent::getRequestId - Returns the command's request ID
+- MongoDB\Driver\Monitoring\CommandSucceededEvent::getServer - Returns the Server on which the command was executed
+- MongoDB\Driver\Monitoring\CommandSucceededEvent::getServerConnectionId - Returns the server connection ID for the command
+- MongoDB\Driver\Monitoring\CommandSucceededEvent::getServiceId - Returns the load balancer service ID for the command
+- MongoDB\Driver\Monitoring\SDAMSubscriber::serverChanged - Notification method for a server description change
+- MongoDB\Driver\Monitoring\SDAMSubscriber::serverClosed - Notification method for closing a server
+- MongoDB\Driver\Monitoring\SDAMSubscriber::serverHeartbeatFailed - Notification method for a failed server heartbeat
+- MongoDB\Driver\Monitoring\SDAMSubscriber::serverHeartbeatStarted - Notification method for a started server heartbeat
+- MongoDB\Driver\Monitoring\SDAMSubscriber::serverHeartbeatSucceeded - Notification method for a successful server heartbeat
+- MongoDB\Driver\Monitoring\SDAMSubscriber::serverOpening - Notification method for opening a server
+- MongoDB\Driver\Monitoring\SDAMSubscriber::topologyChanged - Notification method for a topology description change
+- MongoDB\Driver\Monitoring\SDAMSubscriber::topologyClosed - Notification method for closing the topology
+- MongoDB\Driver\Monitoring\SDAMSubscriber::topologyOpening - Notification method for opening the topology
+- MongoDB\Driver\Monitoring\ServerChangedEvent::getHost - Returns the hostname of the server
+- MongoDB\Driver\Monitoring\ServerChangedEvent::getNewDescription - Returns the new description for the server
+- MongoDB\Driver\Monitoring\ServerChangedEvent::getPort - Returns the port on which this server is listening
+- MongoDB\Driver\Monitoring\ServerChangedEvent::getPreviousDescription - Returns the previous description for the server
+- MongoDB\Driver\Monitoring\ServerChangedEvent::getTopologyId - Returns the topology ID associated with this server
+- MongoDB\Driver\Monitoring\ServerClosedEvent::getHost - Returns the hostname of the server
+- MongoDB\Driver\Monitoring\ServerClosedEvent::getPort - Returns the port on which this server is listening
+- MongoDB\Driver\Monitoring\ServerClosedEvent::getTopologyId - Returns the topology ID associated with this server
+- MongoDB\Driver\Monitoring\ServerHeartbeatFailedEvent::getDurationMicros - Returns the heartbeat's duration in microseconds
+- MongoDB\Driver\Monitoring\ServerHeartbeatFailedEvent::getError - Returns the Exception associated with the failed heartbeat
+- MongoDB\Driver\Monitoring\ServerHeartbeatFailedEvent::getHost - Returns the hostname of the server
+- MongoDB\Driver\Monitoring\ServerHeartbeatFailedEvent::getPort - Returns the port on which this server is listening
+- MongoDB\Driver\Monitoring\ServerHeartbeatFailedEvent::isAwaited - Returns whether the heartbeat used a streaming protocol
+- MongoDB\Driver\Monitoring\ServerHeartbeatStartedEvent::getHost - Returns the hostname of the server
+- MongoDB\Driver\Monitoring\ServerHeartbeatStartedEvent::getPort - Returns the port on which this server is listening
+- MongoDB\Driver\Monitoring\ServerHeartbeatStartedEvent::isAwaited - Returns whether the heartbeat used a streaming protocol
+- MongoDB\Driver\Monitoring\ServerHeartbeatSucceededEvent::getDurationMicros - Returns the heartbeat's duration in microseconds
+- MongoDB\Driver\Monitoring\ServerHeartbeatSucceededEvent::getHost - Returns the hostname of the server
+- MongoDB\Driver\Monitoring\ServerHeartbeatSucceededEvent::getPort - Returns the port on which this server is listening
+- MongoDB\Driver\Monitoring\ServerHeartbeatSucceededEvent::getReply - Returns the heartbeat reply document
+- MongoDB\Driver\Monitoring\ServerHeartbeatSucceededEvent::isAwaited - Returns whether the heartbeat used a streaming protocol
+- MongoDB\Driver\Monitoring\ServerOpeningEvent::getHost - Returns the hostname of the server
+- MongoDB\Driver\Monitoring\ServerOpeningEvent::getPort - Returns the port on which this server is listening
+- MongoDB\Driver\Monitoring\ServerOpeningEvent::getTopologyId - Returns the topology ID associated with this server
+- MongoDB\Driver\Monitoring\TopologyChangedEvent::getNewDescription - Returns the new description for the topology
+- MongoDB\Driver\Monitoring\TopologyChangedEvent::getPreviousDescription - Returns the previous description for the topology
+- MongoDB\Driver\Monitoring\TopologyChangedEvent::getTopologyId - Returns the topology ID
+- MongoDB\Driver\Monitoring\TopologyClosedEvent::getTopologyId - Returns the topology ID
+- MongoDB\Driver\Monitoring\TopologyOpeningEvent::getTopologyId - Returns the topology ID
+- MongoDB\Driver\Query::__construct - Create a new Query
+- MongoDB\Driver\ReadConcern::__construct - Create a new ReadConcern
+- MongoDB\Driver\ReadConcern::bsonSerialize - Returns an object for BSON serialization
+- MongoDB\Driver\ReadConcern::getLevel - Returns the ReadConcern's "level" option
+- MongoDB\Driver\ReadConcern::isDefault - Checks if this is the default read concern
+- MongoDB\Driver\ReadConcern::serialize - Serialize a ReadConcern
+- MongoDB\Driver\ReadConcern::unserialize - Unserialize a ReadConcern
+- MongoDB\Driver\ReadPreference::__construct - Create a new ReadPreference
+- MongoDB\Driver\ReadPreference::bsonSerialize - Returns an object for BSON serialization
+- MongoDB\Driver\ReadPreference::getHedge - Returns the ReadPreference's "hedge" option
+- MongoDB\Driver\ReadPreference::getMaxStalenessSeconds - Returns the ReadPreference's "maxStalenessSeconds" option
+- MongoDB\Driver\ReadPreference::getMode - Returns the ReadPreference's "mode" option
+- MongoDB\Driver\ReadPreference::getModeString - Returns the ReadPreference's "mode" option as a string
+- MongoDB\Driver\ReadPreference::getTagSets - Returns the ReadPreference's "tagSets" option
+- MongoDB\Driver\ReadPreference::serialize - Serialize a ReadPreference
+- MongoDB\Driver\ReadPreference::unserialize - Unserialize a ReadPreference
+- MongoDB\Driver\Server::__construct - Create a new Server (not used)
+- MongoDB\Driver\Server::executeBulkWrite - Execute one or more write operations on this server
+- MongoDB\Driver\Server::executeCommand - Execute a database command on this server
+- MongoDB\Driver\Server::executeQuery - Execute a database query on this server
+- MongoDB\Driver\Server::executeReadCommand - Execute a database command that reads on this server
+- MongoDB\Driver\Server::executeReadWriteCommand - Execute a database command that reads and writes on this server
+- MongoDB\Driver\Server::executeWriteCommand - Execute a database command that writes on this server
+- MongoDB\Driver\Server::getHost - Returns the hostname of this server
+- MongoDB\Driver\Server::getInfo - Returns an array of information describing this server
+- MongoDB\Driver\Server::getLatency - Returns the latency of this server in milliseconds
+- MongoDB\Driver\Server::getPort - Returns the port on which this server is listening
+- MongoDB\Driver\Server::getServerDescription - Returns a ServerDescription for this server
+- MongoDB\Driver\Server::getTags - Returns an array of tags describing this server in a replica set
+- MongoDB\Driver\Server::getType - Returns an integer denoting the type of this server
+- MongoDB\Driver\Server::isArbiter - Checks if this server is an arbiter member of a replica set
+- MongoDB\Driver\Server::isHidden - Checks if this server is a hidden member of a replica set
+- MongoDB\Driver\Server::isPassive - Checks if this server is a passive member of a replica set
+- MongoDB\Driver\Server::isPrimary - Checks if this server is a primary member of a replica set
+- MongoDB\Driver\Server::isSecondary - Checks if this server is a secondary member of a replica set
+- MongoDB\Driver\ServerApi::__construct - Create a new ServerApi instance
+- MongoDB\Driver\ServerApi::bsonSerialize - Returns an object for BSON serialization
+- MongoDB\Driver\ServerApi::serialize - Serialize a ServerApi
+- MongoDB\Driver\ServerApi::unserialize - Unserialize a ServerApi
+- MongoDB\Driver\ServerDescription::getHelloResponse - Returns the server's most recent "hello" response
+- MongoDB\Driver\ServerDescription::getHost - Returns the hostname of this server
+- MongoDB\Driver\ServerDescription::getLastUpdateTime - Returns the server's last update time in microseconds
+- MongoDB\Driver\ServerDescription::getPort - Returns the port on which this server is listening
+- MongoDB\Driver\ServerDescription::getRoundTripTime - Returns the server's round trip time in milliseconds
+- MongoDB\Driver\ServerDescription::getType - Returns a string denoting the type of this server
+- MongoDB\Driver\Session::__construct - Create a new Session (not used)
+- MongoDB\Driver\Session::abortTransaction - Aborts a transaction
+- MongoDB\Driver\Session::advanceClusterTime - Advances the cluster time for this session
+- MongoDB\Driver\Session::advanceOperationTime - Advances the operation time for this session
+- MongoDB\Driver\Session::commitTransaction - Commits a transaction
+- MongoDB\Driver\Session::endSession - Terminates a session
+- MongoDB\Driver\Session::getClusterTime - Returns the cluster time for this session
+- MongoDB\Driver\Session::getLogicalSessionId - Returns the logical session ID for this session
+- MongoDB\Driver\Session::getOperationTime - Returns the operation time for this session
+- MongoDB\Driver\Session::getServer - Returns the server to which this session is pinned
+- MongoDB\Driver\Session::getTransactionOptions - Returns options for the currently running transaction
+- MongoDB\Driver\Session::getTransactionState - Returns the current transaction state for this session
+- MongoDB\Driver\Session::isDirty - Returns whether the session has been marked as dirty
+- MongoDB\Driver\Session::isInTransaction - Returns whether a multi-document transaction is in progress
+- MongoDB\Driver\Session::startTransaction - Starts a transaction
+- MongoDB\Driver\TopologyDescription::getServers - Returns the servers in the topology
+- MongoDB\Driver\TopologyDescription::getType - Returns a string denoting the type of this topology
+- MongoDB\Driver\TopologyDescription::hasReadableServer - Returns whether the topology has a readable server
+- MongoDB\Driver\TopologyDescription::hasWritableServer - Returns whether the topology has a writable server
+- MongoDB\Driver\WriteConcern::__construct - Create a new WriteConcern
+- MongoDB\Driver\WriteConcern::bsonSerialize - Returns an object for BSON serialization
+- MongoDB\Driver\WriteConcern::getJournal - Returns the WriteConcern's "journal" option
+- MongoDB\Driver\WriteConcern::getW - Returns the WriteConcern's "w" option
+- MongoDB\Driver\WriteConcern::getWtimeout - Returns the WriteConcern's "wtimeout" option
+- MongoDB\Driver\WriteConcern::isDefault - Checks if this is the default write concern
+- MongoDB\Driver\WriteConcern::serialize - Serialize a WriteConcern
+- MongoDB\Driver\WriteConcern::unserialize - Unserialize a WriteConcern
+- MongoDB\Driver\WriteConcernError::getCode - Returns the WriteConcernError's error code
+- MongoDB\Driver\WriteConcernError::getInfo - Returns metadata document for the WriteConcernError
+- MongoDB\Driver\WriteConcernError::getMessage - Returns the WriteConcernError's error message
+- MongoDB\Driver\WriteError::getCode - Returns the WriteError's error code
+- MongoDB\Driver\WriteError::getIndex - Returns the index of the write operation corresponding to this WriteError
+- MongoDB\Driver\WriteError::getInfo - Returns metadata document for the WriteError
+- MongoDB\Driver\WriteError::getMessage - Returns the WriteError's error message
+- MongoDB\Driver\WriteResult::getDeletedCount - Returns the number of documents deleted
+- MongoDB\Driver\WriteResult::getInsertedCount - Returns the number of documents inserted (excluding upserts)
+- MongoDB\Driver\WriteResult::getMatchedCount - Returns the number of documents selected for update
+- MongoDB\Driver\WriteResult::getModifiedCount - Returns the number of existing documents updated
+- MongoDB\Driver\WriteResult::getServer - Returns the server associated with this write result
+- MongoDB\Driver\WriteResult::getUpsertedCount - Returns the number of documents inserted by an upsert
+- MongoDB\Driver\WriteResult::getUpsertedIds - Returns an array of identifiers for upserted documents
+- MongoDB\Driver\WriteResult::getWriteConcernError - Returns any write concern error that occurred
+- MongoDB\Driver\WriteResult::getWriteErrors - Returns any write errors that occurred
+- MongoDB\Driver\WriteResult::isAcknowledged - Returns whether the write was acknowledged
+- MultipleIterator::__construct - Construye un nuevo MultipleIterator
+- MultipleIterator::attachIterator - Adjunta información al iterador
+- MultipleIterator::containsIterator - Comprueba si un iterador está adjunto
+- MultipleIterator::countIterators - Obtiene el número de instancias de iteradores adjuntos
+- MultipleIterator::current - Obtiene las instancias registradas del iterador
+- MultipleIterator::detachIterator - Desasocia un iterador
+- MultipleIterator::getFlags - Obtiene información de las flags
+- MultipleIterator::key - Obtiene las instancias registradas del iterador
+- MultipleIterator::next - Mueve todas las instancias de iterador adjuntadas hacía la siguiente
+- MultipleIterator::rewind - Rebobina todas las instancias de iterador adjuntadas
+- MultipleIterator::setFlags - Establece las flags
+- MultipleIterator::valid - Comprueba la validez de los subiteradores
+- mysql_xdevapi\Client::close - Close client
+- mysqli::$affected_rows - Obtiene el número de filas afectadas en la última operación MySQL
+- mysqli::$connect_errno - Devuelve el código de error de la última llamada
+- mysqli::$connect_error - Devuelve una cadena con la descripción del último error de conexión
+- mysqli::$errno - Devuelve el código del error de la última función llamada
+- mysqli::$error - Devuelve una cadena que describe el último error
+- mysqli::$error_list - Devuelve una lista de errores desde el último comando ejecutado
+- mysqli::$field_count - Devuelve el número de columnas para la consulta más reciente
+- mysqli::$host_info - Devuelve una cadena que representa el tipo de conexión usada
+- mysqli::$info - Obtiene la información de la última consulta ejecutada
+- mysqli::$insert_id - Devuelve el id autogenerado que se utilizó en la última consulta
+- mysqli::$protocol_version - Devuelve la versión del protocolo MySQL utilizada
+- mysqli::$server_info - Devuelve la versión del servidor MySQL
+- mysqli::$server_version - Devuelve la versión del servidor MySQL como un valor entero
+- mysqli::$sqlstate - Devuelve el error SQLSTATE de la operación de MySQL previa
+- mysqli::$thread_id - Deveulve el ID del hilo de la conexión actual
+- mysqli::$warning_count - Devuelve el número de mensajes de advertencia de la última consulta para un enlace dado
+- mysqli::__construct - Abre una nueva conexión al servidor de MySQL
+- mysqli::autocommit - Activa o desactiva las modificaciones de la base de datos autoconsignadas
+- mysqli::begin_transaction - Inicia una transacción
+- mysqli::change_user - Cambia el usuario de la conexión de bases de datos especificada
+- mysqli::character_set_name - Devuelve el juego de caracteres predeterminado para la conexión a la base de datos
+- mysqli::close - Cierra una conexión previamente abierta a una base de datos
+- mysqli::commit - Consigna la transacción actual
+- mysqli::debug - Realiza operaciones de depuración
+- mysqli::dump_debug_info - Volcado de información de depuración en el registro
+- mysqli::execute_query - Prepares, binds parameters, and executes SQL statement
+- mysqli::get_charset - Devuelve un objeto que contiene el conjunto de caracteres
+- mysqli::get_client_info - Obtiene información de la biblioteca cliente de MySQL
+- mysqli::get_connection_stats - Devuelve estadísticas sobre la conexión del cliente
+- mysqli::get_warnings - Obtiene el resultado de SHOW WARNINGS
+- mysqli::init - Inicializa y devuelve un recurso para utilizarlo con mysqli_real_connect()
+- mysqli::kill - Pide al servidor poner fin a un hilo de MySQL
+- mysqli::more_results - Comprueba si hay más resultados de una multi consulta
+- mysqli::multi_query - Realiza una consulta a la base de datos
+- mysqli::next_result - Prepara el siguiente resultado de multi_query
+- mysqli::options - Establecer opciones
+- mysqli::ping - Comprueba la conexión al servidor, o trata de reconectar si se perdió la conexión
+- mysqli::poll - Almacena en caché conexiones
+- mysqli::prepare - Prepara una sentencia SQL para su ejecución
+- mysqli::query - Realiza una consulta a la base de datos
+- mysqli::real_connect - Abre una conexión a un servidor mysql
+- mysqli::real_escape_string - Escapa los caracteres especiales de una cadena para usarla en una sentencia SQL, tomando en cuenta el conjunto de caracteres actual de la conexión
+- mysqli::real_query - Ejecuta una consulta SQL
+- mysqli::reap_async_query - Obtener el resultado de una consulta asincrónica
+- mysqli::refresh - Refresca
+- mysqli::release_savepoint - Elimina el punto salvado con nombre del conjunto de puntos salvados de la transacción actual
+- mysqli::rollback - Revierte la transacción actual
+- mysqli::savepoint - Define el nombre de un punto de salvaguarda de la transacción
+- mysqli::select_db - Selecciona la base de datos por defecto para realizar las consultas
+- mysqli::set_charset - Establece el conjunto de caracteres predeterminado del cliente
+- mysqli::set_opt - Alias de mysqli_options
+- mysqli::ssl_set - Usada para establece conexiones seguras usando SSL
+- mysqli::stat - Obtiene el estado actual del sistema
+- mysqli::stmt_init - Inicializa una sentencia y devuelve un objeto para usarlo con mysqli_stmt_prepare
+- mysqli::store_result - Transfiere un conjunto de resultados de la última consulta
+- mysqli::thread_safe - Devuelve si la seguridad a nivel de hilos está dada o no
+- mysqli::use_result - Inicia la recuperación de un conjunto de resultados
+- mysqli_connect - Alias de mysqli::__construct
+- mysqli_driver::$report_mode - Habilita o desabilita las funciones internas de notificación
+- mysqli_driver::embedded_server_end - Detener el servidor incrustado
+- mysqli_driver::embedded_server_start - Inicializa e inicia el servidor embebido
+- mysqli_result::$current_field - Obtener posición del campo actual de un puntero a un resultado
+- mysqli_result::$field_count - Obtiene el número de campos de un resultado
+- mysqli_result::$lengths - Retorna los largos de las columnas de la fila actual en el resultset
+- mysqli_result::$num_rows - Obtiene el número de filas de un resultado
+- mysqli_result::__construct - Constructs a mysqli_result object
+- mysqli_result::data_seek - Ajustar el puntero de resultado a una fila arbitraria del resultado
+- mysqli_result::fetch_all - Obtener todas las filas en un array asociativo, numérico, o en ambos
+- mysqli_result::fetch_array - Obtiene una fila de resultados como un array asociativo, numérico, o ambos
+- mysqli_result::fetch_assoc - Obtener una fila de resultado como un array asociativo
+- mysqli_result::fetch_column - Fetch a single column from the next row of a result set
+- mysqli_result::fetch_field - Retorna el próximo campo del resultset
+- mysqli_result::fetch_field_direct - Obtener los metadatos de un único campo
+- mysqli_result::fetch_fields - Devuelve un array de objetos que representan los campos de un conjunto de resultados
+- mysqli_result::fetch_object - Devuelve la fila actual de un conjunto de resultados como un objeto
+- mysqli_result::fetch_row - Obtener una fila de resultados como un array enumerado
+- mysqli_result::field_seek - Establecer el puntero del resultado al índice del campo especificado
+- mysqli_result::free - Libera la memoria asociada a un resultado
+- mysqli_result::getIterator - Retrieve an external iterator
+- mysqli_stmt::$affected_rows - Devuelve el número total de filas cambiadas, borradas, o insertadas por la última sentencia ejecutada
+- mysqli_stmt::$errno - Devuelve el código de error de la llamada de la sentencia más reciente
+- mysqli_stmt::$error - Devuelve una descripción en forma de string del último error de una sentencia
+- mysqli_stmt::$error_list - Devuelve una lista de errores de la última sentencia ejecutada
+- mysqli_stmt::$field_count - Devuelve el número de campos de la sentencia dada
+- mysqli_stmt::$insert_id - Obtener el ID generado en la operación INSERT anterior
+- mysqli_stmt::$num_rows - Devuelve el número de filas de un conjunto de resultados de una sentencia
+- mysqli_stmt::$param_count - Devuelve el número de parámetros de la sentencia dada
+- mysqli_stmt::$sqlstate - Devuelve el error SQLSTATE de la operación de sentencia previa
+- mysqli_stmt::__construct - Construye un nuevo objeto mysqli_stmt
+- mysqli_stmt::attr_get - Se utiliza para obtener el valor actual de un atributo de la sentencia
+- mysqli_stmt::attr_set - Se utiliza para modificar el comportamiento de una sentencia preparada
+- mysqli_stmt::bind_param - Agrega variables a una sentencia preparada como parámetros
+- mysqli_stmt::bind_result - Vincula variables a una sentencia preparada para el almacenamiento de resultados
+- mysqli_stmt::close - Cierra una sentencia preparada
+- mysqli_stmt::data_seek - Busca una fila arbitraria en un conjunto de resultados de una sentencia
+- mysqli_stmt::execute - Ejecuta una consulta preparada
+- mysqli_stmt::fetch - Obtiene los resultados de una sentencia preparadas en las variables vinculadas
+- mysqli_stmt::free_result - Libera la memoria de los resultados almacenados del gestor de sentencia dado
+- mysqli_stmt::get_result - Obtiene un conjunto de resultados de una sentencia preparada
+- mysqli_stmt::get_warnings - Obtener los resultados de SHOW WARNINGS
+- mysqli_stmt::more_results - Comprobar si existen más resultados de una consulta de consultas múltiples
+- mysqli_stmt::next_result - Lee el siguiente resultado de una consulta múltiple
+- mysqli_stmt::prepare - Preparar una sentencia SQL para su ejecución
+- mysqli_stmt::reset - Reinicia una sentencia preparada
+- mysqli_stmt::result_metadata - Devuelve los metadatos del conjunto de resultados de una sentencia preparada
+- mysqli_stmt::send_long_data - Enviar datos en bloques
+- mysqli_stmt::store_result - Transfiere un conjunto de resultados desde una sentencia preparada
+- mysqli_warning::__construct - Private constructor to disallow direct instantiation
+- mysqli_warning::next - El propósito next
+- NoRewindIterator::__construct - Construye un NoRewindIterator
+- NoRewindIterator::current - Obtener el valor actual
+- NoRewindIterator::key - Obtiene la clave actual
+- NoRewindIterator::next - Avanza al siguiente elemento
+- NoRewindIterator::rewind - Evita la operación de rebobinado en el iterador interno
+- NoRewindIterator::valid - Valida el iterador
+- Normalizer::getRawDecomposition - Gets the Decomposition_Mapping property for the given UTF-8 encoded code point
+- Normalizer::isNormalized - Comprobar si la cadena proporcionada ya está en la forma de normalización especificada.
+- Normalizer::normalize - Normaliza la entrada provista y devuelve la cadena normalizada
+- NumberFormatter::create - Crear un formateador de números
+- NumberFormatter::format - Dar formato a un número
+- NumberFormatter::formatCurrency - Dar formato a un valor monetario
+- NumberFormatter::getAttribute - Obtener un atributo
+- NumberFormatter::getErrorCode - Obtener el último código de error del formateador
+- NumberFormatter::getErrorMessage - Obtener el último mensaje de error del formateador
+- NumberFormatter::getLocale - Obtener la configuración regional de un formateador
+- NumberFormatter::getPattern - Obtener el patrón del formateador
+- NumberFormatter::getSymbol - Obtener el valor de un símbolo
+- NumberFormatter::getTextAttribute - Obtiene un atributo de texto
+- NumberFormatter::parse - Analiza un número
+- NumberFormatter::parseCurrency - Procesa un número monetario
+- NumberFormatter::setAttribute - Establecer un atributo
+- NumberFormatter::setPattern - Establecer el patrón de un formateador
+- NumberFormatter::setSymbol - Establecer un valor de símbolo
+- NumberFormatter::setTextAttribute - Set a text attribute
+- OAuth::__construct - Crea un nuevo objeto OAuth
+- OAuth::__destruct - El destructor
+- OAuth::disableDebug - Desactiva la depuración detallada
+- OAuth::disableRedirects - Desactiva las redirecciones
+- OAuth::disableSSLChecks - Desactiva la verificación SSL
+- OAuth::enableDebug - Activa la depuración detallada
+- OAuth::enableRedirects - Activa las re-direcciones
+- OAuth::enableSSLChecks - Activa la verificación SSL
+- OAuth::fetch - Obtiene un recurso protegido por OAuth
+- OAuth::generateSignature - Generar una firma
+- OAuth::getAccessToken - Obtiene el token de acceso
+- OAuth::getCAPath - Obtiene la información CA
+- OAuth::getLastResponse - Obtiene la última respuesta
+- OAuth::getLastResponseHeaders - Obtener encabezados de la última respuesta
+- OAuth::getLastResponseInfo - Obtiene la información HTTP sobre la última respuesta
+- OAuth::getRequestHeader - Generar un string de firma de cabecera OAuth
+- OAuth::getRequestToken - Obtiene un token de petición
+- OAuth::setAuthType - Establece el tipo de autorización
+- OAuth::setCAPath - Establece la ruta a CA y su información
+- OAuth::setNonce - Configura el nonce para las solicitudes posteriores
+- OAuth::setRequestEngine - El propósito de setRequestEngine
+- OAuth::setRSACertificate - establece el certificado RSA
+- OAuth::setSSLChecks - Ajustar controles específicos de SSL para las solicitudes
+- OAuth::setTimestamp - Establece el timestamp
+- OAuth::setToken - Establece el token y el secreto
+- OAuth::setVersion - Configura la versión OAuth
+- OAuthProvider::__construct - Construye un nuevo objeto OAuthProvider
+- OAuthProvider::addRequiredParameter - Agregar parámetros necesarios
+- OAuthProvider::callconsumerHandler - Llama al callback consumerNonceHandler
+- OAuthProvider::callTimestampNonceHandler - Llama al callback timestampNonceHandler
+- OAuthProvider::calltokenHandler - Llama al callback tokenNonceHandler
+- OAuthProvider::checkOAuthRequest - Revisa una petición OAuth
+- OAuthProvider::consumerHandler - Establece el manejador callback consumerHandler
+- OAuthProvider::generateToken - Genera un token aleatorio
+- OAuthProvider::is2LeggedEndpoint - is2LeggedEndpoint
+- OAuthProvider::isRequestTokenEndpoint - Establece isRequestTokenEndpoint
+- OAuthProvider::removeRequiredParameter - Remueve un parámetro requerido
+- OAuthProvider::reportProblem - Reportar un problema
+- OAuthProvider::setParam - Establece un parámetro
+- OAuthProvider::setRequestTokenPath - Establece la ruta de petición del token
+- OAuthProvider::timestampNonceHandler - Establece el callback timestampNonceHandler
+- OAuthProvider::tokenHandler - Establece el manejador callback de tokenHandler
+- ocicloselob - Alias de OCILob::close
+- ocicollappend - Alias de OCICollection::append
+- ocicollassign - Alias de OCICollection::assign
+- ocicollassignelem - Alias de OCICollection::assignElem
+- OCICollection::append - Añade un elemento a la colección
+- OCICollection::assign - Asigna un valor a la colección desde otra colección existente
+- OCICollection::assignElem - Asigna un valor a un elemento de la colección
+- OCICollection::free - Libera los recursos asociados con el objeto colección
+- OCICollection::getElem - Devuelve el valor de un elemento
+- OCICollection::max - Devuelve el número máximo de elementos de la colección
+- OCICollection::size - Devuelve el tamaño de la colección
+- OCICollection::trim - Elimina elementos del final de la colección
+- ocicollgetelem - Alias de OCICollection::getElem
+- ocicollmax - Alias de OCICollection::max
+- ocicollsize - Alias de OCICollection::size
+- ocicolltrim - Alias de OCICollection::trim
+- ocifreecollection - Alias de OCICollection::free
+- ocifreedesc - Alias de OCILob::free
+- ociloadlob - Alias de OCILob::load
+- OCILob::append - Añade datos a un objeto grande (LOB) desde otro
+- OCILob::close - Cierra un descriptor de LOB
+- OCILob::eof - Comprueba la marca de final de fichero en un descriptor de objetos grandes
+- OCILob::erase - Borra la porción especificada de los datos internos de un LOB
+- OCILob::export - Exporta el contenido de un LOB a un fichero
+- OCILob::flush - Vacía/escribe el búfer de un LOB al servidor
+- OCILob::free - Libera los recursos asociados con el descriptor del LOB
+- OCILob::getBuffering - Devuelve el estado actual del uso del búfer para un objeto grande
+- OCILob::import - Importa datos de un fichero a un LOB
+- OCILob::load - Devuelve el contenido de un objeto grande
+- OCILob::read - Lee parte del objeto grande
+- OCILob::rewind - Mueve el puntero interno al comienzo de un objeto grande
+- OCILob::save - Guarda datos en un objeto grande
+- OCILob::saveFile - Alias de OCILob::import
+- OCILob::seek - Ubica el puntero interno de un objeto grande
+- OCILob::setBuffering - Cambia el estado actual del uso del búfer para objetos grandes
+- OCILob::size - Devuelve el tamaño de un objeto grande
+- OCILob::tell - Devuelve la posición actual del puntero interno de un objeto grande
+- OCILob::truncate - Trunca un objeto grande
+- OCILob::write - Escribe datos en un objeto grande
+- OCILob::writeTemporary - Escribe un objeto grande temporal
+- OCILob::writeToFile - Alias de OCILob::export
+- ocisavelob - Alias de OCILob::save
+- ocisavelobfile - Alias de OCILob::import
+- ociwritelobtofile - Alias de OCILob::export
+- ociwritetemporarylob - Alias de OCILob::writeTemporary
+- OuterIterator::getInnerIterator - Devuelve el iterador interno de la entrada actual
+- parallel\Channel::__construct - Channel Construction
+- parallel\Channel::close - Closing
+- parallel\Channel::make - Access
+- parallel\Channel::open - Access
+- parallel\Channel::recv - Sharing
+- parallel\Channel::send - Sharing
+- parallel\Events::addChannel - Targets
+- parallel\Events::addFuture - Targets
+- parallel\Events::poll - Polling
+- parallel\Events::remove - Targets
+- parallel\Events::setBlocking - Behaviour
+- parallel\Events::setInput - Input
+- parallel\Events::setTimeout - Behaviour
+- parallel\Events\Input::add - Inputs
+- parallel\Events\Input::clear - Inputs
+- parallel\Events\Input::remove - Inputs
+- parallel\Future::cancel - Cancellation
+- parallel\Future::cancelled - State Detection
+- parallel\Future::done - State Detection
+- parallel\Future::value - Resolution
+- parallel\Runtime::__construct - Runtime Construction
+- parallel\Runtime::close - Runtime Graceful Join
+- parallel\Runtime::kill - Runtime Join
+- parallel\Runtime::run - Execution
+- parallel\Sync::__construct - Construction
+- parallel\Sync::__invoke - Synchronization
+- parallel\Sync::get - Access
+- parallel\Sync::notify - Synchronization
+- parallel\Sync::set - Access
+- parallel\Sync::wait - Synchronization
+- ParentIterator::__construct - Construye un ParentIterator
+- ParentIterator::accept - Determina aceptabilidad
+- ParentIterator::getChildren - Devuelve los iteradores hijo contenidos en un ParentIterator
+- ParentIterator::hasChildren - Comprueba si los iteradores internos del elemento actual tiene un hijos
+- ParentIterator::next - Mueve el iterador a la siguiente posición
+- ParentIterator::rewind - Rebobina el iterador
+- Parle\Lexer::advance - Process next lexer rule
+- Parle\Lexer::build - Finalize the lexer rule set
+- Parle\Lexer::callout - Define token callback
+- Parle\Lexer::consume - Pass the data for processing
+- Parle\Lexer::dump - Dump the state machine
+- Parle\Lexer::getToken - Retrieve the current token
+- Parle\Lexer::insertMacro - Insert regex macro
+- Parle\Lexer::push - Add a lexer rule
+- Parle\Lexer::reset - Reset lexer
+- Parle\Parser::advance - Process next parser rule
+- Parle\Parser::build - Finalize the grammar rules
+- Parle\Parser::consume - Consume the data for processing
+- Parle\Parser::dump - Dump the grammar
+- Parle\Parser::errorInfo - Retrieve the error information
+- Parle\Parser::left - Declare a token with left-associativity
+- Parle\Parser::nonassoc - Declare a token with no associativity
+- Parle\Parser::precedence - Declare a precedence rule
+- Parle\Parser::push - Add a grammar rule
+- Parle\Parser::reset - Reset parser state
+- Parle\Parser::right - Declare a token with right-associativity
+- Parle\Parser::sigil - Retrieve a matching part of a rule
+- Parle\Parser::sigilCount - Number of elements in matched rule
+- Parle\Parser::sigilName - Retrieve a rule or token name
+- Parle\Parser::token - Declare a token
+- Parle\Parser::tokenId - Get token id
+- Parle\Parser::trace - Trace the parser operation
+- Parle\Parser::validate - Validate input
+- Parle\RLexer::advance - Process next lexer rule
+- Parle\RLexer::build - Finalize the lexer rule set
+- Parle\RLexer::callout - Define token callback
+- Parle\RLexer::consume - Pass the data for processing
+- Parle\RLexer::dump - Dump the state machine
+- Parle\RLexer::getToken - Retrieve the current token
+- Parle\RLexer::insertMacro - Insert regex macro
+- Parle\RLexer::push - Add a lexer rule
+- Parle\RLexer::pushState - Push a new start state
+- Parle\RLexer::reset - Reset lexer
+- Parle\RParser::advance - Process next parser rule
+- Parle\RParser::build - Finalize the grammar rules
+- Parle\RParser::consume - Consume the data for processing
+- Parle\RParser::dump - Dump the grammar
+- Parle\RParser::errorInfo - Retrieve the error information
+- Parle\RParser::left - Declare a token with left-associativity
+- Parle\RParser::nonassoc - Declare a token with no associativity
+- Parle\RParser::precedence - Declare a precedence rule
+- Parle\RParser::push - Add a grammar rule
+- Parle\RParser::reset - Reset parser state
+- Parle\RParser::right - Declare a token with right-associativity
+- Parle\RParser::sigil - Retrieve a matching part of a rule
+- Parle\RParser::sigilCount - Number of elements in matched rule
+- Parle\RParser::sigilName - Retrieve a rule or token name
+- Parle\RParser::token - Declare a token
+- Parle\RParser::tokenId - Get token id
+- Parle\RParser::trace - Trace the parser operation
+- Parle\RParser::validate - Validate input
+- Parle\Stack::pop - Pop an item from the stack
+- Parle\Stack::push - Push an item into the stack
+- PDO::__construct - Crea una instancia de PDO que representa una conexión a una base de datos
+- PDO::beginTransaction - Inicia una transacción
+- PDO::commit - Consigna una transacción
+- PDO::cubrid_schema - Obtiene la información del esquema solicitada
+- PDO::errorCode - Obtiene un SQLSTATE asociado con la última operación en el manejador de la base de datos
+- PDO::errorInfo - Obtiene información extendida del error asociado con la última operación del manejador de la base de datos
+- PDO::exec - Ejecuta una sentencia SQL y devuelve el número de filas afectadas
+- PDO::getAttribute - Devuelve un atributo de la conexión a la base de datos
+- PDO::getAvailableDrivers - Devuelve un array con los controladores de PDO disponibles
+- PDO::inTransaction - Comprueba si una transacción está activa
+- PDO::lastInsertId - Devuelve el ID de la última fila o secuencia insertada
+- PDO::pgsqlCopyFromArray - Copiar datos de un array de PHP a una tabla
+- PDO::pgsqlCopyFromFile - Copiar datos de un fichero a una tabla
+- PDO::pgsqlCopyToArray - Copiar datos de una tabla de una base de datos a un array de PHP
+- PDO::pgsqlCopyToFile - Copiar datos desde una tabla a un fichero
+- PDO::pgsqlGetNotify - Obtener una notificación asíncrona
+- PDO::pgsqlGetPid - Obtener el PID del servidor
+- PDO::pgsqlLOBCreate - Crear un nuevo objeto grande
+- PDO::pgsqlLOBOpen - Abrir un flujo de un objeto grande existente
+- PDO::pgsqlLOBUnlink - Eliminar un objeto grande
+- PDO::prepare - Prepara una sentencia para su ejecución y devuelve un objeto sentencia
+- PDO::query - Ejecuta una sentencia SQL, devolviendo un conjunto de resultados como un objeto PDOStatement
+- PDO::quote - Entrecomilla una cadena de caracteres para usarla en una consulta
+- PDO::rollBack - Revierte una transacción
+- PDO::setAttribute - Establece un atributo
+- PDO::sqliteCreateAggregate - Registra una función acumuladora definida por el usuario para usarla en sentencias SQL
+- PDO::sqliteCreateCollation - Registra una función definida por el usuario para emplearla como función de cotejo en sentencias SQL
+- PDO::sqliteCreateFunction - Registra una función definida por el usuario para utilizarla en sentencias SQL
+- PDOStatement::bindColumn - Vincula una columna a una variable de PHP
+- PDOStatement::bindParam - Vincula un parámetro al nombre de variable especificado
+- PDOStatement::bindValue - Vincula un valor a un parámetro
+- PDOStatement::closeCursor - Cierra un cursor, habilitando a la sentencia para que sea ejecutada otra vez
+- PDOStatement::columnCount - Devuelve el número de columnas de un conjunto de resultados
+- PDOStatement::debugDumpParams - Vuelca un comando preparado de SQL
+- PDOStatement::errorCode - Obtiene el SQLSTATE asociado con la última operación del gestor de sentencia
+- PDOStatement::errorInfo - Obtiene información ampliada del error asociado con la última operación del gestor de sentencia
+- PDOStatement::execute - Ejecuta una sentencia preparada
+- PDOStatement::fetch - Obtiene la siguiente fila de un conjunto de resultados
+- PDOStatement::fetchAll - Devuelve un array que contiene todas las filas del conjunto de resultados
+- PDOStatement::fetchColumn - Devuelve una única columna de la siguiente fila de un conjunto de resultados
+- PDOStatement::fetchObject - Obtiene la siguiente fila y la devuelve como un objeto
+- PDOStatement::getAttribute - Recupera un atributo de sentencia
+- PDOStatement::getColumnMeta - Devuelve metadatos de una columna de un conjunto de resultados
+- PDOStatement::getIterator - Gets result set iterator
+- PDOStatement::nextRowset - Avanza hasta el siguiente conjunto de filas de un gestor de sentencia multiconjunto de filas
+- PDOStatement::rowCount - Devuelve el número de filas afectadas por la última sentencia SQL
+- PDOStatement::setAttribute - Establece un atributo de sentencia
+- PDOStatement::setFetchMode - Establece el modo de obtención para esta sentencia
+- Phar::__construct - Construir un objeto de archivo Phar
+- Phar::__destruct - Destructs a Phar archive object
+- Phar::addEmptyDir - Añadir un directorio vacío al archvo phar
+- Phar::addFile - Añadir un fichero desde el sistema de ficheros al archivo phar
+- Phar::addFromString - Añadir un fichero desde un string al archivo phar
+- Phar::apiVersion - Devolver la versión de la API
+- Phar::buildFromDirectory - Construir un archivo phar desde los ficheros de un directorio
+- Phar::buildFromIterator - Construir un archivo phar desde un iterador
+- Phar::canCompress - Devuelve si la extensión phar soporta la compresión usando zlib o bzip2
+- Phar::canWrite - Devolver si la extensión phar soporta la escritura y creación de archivos phar
+- Phar::compress - Comprimir el archivo Phar entero usando la compresión Gzip o Bzip2
+- Phar::compressFiles - Comprime todos los ficheros del archivo Phar actual
+- Phar::convertToData - Convertir un archivo phar en un fichero tar o zip no ejecutable
+- Phar::convertToExecutable - Convertir un archivo phar en otro formato de archivo phar ejecutable
+- Phar::copy - Copiar un fichero interno de un archivo phar a otro fichero nuevo dentro del phar
+- Phar::count - Devuelve el número de entradas (ficheros) en el archivo Phar
+- Phar::createDefaultStub - Crear una rutina de interoperabilidad específica del formato de fichero phar
+- Phar::decompress - Descomprimir un archivo Phar entero
+- Phar::decompressFiles - Descomprimir todos los ficheros del archivo Phar actual
+- Phar::delete - Borrar un fichero dentro de un archivo phar
+- Phar::delMetadata - Eliminar la metainformación global del phar
+- Phar::extractTo - Extraer el contenido de un archivo phar a un directorio
+- Phar::getAlias - Get the alias for Phar
+- Phar::getMetadata - Devolver la metainformación de un archivo phar
+- Phar::getModified - Devolver si el phar fue modificado
+- Phar::getPath - Get the real path to the Phar archive on disk
+- Phar::getSignature - Devolver la firma MD5/SHA1/SHA256/SHA512/OpenSSL de un archivo Phar
+- Phar::getStub - Devolver el cargador de PHP o la rutina de interoperabilidad de un archivo Phar
+- Phar::getSupportedCompression - Devolver un array de los algoritmos de compresión soportados
+- Phar::getSupportedSignatures - Devolver un array con los tipos de firmas soportados
+- Phar::getVersion - Devolver información de la versión del archivo Phar
+- Phar::hasMetadata - Devolver si el phar tiene metainformación global
+- Phar::interceptFileFuncs - Ordenar a phar interceptar fopen, file_get_contents, opendir, y todas las funciones relacionadas con estadísticas
+- Phar::isBuffering - Determinar si las operaciones de escritura de Phar está siendo almacenadas en buffer, o están siendo volcadas directamente al disco
+- Phar::isCompressed - Devuelve Phar::GZ oPHAR::BZ2 si el archivo phar entero está comprimido (.tar.gz/tar.bz, etc.)
+- Phar::isFileFormat - Devolver true si el archivo phar está basado en el formato de fichero tar/phar/zip dependiendo del parámetro
+- Phar::isValidPharFilename - Devolver si el nombre de fichero dado es un nombre de fichero phar válido
+- Phar::isWritable - Devolver si el archivo phar se puede modificar
+- Phar::loadPhar - Cargar cualquier archivo phar con un alias
+- Phar::mapPhar - Leer el fichero (un phar) que está en ejecución y registrar su manifiesto
+- Phar::mount - Montar un fichero o ruta externos en una ubicación virtual dentro de un archivo phar
+- Phar::mungServer - Definir una lista de hasta 4 variables $_SERVER que debería ser modificadas para la ejecución
+- Phar::offsetExists - Determina si un fichero existe en un phar
+- Phar::offsetGet - Obtener un objeto de la clase PharFileInfo para un fichero específico
+- Phar::offsetSet - Establecer el contenido de un fichero interno a aquel de un fichero externo
+- Phar::offsetUnset - Eliminar un fichero de un phar
+- Phar::running - Devolover la ruta completa del disco o el URL completo de phar del archivo Phar que está en ejecución
+- Phar::setAlias - Establecer el alias para un archivo Phar
+- Phar::setDefaultStub - Establecer el cargador o la rutina de interoperabilidad de un archivo Phar al cargador predeterminado
+- Phar::setMetadata - Establecer la metainformación de un archivo phar
+- Phar::setSignatureAlgorithm - Establecer el algoritmo de firma para un phar y aplicarlo
+- Phar::setStub - Establecer el cargador de PHP o la rutina de interoperabilidad de un archivo Phar
+- Phar::startBuffering - Iniciar las operaciones de escritura en buffer de Phar, no modifica el objeto Phar del disco
+- Phar::stopBuffering - Detener las peticiones de escritura en buffer del archivo Phar, y guardar los cambios en disco
+- Phar::unlinkArchive - Elimiar completamente un archivo phar del disco y de la memoria
+- Phar::webPhar - mapPhar para archivos phar basados en web. Controlador principal para aplicaciones web
+- PharData::__construct - Construir un objeto de archivo tar o zip no ejecutable
+- PharData::__destruct - Destructs a non-executable tar or zip archive object
+- PharData::addEmptyDir - Añadir un directorio vacío al archivo tar/zip
+- PharData::addFile - Añadir un fichero desde el sistema de ficheros al archivo tar/zip
+- PharData::addFromString - Añadir un fichero desde el sistema de ficheros al archivo tar/zip
+- PharData::buildFromDirectory - Construir un archivo tar/zip desde los ficheros de un directorio
+- PharData::buildFromIterator - Construir un archivo tar o zip desde un iterador
+- PharData::compress - Comprimir el archivo tar/zip entero usando la compresión Gzip o Bzip2
+- PharData::compressFiles - Comprime todos los ficheros del archivo tar/zip actual
+- PharData::convertToData - Convertir un archivo phar en un fichero tar o zip no ejecutable
+- PharData::convertToExecutable - Convertir un archivo tar/zip no ejecutable en un archivo phar ejecutable
+- PharData::copy - Copiar un fichero interno de un archivo phar a otro fichero nuevo dentro del phar
+- PharData::decompress - Descomprimir un archivo Phar entero
+- PharData::decompressFiles - Descomprimir todos los ficheros del archivo zip actual
+- PharData::delete - Borrar un fichero dentro de un archivo tar/zip
+- PharData::delMetadata - Eliminar la metainformación global de un archivo zip
+- PharData::extractTo - Extraer el contenido de un archivo tar/zip a un directorio
+- PharData::isWritable - Devolver si el archivo tar/zip se puede modificar
+- PharData::offsetSet - Establecer el contenido de un fichero dentro de un tar/zip a aquel de un fichero o cadena externos
+- PharData::offsetUnset - Eliminar un ficerho de un archivo tar/zip
+- PharData::setAlias - función sin sentido (Phar::setAlias no es válido para PharData)
+- PharData::setDefaultStub - función sin sentido (Phar::setStub no es válido para PharData)
+- PharData::setStub - función sin sentido (Phar::setStub no es válido para PharData)
+- PharFileInfo::__construct - Construir un objeto de entrada Phar
+- PharFileInfo::__destruct - Destructs a Phar entry object
+- PharFileInfo::chmod - Esteblecer los bits de permiso específicos del fichero
+- PharFileInfo::compress - Comprimir la entrada del Phar actual con la compresión zlib o bzip2
+- PharFileInfo::decompress - Descomprimir la entrada Phar actual dentro del phar
+- PharFileInfo::delMetadata - Eliminar la metainformación de una entrada
+- PharFileInfo::getCompressedSize - Devolver el tamaño real de un fichero (con compresión) dentro de un archivo Phar
+- PharFileInfo::getContent - Get the complete file contents of the entry
+- PharFileInfo::getCRC32 - Devolver el códido CRC32 o lanzar una exepción si la CRC no ha sido verificado
+- PharFileInfo::getMetadata - Devolver la metainformación específica de un fichero almacenada con un fichero
+- PharFileInfo::getPharFlags - Devolver las banderas de una entrada de fichero
+- PharFileInfo::hasMetadata - Devolver la metainformación de una entrada
+- PharFileInfo::isCompressed - Devolver si la entrada está comprimida
+- PharFileInfo::isCRCChecked - Devolver si la entrada de fichero tiene su CRC verificada
+- PharFileInfo::setMetadata - Establecer la metainformación específica de un fichero almacenda con un fichero
+- php_user_filter::filter - Llamado cuando se aplica un filtro
+- php_user_filter::onClose - Llamado cuando se cierra el filtro
+- php_user_filter::onCreate - Llamado cuando se crea el filtro
+- Pool::__construct - Creates a new Pool of Workers
+- Pool::collect - Collect references to completed tasks
+- Pool::resize - Resize the Pool
+- Pool::shutdown - Shutdown all workers
+- Pool::submit - Submits an object for execution
+- Pool::submitTo - Submits a task to a specific worker for execution
+- QuickHashIntHash::__construct - Creates a new QuickHashIntHash object
+- QuickHashIntHash::add - This method adds a new entry to the hash
+- QuickHashIntHash::delete - This method deletes an entry from the hash
+- QuickHashIntHash::exists - This method checks whether a key is part of the hash
+- QuickHashIntHash::get - This method retrieves a value from the hash by its key
+- QuickHashIntHash::getSize - Returns the number of elements in the hash
+- QuickHashIntHash::loadFromFile - This factory method creates a hash from a file
+- QuickHashIntHash::loadFromString - This factory method creates a hash from a string
+- QuickHashIntHash::saveToFile - This method stores an in-memory hash to disk
+- QuickHashIntHash::saveToString - This method returns a serialized version of the hash
+- QuickHashIntHash::set - This method updates an entry in the hash with a new value, or adds a new one if the entry doesn't exist
+- QuickHashIntHash::update - This method updates an entry in the hash with a new value
+- QuickHashIntSet::__construct - Creates a new QuickHashIntSet object
+- QuickHashIntSet::add - This method adds a new entry to the set
+- QuickHashIntSet::delete - This method deletes an entry from the set
+- QuickHashIntSet::exists - This method checks whether a key is part of the set
+- QuickHashIntSet::getSize - Returns the number of elements in the set
+- QuickHashIntSet::loadFromFile - This factory method creates a set from a file
+- QuickHashIntSet::loadFromString - This factory method creates a set from a string
+- QuickHashIntSet::saveToFile - This method stores an in-memory set to disk
+- QuickHashIntSet::saveToString - This method returns a serialized version of the set
+- QuickHashIntStringHash::__construct - Creates a new QuickHashIntStringHash object
+- QuickHashIntStringHash::add - This method adds a new entry to the hash
+- QuickHashIntStringHash::delete - This method deletes an entry from the hash
+- QuickHashIntStringHash::exists - This method checks whether a key is part of the hash
+- QuickHashIntStringHash::get - This method retrieves a value from the hash by its key
+- QuickHashIntStringHash::getSize - Returns the number of elements in the hash
+- QuickHashIntStringHash::loadFromFile - This factory method creates a hash from a file
+- QuickHashIntStringHash::loadFromString - This factory method creates a hash from a string
+- QuickHashIntStringHash::saveToFile - This method stores an in-memory hash to disk
+- QuickHashIntStringHash::saveToString - This method returns a serialized version of the hash
+- QuickHashIntStringHash::set - This method updates an entry in the hash with a new value, or adds a new one if the entry doesn't exist
+- QuickHashIntStringHash::update - This method updates an entry in the hash with a new value
+- QuickHashStringIntHash::__construct - Creates a new QuickHashStringIntHash object
+- QuickHashStringIntHash::add - This method adds a new entry to the hash
+- QuickHashStringIntHash::delete - This method deletes an entry from the hash
+- QuickHashStringIntHash::exists - This method checks whether a key is part of the hash
+- QuickHashStringIntHash::get - This method retrieves a value from the hash by its key
+- QuickHashStringIntHash::getSize - Returns the number of elements in the hash
+- QuickHashStringIntHash::loadFromFile - This factory method creates a hash from a file
+- QuickHashStringIntHash::loadFromString - This factory method creates a hash from a string
+- QuickHashStringIntHash::saveToFile - This method stores an in-memory hash to disk
+- QuickHashStringIntHash::saveToString - This method returns a serialized version of the hash
+- QuickHashStringIntHash::set - This method updates an entry in the hash with a new value, or adds a new one if the entry doesn't exist
+- QuickHashStringIntHash::update - This method updates an entry in the hash with a new value
+- Random\Engine::generate - Generates randomness
+- Random\Engine\Mt19937::__construct - Constructs a new Mt19937 engine
+- Random\Engine\Mt19937::__debugInfo - Returns the internal state of the engine
+- Random\Engine\Mt19937::__serialize - Serializes the Mt19937 object
+- Random\Engine\Mt19937::__unserialize - Deserializes the data parameter into a Mt19937 object
+- Random\Engine\Mt19937::generate - Generate 32 bits of randomness
+- Random\Engine\PcgOneseq128XslRr64::__construct - Constructs a new PCG Oneseq 128 XSL RR 64 engine
+- Random\Engine\PcgOneseq128XslRr64::__debugInfo - Returns the internal state of the engine
+- Random\Engine\PcgOneseq128XslRr64::__serialize - Serializes the PcgOneseq128XslRr64 object
+- Random\Engine\PcgOneseq128XslRr64::__unserialize - Deserializes the data parameter into a PcgOneseq128XslRr64 object
+- Random\Engine\PcgOneseq128XslRr64::generate - Generate 64 bits of randomness
+- Random\Engine\PcgOneseq128XslRr64::jump - Efficiently move the engine ahead multiple steps
+- Random\Engine\Secure::generate - Generate cryptographically secure randomness
+- Random\Engine\Xoshiro256StarStar::__construct - Constructs a new xoshiro256** engine
+- Random\Engine\Xoshiro256StarStar::__debugInfo - Returns the internal state of the engine
+- Random\Engine\Xoshiro256StarStar::__serialize - Serializes the Xoshiro256StarStar object
+- Random\Engine\Xoshiro256StarStar::__unserialize - Deserializes the data parameter into a Xoshiro256StarStar object
+- Random\Engine\Xoshiro256StarStar::generate - Generate 64 bits of randomness
+- Random\Engine\Xoshiro256StarStar::jump - Efficiently move the engine ahead by 2^128 steps
+- Random\Engine\Xoshiro256StarStar::jumpLong - Efficiently move the engine ahead by 2^192 steps
+- Random\Randomizer::__construct - Constructs a new Randomizer
+- Random\Randomizer::__serialize - Serializes the Randomizer object
+- Random\Randomizer::__unserialize - Deserializes the data parameter into a Randomizer object
+- Random\Randomizer::getBytes - Get random bytes
+- Random\Randomizer::getBytesFromString - Get random bytes from a source string
+- Random\Randomizer::getFloat - Get a uniformly selected float
+- Random\Randomizer::getInt - Get a uniformly selected integer
+- Random\Randomizer::nextFloat - Get a float from the right-open interval [0.0, 1.0)
+- Random\Randomizer::nextInt - Get a positive integer
+- Random\Randomizer::pickArrayKeys - Select random array keys
+- Random\Randomizer::shuffleArray - Get a permutation of an array
+- Random\Randomizer::shuffleBytes - Get a byte-wise permutation of a string
+- RarArchive::__toString - Obtener representación de texto
+- RarArchive::close - Cerrar archivo RAR y liberar todos los recursos
+- RarArchive::getComment - Obtener comentarios de texto desde el archivo RAR
+- RarArchive::getEntries - Obtener la lista completa de entradas del archivo RAR
+- RarArchive::getEntry - Obtener el objeto entrada desde el archivo RAR
+- RarArchive::isBroken - Comprobar si un archivo está dañado (incompleto)
+- RarArchive::isSolid - Comprueba si el archivo RAR es sólido
+- RarArchive::open - Abre un archivo RAR
+- RarArchive::setAllowBroken - Determina si la apertura de archivos dañados se permite
+- RarEntry::__toString - Obtener texto representación de entrada
+- RarEntry::extract - Extraer entrada del archivo
+- RarEntry::getAttr - Obtener los atributos de la entrada
+- RarEntry::getCrc - Obtener el CRC de la entrada
+- RarEntry::getFileTime - Devolver entrada última fecha de modificación
+- RarEntry::getHostOs - Obtener sistema operativo anfitrión del archivo de entrada
+- RarEntry::getMethod - Obtener método pack de la entrada
+- RarEntry::getName - Obtener el nombre de la entrada
+- RarEntry::getPackedSize - Obtiene el tamaño empaquetado de la entrada
+- RarEntry::getStream - Obtener manejador de archivo para entrada
+- RarEntry::getUnpackedSize - Obtener el tamaño descomprimido de la entrada
+- RarEntry::getVersion - Obtener la versión mínima del programa RAR requerida para desempaquetar la entrada
+- RarEntry::isDirectory - Comprobar si una entrada representa un directorio
+- RarEntry::isEncrypted - Comprobar si una entrada está cifrada
+- RarException::isUsingExceptions - Comprobar si el manejador de errores con excepciones está en uso
+- RarException::setUsingExceptions - Activar y desactivar el manejador de errores con excepciones
+- RecursiveArrayIterator::getChildren - Devuelve un iterador para la entrada actual si este es un array o un object
+- RecursiveArrayIterator::hasChildren - Devuelve si la entrada actual es un array o un objeto
+- RecursiveCachingIterator::__construct - Construct
+- RecursiveCachingIterator::getChildren - Devuelve los iteradores internos hijos como un RecursiveCachingIterator
+- RecursiveCachingIterator::hasChildren - Comprueba si el elemento actual de un iterador interno tiene hijos
+- RecursiveCallbackFilterIterator::__construct - Crear un RecursiveCallbackFilterIterator desde un RecursiveIterator
+- RecursiveCallbackFilterIterator::getChildren - D3evuelve los iteradores internos hijos contenidos en un RecursiveCallbackFilterIterator
+- RecursiveCallbackFilterIterator::hasChildren - Comprueba si los iteradores internos del elemento actual tiene hijos
+- RecursiveDirectoryIterator::__construct - Construye un RecursiveDirectoryIterator
+- RecursiveDirectoryIterator::getChildren - Devuelve un iterador de la entrada actual si se trata de un directorio
+- RecursiveDirectoryIterator::getSubPath - Obtiene sub ruta
+- RecursiveDirectoryIterator::getSubPathname - Obtiene la sub ruta y nombre
+- RecursiveDirectoryIterator::hasChildren - Devuelve si la entrada actual es un directorio y no '.' o '..'
+- RecursiveDirectoryIterator::key - Devuelve la ruta y nombre de fichero del directorio
+- RecursiveDirectoryIterator::next - Mover a la siguiente entrada
+- RecursiveDirectoryIterator::rewind - Rebobina el directorio hasta el inicio
+- RecursiveFilterIterator::__construct - Crear un RecursiveFilterIterator a partir de un RecursiveIterator
+- RecursiveFilterIterator::getChildren - Devuelve los hijos del iterador interno contenidos en un RecursiveFilterIterator
+- RecursiveFilterIterator::hasChildren - Comprueba si el elemento actual del iterador interno tiene hijos
+- RecursiveIterator::getChildren - Devuelve un iterador para la entrada actual
+- RecursiveIterator::hasChildren - Retorna si un iterador puede ser creado para la entrada actual
+- RecursiveIteratorIterator::__construct - Construir un objeto RecursiveIteratorIterator
+- RecursiveIteratorIterator::beginChildren - Inicio del hijo
+- RecursiveIteratorIterator::beginIteration - Inicio de la iteración
+- RecursiveIteratorIterator::callGetChildren - Obtener hijo
+- RecursiveIteratorIterator::callHasChildren - Comprueba si tiene hijos
+- RecursiveIteratorIterator::current - Acceder al valor del elemento actual
+- RecursiveIteratorIterator::endChildren - Final de los hijos
+- RecursiveIteratorIterator::endIteration - Final de la iteración
+- RecursiveIteratorIterator::getDepth - Obtener la profundidad actual de la iteración recursiva
+- RecursiveIteratorIterator::getInnerIterator - Obtener el iterador interno
+- RecursiveIteratorIterator::getMaxDepth - Obtener el máximo de profundidad
+- RecursiveIteratorIterator::getSubIterator - El subiterador activo actual
+- RecursiveIteratorIterator::key - Acceder a la clave actual
+- RecursiveIteratorIterator::next - Moverse al siguiente elemento
+- RecursiveIteratorIterator::nextElement - Siguiente elemento
+- RecursiveIteratorIterator::rewind - Rebobina el iterador al primer elemento al nivel superior del iterador interno
+- RecursiveIteratorIterator::setMaxDepth - Establecer el máximo de profundidad
+- RecursiveIteratorIterator::valid - Comprueba si la posición actual es válida
+- RecursiveRegexIterator::__construct - Crea un nuevo RecursiveRegexIterator
+- RecursiveRegexIterator::getChildren - Devuelve un iterador para la entrada actual
+- RecursiveRegexIterator::hasChildren - Retorna si un iterador puede ser obtenido de la entrada actual
+- RecursiveTreeIterator::__construct - Construye un nuevo RecursiveTreeIterator
+- RecursiveTreeIterator::beginChildren - Inicio de los hijos
+- RecursiveTreeIterator::beginIteration - Inicio de la iteración
+- RecursiveTreeIterator::callGetChildren - Obtener los hijos
+- RecursiveTreeIterator::callHasChildren - Comprobar si tiene hijos
+- RecursiveTreeIterator::current - Obtener el elemento actual
+- RecursiveTreeIterator::endChildren - Final de los hijos
+- RecursiveTreeIterator::endIteration - Fin de la iteración
+- RecursiveTreeIterator::getEntry - obtener la entrada actual
+- RecursiveTreeIterator::getPostfix - Obtiener el postfijo
+- RecursiveTreeIterator::getPrefix - Obtener el prefijo
+- RecursiveTreeIterator::key - Obtiene la clave de el elemento actual
+- RecursiveTreeIterator::next - Mover al siguiente elemento
+- RecursiveTreeIterator::nextElement - Comprueba si hay un siguiente elemento
+- RecursiveTreeIterator::rewind - Rebobina el iterador
+- RecursiveTreeIterator::setPostfix - Set postfix
+- RecursiveTreeIterator::setPrefixPart - Establece la parte de el prefijo
+- RecursiveTreeIterator::valid - Comprueba la validez
+- Reflection::export - Exportar
+- Reflection::getModifierNames - Obtener nombres de modificadores
+- ReflectionClass::__construct - Construye un objeto de tipo ReflectionClass
+- ReflectionClass::__toString - Devuelve la representación en forma de string del objeto ReflectionClass
+- ReflectionClass::export - Exporta una clase
+- ReflectionClass::getAttributes - Gets Attributes
+- ReflectionClass::getConstant - Obtener una constante definida
+- ReflectionClass::getConstants - Obtener constantes
+- ReflectionClass::getConstructor - Obtiene el constructor de una clase
+- ReflectionClass::getDefaultProperties - Obtener propiedades predeterminadas
+- ReflectionClass::getDocComment - Obtener los comentarios de documentación
+- ReflectionClass::getEndLine - Consultar línea final
+- ReflectionClass::getExtension - Obtiene un objeto ReflectionExtension para la extensión que definió la clase
+- ReflectionClass::getExtensionName - Obtiene el nombre de la extensión que definió una clase
+- ReflectionClass::getFileName - Obtiene el nombre de fichero en el que está definida la clase
+- ReflectionClass::getInterfaceNames - Obtiene nombres de las interfaces
+- ReflectionClass::getInterfaces - Obtiene las interfaces
+- ReflectionClass::getMethod - Obtiene un objeto ReflectionMethod para un método de una clase
+- ReflectionClass::getMethods - Obtiene un array de métodos
+- ReflectionClass::getModifiers - Obtiene los modificadores de clase
+- ReflectionClass::getName - Obtiene el nombre de la clase
+- ReflectionClass::getNamespaceName - Obtiene el nombre del espacio de nombres
+- ReflectionClass::getParentClass - Obtiene la clase padre
+- ReflectionClass::getProperties - Obtiene las propiedades
+- ReflectionClass::getProperty - Obtiene un objeto ReflectionProperty para una propiedad de una clase
+- ReflectionClass::getReflectionConstant - Gets a ReflectionClassConstant for a class's constant
+- ReflectionClass::getReflectionConstants - Gets class constants
+- ReflectionClass::getShortName - Obtiene el nombre abreviado
+- ReflectionClass::getStartLine - Obtiene el número de linea de inicio
+- ReflectionClass::getStaticProperties - Obtiene las propiedades estáticas
+- ReflectionClass::getStaticPropertyValue - Obtiene el valor de una propiedad estática
+- ReflectionClass::getTraitAliases - Obtiene un array con los alias usados con los traits
+- ReflectionClass::getTraitNames - Devuelve un array con los nombres de los traits usados por esta clase
+- ReflectionClass::getTraits - Obtiene un array con los traits que utiliza esta clase
+- ReflectionClass::hasConstant - Comprueba si una constante está o no definida
+- ReflectionClass::hasMethod - Comprueba si un método está o no definido
+- ReflectionClass::hasProperty - Comprueba si una propiedad está o no definida
+- ReflectionClass::implementsInterface - Comprueba si se implementa una determinada interfaz
+- ReflectionClass::inNamespace - Comprueba si pertenece a un determinado espacio de nombres
+- ReflectionClass::isAbstract - Comprueba si la clase es abstracta
+- ReflectionClass::isAnonymous - Checks if class is anonymous
+- ReflectionClass::isCloneable - Comprueba si la clase es o no clonable
+- ReflectionClass::isEnum - Returns whether this is an enum
+- ReflectionClass::isFinal - Comprueba si la clase inal
+- ReflectionClass::isInstance - Comprueba si un objeto es instancia de la clase
+- ReflectionClass::isInstantiable - Comprueba si una clase es instanciable
+- ReflectionClass::isInterface - Comprueba una la clase es una interfaz
+- ReflectionClass::isInternal - Comprueba si una clase está definida internamente por una extensión o por el núcleo
+- ReflectionClass::isIterable - Check whether this class is iterable
+- ReflectionClass::isIterateable - Comprueba si es iterable
+- ReflectionClass::isReadOnly - Checks if class is readonly
+- ReflectionClass::isSubclassOf - Comprueba si es una subclase
+- ReflectionClass::isTrait - Comprueba si es un trait
+- ReflectionClass::isUserDefined - Comprueba si es una clase definida por el usuario
+- ReflectionClass::newInstance - Crea una nueva instancia de clase a partir de la lista de parámetros dados
+- ReflectionClass::newInstanceArgs - Crea una nueva instancia de clase a partir de los argumentos dados
+- ReflectionClass::newInstanceWithoutConstructor - Crea una nueva clase sin invocar al constructor
+- ReflectionClass::setStaticPropertyValue - Establece el valor de una propiedad estática
+- ReflectionClassConstant::__construct - Constructs a ReflectionClassConstant
+- ReflectionClassConstant::__toString - Returns the string representation of the ReflectionClassConstant object
+- ReflectionClassConstant::export - Export
+- ReflectionClassConstant::getAttributes - Gets Attributes
+- ReflectionClassConstant::getDeclaringClass - Gets declaring class
+- ReflectionClassConstant::getDocComment - Gets doc comments
+- ReflectionClassConstant::getModifiers - Gets the class constant modifiers
+- ReflectionClassConstant::getName - Get name of the constant
+- ReflectionClassConstant::getValue - Gets value
+- ReflectionClassConstant::isEnumCase - Checks if class constant is an Enum case
+- ReflectionClassConstant::isFinal - Checks if class constant is final
+- ReflectionClassConstant::isPrivate - Checks if class constant is private
+- ReflectionClassConstant::isProtected - Checks if class constant is protected
+- ReflectionClassConstant::isPublic - Checks if class constant is public
+- ReflectionExtension::__clone - Clonar
+- ReflectionExtension::__construct - Constructor de los objetos ReflectionExtension
+- ReflectionExtension::__toString - Convertir a string
+- ReflectionExtension::export - Exportar
+- ReflectionExtension::getClasses - Obtiene clases
+- ReflectionExtension::getClassNames - Obtiene nombres de las clases
+- ReflectionExtension::getConstants - Obtiene las constantes
+- ReflectionExtension::getDependencies - Obtiene las dependencias
+- ReflectionExtension::getFunctions - Obtiene las funciones de una extensión
+- ReflectionExtension::getINIEntries - Obtiene las entradas INI de la extensión
+- ReflectionExtension::getName - Obtiene el nombre de la extensión
+- ReflectionExtension::getVersion - Obtiene la versión de una extensión
+- ReflectionExtension::info - Imprime información sobre la extensión
+- ReflectionExtension::isPersistent - Indica si la extensión es persistente
+- ReflectionExtension::isTemporary - Indica si la extensión es temporal
+- ReflectionFunction::__construct - Contruye un objeto de tipo ReflectionFunction
+- ReflectionFunction::__toString - Convertir a string
+- ReflectionFunction::export - Exporta una función
+- ReflectionFunction::getClosure - Genera dinámicamente una función anónima de esta función
+- ReflectionFunction::invoke - Invoca una función
+- ReflectionFunction::invokeArgs - Invoca a la función con argumentos
+- ReflectionFunction::isAnonymous - Checks if a function is anonymous
+- ReflectionFunction::isDisabled - Comprueba si una función está desactivada
+- ReflectionFunctionAbstract::__clone - Clona una función
+- ReflectionFunctionAbstract::__toString - Convertir a texto
+- ReflectionFunctionAbstract::getAttributes - Gets Attributes
+- ReflectionFunctionAbstract::getClosureScopeClass - Devuelve el ámbito asociado al cierre
+- ReflectionFunctionAbstract::getClosureThis - Devuelve una función anónima que apunta a esta función
+- ReflectionFunctionAbstract::getClosureUsedVariables - Returns an array of the used variables in the Closure
+- ReflectionFunctionAbstract::getDocComment - Obtiene comentarios de documentación
+- ReflectionFunctionAbstract::getEndLine - Obtiene número de linea final
+- ReflectionFunctionAbstract::getExtension - Obtiene información sobre la extensión
+- ReflectionFunctionAbstract::getExtensionName - Obtiene el nombre de la extensión
+- ReflectionFunctionAbstract::getFileName - Obtiene el nombre del fichero
+- ReflectionFunctionAbstract::getName - Obtiene el nombre de la función
+- ReflectionFunctionAbstract::getNamespaceName - Obtiene el nombre del espacio de nombres
+- ReflectionFunctionAbstract::getNumberOfParameters - Obtiene el número total de parámetros
+- ReflectionFunctionAbstract::getNumberOfRequiredParameters - Obtiene el número de parámetros obligatorios
+- ReflectionFunctionAbstract::getParameters - Obtiene los parámetros
+- ReflectionFunctionAbstract::getReturnType - Gets the specified return type of a function
+- ReflectionFunctionAbstract::getShortName - Obtiene el nombre abreviado de la función
+- ReflectionFunctionAbstract::getStartLine - Obtiene el número de la línea de inicio
+- ReflectionFunctionAbstract::getStaticVariables - Obtiene las variable estáticas
+- ReflectionFunctionAbstract::getTentativeReturnType - Returns the tentative return type associated with the function
+- ReflectionFunctionAbstract::hasReturnType - Checks if the function has a specified return type
+- ReflectionFunctionAbstract::hasTentativeReturnType - Devuelve si la función tiene un tipo de retorno tentativo
+- ReflectionFunctionAbstract::inNamespace - Comprueba si pertenece a un espacio de nombres
+- ReflectionFunctionAbstract::isClosure - Comprobar si es un cierre
+- ReflectionFunctionAbstract::isDeprecated - Comprueba si está obsoleta
+- ReflectionFunctionAbstract::isGenerator - Devuelve si la función es un generador
+- ReflectionFunctionAbstract::isInternal - Comprueba si la función es interna
+- ReflectionFunctionAbstract::isStatic - Checks if the function is static
+- ReflectionFunctionAbstract::isUserDefined - Comprueba si es una función definida por un usuario
+- ReflectionFunctionAbstract::isVariadic - Comprueba si la función es varíadica
+- ReflectionFunctionAbstract::returnsReference - Comprueba si devuelve una referencia
+- ReflectionGenerator::__construct - Constructs a ReflectionGenerator object
+- ReflectionGenerator::getExecutingFile - Gets the file name of the currently executing generator
+- ReflectionGenerator::getExecutingGenerator - Gets the executing Generator object
+- ReflectionGenerator::getExecutingLine - Gets the currently executing line of the generator
+- ReflectionGenerator::getFunction - Gets the function name of the generator
+- ReflectionGenerator::getThis - Gets the $this value of the generator
+- ReflectionGenerator::getTrace - Gets the trace of the executing generator
+- ReflectionMethod::__construct - Construye un objeto ReflectionMethod
+- ReflectionMethod::__toString - Devuelve la representación en forma de texto de este objeto
+- ReflectionMethod::createFromMethodName - Creates a new ReflectionMethod
+- ReflectionMethod::export - Exporta un objeto de tipo ReflectionMethod
+- ReflectionMethod::getClosure - Devuelve un cierre creado dinámicamente para este método
+- ReflectionMethod::getDeclaringClass - Obtiene la clase en la que se ha declarado el método
+- ReflectionMethod::getModifiers - Obtiene los modificadores del método
+- ReflectionMethod::getPrototype - Obtiene el prototipo del método (si lo hubiera)
+- ReflectionMethod::hasPrototype - Returns whether a method has a prototype
+- ReflectionMethod::invoke - Invoca un método
+- ReflectionMethod::invokeArgs - Invoca un método con argumentos
+- ReflectionMethod::isAbstract - Comprueba si el método es abstracto
+- ReflectionMethod::isConstructor - Comprueba si el método es un constructor
+- ReflectionMethod::isDestructor - Comprueba si el método es un destructor
+- ReflectionMethod::isFinal - Comprueba si el método es final
+- ReflectionMethod::isPrivate - Comprueba si el método es privado
+- ReflectionMethod::isProtected - Comprueba si el método está protegido
+- ReflectionMethod::isPublic - Comprueba si el método es público
+- ReflectionMethod::setAccessible - Asigna la accesibilidad del método
+- ReflectionNamedType::getName - Get the name of the type as a string
+- ReflectionNamedType::isBuiltin - Checks if it is a built-in type
+- ReflectionObject::__construct - Construye un ReflectionObject
+- ReflectionObject::export - Exportación
+- ReflectionParameter::__clone - Clon
+- ReflectionParameter::__construct - Construct
+- ReflectionParameter::__toString - A string
+- ReflectionParameter::allowsNull - Comprueba si null es permitido
+- ReflectionParameter::canBePassedByValue - Devuelve si este parámetro de puede pasar por valor
+- ReflectionParameter::export - Exportar
+- ReflectionParameter::getAttributes - Gets Attributes
+- ReflectionParameter::getClass - Obtener la clase con declaraciones de tipos
+- ReflectionParameter::getDeclaringClass - Obtiene declaración de la clase
+- ReflectionParameter::getDeclaringFunction - Obtiene declaración de función
+- ReflectionParameter::getDefaultValue - Obtiene el valor del parámetro por defecto
+- ReflectionParameter::getDefaultValueConstantName - Devuelve el nombre de la consntante del valor predeterminado si el valor predeterminado es constante o null
+- ReflectionParameter::getName - Obtener el nombre del parámetro
+- ReflectionParameter::getPosition - Obtiene la posición del parámetro
+- ReflectionParameter::getType - Gets a parameter's type
+- ReflectionParameter::hasType - Checks if parameter has a type
+- ReflectionParameter::isArray - Comprueba si el parámetro espera un array
+- ReflectionParameter::isCallable - Devuelve si el parámetro DEBE ser de tipo callable
+- ReflectionParameter::isDefaultValueAvailable - Comprueba si el valor por defecto está disponible
+- ReflectionParameter::isDefaultValueConstant - Devuelve si el valor predeterminado de este parámetro es constante
+- ReflectionParameter::isOptional - Comprueba si es opcional
+- ReflectionParameter::isPassedByReference - Comprueba si es pasado por referencia
+- ReflectionParameter::isVariadic - Comprueba si el parámetro es varíadico
+- ReflectionProperty::__clone - Clonar
+- ReflectionProperty::__construct - Construir un objeto ReflectionProperty
+- ReflectionProperty::__toString - Convertir a texto
+- ReflectionProperty::export - Exportar
+- ReflectionProperty::getAttributes - Gets Attributes
+- ReflectionProperty::getDeclaringClass - Obtiene la clase en la que se declaró
+- ReflectionProperty::getDefaultValue - Returns the default value declared for a property
+- ReflectionProperty::getDocComment - Obtiene los comentarios de documentación de una propiedad
+- ReflectionProperty::getModifiers - Obtiene los modificadores
+- ReflectionProperty::getName - Obtiene el nombre de la propiedad
+- ReflectionProperty::getType - Gets a property's type
+- ReflectionProperty::getValue - Obtiene el valor
+- ReflectionProperty::hasDefaultValue - Checks if property has a default value declared
+- ReflectionProperty::hasType - Checks if property has a type
+- ReflectionProperty::isDefault - Comprueba si una propiedad es predeterminada
+- ReflectionProperty::isInitialized - Checks whether a property is initialized
+- ReflectionProperty::isPrivate - Comprueba si una propiedad es privada
+- ReflectionProperty::isPromoted - Checks if property is promoted
+- ReflectionProperty::isProtected - Comprueba si la propiedad es protegida
+- ReflectionProperty::isPublic - Comprueba si la propiedad es pública
+- ReflectionProperty::isReadOnly - Checks if property is readonly
+- ReflectionProperty::isStatic - Comprueba si la propiedad es estática
+- ReflectionProperty::setAccessible - Hace accesible una propiedad
+- ReflectionProperty::setValue - Establece el valor de la propiedad
+- ReflectionReference::__construct - Private constructor to disallow direct instantiation
+- ReflectionReference::fromArrayElement - Create a ReflectionReference from an array element
+- ReflectionReference::getId - Get unique ID of a reference
+- ReflectionType::__toString - To string
+- ReflectionType::allowsNull - Checks if null is allowed
+- ReflectionUnionType::getTypes - Returns the types included in the union type
+- ReflectionZendExtension::__clone - Clon de controlador
+- ReflectionZendExtension::__construct - Constructor
+- ReflectionZendExtension::__toString - Convierte a texto
+- ReflectionZendExtension::export - Exportar
+- ReflectionZendExtension::getAuthor - Consultar autor
+- ReflectionZendExtension::getCopyright - Consultar los derechos de copia
+- ReflectionZendExtension::getName - Obtiene el nombre
+- ReflectionZendExtension::getURL - Obtiene la URL
+- ReflectionZendExtension::getVersion - Obtiene la versión
+- Reflector::export - Exportar
+- RegexIterator::__construct - Crea un nuevo RegexIterator
+- RegexIterator::accept - Obtener el estado de aceptación
+- RegexIterator::getFlags - Obtener flags
+- RegexIterator::getMode - Devuelve el modo de operación
+- RegexIterator::getPregFlags - Devuelve las flags de expresión regular
+- RegexIterator::getRegex - Devuelve la expresión regular actual
+- RegexIterator::setFlags - Establece las flags
+- RegexIterator::setMode - Establece el modo de operación
+- RegexIterator::setPregFlags - Establece las flags de expresión regular
+- ResourceBundle::count - Obtener el número de elementos de un paquete
+- ResourceBundle::create - Crear un paquete de recursos
+- ResourceBundle::get - Obtener datos de un paquete
+- ResourceBundle::getErrorCode - Obtener el códido del último error del paquete
+- ResourceBundle::getErrorMessage - Obtener el mensaje del último error del paquete
+- ResourceBundle::getLocales - Obtener las configuraciones regionales soportadas
+- Result::__construct - Result constructor
+- Result::getAffectedItemsCount - Get affected row count
+- Result::getAutoIncrementValue - Get autoincremented value
+- Result::getGeneratedIds - Get generated ids
+- Result::getWarnings - Get warnings from last operation
+- Result::getWarningsCount - Get warning count from last operation
+- ReturnTypeWillChange::__construct - Construct a new ReturnTypeWillChange attribute instance
+- RowResult::__construct - RowResult constructor
+- RowResult::fetchAll - Get all rows from result
+- RowResult::fetchOne - Get row from result
+- RowResult::getColumnNames - Get all column names
+- RowResult::getColumns - Get column metadata
+- RowResult::getColumnsCount - Get column count
+- RowResult::getWarnings - Get warnings from last operation
+- RowResult::getWarningsCount - Get warning count from last operation
+- RRDCreator::__construct - Crea una nueva instancia RRDCreator
+- RRDCreator::addArchive - Añade RRA - archivo de valores de datos para cada fuente de datos
+- RRDCreator::addDataSource - Añade definición de origen de datos para la base de datos RRD
+- RRDCreator::save - Guarda la base de datos RRD en un archivo
+- RRDGraph::__construct - Crea una nueva instancia RRDGraph
+- RRDGraph::save - Guarda el resultado de la consulta en la imagen
+- RRDGraph::saveVerbose - Guarda la consulta de la bases de datos RRD en la imagen y devuelve la información detallada acerca de gráfico generado.
+- RRDGraph::setOptions - Establece las opciones para la exportación gráfica rrd
+- RRDUpdater::__construct - Crea una nueva instancia RRDUpdater
+- RRDUpdater::update - Actualiza el archivo de base de datos RRD
+- Schema::__construct - constructor
+- Schema::createCollection - Add collection to schema
+- Schema::dropCollection - Drop collection from schema
+- Schema::existsInDatabase - Check if exists in database
+- Schema::getCollection - Get collection from schema
+- Schema::getCollectionAsTable - Get collection table object
+- Schema::getCollections - Get all schema collections
+- Schema::getName - Get schema name
+- Schema::getSession - Get schema session
+- Schema::getTable - Get schema table
+- Schema::getTables - Get schema tables
+- SchemaObject::getSchema - Get schema object
+- SeasLog::__construct - Description
+- SeasLog::__destruct - Description
+- SeasLog::alert - Record alert log information
+- SeasLog::analyzerCount - Get log count by level, log_path and key_word
+- SeasLog::analyzerDetail - Get log detail by level, log_path, key_word, start, limit, order
+- SeasLog::closeLoggerStream - Manually release stream flow from logger
+- SeasLog::critical - Record critical log information
+- SeasLog::debug - Record debug log information
+- SeasLog::emergency - Record emergency log information
+- SeasLog::error - Record error log information
+- SeasLog::flushBuffer - Flush logs buffer, dump to appender file, or send to remote api with tcp/udp
+- SeasLog::getBasePath - Get SeasLog base path.
+- SeasLog::getBuffer - Get the logs buffer in memory as array
+- SeasLog::getBufferEnabled - Determin if buffer enabled
+- SeasLog::getDatetimeFormat - Get SeasLog datetime format style
+- SeasLog::getLastLogger - Get SeasLog last logger path
+- SeasLog::getRequestID - Get SeasLog request_id differentiated requests
+- SeasLog::getRequestVariable - Get SeasLog request variable
+- SeasLog::info - Record info log information
+- SeasLog::log - The Common Record Log Function
+- SeasLog::notice - Record notice log information
+- SeasLog::setBasePath - Set SeasLog base path
+- SeasLog::setDatetimeFormat - Set SeasLog datetime format style
+- SeasLog::setLogger - Set SeasLog logger name
+- SeasLog::setRequestID - Set SeasLog request_id differentiated requests
+- SeasLog::setRequestVariable - Manually set SeasLog request variable
+- SeasLog::warning - Record warning log information
+- SeekableIterator::seek - Mueve la posición del apuntador interno
+- SensitiveParameter::__construct - Construct a new SensitiveParameter attribute instance
+- SensitiveParameterValue::__construct - Constructs a new SensitiveParameterValue object
+- SensitiveParameterValue::__debugInfo - Protects the sensitive value against accidental exposure
+- SensitiveParameterValue::getValue - Returns the sensitive value
+- Serializable::serialize - Representación en formato cadena de un objeto
+- Serializable::unserialize - Construye el objeto
+- Session::__construct - Description constructor
+- Session::close - Close session
+- Session::createSchema - Create new schema
+- Session::dropSchema - Drop a schema
+- Session::generateUUID - Get new UUID
+- Session::getDefaultSchema - Get default schema name
+- Session::getSchema - Get a new schema object
+- Session::getSchemas - Get the schemas
+- Session::getServerVersion - Get server version
+- Session::listClients - Get client list
+- Session::quoteName - Add quotes
+- Session::releaseSavepoint - Release set savepoint
+- Session::rollback - Rollback transaction
+- Session::rollbackTo - Rollback transaction to savepoint
+- Session::setSavepoint - Create savepoint
+- Session::sql - Execute SQL query
+- Session::startTransaction - Start transaction
+- SessionHandler::close - Cerrar la sesión
+- SessionHandler::create_sid - Devuelve un nuevo ID de sesión
+- SessionHandler::destroy - Destruir una sesión
+- SessionHandler::gc - Eliminar las sesiones antiguas
+- SessionHandler::open - Inicializar una sesión
+- SessionHandler::read - Leer información de la sesión
+- SessionHandler::write - Escribir información de sesión
+- SessionHandlerInterface::close - Cerrar la sesión
+- SessionHandlerInterface::destroy - Destruir una sesión
+- SessionHandlerInterface::gc - Limpieza de sesiones antiguas
+- SessionHandlerInterface::open - Inicializar una sesión
+- SessionHandlerInterface::read - Leer información de sesión
+- SessionHandlerInterface::write - Escribir información de sesión
+- SessionIdInterface::create_sid - Create session ID
+- SessionUpdateTimestampHandlerInterface::updateTimestamp - Update timestamp
+- SessionUpdateTimestampHandlerInterface::validateId - Validate ID
+- SimpleXMLElement::__construct - Crea un nuevo objeto SimpleXMLElement
+- SimpleXMLElement::__toString - Returns the string content
+- SimpleXMLElement::addAttribute - Añade un atributo al elemento SimpleXML
+- SimpleXMLElement::addChild - Añade un elemento hijo al nodo XML
+- SimpleXMLElement::asXML - Retorna un string XML correcto basado en un elemento SimpleXML
+- SimpleXMLElement::attributes - Identifica el atributo de un elemento
+- SimpleXMLElement::children - Encuentra los hijos del nodo dado
+- SimpleXMLElement::count - Cuenta los hijos de un elemento
+- SimpleXMLElement::current - Returns the current element
+- SimpleXMLElement::getChildren - Returns the sub-elements of the current element
+- SimpleXMLElement::getDocNamespaces - Devuelve los espacios de nombre declarados en el documento
+- SimpleXMLElement::getName - Retorna el nombre del elemento XML
+- SimpleXMLElement::getNamespaces - Devuelve los espacios de nombre usados en el documento
+- SimpleXMLElement::hasChildren - Checks whether the current element has sub elements
+- SimpleXMLElement::key - Return current key
+- SimpleXMLElement::next - Move to next element
+- SimpleXMLElement::registerXPathNamespace - Crea un contexto prefijo/ns para la siguiente petición XPath
+- SimpleXMLElement::rewind - Rewind to the first element
+- SimpleXMLElement::saveXML - Alias de SimpleXMLElement::asXML
+- SimpleXMLElement::valid - Check whether the current element is valid
+- SimpleXMLElement::xpath - Ejecuta una petición XPath sobre los datos XML
+- SNMP::__construct - Creates SNMP instance representing session to remote SNMP agent
+- SNMP::close - Cerrar sesión SNMP
+- SNMP::get - Fetch an SNMP object
+- SNMP::getErrno - Get last error code
+- SNMP::getError - Obtiene el último mensaje de error
+- SNMP::getnext - Fetch an SNMP object which follows the given object id
+- SNMP::set - Set the value of an SNMP object
+- SNMP::setSecurity - Configures security-related SNMPv3 session parameters
+- SNMP::walk - Fetch SNMP object subtree
+- SoapClient::__call - Llama a una función de SOAP (obsoleto)
+- SoapClient::__construct - Constructor de SoapClient
+- SoapClient::__doRequest - Realiza una petición SOAP
+- SoapClient::__getCookies - Get list of cookies
+- SoapClient::__getFunctions - Devuelve una lista de todas las funciones SOAP disponibles
+- SoapClient::__getLastRequest - Devuelve la última petición SOAP
+- SoapClient::__getLastRequestHeaders - Devuelve los encabezados SOAP de la última petición
+- SoapClient::__getLastResponse - Devuelve la última respuesta SOAP
+- SoapClient::__getLastResponseHeaders - Devuelve los encabezados SOAP de la última respuesta
+- SoapClient::__getTypes - Devuelve una lista de los tipos SOAP
+- SoapClient::__setCookie - El propósito de __setCookie
+- SoapClient::__setLocation - Define la localización del servicio Web a utilizar
+- SoapClient::__setSoapHeaders - Define los encabezados SOAP para las subsiguentes llamadas
+- SoapClient::__soapCall - Llama a una función SOAP
+- SoapFault::__construct - Constructor de SoapFault
+- SoapFault::__toString - Obtiene una representación en formato cadena de SoapFault
+- SoapHeader::__construct - Constructor de SoapHeader
+- SoapParam::__construct - Constructor de SoapParam
+- SoapServer::__construct - Constructor de SoapServer
+- SoapServer::addFunction - Añade una o más funciones al controlador de peticiones SOAP
+- SoapServer::addSoapHeader - Añade un encabezado SOAP a la respuesta
+- SoapServer::fault - SoapServer indica que ocurrió un fallo
+- SoapServer::getFunctions - Devuelve una lista de las funciones definidas
+- SoapServer::handle - Controla la petición SOAP
+- SoapServer::setClass - Define la clase que controla las peticiones SOAP
+- SoapServer::setObject - Define el objecto que será usado para controlar las peticiones SOAP
+- SoapServer::setPersistence - Establece el modo de persistencia de SoapServer
+- SoapVar::__construct - Constructor de SoapVar
+- SolrClient::__construct - Constructor para el objeto SolrClient
+- SolrClient::__destruct - Destructor para SolrClient
+- SolrClient::addDocument - Añade un documento al índice
+- SolrClient::addDocuments - Añade una colección de instancias de SolrInputDocument al índice
+- SolrClient::commit - Finaliza todas las añadiduras/eliminaciones hechas al índice
+- SolrClient::deleteById - Eliminar por Id
+- SolrClient::deleteByIds - Elimina mediante Ids
+- SolrClient::deleteByQueries - Elimina todos los documentos que coincidan con cualquiera de las consultas
+- SolrClient::deleteByQuery - Elimina todos los documentos que coincidan con la consulta dada
+- SolrClient::getById - Get Document By Id. Utilizes Solr Realtime Get (RTG)
+- SolrClient::getByIds - Get Documents by their Ids. Utilizes Solr Realtime Get (RTG)
+- SolrClient::getDebug - Devuelve la información de depuración para el último intento de conexión
+- SolrClient::getOptions - Devuelve las opciones de cliente establecidas internamente
+- SolrClient::optimize - Defragmenta el índice
+- SolrClient::ping - Comprueba si el servidor Solr está todavía activo
+- SolrClient::query - Envía una consulta al servidor
+- SolrClient::request - Envía una petición de actualización sin formato
+- SolrClient::rollback - Revierte todos los añadidos/eliminados hechos en el índice desde el último envío
+- SolrClient::setResponseWriter - Establece el autor de la respuesta usado para preparar la respuesta de Solr
+- SolrClient::setServlet - Cambia el servlet especificado a un nuevo valor
+- SolrClient::system - Obtener información del Servidor Solr
+- SolrClient::threads - Verifica el estado de los hilos
+- SolrClientException::getInternalInfo - Devuelve información interna de donde se lanzó la excepción
+- SolrCollapseFunction::__construct - Constructor
+- SolrCollapseFunction::__toString - Returns a string representing the constructed collapse function
+- SolrCollapseFunction::getField - Returns the field that is being collapsed on
+- SolrCollapseFunction::getHint - Returns collapse hint
+- SolrCollapseFunction::getMax - Returns max parameter
+- SolrCollapseFunction::getMin - Returns min parameter
+- SolrCollapseFunction::getNullPolicy - Returns null policy
+- SolrCollapseFunction::getSize - Returns size parameter
+- SolrCollapseFunction::setField - Sets the field to collapse on
+- SolrCollapseFunction::setHint - Sets collapse hint
+- SolrCollapseFunction::setMax - Selects the group heads by the max value of a numeric field or function query
+- SolrCollapseFunction::setMin - Sets the initial size of the collapse data structures when collapsing on a numeric field only
+- SolrCollapseFunction::setNullPolicy - Sets the NULL Policy
+- SolrCollapseFunction::setSize - Sets the initial size of the collapse data structures when collapsing on a numeric field only
+- SolrDisMaxQuery::__construct - Class Constructor
+- SolrDisMaxQuery::addBigramPhraseField - Adds a Phrase Bigram Field (pf2 parameter)
+- SolrDisMaxQuery::addBoostQuery - Adds a boost query field with value and optional boost (bq parameter)
+- SolrDisMaxQuery::addPhraseField - Adds a Phrase Field (pf parameter)
+- SolrDisMaxQuery::addQueryField - Add a query field with optional boost (qf parameter)
+- SolrDisMaxQuery::addTrigramPhraseField - Adds a Trigram Phrase Field (pf3 parameter)
+- SolrDisMaxQuery::addUserField - Adds a field to User Fields Parameter (uf)
+- SolrDisMaxQuery::removeBigramPhraseField - Removes phrase bigram field (pf2 parameter)
+- SolrDisMaxQuery::removeBoostQuery - Removes a boost query partial by field name (bq)
+- SolrDisMaxQuery::removePhraseField - Removes a Phrase Field (pf parameter)
+- SolrDisMaxQuery::removeQueryField - Removes a Query Field (qf parameter)
+- SolrDisMaxQuery::removeTrigramPhraseField - Removes a Trigram Phrase Field (pf3 parameter)
+- SolrDisMaxQuery::removeUserField - Removes a field from The User Fields Parameter (uf)
+- SolrDisMaxQuery::setBigramPhraseFields - Sets Bigram Phrase Fields and their boosts (and slops) using pf2 parameter
+- SolrDisMaxQuery::setBigramPhraseSlop - Sets Bigram Phrase Slop (ps2 parameter)
+- SolrDisMaxQuery::setBoostFunction - Sets a Boost Function (bf parameter)
+- SolrDisMaxQuery::setBoostQuery - Directly Sets Boost Query Parameter (bq)
+- SolrDisMaxQuery::setMinimumMatch - Set Minimum "Should" Match (mm)
+- SolrDisMaxQuery::setPhraseFields - Sets Phrase Fields and their boosts (and slops) using pf2 parameter
+- SolrDisMaxQuery::setPhraseSlop - Sets the default slop on phrase queries (ps parameter)
+- SolrDisMaxQuery::setQueryAlt - Set Query Alternate (q.alt parameter)
+- SolrDisMaxQuery::setQueryPhraseSlop - Specifies the amount of slop permitted on phrase queries explicitly included in the user's query string (qf parameter)
+- SolrDisMaxQuery::setTieBreaker - Sets Tie Breaker parameter (tie parameter)
+- SolrDisMaxQuery::setTrigramPhraseFields - Directly Sets Trigram Phrase Fields (pf3 parameter)
+- SolrDisMaxQuery::setTrigramPhraseSlop - Sets Trigram Phrase Slop (ps3 parameter)
+- SolrDisMaxQuery::setUserFields - Sets User Fields parameter (uf)
+- SolrDisMaxQuery::useDisMaxQueryParser - Switch QueryParser to be DisMax Query Parser
+- SolrDisMaxQuery::useEDisMaxQueryParser - Switch QueryParser to be EDisMax
+- SolrDocument::__clone - Crea una copia de un objeto SolrDocument
+- SolrDocument::__construct - Constructor
+- SolrDocument::__destruct - Destructor
+- SolrDocument::__get - Acceder al campo como una propiedad
+- SolrDocument::__isset - Comprueba si existe un campo
+- SolrDocument::__set - Añade otro campo al documento
+- SolrDocument::__unset - Elimina un campo del documento
+- SolrDocument::addField - añade un campo al documento
+- SolrDocument::clear - Borra todos los campos del documento
+- SolrDocument::current - Recupera el campo actual
+- SolrDocument::deleteField - Elimina un campo del documento
+- SolrDocument::fieldExists - Comprueba si existe un campo en el documento
+- SolrDocument::getChildDocuments - Returns an array of child documents (SolrDocument)
+- SolrDocument::getChildDocumentsCount - Returns the number of child documents
+- SolrDocument::getField - Recupera un campo según su nombre
+- SolrDocument::getFieldCount - Devuelve el número de campos de este documento
+- SolrDocument::getFieldNames - Devuelve una matriz con los nombres de campos del documento
+- SolrDocument::getInputDocument - Devuelve un SolrInputDocument equivalente al objeto
+- SolrDocument::hasChildDocuments - Checks whether the document has any child documents
+- SolrDocument::key - Recupera la clave actual
+- SolrDocument::merge - Fusiona la fuente con el objeto SolrDocument actual
+- SolrDocument::next - Mueve el puntero interno al siguiente campo
+- SolrDocument::offsetExists - Comprueba si existe un campo en particular
+- SolrDocument::offsetGet - Recupera un campo
+- SolrDocument::offsetSet - Añade un campo al documento
+- SolrDocument::offsetUnset - Elimina un campo
+- SolrDocument::reset - Este es un alias de SolrDocument::clear()
+- SolrDocument::rewind - Reinicia el puntero interno al principio
+- SolrDocument::serialize - Usado para serialización personalizada
+- SolrDocument::sort - Ordena los campos del documento
+- SolrDocument::toArray - Devuelve una matriz como representación de un documento
+- SolrDocument::unserialize - Serialización personalizada de objetos SolrDocument
+- SolrDocument::valid - Comprueba si la posición actual del puntero interno es aún válida
+- SolrDocumentField::__construct - Constructor
+- SolrDocumentField::__destruct - Destructor
+- SolrException::getInternalInfo - Devuelve información interna de donde se lanzó la excepción
+- SolrGenericResponse::__construct - Constructor
+- SolrGenericResponse::__destruct - Destructor
+- SolrIllegalArgumentException::getInternalInfo - Devuelve información interna de donde se lanzó la excepción
+- SolrIllegalOperationException::getInternalInfo - Devuelve información interna de donde se lanzó la excepción
+- SolrInputDocument::__clone - Crea una copia de un objeto SolrDocument
+- SolrInputDocument::__construct - Constructor
+- SolrInputDocument::__destruct - Destructor
+- SolrInputDocument::addChildDocument - Adds a child document for block indexing
+- SolrInputDocument::addChildDocuments - Adds an array of child documents
+- SolrInputDocument::addField - Añade un campo al documento
+- SolrInputDocument::clear - Restablece el documento de entrada
+- SolrInputDocument::deleteField - Elimina un campo del documento
+- SolrInputDocument::fieldExists - Comprueba si existe un campo
+- SolrInputDocument::getBoost - Recupera el valor boost actual del documento
+- SolrInputDocument::getChildDocuments - Returns an array of child documents (SolrInputDocument)
+- SolrInputDocument::getChildDocumentsCount - Returns the number of child documents
+- SolrInputDocument::getField - Recupera un campo por su nombre
+- SolrInputDocument::getFieldBoost - Recupera el valor boost de un campo en particular
+- SolrInputDocument::getFieldCount - Devuelve el número de campos del documento
+- SolrInputDocument::getFieldNames - Devuelve una matriz que contiene todos los campos del documento
+- SolrInputDocument::hasChildDocuments - Returns true if the document has any child documents
+- SolrInputDocument::merge - Fusiona un documento con otro
+- SolrInputDocument::reset - Este es un alias de SolrInputDocument::clear
+- SolrInputDocument::setBoost - Establece el valor boost de este documento
+- SolrInputDocument::setFieldBoost - Establece el valor boost de tiempo del índice de un campo
+- SolrInputDocument::sort - Ordena los campos dentro de un documento
+- SolrInputDocument::toArray - Devuelve una matriz como representación del documento de entrada
+- SolrModifiableParams::__construct - Constructor
+- SolrModifiableParams::__destruct - Destructor
+- SolrObject::__construct - Crea un objeto Solr
+- SolrObject::__destruct - Destructor
+- SolrObject::getPropertyNames - Devuelve una matriz de todos los nombres de las propiedades
+- SolrObject::offsetExists - Comprueba si la propiedad existe
+- SolrObject::offsetGet - Usado para recuperar una propiedad
+- SolrObject::offsetSet - Establece el valor de una propiedad
+- SolrObject::offsetUnset - Desestablece el valor de la propiedad
+- SolrParams::add - Esto es un alias de SolrParams::addParam
+- SolrParams::addParam - Añade un parámetro al objeto
+- SolrParams::get - Este es una alias de SolrParams::getParam
+- SolrParams::getParam - Devuelve el valor de un parámetro
+- SolrParams::getParams - Devuelve una matriz de parámetros URL no codificados
+- SolrParams::getPreparedParams - Devuelve una matriz de parámetros URL codificados
+- SolrParams::serialize - Usado para serialización personalizada
+- SolrParams::set - Un alas de SolrParams::setParam
+- SolrParams::setParam - Establece el parámetro al valor especificado
+- SolrParams::toString - Devuelve todos los parámetros de los pares nombre-valor del objeto
+- SolrParams::unserialize - Usado para serialización personalizada
+- SolrPingResponse::__construct - Constructor
+- SolrPingResponse::__destruct - Destructor
+- SolrPingResponse::getResponse - Devuelve la respuesta del servidor
+- SolrQuery::__construct - Constructor
+- SolrQuery::__destruct - Destructor
+- SolrQuery::addExpandFilterQuery - Overrides main filter query, determines which documents to include in the main group
+- SolrQuery::addExpandSortField - Orders the documents within the expanded groups (expand.sort parameter)
+- SolrQuery::addFacetDateField - Mapea a facet.date
+- SolrQuery::addFacetDateOther - Añade otro parámetro facet.date.other
+- SolrQuery::addFacetField - Añade otro campo a la faceta
+- SolrQuery::addFacetQuery - Añade una consulta de faceta
+- SolrQuery::addField - Especifica qué campos devolver en el resultado
+- SolrQuery::addFilterQuery - Especifica una consulta de filtro
+- SolrQuery::addGroupField - Add a field to be used to group results
+- SolrQuery::addGroupFunction - Allows grouping results based on the unique values of a function query (group.func parameter)
+- SolrQuery::addGroupQuery - Allows grouping of documents that match the given query
+- SolrQuery::addGroupSortField - Add a group sort field (group.sort parameter)
+- SolrQuery::addHighlightField - Mapea a hl.fl
+- SolrQuery::addMltField - Establece un campo para usarlo para similitud
+- SolrQuery::addMltQueryField - Mapea a mlt.qf
+- SolrQuery::addSortField - Usado para controlar cómo deberían ordenarse los resultados
+- SolrQuery::addStatsFacet - Recupera una devolución de subresultados para valores dentro de la faceta dada
+- SolrQuery::addStatsField - Mapea al parámetro stats.field
+- SolrQuery::collapse - Collapses the result set to a single document per group
+- SolrQuery::getExpand - Returns true if group expanding is enabled
+- SolrQuery::getExpandFilterQueries - Returns the expand filter queries
+- SolrQuery::getExpandQuery - Returns the expand query expand.q parameter
+- SolrQuery::getExpandRows - Returns The number of rows to display in each group (expand.rows)
+- SolrQuery::getExpandSortFields - Returns an array of fields
+- SolrQuery::getFacet - Devuelve el valor del parámetro facet
+- SolrQuery::getFacetDateEnd - Devuelve el valor del parámetro facet.date.end
+- SolrQuery::getFacetDateFields - Devuelve todos los campos de facet.date
+- SolrQuery::getFacetDateGap - Devuelve el valor del parámetro facet.date.gap
+- SolrQuery::getFacetDateHardEnd - Devuelve el valor del parámetro facet.date.hardend
+- SolrQuery::getFacetDateOther - Devuelve el valor del parámetro facet.date.other
+- SolrQuery::getFacetDateStart - Devuelve el límite inferior del primer rango de datos para todas las facetas de fecha de este campo
+- SolrQuery::getFacetFields - Devuelve todos los campos facet
+- SolrQuery::getFacetLimit - Devuelve el número máximo de restricciones que deberían ser devueltas por los campos facet
+- SolrQuery::getFacetMethod - Devuelve el valor del parámetro facet.method
+- SolrQuery::getFacetMinCount - Devuelve el mínimo de facetas que deberían ser incluidas en la respuesta
+- SolrQuery::getFacetMissing - Devuelve el estado acutual del parámetro facet.missing
+- SolrQuery::getFacetOffset - Devuelve un índice dentro de la lista de restricciones para ser usado en paginación
+- SolrQuery::getFacetPrefix - Devuelve el prefijo de faceta
+- SolrQuery::getFacetQueries - Devuelve todas las consultas de facetas
+- SolrQuery::getFacetSort - Devuelve el tipo de ordenación de la faceta
+- SolrQuery::getFields - Devuelve la lista de campos que serán devueltos en la respuesta
+- SolrQuery::getFilterQueries - Devuelve una matriz de consultas de filtro
+- SolrQuery::getGroup - Returns true if grouping is enabled
+- SolrQuery::getGroupCachePercent - Returns group cache percent value
+- SolrQuery::getGroupFacet - Returns the group.facet parameter value
+- SolrQuery::getGroupFields - Returns group fields (group.field parameter values)
+- SolrQuery::getGroupFormat - Returns the group.format value
+- SolrQuery::getGroupFunctions - Returns group functions (group.func parameter values)
+- SolrQuery::getGroupLimit - Returns the group.limit value
+- SolrQuery::getGroupMain - Returns the group.main value
+- SolrQuery::getGroupNGroups - Returns the group.ngroups value
+- SolrQuery::getGroupOffset - Returns the group.offset value
+- SolrQuery::getGroupQueries - Returns all the group.query parameter values
+- SolrQuery::getGroupSortFields - Returns the group.sort value
+- SolrQuery::getGroupTruncate - Returns the group.truncate value
+- SolrQuery::getHighlight - Devuelve el estado del parámtero hl
+- SolrQuery::getHighlightAlternateField - Devuelve el campo remarcado para usarlo como copia de seguridad o como predeterminado
+- SolrQuery::getHighlightFields - Devuelve todos los campos que Solr debería generar para remarcación de trozos
+- SolrQuery::getHighlightFormatter - Devuelve el formateador de la salida remarcada
+- SolrQuery::getHighlightFragmenter - Devuelve el generador de trozos de texto para el texto remarcado
+- SolrQuery::getHighlightFragsize - Devuelve el número de caracteres de fragmentos a considerar para remarcación
+- SolrQuery::getHighlightHighlightMultiTerm - Devuelve si habilitar o no la remarcación de consultas range/wildcard/fuzzy/prefix
+- SolrQuery::getHighlightMaxAlternateFieldLength - Devuelve el número máximo de caracteres del campo a devolver
+- SolrQuery::getHighlightMaxAnalyzedChars - Devuelve el número máximo de caracteres de un documento para buscar trozos adecuados
+- SolrQuery::getHighlightMergeContiguous - Devuelve si colapsar o no fragmentos contiguos en un único fragmento
+- SolrQuery::getHighlightRegexMaxAnalyzedChars - Devuelve el número máximo de caracteres de un campo cuando se usa el fragmentador de expresiones regulares
+- SolrQuery::getHighlightRegexPattern - Devuelve la expresión regular para la fragmentación
+- SolrQuery::getHighlightRegexSlop - Devuelve el factor de desviación del tamaño de fragmento ideal
+- SolrQuery::getHighlightRequireFieldMatch - Devuelve si un campo será remarcado solamente si la consulta coincide con este campo en particular
+- SolrQuery::getHighlightSimplePost - Devuelve el texto que aparece después de un término remarcado
+- SolrQuery::getHighlightSimplePre - Devuelve el texto que aparece antes de un término remarcado
+- SolrQuery::getHighlightSnippets - Devuelve el número máximo de trozos remarcados a generar por campo
+- SolrQuery::getHighlightUsePhraseHighlighter - Devuelve el estado del parámetro hl.usePhraseHighlighter
+- SolrQuery::getMlt - Devuelve si los resultados MoreLikeThis deberían o no ser habilitados
+- SolrQuery::getMltBoost - Devuelve si la consulta será impulsada (boost) o no mediante la relevancia del térmido de interés
+- SolrQuery::getMltCount - Devuelve el número de documentos similares a devolver para cada resultado
+- SolrQuery::getMltFields - Devuelve todos los campos a usar para similitud
+- SolrQuery::getMltMaxNumQueryTerms - Devuelve el número máximo de términos de consultas que serán incluidos en cualquier consulta generada
+- SolrQuery::getMltMaxNumTokens - Devuelve el número máximo de tokens a analizar en cada campo del documento que no esté almacenado con soporte TermVector
+- SolrQuery::getMltMaxWordLength - Devuelve la longitud máxima de palabra de las palabras que serán ignoradas
+- SolrQuery::getMltMinDocFrequency - Devuelve el umbral de frecuencia en el que las palabras que no ocurran en por lo menos tantos documentos como este serán ignoradas
+- SolrQuery::getMltMinTermFrequency - Devuelve la frecuencia bajo la cual los términos serán ignorados en el documento fuente
+- SolrQuery::getMltMinWordLength - Devuelve la longitud máxima de palabra bajo la cual las palabras serán ignoradas
+- SolrQuery::getMltQueryFields - Devuelve los campos de consultas y sus boosts
+- SolrQuery::getQuery - Devuelve la consulta principal
+- SolrQuery::getRows - Devuelve el número máximo de documentos
+- SolrQuery::getSortFields - Devuelve todos los campos de ordenación
+- SolrQuery::getStart - Devuelve el índice del conjunto de resultados completo
+- SolrQuery::getStats - Devuelve si están habilitadas o no las estadísticas
+- SolrQuery::getStatsFacets - Devuelve todas las estadísticas de las facetas que fueron establecidas
+- SolrQuery::getStatsFields - Devuelve todas las estadísticas de los campos
+- SolrQuery::getTerms - Devuelve si está habilitado o no TermsComponent
+- SolrQuery::getTermsField - Devuelve el campo desde el cuál los términos son recuperados
+- SolrQuery::getTermsIncludeLowerBound - Devuelve si incluir o no el límite inferior en el conjunto de resultados
+- SolrQuery::getTermsIncludeUpperBound - Devuelve si incluir o no el término de límite superior en el conjunto de resultados
+- SolrQuery::getTermsLimit - Devuelve el número máximo de términos que debería devolver Solr
+- SolrQuery::getTermsLowerBound - Devuelve el término en el que comenzar
+- SolrQuery::getTermsMaxCount - Devuelve la frecuencia de documento máxima
+- SolrQuery::getTermsMinCount - Devuelve la frecuencia de documento mínima a devolver para ser incluido
+- SolrQuery::getTermsPrefix - Devuelve el prefijo del término
+- SolrQuery::getTermsReturnRaw - Si devolver o no caracteres en bruto
+- SolrQuery::getTermsSort - Devuelve un entero indicando cómo son ordenados los términos
+- SolrQuery::getTermsUpperBound - Devuelve el término en donde parar
+- SolrQuery::getTimeAllowed - Devuelve el tiempo en milisegundos permitido para que la consulta finalice
+- SolrQuery::removeExpandFilterQuery - Removes an expand filter query
+- SolrQuery::removeExpandSortField - Removes an expand sort field from the expand.sort parameter
+- SolrQuery::removeFacetDateField - Elimina uno de los campos de faceta de fecha
+- SolrQuery::removeFacetDateOther - Elimina uno de los parámetros facet.date.other
+- SolrQuery::removeFacetField - Elimina uno de los parámetros facet.date
+- SolrQuery::removeFacetQuery - Elimina uno de los parámetros facet.query
+- SolrQuery::removeField - Elimina un campo de la lista de campos
+- SolrQuery::removeFilterQuery - Elimina una consulta de filtro
+- SolrQuery::removeHighlightField - Elimina uno de los campos usados para remarcación
+- SolrQuery::removeMltField - Elimina uno de los campos moreLikeThis
+- SolrQuery::removeMltQueryField - Elimina uno de los campos de consulta moreLikeThis
+- SolrQuery::removeSortField - Elimina uno de los campos de ordenación
+- SolrQuery::removeStatsFacet - Elimina uno de los parámetros stats.facet
+- SolrQuery::removeStatsField - Elimina uno de los parámetros stats.field
+- SolrQuery::setEchoHandler - Conmuta el parámetro echoHandler
+- SolrQuery::setEchoParams - Determina qué tipo de parámetros incluir en la respuesta
+- SolrQuery::setExpand - Enables/Disables the Expand Component
+- SolrQuery::setExpandQuery - Sets the expand.q parameter
+- SolrQuery::setExpandRows - Sets the number of rows to display in each group (expand.rows). Server Default 5
+- SolrQuery::setExplainOther - Establece el parámetro de consulta común explainOther
+- SolrQuery::setFacet - Mapea al parámetro facet. Habilita o deshabilta las facetas
+- SolrQuery::setFacetDateEnd - Mapea a facet.date.end
+- SolrQuery::setFacetDateGap - Mapea a facet.date.gap
+- SolrQuery::setFacetDateHardEnd - Mapea a facet.date.hardend
+- SolrQuery::setFacetDateStart - Mapea a facet.date.start
+- SolrQuery::setFacetEnumCacheMinDefaultFrequency - Establece la frecuencia de documento mínima usada para determinar la cuenta de términos
+- SolrQuery::setFacetLimit - Mapea a facet.limit
+- SolrQuery::setFacetMethod - Especifica el tipo de algoritmo a usar cuando se hace una faceta a un campo
+- SolrQuery::setFacetMinCount - Mapea a facet.mincount
+- SolrQuery::setFacetMissing - Mapea a facet.missing
+- SolrQuery::setFacetOffset - Establece el índice de la lista de restricciones para tener en cuenta la paginación
+- SolrQuery::setFacetPrefix - Especifica un prefijo de cadena con el que limitar los términos a los que hacer una faceta
+- SolrQuery::setFacetSort - Determina el orden de las restricciones de campos de faceta
+- SolrQuery::setGroup - Enable/Disable result grouping (group parameter)
+- SolrQuery::setGroupCachePercent - Enables caching for result grouping
+- SolrQuery::setGroupFacet - Sets group.facet parameter
+- SolrQuery::setGroupFormat - Sets the group format, result structure (group.format parameter)
+- SolrQuery::setGroupLimit - Specifies the number of results to return for each group. The server default value is 1
+- SolrQuery::setGroupMain - If true, the result of the first field grouping command is used as the main result list in the response, using group.format=simple
+- SolrQuery::setGroupNGroups - If true, Solr includes the number of groups that have matched the query in the results
+- SolrQuery::setGroupOffset - Sets the group.offset parameter
+- SolrQuery::setGroupTruncate - If true, facet counts are based on the most relevant document of each group matching the query
+- SolrQuery::setHighlight - Habilita o deshabilita la remarcación
+- SolrQuery::setHighlightAlternateField - Especifica el campo de copia de seguridad a usar
+- SolrQuery::setHighlightFormatter - Especifica un formateador para la salida remarcada
+- SolrQuery::setHighlightFragmenter - Establece el generador de trozos de código para texto remarcado
+- SolrQuery::setHighlightFragsize - El tamaño de los fragmentos a considerara para remarcación
+- SolrQuery::setHighlightHighlightMultiTerm - Usa SpanScorer para remarcar términos de frases
+- SolrQuery::setHighlightMaxAlternateFieldLength - Establece el número máximo de caracteres del campo a devolver
+- SolrQuery::setHighlightMaxAnalyzedChars - Especifica el número de caracteres de un documento para buscar trozos apropiados
+- SolrQuery::setHighlightMergeContiguous - Si colapsar o no fragmentos contiguos en un único fragmento
+- SolrQuery::setHighlightRegexMaxAnalyzedChars - Especifica el número máximo de caracteres a analizar
+- SolrQuery::setHighlightRegexPattern - Especifica la expresión regular para la fragmentación
+- SolrQuery::setHighlightRegexSlop - Establece el factor por el cual el fragmentador de expresiones regulares puede desviarse del tamaño de fragmento ideal
+- SolrQuery::setHighlightRequireFieldMatch - Requerir la coincicencia de campos durante el remarcado
+- SolrQuery::setHighlightSimplePost - Establece el texto que aparece antes de un término remarcado
+- SolrQuery::setHighlightSimplePre - Establece el texto que aparece antes de un término remarcado
+- SolrQuery::setHighlightSnippets - Establece el número máximo de trozos remarcados para generar por campo
+- SolrQuery::setHighlightUsePhraseHighlighter - Si remarcar o no términos de frases sólo cuando aparecen en la frase de consulta
+- SolrQuery::setMlt - Habilita o deshabilita moreLikeThis
+- SolrQuery::setMltBoost - Establecer si la consulta será impulsada (boost) por la relevancia del término de interés
+- SolrQuery::setMltCount - Establece el número de documentos similares a devolver en cada resultado
+- SolrQuery::setMltMaxNumQueryTerms - Establece el número máximo de términos de consulta incluidos
+- SolrQuery::setMltMaxNumTokens - Especifica el número máximo de tokens a analizar
+- SolrQuery::setMltMaxWordLength - Establece la longitud de palabra máxima
+- SolrQuery::setMltMinDocFrequency - Establece la frecuencia de mltMinDoc
+- SolrQuery::setMltMinTermFrequency - Establece la frecuencia bajo la cual los términos serán ignorados en los documentos fuente
+- SolrQuery::setMltMinWordLength - Establece la longitud de palabra mínima
+- SolrQuery::setOmitHeader - Excluye la cabecera de los resultados devueltos
+- SolrQuery::setQuery - Establece la consulta de búsqueda
+- SolrQuery::setRows - Especifica el número máximo de filas a devolver en el resultado
+- SolrQuery::setShowDebugInfo - Bandera para mostrar información de depuración
+- SolrQuery::setStart - Especifica el número de filas que se van a saltar
+- SolrQuery::setStats - Habilita o deshablita el componente de estadísticas
+- SolrQuery::setTerms - Habilita o deshablita TermsComponent
+- SolrQuery::setTermsField - Establece el nombre del campo del que obtener los términos
+- SolrQuery::setTermsIncludeLowerBound - Incluir el término de límite inferior en el conjunto de resultados
+- SolrQuery::setTermsIncludeUpperBound - Incluir el término de límite superior en el conjunto de resultados
+- SolrQuery::setTermsLimit - Establece el número máximo de términos a devolver
+- SolrQuery::setTermsLowerBound - Especifica el término de donde empezar
+- SolrQuery::setTermsMaxCount - Establece la frecuencia máxima de documentos
+- SolrQuery::setTermsMinCount - Establece la frecuencia mínima de documentos
+- SolrQuery::setTermsPrefix - Restringe las coincidencias de términos que comienzan con el prefijo
+- SolrQuery::setTermsReturnRaw - Devuelve los caracteres en bruto del término indexado
+- SolrQuery::setTermsSort - Especifica cómo ordenar los términos devueltos
+- SolrQuery::setTermsUpperBound - Establece el término en el que parar
+- SolrQuery::setTimeAllowed - El tiempo permitido para que la búsqueda finalice
+- SolrQueryResponse::__construct - Constructor
+- SolrQueryResponse::__destruct - Destructor
+- SolrResponse::getDigestedResponse - Devuelve la respueste XML como información de PHP serializada
+- SolrResponse::getHttpStatus - Devuelve el estado HTTP de la respuesta
+- SolrResponse::getHttpStatusMessage - Devuelve más detalles del estado HTTP
+- SolrResponse::getRawRequest - Devuelve la respuesta en bruto enviada al servidor Solr
+- SolrResponse::getRawRequestHeaders - Devuelve las cabeceras de respuesta sin tratar enviadas al servidor Solr
+- SolrResponse::getRawResponse - Devuelve la respuesta sin tratar del servidor
+- SolrResponse::getRawResponseHeaders - Devuelve las cabeceras de respuesta sin tratar del servidor
+- SolrResponse::getRequestUrl - Devuelve la URL completa a la que se envió la respuesta
+- SolrResponse::getResponse - Devuelve un objeto SolrObject que representa la respuesta XML del servidor
+- SolrResponse::setParseMode - Establece el modo de análisis
+- SolrResponse::success - ¿Tuvo éxito la petición?
+- SolrServerException::getInternalInfo - Devuelve información interna de dónde fue lanzada la excepción
+- SolrUpdateResponse::__construct - Constructor
+- SolrUpdateResponse::__destruct - Destructor
+- SolrUtils::digestXmlResponse - Convierte una cadena de respuesta XML a un objeto SolrObject
+- SolrUtils::escapeQueryChars - Escapa un string de consulta lucene
+- SolrUtils::getSolrVersion - Devuelve la versión actual de la extensión Solr
+- SolrUtils::queryPhrase - Prepara una frase desde una cadena lucene sin escapar
+- SplDoublyLinkedList::add - Añadir/insertar un nuevo valor en el índice especificado
+- SplDoublyLinkedList::bottom - Examinar el nodo del comienzo de la lista doblemente enlazada
+- SplDoublyLinkedList::count - Cuenta el número de elementos de la lista doblemente enlazada
+- SplDoublyLinkedList::current - Devuelve la entrada actual del array
+- SplDoublyLinkedList::getIteratorMode - Devuelve el modo de iteración
+- SplDoublyLinkedList::isEmpty - Comprueba si la lista doblemente enlazada está vacía
+- SplDoublyLinkedList::key - Devuelve el índice del nodo actual
+- SplDoublyLinkedList::next - Avanza a la siguiente entrada
+- SplDoublyLinkedList::offsetExists - Devuelve si el índice solicitado existe
+- SplDoublyLinkedList::offsetGet - Devuelve el valor del índice específicado
+- SplDoublyLinkedList::offsetSet - Establece el valor del índice específicado
+- SplDoublyLinkedList::offsetUnset - Borra el valor de el índice específicado
+- SplDoublyLinkedList::pop - Extrae un nodo del final de la lista doblementa enlazada
+- SplDoublyLinkedList::prev - Retrocede a la entrada anterior
+- SplDoublyLinkedList::push - Inserta un elemento al final de la lista doblemente enlazada
+- SplDoublyLinkedList::rewind - Rebobina el iterador hasta el inicio
+- SplDoublyLinkedList::serialize - Serializa el almacenamiento
+- SplDoublyLinkedList::setIteratorMode - Establece el modo de iteración
+- SplDoublyLinkedList::shift - Quita un nodo del inicio de la lista doblemente enlazada
+- SplDoublyLinkedList::top - Examina el nodo del final de la lista doblemente enlazada
+- SplDoublyLinkedList::unserialize - Deserializa el almacenamiento
+- SplDoublyLinkedList::unshift - Antepone un elemento a la lista doblemente enlazada
+- SplDoublyLinkedList::valid - Comprueba si la lista doblemente enlazada contiene más nodos
+- SplFileInfo::__construct - Construir un objeto nuevo SplFileInfo
+- SplFileInfo::__toString - Devuelve la ruta de el fichero como un string
+- SplFileInfo::getATime - Obtiene la hora del último acceso al fichero
+- SplFileInfo::getBasename - Obtiene el nombre base del fichero
+- SplFileInfo::getCTime - Obtiene el i-nodo de el cambio de tiempo
+- SplFileInfo::getExtension - Obtiene la extensión del fichero
+- SplFileInfo::getFileInfo - Obtiene un objeto SplFileInfo para el fichero
+- SplFileInfo::getFilename - Obtiene el nombre del fichero
+- SplFileInfo::getGroup - Obtiene el grupo de el fichero
+- SplFileInfo::getInode - Obtiene el i-nodo de el fichero
+- SplFileInfo::getLinkTarget - Obtiene el destino de un enlace del sistema de ficheros
+- SplFileInfo::getMTime - Obtiene la fecha de la última modificación
+- SplFileInfo::getOwner - Obtiene el dueño de el fichero
+- SplFileInfo::getPath - Obtiene la ruta sin el nombre de fichero
+- SplFileInfo::getPathInfo - Obtiene un objeto SplFileInfo para la ruta
+- SplFileInfo::getPathname - Obtiene la ruta de un fichero
+- SplFileInfo::getPerms - Obtiene los permisos del fichero
+- SplFileInfo::getRealPath - Obtiene la ruta absoluta al fichero
+- SplFileInfo::getSize - Obtiene el tamaño de el fichero
+- SplFileInfo::getType - Obtiene el tipo del fichero
+- SplFileInfo::isDir - Dice si el fichero es un directorio
+- SplFileInfo::isExecutable - Comprueba si el fichero es ejecutable
+- SplFileInfo::isFile - Dice is el objeto hace referencia a un fichero normal
+- SplFileInfo::isLink - Comprueba si el fichero es un link
+- SplFileInfo::isReadable - Comprueba si el fichero se puede leer
+- SplFileInfo::isWritable - Comprueba si se puede escribir en el fichero
+- SplFileInfo::openFile - Obtiene un objeto SplFileObject para el fichero
+- SplFileInfo::setFileClass - Establece la clase empleada con SplFileInfo::openFile
+- SplFileInfo::setInfoClass - Establece la clase empleada con SplFileInfo::getFileInfo y SplFileInfo::getPathInfo
+- SplFileObject::__construct - Construye un nuevo objeto de fichero
+- SplFileObject::__toString - Alias de SplFileObject::fgets
+- SplFileObject::current - Recupera la línea actual del fichero
+- SplFileObject::eof - Comprueba si es el final del fichero
+- SplFileObject::fflush - Vuelca el resultado en el fichero
+- SplFileObject::fgetc - Obtiene un caracter del fichero
+- SplFileObject::fgetcsv - Obtiene la línea del archivo y analiza como campos CSV
+- SplFileObject::fgets - Obtener la línea de el fichero
+- SplFileObject::fgetss - Obtiene la línea de el fichero y elimina etiquetas HTML
+- SplFileObject::flock - Bloqueo de ficheros portable
+- SplFileObject::fpassthru - Imprimir todos los datos restantes en un apuntador de fichero
+- SplFileObject::fputcsv - Escribir un array de campos como una línea CSV
+- SplFileObject::fread - Leer un fichero
+- SplFileObject::fscanf - Analiza la entrada de un fichero de acuerdo a un formato
+- SplFileObject::fseek - Busca una posiciónn
+- SplFileObject::fstat - Obtiene información de el fichero
+- SplFileObject::ftell - Devuelve la posición del fichero actual
+- SplFileObject::ftruncate - Trunca el archivo a una longitud dada
+- SplFileObject::fwrite - Escribe en el fichero
+- SplFileObject::getChildren - Ningún propósito
+- SplFileObject::getCsvControl - Obtiene el carácter delimitador, el circundante y de escape para campos CSV
+- SplFileObject::getCurrentLine - Alias de SplFileObject::fgets
+- SplFileObject::getFlags - Obtener las flags de SplFileObject
+- SplFileObject::getMaxLineLen - Obtener la longitud máxima de línea
+- SplFileObject::hasChildren - SplFileObject no tiene hijos
+- SplFileObject::key - Obtiene el número de línea
+- SplFileObject::next - Leer la siguiente línea
+- SplFileObject::rewind - Rebobina el fichero hasta la primera línea
+- SplFileObject::seek - Mueve el apuntador interno a la línea específicada
+- SplFileObject::setCsvControl - Establece el carácter delimitador, el circundante y el de escape para campos CSV
+- SplFileObject::setFlags - Establece flags para el SplFileObject
+- SplFileObject::setMaxLineLen - Establecer la longitud máxima de una línea
+- SplFileObject::valid - Comprueba si el final del finchero ha sido alcanzado
+- SplFixedArray::__construct - Construye un nuevo array fijo
+- SplFixedArray::__serialize - Serializes the SplFixedArray object
+- SplFixedArray::__unserialize - Deserializes the data parameter into an SplFixedArray object
+- SplFixedArray::__wakeup - Reinicializar el array después de ser deserializado
+- SplFixedArray::count - Devuelve el tamaño del array
+- SplFixedArray::current - Devuelve la entrada del array actual
+- SplFixedArray::fromArray - Importa un array PHP en una instancia SplFixedArray
+- SplFixedArray::getIterator - Retrieve the iterator to go through the array
+- SplFixedArray::getSize - Obtiene el tamaño de el array
+- SplFixedArray::jsonSerialize - Returns a representation that can be converted to JSON
+- SplFixedArray::key - Devuelve los índices del array actual
+- SplFixedArray::next - Mover a la siguiente entrada
+- SplFixedArray::offsetExists - Devuelve si el índice solicitado existe
+- SplFixedArray::offsetGet - Devuelve el valor en el índice específicado
+- SplFixedArray::offsetSet - Establece un nuevo valor para el índice específicado
+- SplFixedArray::offsetUnset - Destruye el valor en el índice específicado
+- SplFixedArray::rewind - Rebobina el iterador hasta el inicio
+- SplFixedArray::setSize - Cambiar el tamaño de un array
+- SplFixedArray::toArray - Devuelve un array PHP de un array fijo
+- SplFixedArray::valid - Comprueba si el array contiene más elementos
+- SplHeap::compare - Compara elementos con el fin de colocarlos correctamente en el montón en la parte de arriba
+- SplHeap::count - Cuenta el número de elementos en el montón
+- SplHeap::current - Devuelve el nodo actual señalado por el iterador
+- SplHeap::extract - Extrae un nodo de la parte superior del montón
+- SplHeap::insert - Inserta un elemento en el montón
+- SplHeap::isCorrupted - Tells if the heap is in a corrupted state
+- SplHeap::isEmpty - Comprueba si el montón actual está vacío
+- SplHeap::key - Devuelve el índice de el nodo actual
+- SplHeap::next - Avanzar al siguiente nodo
+- SplHeap::recoverFromCorruption - Recuperarse de un estado dañado y permitir un mayor número de acciones en el montón
+- SplHeap::rewind - Rebobina el iterador al comienzo
+- SplHeap::top - Observar el nodo desde el comienzo del montón
+- SplHeap::valid - Comprueba si el montón contiene más nodos
+- SplMaxHeap::compare - Compara elementos con el fin de colocarlos correctamente en el montón en la parte de arriba
+- SplMinHeap::compare - Comparar elementos con el fin de colocarlos correctamente en el montón em la parte de arriba
+- SplObjectStorage::addAll - Agrega todos los objetos de otro almacenamiento
+- SplObjectStorage::attach - Agrega un objeto en el almacenamiento
+- SplObjectStorage::contains - Comprueba si el almacenamiento contiene un objeto específico
+- SplObjectStorage::count - Devuelve el número de objetos en el almacenamiento
+- SplObjectStorage::current - Devuelve la entrada actual de almacenamiento
+- SplObjectStorage::detach - Quita un object de el almacenamiento
+- SplObjectStorage::getHash - Calcular un identificador único (hash) para los objetos contenidos
+- SplObjectStorage::getInfo - Devuelve los datos asociados con la entrada del iterador actual
+- SplObjectStorage::key - Devuelve el índice en el que se encuentra el iterador actualmente
+- SplObjectStorage::next - Mover a la siguiente entrada
+- SplObjectStorage::offsetExists - Comprueba si un objeto existe en el almacenamiento
+- SplObjectStorage::offsetGet - Devuelve los datos asociados con un object
+- SplObjectStorage::offsetSet - Asocia datos a un objeto en el almacenamiento
+- SplObjectStorage::offsetUnset - Quita un objeto de el almacenamiento
+- SplObjectStorage::removeAll - Remover objetos contenidos en otro almacenamiento de el almacenamiento actual
+- SplObjectStorage::removeAllExcept - Remover objetos excepto los contenidos en otro almacenamiento del almacenamiento actual
+- SplObjectStorage::rewind - Rebobina el iterador a el primer elemento de el almacenamiento
+- SplObjectStorage::serialize - Serializa el almacenamiento
+- SplObjectStorage::setInfo - Establece los datos asociados con el iterador de la entrada actual
+- SplObjectStorage::unserialize - Deserializa un almacenamiento desde su representación string
+- SplObjectStorage::valid - Comprobar si la entrada actual del iterador es válida
+- SplObserver::update - Recibe actualizaciones de sujeto
+- SplPriorityQueue::compare - Comparar las prioridades con el fin de colocar los elementos correctamente en el montón, mientras que tamizar arriba
+- SplPriorityQueue::count - Cuenta el número de elementos en la cola
+- SplPriorityQueue::current - Volver nodo actual que apunta el iterador
+- SplPriorityQueue::extract - Extrae un nodo de la parte superior del montículo y desplaza hacia arriba
+- SplPriorityQueue::getExtractFlags - Get the flags of extraction
+- SplPriorityQueue::insert - Inserta un elemento en la cola en la parte de arriba
+- SplPriorityQueue::isCorrupted - Tells if the priority queue is in a corrupted state
+- SplPriorityQueue::isEmpty - Comprueba si la cola está vacía
+- SplPriorityQueue::key - Devuelve el índice del nodo actual
+- SplPriorityQueue::next - Pasar a la siguiente nodo
+- SplPriorityQueue::recoverFromCorruption - Recuperar desde la condición corrupta y permitir acciones más en la cola
+- SplPriorityQueue::rewind - Rebobinar iterador de vuelta al inicio (no-op)
+- SplPriorityQueue::setExtractFlags - Establece el modo de extracción
+- SplPriorityQueue::top - Mira en el nodo de la parte superior de la cola
+- SplPriorityQueue::valid - Comprobar si la cola contiene más nodos
+- SplQueue::dequeue - Quita un nodo de la cola
+- SplQueue::enqueue - Añade un elemento a la cola
+- SplSubject::attach - Adjuntar un SplObserver
+- SplSubject::detach - Separa un observador
+- SplSubject::notify - Notificar un observador
+- SplTempFileObject::__construct - Construir un nuevo objeto de fichero temporal
+- Spoofchecker::__construct - Constructor
+- Spoofchecker::areConfusable - Comprobar si un texto dado contiene carateres que pueden ser confusos
+- Spoofchecker::isSuspicious - Comprobar si un texto dad contiene caracteres sospechosos
+- Spoofchecker::setAllowedLocales - Las configuraciones regionales a usar cuando se ejecutan las comprobaciones
+- Spoofchecker::setChecks - Establecer las comprobaciones a ejecutar
+- Spoofchecker::setRestrictionLevel - Set the restriction level
+- SQLite3::__construct - Instanciar un objeto de la clase SQLite3 y abrir una base de datos de SQLite 3
+- SQLite3::backup - Backup one database to another database
+- SQLite3::busyTimeout - Establecer el gestor de conexión ocupado
+- SQLite3::changes - Devolver el número de filas de la base de datos que fueron cambiadas (o insertadas, o eliminadas) por la sentencia SQL más reciente
+- SQLite3::close - Cerrar la conexión a la base de datos
+- SQLite3::createAggregate - Registrar una función de PHP para usarla como una función totalizadora de SQL
+- SQLite3::createCollation - Registra una función PHP para ser utilizada como una función SQL de ordenación específica
+- SQLite3::createFunction - Registrar una función de PHP para usarla como una función escalar de SQL
+- SQLite3::enableExceptions - Enable throwing exceptions
+- SQLite3::escapeString - Devolver una cadena que ha sido debidamente escapada
+- SQLite3::exec - Ejecutar una consulta que no devuelve resultados en una base de datos dada
+- SQLite3::lastErrorCode - Devolver el código numérico del resultado de la petición SQLite que falló más recientemente
+- SQLite3::lastErrorMsg - Devolver texto en inglés describiendo la petición SQLite que falló más recientemente
+- SQLite3::lastInsertRowID - Devolver el ID de la fila de la sentencia INSERT más reciente realizada en la base de datos
+- SQLite3::loadExtension - Intentar cargar una biblioteca de extensiones de SQLite
+- SQLite3::open - Abrir una base de datos SQLite
+- SQLite3::openBlob - Opens a stream resource to read a BLOB
+- SQLite3::prepare - Preparar una sentencia SQL para su ejecución
+- SQLite3::query - Ejecutar una consulta SQL
+- SQLite3::querySingle - Ejecutar una consulta y devolver un único resultado
+- SQLite3::setAuthorizer - Configures a callback to be used as an authorizer to limit what a statement can do
+- SQLite3::version - Devolver la versión de la biblioteca SQLite3 como una constante de cadena y como un número
+- SQLite3Result::__construct - Constructs an SQLite3Result
+- SQLite3Result::columnName - Devolver el nombre de la columna n-ésima
+- SQLite3Result::columnType - Devolver el tipo de la columna n-ésima
+- SQLite3Result::fetchArray - Obtener una fila de resultados en forma de un array asociativo o indexado o ambos
+- SQLite3Result::finalize - Cerrar el conjunto de resultados
+- SQLite3Result::numColumns - Devolver el número de columnas del conjunto de resultados
+- SQLite3Result::reset - Reiniciar el conjunto de resultados a la primera fila
+- SQLite3Stmt::__construct - Constructs an SQLite3Stmt object
+- SQLite3Stmt::bindParam - Vincular un parámetro a una variable de sentencia
+- SQLite3Stmt::bindValue - Vincular el valor de un parámetro a una variable de sentencia
+- SQLite3Stmt::clear - Limpiar todos los parámetros vinculados actuales
+- SQLite3Stmt::close - Cerrar una sentencia preparada
+- SQLite3Stmt::execute - Ejecutar una sentencia preparada y devuolver un objeto de conjunto de resultados
+- SQLite3Stmt::getSQL - Get the SQL of the statement
+- SQLite3Stmt::paramCount - Devolver el número de parámetros dentro de la sentencia preparada
+- SQLite3Stmt::readOnly - Returns whether a statement is definitely read only
+- SQLite3Stmt::reset - Reiniciar la sentencia preparada
+- SqlStatement::__construct - Description constructor
+- SqlStatement::bind - Bind statement parameters
+- SqlStatement::execute - Execute the operation
+- SqlStatement::getNextResult - Get next result
+- SqlStatement::getResult - Get result
+- SqlStatement::hasMoreResults - Check for more results
+- SqlStatementResult::__construct - Description constructor
+- SqlStatementResult::fetchAll - Get all rows from result
+- SqlStatementResult::fetchOne - Get single row
+- SqlStatementResult::getAffectedItemsCount - Get affected row count
+- SqlStatementResult::getColumnNames - Get column names
+- SqlStatementResult::getColumns - Get columns
+- SqlStatementResult::getColumnsCount - Get column count
+- SqlStatementResult::getGeneratedIds - Get generated ids
+- SqlStatementResult::getLastInsertId - Get last insert id
+- SqlStatementResult::getWarnings - Get warnings from last operation
+- SqlStatementResult::getWarningsCount - Get warning count from last operation
+- SqlStatementResult::hasData - Check if result has data
+- SqlStatementResult::nextResult - Get next result
+- Statement::__construct - Description constructor
+- Statement::getNextResult - Get next result
+- Statement::getResult - Get result
+- Statement::hasMoreResults - Check if more results
+- Stomp::__construct - Abre una conexión
+- Stomp::__destruct - Cierra una conexión stomp
+- Stomp::abort - Deshacer una transacción en curso
+- Stomp::ack - Confirmar la recepción y el consumo de un mensaje
+- Stomp::begin - Iniciar una transacción
+- Stomp::commit - Validar una transacción en curso
+- Stomp::error - Obtiene el último error stomp
+- Stomp::getReadTimeout - Obtener la lectura del tiempo de espera de la solicitud
+- Stomp::getSessionId - Obtiene el identificador de sesión actual stomp
+- Stomp::hasFrame - Indica si existe o no una trama lista para leer
+- Stomp::readFrame - Leer la siguiente trama
+- Stomp::send - Envía un mensaje
+- Stomp::setReadTimeout - Establecer el tiempo de espera de lectura
+- Stomp::subscribe - Registrarse para escuchar a un destino dado
+- Stomp::unsubscribe - Dar de baja una suscripción existente
+- StompException::getDetails - Obtener detalles de la excepción
+- StompFrame::__construct - Constructor
+- streamWrapper::__construct - Construye una nueva envoltura de flujo
+- streamWrapper::__destruct - Destruye una envoltura de flujo existente
+- streamWrapper::dir_closedir - Cerrar un gestor de directorio
+- streamWrapper::dir_opendir - Abrir un gestor de directorio
+- streamWrapper::dir_readdir - Leer una entrada desde el gestor de directorio
+- streamWrapper::dir_rewinddir - Rebobina el gestor de directorio
+- streamWrapper::mkdir - Crear un directorio
+- streamWrapper::rename - Renombra un archivo o directorio
+- streamWrapper::rmdir - Elimina un directorio
+- streamWrapper::stream_cast - Recuperar el recurso subyacente
+- streamWrapper::stream_close - Cerrar un recurso
+- streamWrapper::stream_eof - Comprueba si un puntero a un archivo está en el final del archivo (EOF)
+- streamWrapper::stream_flush - Vuelca la salida
+- streamWrapper::stream_lock - Bloqueo de archivos asesorado
+- streamWrapper::stream_metadata - Cambiar los metadatos del flujo
+- streamWrapper::stream_open - Abre un archivo o una URL
+- streamWrapper::stream_read - Leer un flujo
+- streamWrapper::stream_seek - Busca la ubicación específica en un flujo
+- streamWrapper::stream_set_option - Cambiar las opciones del flujo
+- streamWrapper::stream_stat - Recuperar información sobre un recurso de archivo
+- streamWrapper::stream_tell - Recuperar la posición actual de un flujo
+- streamWrapper::stream_truncate - Truncar un flujo
+- streamWrapper::stream_write - Escribir en un flujo
+- streamWrapper::unlink - Borrar un archivo
+- streamWrapper::url_stat - Recuperar información sobre un archivo
+- Stringable::__toString - Gets a string representation of the object
+- SVM::__construct - Construir un nuevo objeto SVM
+- SVM::crossvalidate - Test training params on subsets of the training data
+- SVM::getOptions - Return the current training parameters
+- SVM::setOptions - Set training parameters
+- SVM::train - Create a SVMModel based on training data
+- SVMModel::__construct - Construct a new SVMModel
+- SVMModel::checkProbabilityModel - Returns true if the model has probability information
+- SVMModel::getLabels - Get the labels the model was trained on
+- SVMModel::getNrClass - Returns the number of classes the model was trained with
+- SVMModel::getSvmType - Get the SVM type the model was trained with
+- SVMModel::getSvrProbability - Get the sigma value for regression types
+- SVMModel::load - Cargar un modelo SVM guardado
+- SVMModel::predict - Predict a value for previously unseen data
+- SVMModel::predict_probability - Return class probabilities for previous unseen data
+- SVMModel::save - Guardar un modelo en un archivo
+- Swoole\Async::dnsLookup - Async and non-blocking hostname to IP lookup.
+- Swoole\Async::read - Read file stream asynchronously.
+- Swoole\Async::readFile - Read a file asynchronously.
+- Swoole\Async::set - Update the async I/O options.
+- Swoole\Async::write - Write data to a file stream asynchronously.
+- Swoole\Async::writeFile - Description
+- Swoole\Atomic::__construct - Construct a swoole atomic object.
+- Swoole\Atomic::add - Add a number to the value to the atomic object.
+- Swoole\Atomic::cmpset - Compare and set the value of the atomic object.
+- Swoole\Atomic::get - Get the current value of the atomic object.
+- Swoole\Atomic::set - Set a new value to the atomic object.
+- Swoole\Atomic::sub - Subtract a number to the value of the atomic object.
+- Swoole\Buffer::__construct - Fixed size memory blocks allocation.
+- Swoole\Buffer::__destruct - Destruct the Swoole memory buffer.
+- Swoole\Buffer::__toString - Get the string value of the memory buffer.
+- Swoole\Buffer::append - Append the string or binary data at the end of the memory buffer and return the new size of memory allocated.
+- Swoole\Buffer::clear - Reset the memory buffer.
+- Swoole\Buffer::expand - Expand the size of memory buffer.
+- Swoole\Buffer::read - Read data from the memory buffer based on offset and length.
+- Swoole\Buffer::recycle - Release the memory to OS which is not used by the memory buffer.
+- Swoole\Buffer::substr - Read data from the memory buffer based on offset and length. Or remove data from the memory buffer.
+- Swoole\Buffer::write - Write data to the memory buffer. The memory allocated for the buffer will not be changed.
+- Swoole\Channel::__construct - Construct a Swoole Channel
+- Swoole\Channel::__destruct - Destruct a Swoole channel.
+- Swoole\Channel::pop - Read and pop data from swoole channel.
+- Swoole\Channel::push - Write and push data into Swoole channel.
+- Swoole\Channel::stats - Get stats of swoole channel.
+- Swoole\Client::__construct - Create Swoole sync or async TCP/UDP client, with or without SSL.
+- Swoole\Client::__destruct - Destruct the Swoole client.
+- Swoole\Client::close - Close the connection established.
+- Swoole\Client::connect - Connect to the remote TCP or UDP port.
+- Swoole\Client::getpeername - Get the remote socket name of the connection.
+- Swoole\Client::getsockname - Get the local socket name of the connection.
+- Swoole\Client::isConnected - Check if the connection is established.
+- Swoole\Client::on - Add callback functions triggered by events.
+- Swoole\Client::pause - Pause receiving data.
+- Swoole\Client::pipe - Redirect the data to another file descriptor.
+- Swoole\Client::recv - Receive data from the remote socket.
+- Swoole\Client::resume - Resume receiving data.
+- Swoole\Client::send - Send data to the remote TCP socket.
+- Swoole\Client::sendfile - Send file to the remote TCP socket.
+- Swoole\Client::sendto - Send data to the remote UDP address.
+- Swoole\Client::set - Set the Swoole client parameters before the connection is established.
+- Swoole\Client::sleep - Remove the TCP client from system event loop.
+- Swoole\Client::wakeup - Add the TCP client back into the system event loop.
+- Swoole\Connection\Iterator::count - Count connections.
+- Swoole\Connection\Iterator::current - Return current connection entry.
+- Swoole\Connection\Iterator::key - Return key of the current connection.
+- Swoole\Connection\Iterator::next - Move to the next connection.
+- Swoole\Connection\Iterator::offsetExists - Check if offet exists.
+- Swoole\Connection\Iterator::offsetGet - Offset to retrieve.
+- Swoole\Connection\Iterator::offsetSet - Assign a Connection to the specified offset.
+- Swoole\Connection\Iterator::offsetUnset - Unset an offset.
+- Swoole\Connection\Iterator::rewind - Rewinds iterator
+- Swoole\Connection\Iterator::valid - Check if current position is valid.
+- Swoole\Coroutine::call_user_func - Call a callback given by the first parameter
+- Swoole\Coroutine::call_user_func_array - Call a callback with an array of parameters
+- Swoole\Coroutine::cli_wait - Description
+- Swoole\Coroutine::create - Description
+- Swoole\Coroutine::getuid - Description
+- Swoole\Coroutine::resume - Description
+- Swoole\Coroutine::suspend - Description
+- Swoole\Coroutine\Client::__construct - Description
+- Swoole\Coroutine\Client::__destruct - Description
+- Swoole\Coroutine\Client::close - Description
+- Swoole\Coroutine\Client::connect - Description
+- Swoole\Coroutine\Client::getpeername - Description
+- Swoole\Coroutine\Client::getsockname - Description
+- Swoole\Coroutine\Client::isConnected - Description
+- Swoole\Coroutine\Client::recv - Description
+- Swoole\Coroutine\Client::send - Description
+- Swoole\Coroutine\Client::sendfile - Description
+- Swoole\Coroutine\Client::sendto - Description
+- Swoole\Coroutine\Client::set - Description
+- Swoole\Coroutine\Http\Client::__construct - Description
+- Swoole\Coroutine\Http\Client::__destruct - Description
+- Swoole\Coroutine\Http\Client::addFile - Description
+- Swoole\Coroutine\Http\Client::close - Description
+- Swoole\Coroutine\Http\Client::execute - Description
+- Swoole\Coroutine\Http\Client::get - Description
+- Swoole\Coroutine\Http\Client::getDefer - Description
+- Swoole\Coroutine\Http\Client::isConnected - Description
+- Swoole\Coroutine\Http\Client::post - Description
+- Swoole\Coroutine\Http\Client::recv - Description
+- Swoole\Coroutine\Http\Client::set - Description
+- Swoole\Coroutine\Http\Client::setCookies - Description
+- Swoole\Coroutine\Http\Client::setData - Description
+- Swoole\Coroutine\Http\Client::setDefer - Description
+- Swoole\Coroutine\Http\Client::setHeaders - Description
+- Swoole\Coroutine\Http\Client::setMethod - Description
+- Swoole\Coroutine\MySQL::__construct - Description
+- Swoole\Coroutine\MySQL::__destruct - Description
+- Swoole\Coroutine\MySQL::close - Description
+- Swoole\Coroutine\MySQL::connect - Description
+- Swoole\Coroutine\MySQL::getDefer - Description
+- Swoole\Coroutine\MySQL::query - Description
+- Swoole\Coroutine\MySQL::recv - Description
+- Swoole\Coroutine\MySQL::setDefer - Description
+- Swoole\Event::add - Add new callback functions of a socket into the EventLoop.
+- Swoole\Event::defer - Add a callback function to the next event loop.
+- Swoole\Event::del - Remove all event callback functions of a socket.
+- Swoole\Event::exit - Exit the eventloop, only available at client side.
+- Swoole\Event::set - Update the event callback functions of a socket.
+- Swoole\Event::wait - Description
+- Swoole\Event::write - Write data to the socket.
+- Swoole\Http\Client::__construct - Construct the async HTTP client.
+- Swoole\Http\Client::__destruct - Destruct the HTTP client.
+- Swoole\Http\Client::addFile - Add a file to the post form.
+- Swoole\Http\Client::close - Close the http connection.
+- Swoole\Http\Client::download - Download a file from the remote server.
+- Swoole\Http\Client::execute - Send the HTTP request after setting the parameters.
+- Swoole\Http\Client::get - Send GET http request to the remote server.
+- Swoole\Http\Client::isConnected - Check if the HTTP connection is connected.
+- Swoole\Http\Client::on - Register callback function by event name.
+- Swoole\Http\Client::post - Send POST http request to the remote server.
+- Swoole\Http\Client::push - Push data to websocket client.
+- Swoole\Http\Client::set - Update the HTTP client paramters.
+- Swoole\Http\Client::setCookies - Set the http request cookies.
+- Swoole\Http\Client::setData - Set the HTTP request body data.
+- Swoole\Http\Client::setHeaders - Set the HTTP request headers.
+- Swoole\Http\Client::setMethod - Set the HTTP request method.
+- Swoole\Http\Client::upgrade - Upgrade to websocket protocol.
+- Swoole\Http\Request::__destruct - Destruct the HTTP request.
+- Swoole\Http\Request::rawcontent - Get the raw HTTP POST body.
+- Swoole\Http\Response::__destruct - Destruct the HTTP response.
+- Swoole\Http\Response::cookie - Set the cookies of the HTTP response.
+- Swoole\Http\Response::end - Send data for the HTTP request and finish the response.
+- Swoole\Http\Response::gzip - Enable the gzip of response content.
+- Swoole\Http\Response::header - Set the HTTP response headers.
+- Swoole\Http\Response::initHeader - Init the HTTP response header.
+- Swoole\Http\Response::rawcookie - Set the raw cookies to the HTTP response.
+- Swoole\Http\Response::sendfile - Send file through the HTTP response.
+- Swoole\Http\Response::status - Set the status code of the HTTP response.
+- Swoole\Http\Response::write - Append HTTP body content to the HTTP response.
+- Swoole\Http\Server::on - Bind callback function to HTTP server by event name.
+- Swoole\Http\Server::start - Start the swoole http server.
+- Swoole\Lock::__construct - Construct a memory lock.
+- Swoole\Lock::__destruct - Destory a Swoole memory lock.
+- Swoole\Lock::lock - Try to acquire the lock. It will block if the lock is not available.
+- Swoole\Lock::lock_read - Lock a read-write lock for reading.
+- Swoole\Lock::trylock - Try to acquire the lock and return straight away even the lock is not available.
+- Swoole\Lock::trylock_read - Try to lock a read-write lock for reading and return straight away even the lock is not available.
+- Swoole\Lock::unlock - Release the lock.
+- Swoole\Mmap::open - Map a file into memory and return the stream resource which can be used by PHP stream operations.
+- Swoole\MySQL::__construct - Construct an async MySQL client.
+- Swoole\MySQL::__destruct - Destory the async MySQL client.
+- Swoole\MySQL::close - Close the async MySQL connection.
+- Swoole\MySQL::connect - Connect to the remote MySQL server.
+- Swoole\MySQL::getBuffer - Description
+- Swoole\MySQL::on - Register callback function based on event name.
+- Swoole\MySQL::query - Run the SQL query.
+- Swoole\Process::__construct - Construct a process.
+- Swoole\Process::__destruct - Destory the process.
+- Swoole\Process::alarm - High precision timer which triggers signal with fixed interval.
+- Swoole\Process::close - Close the pipe to the child process.
+- Swoole\Process::daemon - Change the process to be a daemon process.
+- Swoole\Process::exec - Execute system commands.
+- Swoole\Process::exit - Stop the child processes.
+- Swoole\Process::freeQueue - Destroy the message queue created by swoole_process::useQueue.
+- Swoole\Process::kill - Send signal to the child process.
+- Swoole\Process::name - Set name of the process.
+- Swoole\Process::pop - Read and pop data from the message queue.
+- Swoole\Process::push - Write and push data into the message queue.
+- Swoole\Process::read - Read data sending to the process.
+- Swoole\Process::signal - Send signal to the child processes.
+- Swoole\Process::start - Start the process.
+- Swoole\Process::statQueue - Get the stats of the message queue used as the communication method between processes.
+- Swoole\Process::useQueue - Create a message queue as the communication method between the parent process and child processes.
+- Swoole\Process::wait - Wait for the events of child processes.
+- Swoole\Process::write - Write data into the pipe and communicate with the parent process or child processes.
+- Swoole\Redis\Server::format - Description
+- Swoole\Redis\Server::setHandler - Description
+- Swoole\Redis\Server::start - Description
+- Swoole\Serialize::pack - Serialize the data.
+- Swoole\Serialize::unpack - Unserialize the data.
+- Swoole\Server::__construct - Construct a Swoole server.
+- Swoole\Server::addlistener - Add a new listener to the server.
+- Swoole\Server::addProcess - Add a user defined swoole_process to the server.
+- Swoole\Server::after - Trigger a callback function after a period of time.
+- Swoole\Server::bind - Bind the connection to a user defined user ID.
+- Swoole\Server::clearTimer - Stop and destory a timer.
+- Swoole\Server::close - Close a connection to the client.
+- Swoole\Server::confirm - Check status of the connection.
+- Swoole\Server::connection_info - Get the connection info by file description.
+- Swoole\Server::connection_list - Get all of the established connections.
+- Swoole\Server::defer - Delay execution of the callback function at the end of current EventLoop.
+- Swoole\Server::exist - Check if the connection is existed.
+- Swoole\Server::finish - Used in task process for sending result to the worker process when the task is finished.
+- Swoole\Server::getClientInfo - Get the connection info by file description.
+- Swoole\Server::getClientList - Get all of the established connections.
+- Swoole\Server::getLastError - Get the error code of the most recent error.
+- Swoole\Server::heartbeat - Check all the connections on the server.
+- Swoole\Server::listen - Listen on the given IP and port, socket type.
+- Swoole\Server::on - Register a callback function by event name.
+- Swoole\Server::pause - Stop receiving data from the connection.
+- Swoole\Server::protect - Set the connection to be protected mode.
+- Swoole\Server::reload - Restart all the worker process.
+- Swoole\Server::resume - Start receving data from the connection.
+- Swoole\Server::send - Send data to the client.
+- Swoole\Server::sendfile - Send file to the connection.
+- Swoole\Server::sendMessage - Send message to worker processes by ID.
+- Swoole\Server::sendto - Send data to the remote UDP address.
+- Swoole\Server::sendwait - Send data to the remote socket in the blocking way.
+- Swoole\Server::set - Set the runtime settings of the swoole server.
+- Swoole\Server::shutdown - Shutdown the master server process, this function can be called in worker processes.
+- Swoole\Server::start - Start the Swoole server.
+- Swoole\Server::stats - Get the stats of the Swoole server.
+- Swoole\Server::stop - Stop the Swoole server.
+- Swoole\Server::task - Send data to the task worker processes.
+- Swoole\Server::taskwait - Send data to the task worker processes in blocking way.
+- Swoole\Server::taskWaitMulti - Execute multiple tasks concurrently.
+- Swoole\Server::tick - Repeats a given function at every given time-interval.
+- Swoole\Server\Port::__construct - Construct a server port
+- Swoole\Server\Port::__destruct - Destory server port
+- Swoole\Server\Port::on - Register callback functions by event.
+- Swoole\Server\Port::set - Set protocol of the server port.
+- Swoole\Table::__construct - Construct a Swoole memory table with fixed size.
+- Swoole\Table::column - Set the data type and size of the columns.
+- Swoole\Table::count - Count the rows in the table, or count all the elements in the table if $mode = 1.
+- Swoole\Table::create - Create the swoole memory table.
+- Swoole\Table::current - Get the current row.
+- Swoole\Table::decr - Decrement the value in the Swoole table by $row_key and $column_key.
+- Swoole\Table::del - Delete a row in the Swoole table by $row_key.
+- Swoole\Table::destroy - Destroy the Swoole table.
+- Swoole\Table::exist - Check if a row is existed by $row_key.
+- Swoole\Table::get - Get the value in the Swoole table by $row_key and $column_key.
+- Swoole\Table::incr - Increment the value by $row_key and $column_key.
+- Swoole\Table::key - Get the key of current row.
+- Swoole\Table::next - Iterator the next row.
+- Swoole\Table::rewind - Rewind the iterator.
+- Swoole\Table::set - Update a row of the table by $row_key.
+- Swoole\Table::valid - Check current if the current row is valid.
+- Swoole\Timer::after - Trigger a callback function after a period of time.
+- Swoole\Timer::clear - Delete a timer by timer ID.
+- Swoole\Timer::exists - Check if a timer is existed.
+- Swoole\Timer::tick - Repeats a given function at every given time-interval.
+- Swoole\WebSocket\Server::exist - Check if the file descriptor exists.
+- Swoole\WebSocket\Server::on - Register event callback function
+- Swoole\WebSocket\Server::pack - Get a pack of binary data to send in a single frame.
+- Swoole\WebSocket\Server::push - Push data to the remote client.
+- Swoole\WebSocket\Server::unpack - Unpack the binary data received from the client.
+- SyncEvent::__construct - Constructs a new SyncEvent object
+- SyncEvent::fire - Fires/sets the event
+- SyncEvent::reset - Resets a manual event
+- SyncEvent::wait - Waits for the event to be fired/set
+- SyncMutex::__construct - Constructs a new SyncMutex object
+- SyncMutex::lock - Waits for an exclusive lock
+- SyncMutex::unlock - Unlocks the mutex
+- SyncReaderWriter::__construct - Constructs a new SyncReaderWriter object
+- SyncReaderWriter::readlock - Waits for a read lock
+- SyncReaderWriter::readunlock - Releases a read lock
+- SyncReaderWriter::writelock - Waits for an exclusive write lock
+- SyncReaderWriter::writeunlock - Releases a write lock
+- SyncSemaphore::__construct - Constructs a new SyncSemaphore object
+- SyncSemaphore::lock - Decreases the count of the semaphore or waits
+- SyncSemaphore::unlock - Increases the count of the semaphore
+- SyncSharedMemory::__construct - Constructs a new SyncSharedMemory object
+- SyncSharedMemory::first - Check to see if the object is the first instance system-wide of named shared memory
+- SyncSharedMemory::read - Copy data from named shared memory
+- SyncSharedMemory::size - Returns the size of the named shared memory
+- SyncSharedMemory::write - Copy data to named shared memory
+- Table::__construct - Table constructor
+- Table::count - Get row count
+- Table::delete - Delete rows from table
+- Table::existsInDatabase - Check if table exists in database
+- Table::getName - Get table name
+- Table::getSchema - Get table schema
+- Table::getSession - Get table session
+- Table::insert - Insert table rows
+- Table::isView - Check if table is view
+- Table::select - Select rows from table
+- Table::update - Update rows in table
+- TableDelete::__construct - TableDelete constructor
+- TableDelete::bind - Bind delete query parameters
+- TableDelete::execute - Execute delete query
+- TableDelete::limit - Limit deleted rows
+- TableDelete::orderby - Set delete sort criteria
+- TableDelete::where - Set delete search condition
+- TableInsert::__construct - TableInsert constructor
+- TableInsert::execute - Execute insert query
+- TableInsert::values - Add insert row values
+- TableSelect::__construct - TableSelect constructor
+- TableSelect::bind - Bind select query parameters
+- TableSelect::execute - Execute select statement
+- TableSelect::groupBy - Set select grouping criteria
+- TableSelect::having - Set select having condition
+- TableSelect::limit - Limit selected rows
+- TableSelect::lockExclusive - Execute EXCLUSIVE LOCK
+- TableSelect::lockShared - Execute SHARED LOCK
+- TableSelect::offset - Set limit offset
+- TableSelect::orderby - Set select sort criteria
+- TableSelect::where - Set select search condition
+- TableUpdate::__construct - TableUpdate constructor
+- TableUpdate::bind - Bind update query parameters
+- TableUpdate::execute - Execute update query
+- TableUpdate::limit - Limit update row count
+- TableUpdate::orderby - Set sorting criteria
+- TableUpdate::set - Add field to be updated
+- TableUpdate::where - Set search filter
+- Thread::getCreatorId - Identificación
+- Thread::getCurrentThread - Identificación
+- Thread::getCurrentThreadId - Identification
+- Thread::getThreadId - Identification
+- Thread::isJoined - State Detection
+- Thread::isStarted - State Detection
+- Thread::join - Synchronization
+- Thread::start - Execution
+- Threaded::chunk - Manipulation
+- Threaded::count - Manipulation
+- Threaded::extend - Runtime Manipulation
+- Threaded::isRunning - State Detection
+- Threaded::isTerminated - State Detection
+- Threaded::merge - Manipulation
+- Threaded::notify - Synchronization
+- Threaded::notifyOne - Synchronization
+- Threaded::pop - Manipulation
+- Threaded::run - Execution
+- Threaded::shift - Manipulation
+- Threaded::synchronized - Synchronization
+- Threaded::wait - Synchronization
+- Throwable::__toString - Obtiene un representación de string del objeto lanzado
+- Throwable::getCode - Obtener el código de la excepción
+- Throwable::getFile - Obtiene el fichero en el que se creó el objeto
+- Throwable::getLine - Obtiene la línea en la que el objeto fue instanciado
+- Throwable::getMessage - Obtiene el mensaje
+- Throwable::getPrevious - Devuelve el objeto Throwable previo
+- Throwable::getTrace - Obtener la traza de la pila
+- Throwable::getTraceAsString - Obtener la traza de la pila como un string
+- tidy::$errorBuffer - Devuelve advertencias y errores que ocurrieron al analizar el documento especificado
+- tidy::__construct - Construye un nuevo objeto tidy
+- tidy::body - Devuelve un objeto tidyNode empezando con la etiqueta <body>
+- tidy::cleanRepair - Ejecuta una operación de limpieza y reparación de las etiquetas HTML
+- tidy::diagnose - Ejecuta un diagnóstico sobre documento analizado y reparado
+- tidy::getConfig - Obtiene la configuración actual de Tidy
+- tidy::getHtmlVer - Obtiene la versión detectada de HTML en un documento especificado
+- tidy::getOpt - Devuelve el valor de la opción de configuración especificada para el documento tidy
+- tidy::getOptDoc - Devuelve la documentación correspondiente a un nombre de opción dado
+- tidy::getRelease - Obtiene la fecha de lanzamiento (versión) de la librería Tidy
+- tidy::getStatus - Obtiene el status de un documento especificado
+- tidy::head - Devuelve un objeto tidyNode empezando con la etiqueta <head>
+- tidy::html - Devuelve un objeto tidyNode empezando con la etiqueta <html>
+- tidy::isXhtml - Indica si el documento es XHTML
+- tidy::isXml - Indica si el documento es XML (no HTML/XHTML)
+- tidy::parseFile - Analiza las etiquetas de un fichero o URI
+- tidy::parseString - Analiza un documento almacenado en una cadena
+- tidy::repairFile - Repara un archivo y lo devuelve como una cadena
+- tidy::repairString - Repara una cadena HTML usando un archivo de configuración opcional
+- tidy::root - Devuelve un objeto tidyNode que representa la raíz del árbol analizado por tidy
+- tidyNode::__construct - Private constructor to disallow direct instantiation
+- tidyNode::getParent - Devuelve el nodo padre del nodo actual
+- tidyNode::hasChildren - Indica si un nodo tiene hijos
+- tidyNode::hasSiblings - Indica si un nodo tiene hermanos
+- tidyNode::isAsp - Comprueba si el nodo es ASP
+- tidyNode::isComment - Comprueba el nodo actual es un comentario
+- tidyNode::isHtml - Comprueba si el nodo es parte de un documento HTML
+- tidyNode::isJste - Comprueba si el nodo es JSTE
+- tidyNode::isPhp - Comprueba si el nodo es PHP
+- tidyNode::isText - Comprueba si un nodo representa un texto (no HTML)
+- timezone_abbreviations_list - Alias de DateTimeZone::listAbbreviations
+- timezone_identifiers_list - Alias de DateTimeZone::listIdentifiers
+- timezone_location_get - Alias de DateTimeZone::getLocation
+- timezone_name_get - Alias de DateTimeZone::getName
+- timezone_offset_get - Alias de DateTimeZone::getOffset
+- timezone_open - Alias de DateTimeZone::__construct
+- timezone_transitions_get - Alias de DateTimeZone::getTransitions
+- Transliterator::__construct - Constructor privado para denegar la instanciación
+- Transliterator::create - Crear un transliterador
+- Transliterator::createFromRules - Crear un transliterador desdes normas
+- Transliterator::createInverse - Cerar una transliteración inversa
+- Transliterator::getErrorCode - Obtener el código del último error
+- Transliterator::getErrorMessage - Obtener el mensaje del último error
+- Transliterator::listIDs - Obtener los IDs de los transliterardores
+- Transliterator::transliterate - Transliterar una cadena
+- UConverter::__construct - Crea un objeto UConverter
+- UConverter::convert - Convertir un string de un juego de caracteres a otro
+- UConverter::fromUCallback - Función de retrollamada "from" predeterminada
+- UConverter::getAliases - Obtener los alias del nombre dado
+- UConverter::getAvailable - Obtener los nombres canónicos de los convertidores disponibles
+- UConverter::getDestinationEncoding - Obtener la codificación de destino
+- UConverter::getDestinationType - Obtener el tipo del convertidor de destino
+- UConverter::getErrorCode - Obtener el código del último error del objeto
+- UConverter::getErrorMessage - Obtener el último mensaje de error del objeto
+- UConverter::getSourceEncoding - Obtener la codificación de origen
+- UConverter::getSourceType - Obtener el tipo de convertidor de origen
+- UConverter::getStandards - Obtener los estándares asociados a los nombres de los convertidores
+- UConverter::getSubstChars - Obtener los caracteres de sustitución
+- UConverter::reasonText - Obtener la representación de string de la razón de la retrollamada
+- UConverter::setDestinationEncoding - Establecer la codificación destino
+- UConverter::setSourceEncoding - Establecer la codificación origen
+- UConverter::setSubstChars - Establecer los caracteres de sustitución
+- UConverter::toUCallback - Función de retrollamada "to" predeterminada
+- UConverter::transcode - Convertir un string de un juego de caracteres a otro
+- UI\Area::onDraw - Draw Callback
+- UI\Area::onKey - Key Callback
+- UI\Area::onMouse - Mouse Callback
+- UI\Area::redraw - Redraw Area
+- UI\Area::scrollTo - Area Scroll
+- UI\Area::setSize - Set Size
+- UI\Control::destroy - Destroy Control
+- UI\Control::disable - Disable Control
+- UI\Control::enable - Enable Control
+- UI\Control::getParent - Get Parent Control
+- UI\Control::getTopLevel - Get Top Level
+- UI\Control::hide - Hide Control
+- UI\Control::isEnabled - Determine if Control is enabled
+- UI\Control::isVisible - Determine if Control is visible
+- UI\Control::setParent - Set Parent Control
+- UI\Control::show - Control Show
+- UI\Controls\Box::__construct - Construct a new Box
+- UI\Controls\Box::append - Append Control
+- UI\Controls\Box::delete - Delete Control
+- UI\Controls\Box::getOrientation - Get Orientation
+- UI\Controls\Box::isPadded - Padding Detection
+- UI\Controls\Box::setPadded - Set Padding
+- UI\Controls\Button::__construct - Construct a new Button
+- UI\Controls\Button::getText - Get Text
+- UI\Controls\Button::onClick - Click Handler
+- UI\Controls\Button::setText - Set Text
+- UI\Controls\Check::__construct - Construct a new Check
+- UI\Controls\Check::getText - Get Text
+- UI\Controls\Check::isChecked - Checked Detection
+- UI\Controls\Check::onToggle - Toggle Callback
+- UI\Controls\Check::setChecked - Set Checked
+- UI\Controls\Check::setText - Set Text
+- UI\Controls\ColorButton::getColor - Get Color
+- UI\Controls\ColorButton::onChange - Change Handler
+- UI\Controls\ColorButton::setColor - Set Color
+- UI\Controls\Combo::append - Append Option
+- UI\Controls\Combo::getSelected - Get Selected Option
+- UI\Controls\Combo::onSelected - Selected Handler
+- UI\Controls\Combo::setSelected - Set Selected Option
+- UI\Controls\EditableCombo::append - Append Option
+- UI\Controls\EditableCombo::getText - Get Text
+- UI\Controls\EditableCombo::onChange - Change Handler
+- UI\Controls\EditableCombo::setText - Set Text
+- UI\Controls\Entry::__construct - Construct a new Entry
+- UI\Controls\Entry::getText - Get Text
+- UI\Controls\Entry::isReadOnly - Detect Read Only
+- UI\Controls\Entry::onChange - Change Handler
+- UI\Controls\Entry::setReadOnly - Set Read Only
+- UI\Controls\Entry::setText - Set Text
+- UI\Controls\Form::append - Append Control
+- UI\Controls\Form::delete - Delete Control
+- UI\Controls\Form::isPadded - Padding Detection
+- UI\Controls\Form::setPadded - Set Padding
+- UI\Controls\Grid::append - Append Control
+- UI\Controls\Grid::isPadded - Padding Detection
+- UI\Controls\Grid::setPadded - Set Padding
+- UI\Controls\Group::__construct - Construct a new Group
+- UI\Controls\Group::append - Append Control
+- UI\Controls\Group::getTitle - Get Title
+- UI\Controls\Group::hasMargin - Margin Detection
+- UI\Controls\Group::setMargin - Set Margin
+- UI\Controls\Group::setTitle - Set Title
+- UI\Controls\Label::__construct - Construct a new Label
+- UI\Controls\Label::getText - Get Text
+- UI\Controls\Label::setText - Set Text
+- UI\Controls\MultilineEntry::__construct - Construct a new Multiline Entry
+- UI\Controls\MultilineEntry::append - Append Text
+- UI\Controls\MultilineEntry::getText - Get Text
+- UI\Controls\MultilineEntry::isReadOnly - Read Only Detection
+- UI\Controls\MultilineEntry::onChange - Change Handler
+- UI\Controls\MultilineEntry::setReadOnly - Set Read Only
+- UI\Controls\MultilineEntry::setText - Set Text
+- UI\Controls\Picker::__construct - Construct a new Picker
+- UI\Controls\Progress::getValue - Get Value
+- UI\Controls\Progress::setValue - Set Value
+- UI\Controls\Radio::append - Append Option
+- UI\Controls\Radio::getSelected - Get Selected Option
+- UI\Controls\Radio::onSelected - Selected Handler
+- UI\Controls\Radio::setSelected - Set Selected Option
+- UI\Controls\Separator::__construct - Construct a new Separator
+- UI\Controls\Slider::__construct - Construct a new Slider
+- UI\Controls\Slider::getValue - Get Value
+- UI\Controls\Slider::onChange - Change Handler
+- UI\Controls\Slider::setValue - Set Value
+- UI\Controls\Spin::__construct - Construct a new Spin
+- UI\Controls\Spin::getValue - Get Value
+- UI\Controls\Spin::onChange - Change Handler
+- UI\Controls\Spin::setValue - Set Value
+- UI\Controls\Tab::append - Append Page
+- UI\Controls\Tab::delete - Delete Page
+- UI\Controls\Tab::hasMargin - Margin Detection
+- UI\Controls\Tab::insertAt - Insert Page
+- UI\Controls\Tab::pages - Page Count
+- UI\Controls\Tab::setMargin - Set Margin
+- UI\Draw\Brush::__construct - Construct a new Brush
+- UI\Draw\Brush::getColor - Get Color
+- UI\Draw\Brush::setColor - Set Color
+- UI\Draw\Brush\Gradient::addStop - Stop Manipulation
+- UI\Draw\Brush\Gradient::delStop - Stop Manipulation
+- UI\Draw\Brush\Gradient::setStop - Stop Manipulation
+- UI\Draw\Brush\LinearGradient::__construct - Construct a Linear Gradient
+- UI\Draw\Brush\RadialGradient::__construct - Construct a new Radial Gradient
+- UI\Draw\Color::__construct - Construye un nuevo color
+- UI\Draw\Color::getChannel - Manipulación de color
+- UI\Draw\Color::setChannel - Manipulación de color
+- UI\Draw\Matrix::invert - Invertir matriz
+- UI\Draw\Matrix::isInvertible - Detección de invertido
+- UI\Draw\Matrix::multiply - Multiplica la matriz
+- UI\Draw\Matrix::rotate - Rota la matriz
+- UI\Draw\Matrix::scale - Escala la Matriz
+- UI\Draw\Matrix::skew - Inclina la Matriz
+- UI\Draw\Matrix::translate - Traduce la matriz
+- UI\Draw\Path::__construct - Construye una nueva ruta
+- UI\Draw\Path::addRectangle - Dibuja un rectángulo
+- UI\Draw\Path::arcTo - Dibuja un arco
+- UI\Draw\Path::bezierTo - Draw Bezier Curve
+- UI\Draw\Path::closeFigure - Cerrar Figura
+- UI\Draw\Path::end - Finalizar Ruta
+- UI\Draw\Path::lineTo - Dibuja una línea
+- UI\Draw\Path::newFigure - Dibuja figura
+- UI\Draw\Path::newFigureWithArc - Dibuja figura con arco
+- UI\Draw\Pen::clip - Clip a Path
+- UI\Draw\Pen::fill - Llena una ruta
+- UI\Draw\Pen::restore - Restaura
+- UI\Draw\Pen::save - Guarda
+- UI\Draw\Pen::stroke - Traza una ruta
+- UI\Draw\Pen::transform - Transformación de la matriz
+- UI\Draw\Pen::write - Dibuja el texto en el punto
+- UI\Draw\Stroke::__construct - Construye un nuevo trazo
+- UI\Draw\Stroke::getCap - Get Line Cap
+- UI\Draw\Stroke::getJoin - Obtiene la unión de línea
+- UI\Draw\Stroke::getMiterLimit - Obtiene el límite de inglete
+- UI\Draw\Stroke::getThickness - Obtiene el grosor
+- UI\Draw\Stroke::setCap - Set Line Cap
+- UI\Draw\Stroke::setJoin - Establece la línea de unión
+- UI\Draw\Stroke::setMiterLimit - Establece el límite de ingletes
+- UI\Draw\Stroke::setThickness - Establece el grosor
+- UI\Draw\Text\Font::__construct - Construye una nueva fuente
+- UI\Draw\Text\Font::getAscent - Métricas de la fuente
+- UI\Draw\Text\Font::getDescent - Métricas de la fuente
+- UI\Draw\Text\Font::getLeading - Métricas de la fuente
+- UI\Draw\Text\Font::getUnderlinePosition - Métricas de la fuente
+- UI\Draw\Text\Font::getUnderlineThickness - Métricas de la fuente
+- UI\Draw\Text\Font\Descriptor::__construct - Construct a new Font Descriptor
+- UI\Draw\Text\Font\Descriptor::getFamily - Get Font Family
+- UI\Draw\Text\Font\Descriptor::getItalic - Style Detection
+- UI\Draw\Text\Font\Descriptor::getSize - Size Detection
+- UI\Draw\Text\Font\Descriptor::getStretch - Style Detection
+- UI\Draw\Text\Font\Descriptor::getWeight - Weight Detection
+- UI\Draw\Text\Layout::__construct - Construir un nuevo diseño de texto
+- UI\Draw\Text\Layout::setColor - Establece el color
+- UI\Draw\Text\Layout::setWidth - Establece el ancho
+- UI\Executor::__construct - Construct a new Executor
+- UI\Executor::kill - Stop Executor
+- UI\Executor::onExecute - Execution Callback
+- UI\Executor::setInterval - Interval Manipulation
+- UI\Menu::__construct - Construye un nuevo menú
+- UI\Menu::append - Añade elemento de menú
+- UI\Menu::appendAbout - Añade elemento de menú Acerca de
+- UI\Menu::appendCheck - Añade un elemento de menú comprobable
+- UI\Menu::appendPreferences - Añade elemento de menú de preferencias
+- UI\Menu::appendQuit - Añade elemento de menú salir
+- UI\Menu::appendSeparator - Añade separador de elementos del menú
+- UI\MenuItem::disable - Desactiva elemento del menú
+- UI\MenuItem::enable - Activa elemento de menú
+- UI\MenuItem::isChecked - Detecta Marcado
+- UI\MenuItem::onClick - Llamada de retorno On Click
+- UI\MenuItem::setChecked - Establece marcado
+- UI\Point::__construct - Construye un nuevo punto
+- UI\Point::at - Tamaño de coerción
+- UI\Point::getX - Recupera X
+- UI\Point::getY - Recupera Y
+- UI\Point::setX - Establece X
+- UI\Point::setY - Establece Y
+- UI\Size::__construct - Construye un nuevo tamaño
+- UI\Size::getHeight - Recupera la altura
+- UI\Size::getWidth - Recupera el ancho
+- UI\Size::of - Punto de coerción
+- UI\Size::setHeight - Establece la altura
+- UI\Size::setWidth - Establece el ancho
+- UI\Window::__construct - Construye una nueva ventana
+- UI\Window::add - Añade un control
+- UI\Window::error - Mostrar cuadro de error
+- UI\Window::getSize - Obtiene el tamaño de la ventana
+- UI\Window::getTitle - Obtiene el título
+- UI\Window::hasBorders - Detección del Borde
+- UI\Window::hasMargin - Detección de Margen
+- UI\Window::isFullScreen - Detección de pantalla completa
+- UI\Window::msg - Mostrar Cuadro de Mensajes
+- UI\Window::onClosing - Cierre de la devolución de llamada
+- UI\Window::open - Abrir Diálogo
+- UI\Window::save - Guarda Diálogo
+- UI\Window::setBorders - Uso de Bordes
+- UI\Window::setFullScreen - Uso de la pantalla completa
+- UI\Window::setMargin - Uso del Margen
+- UI\Window::setSize - Establece Tamaño
+- UI\Window::setTitle - Título de la Vetana
+- UnitEnum::cases - Generates a list of cases on an enum
+- V8Js::__construct - Construct a new V8Js object
+- V8Js::executeString - Execute a string as Javascript code
+- V8Js::getExtensions - Devolver un array de extensiones registradas
+- V8Js::getPendingException - Return pending uncaught Javascript exception
+- V8Js::registerExtension - Register Javascript extensions for V8Js
+- V8JsException::getJsFileName - El propósito getJsFileName
+- V8JsException::getJsLineNumber - El propósito getJsLineNumber
+- V8JsException::getJsSourceLine - El propósito getJsSourceLine
+- V8JsException::getJsTrace - El propósito getJsTrace
+- VarnishAdmin::__construct - VarnishAdmin constructor
+- VarnishAdmin::auth - Autentificar en una instancia de varnish
+- VarnishAdmin::ban - Prohibe URLs usando una expresión VCL
+- VarnishAdmin::banUrl - Prohibe una URL usando una expresión VCL
+- VarnishAdmin::clearPanic - Limpia mensajes de pánico de la instancia varnish
+- VarnishAdmin::connect - Conectarse a una interfaz de administración de instancias de varnish
+- VarnishAdmin::disconnect - Desconecta interfaz de administración de la instancia de varnish
+- VarnishAdmin::getPanic - Obtener el último mensaje de pánico en una instancia varnish
+- VarnishAdmin::getParams - Busca los parámetros de configuración de la instancia varnish actual
+- VarnishAdmin::isRunning - Comprueba si el proceso varnish esclavo está actualmente en marcha
+- VarnishAdmin::setCompat - Establece el parámetro de configuración de la clase compacta
+- VarnishAdmin::setHost - Establece el parámetro de configuración del host de la clase
+- VarnishAdmin::setIdent - Establece el parámetro de configuración de la identificación de la clase
+- VarnishAdmin::setParam - Establece los parámetros de configuración en la instancia varnish actual
+- VarnishAdmin::setPort - Establece el parámetro de configuración del puerto de clase
+- VarnishAdmin::setSecret - Establece los parámetros secretos de configuración de la clase
+- VarnishAdmin::setTimeout - Configura el parámetro de tiempo de espera de la clase
+- VarnishAdmin::start - Iniciar el proceso de varnish
+- VarnishAdmin::stop - Detener el proceso de varnish
+- VarnishLog::__construct - Constructor de Varnishlog
+- VarnishLog::getLine - Obtiene la siguiente línea de registro
+- VarnishLog::getTagName - Obtener la etiqueta de registro representada por su índice
+- VarnishStat::__construct - Constructor VarnishStat
+- VarnishStat::getSnapshot - Obtener la instantánea actual de las estadísticas de instancia varnish
+- Vtiful\Kernel\Excel::__construct - Vtiful\Kernel\Excel constructor
+- Vtiful\Kernel\Excel::addSheet - Vtiful\Kernel\Excel addSheet
+- Vtiful\Kernel\Excel::autoFilter - Vtiful\Kernel\Excel autoFilter
+- Vtiful\Kernel\Excel::constMemory - Vtiful\Kernel\Excel constMemory
+- Vtiful\Kernel\Excel::data - Vtiful\Kernel\Excel data
+- Vtiful\Kernel\Excel::fileName - Vtiful\Kernel\Excel fileName
+- Vtiful\Kernel\Excel::getHandle - Vtiful\Kernel\Excel getHandle
+- Vtiful\Kernel\Excel::header - Vtiful\Kernel\Excel header
+- Vtiful\Kernel\Excel::insertFormula - Vtiful\Kernel\Excel insertFormula
+- Vtiful\Kernel\Excel::insertImage - Vtiful\Kernel\Excel insertImage
+- Vtiful\Kernel\Excel::insertText - Vtiful\Kernel\Excel insertText
+- Vtiful\Kernel\Excel::mergeCells - Vtiful\Kernel\Excel mergeCells
+- Vtiful\Kernel\Excel::output - Vtiful\Kernel\Excel output
+- Vtiful\Kernel\Excel::setColumn - Vtiful\Kernel\Excel setColumn
+- Vtiful\Kernel\Excel::setRow - Vtiful\Kernel\Excel setRow
+- Vtiful\Kernel\Format::align - Vtiful\Kernel\Format align
+- Vtiful\Kernel\Format::bold - Vtiful\Kernel\Format bold
+- Vtiful\Kernel\Format::italic - Vtiful\Kernel\Format italic
+- Vtiful\Kernel\Format::underline - Vtiful\Kernel\Format underline
+- Warning::__construct - Warning constructor
+- WeakMap::count - Counts the number of live entries in the map
+- WeakMap::getIterator - Retrieve an external iterator
+- WeakMap::offsetExists - Checks whether a certain object is in the map
+- WeakMap::offsetGet - Returns the value pointed to by a certain object
+- WeakMap::offsetSet - Updates the map with a new key-value pair
+- WeakMap::offsetUnset - Removes an entry from the map
+- WeakReference::__construct - Constructor que no permite la instanciación
+- WeakReference::create - Crea una nueva referencia débil
+- WeakReference::get - Obtiene un objeto débilmente referenciado
+- wkhtmltox\Image\Converter::__construct - Create a new Image converter
+- wkhtmltox\Image\Converter::convert - Realiza la conversión de la imagen
+- wkhtmltox\Image\Converter::getVersion - Determina la versión del convertidor
+- wkhtmltox\PDF\Converter::__construct - Create a new PDF converter
+- wkhtmltox\PDF\Converter::add - Añade un objeto para su conversión
+- wkhtmltox\PDF\Converter::convert - Realiza la conversión a PDF
+- wkhtmltox\PDF\Converter::getVersion - Determina la versión del convertidor
+- wkhtmltox\PDF\Object::__construct - Create a new PDF Object
+- Worker::collect - Collect references to completed tasks
+- Worker::getStacked - Gets the remaining stack size
+- Worker::isShutdown - State Detection
+- Worker::shutdown - Shutdown the worker
+- Worker::stack - Stacking work
+- Worker::unstack - Unstacking work
+- XMLDiff\Base::__construct - Constructor
+- XMLDiff\Base::diff - Produce diferencias de dos documentos XML
+- XMLDiff\Base::merge - Produce un nuevo documento XML basado en diferencias
+- XMLDiff\DOM::diff - Diferencia dos objetos DOMDocument
+- XMLDiff\DOM::merge - Produce DOMDocument unido
+- XMLDiff\File::diff - Diferencia dos archivos XML
+- XMLDiff\File::merge - Produce un documento XML unido
+- XMLDiff\Memory::diff - Diferenciar dos documentos XML
+- XMLDiff\Memory::merge - Produce un documento XML unido
+- XMLReader::close - Cierra la entrada del XMLReader
+- XMLReader::expand - Devuelve una copia del actual nodo como un objeto DOM
+- XMLReader::getAttribute - Obtiener el valor del atributo nombrado
+- XMLReader::getAttributeNo - Obtiene el valor de un atributo por el indice
+- XMLReader::getAttributeNs - Obtiene el valor de un atributo por su nombre local y URI
+- XMLReader::getParserProperty - Indica si la porpiedad especificada ha sido establecida
+- XMLReader::isValid - Indica si el documento analizado es válido
+- XMLReader::lookupNamespace - Busca el namespace para un prefijo
+- XMLReader::moveToAttribute - Mueve el cursor a un atributo nombrado
+- XMLReader::moveToAttributeNo - Mueve el cursor a un atributo por su índice
+- XMLReader::moveToAttributeNs - Mover el cursor a un atributo dado
+- XMLReader::moveToElement - Posiciona el cursor en el eleménto padre del actual atributo
+- XMLReader::moveToFirstAttribute - Posiciona el cursor en el primer atributo
+- XMLReader::moveToNextAttribute - Posiciona el cursor en el siguiente atributo
+- XMLReader::next - Mueve el cursor al siguiente nodo saltandose todos los subárboles
+- XMLReader::open - Establece el URI conteniendo el XML a analizar
+- XMLReader::read - Se mueve al siguiente nodo en el documento
+- XMLReader::readInnerXML - Recupera el XML del actual nodo
+- XMLReader::readOuterXML - Recupera el XML del actual nodo, incluyendo él mismo
+- XMLReader::readString - Lee el contenido del nodo actual como string
+- XMLReader::setParserProperty - Establecer las opciones del analizador
+- XMLReader::setRelaxNGSchema - Establece el nomb re del archivo o el URI para un esquema RelaxNG
+- XMLReader::setRelaxNGSchemaSource - Establece los datos contenidos en un esquema RelaxNG
+- XMLReader::setSchema - Valida el documento en contra del XSD
+- XMLReader::XML - Establece el contenido del XML a analizar
+- XMLWriter::endAttribute - Fin del atributo
+- XMLWriter::endCData - Fin del actual CDATA
+- XMLWriter::endComment - Crea un comentario final
+- XMLWriter::endDocument - Finaliza el actual documento
+- XMLWriter::endDtd - Finaliza la actual DTD
+- XMLWriter::endDtdAttlist - Finaliza la actual attList DTD
+- XMLWriter::endDtdElement - Finaliza el actual elemento DTD
+- XMLWriter::endDtdEntity - Finaliza el actual ente DTD
+- XMLWriter::endElement - Finaliza el actual elemento
+- XMLWriter::endPi - Finaliza el actual IP
+- XMLWriter::flush - Vacía el búfer actual
+- XMLWriter::fullEndElement - Fin del elemento actual
+- XMLWriter::openMemory - Crea un nuevo xmlwriter usando memoria para el string de salida
+- XMLWriter::openUri - Crea un nuevo xmlwriter usando una fuente uri para la salida
+- XMLWriter::outputMemory - Devuelve el actual buffer
+- XMLWriter::setIndent - Cambia la sangria de encendida/apagada
+- XMLWriter::setIndentString - Establece una cadena usada para la identidad
+- XMLWriter::startAttribute - Crea un atributo inicial
+- XMLWriter::startAttributeNs - Crea el atributo de inicio del namespaced
+- XMLWriter::startCdata - Crea la etiqueta de inicio de CDATA
+- XMLWriter::startComment - Crea un comentario inicial
+- XMLWriter::startDocument - Crea un etiqueta del documento
+- XMLWriter::startDtd - Crea la etiqueta DTD inicial
+- XMLWriter::startDtdAttlist - Crea el DTD AttList inicial
+- XMLWriter::startDtdElement - Crea un elemento DTD inicial
+- XMLWriter::startDtdEntity - Crea un ente DTD inicial
+- XMLWriter::startElement - Crea la etiqueta del elemento inicial
+- XMLWriter::startElementNs - Crea la etiqueta del elemento de espacio de nombres inicial
+- XMLWriter::startPi - Crea la etiqueta PI inicial
+- XMLWriter::text - Escribe el texto
+- XMLWriter::writeAttribute - Escribe un atributo completo
+- XMLWriter::writeAttributeNs - Escribe un atributo full de namespaced
+- XMLWriter::writeCdata - Escribe una etiqueta completa del CDATA
+- XMLWriter::writeComment - EScribe la etiqueta del comentario completa
+- XMLWriter::writeDtd - Escribe una etiqueta completa del DTD
+- XMLWriter::writeDtdAttlist - Escribe la etiqueta completa del DTD AttList
+- XMLWriter::writeDtdElement - Escribe la etiqueta completa de un elemento DTD
+- XMLWriter::writeDtdEntity - Escribe una etiqueta completa de un ente DTD
+- XMLWriter::writeElement - Escribe una etiqueta completa del elemento
+- XMLWriter::writeElementNs - Escribe una etiqueta completa del elemento
+- XMLWriter::writePi - Escribe un IP
+- XMLWriter::writeRaw - Escribe un texto sin formato del XML
+- XSLTProcessor::__construct - Crea un nuevo objeto XSLTProcessor
+- XSLTProcessor::getParameter - Obtiene el valor de un parámetro
+- XSLTProcessor::getSecurityPrefs - Obtiene las preferencias de seguridad
+- XSLTProcessor::hasExsltSupport - Determina si PHP tiene soporte para EXSLT
+- XSLTProcessor::importStylesheet - Importa una hoja de estilos
+- XSLTProcessor::registerPHPFunctions - Activa la capacidad de usar funciones PHP como funciones XSLT
+- XSLTProcessor::removeParameter - Elimina un parámetro
+- XSLTProcessor::setParameter - Establece el valor para uno o varios parámetros
+- XSLTProcessor::setProfiling - Establece el fichero de salida para la información resultado del proceso
+- XSLTProcessor::setSecurityPrefs - Establece las preferencias de seguridad
+- XSLTProcessor::transformToDoc - Transforma en un DOMDocument
+- XSLTProcessor::transformToUri - Transformar a URI
+- XSLTProcessor::transformToXml - Transforma a XML
+- Yac::__construct - Constructor
+- Yac::__get - Getter
+- Yac::__set - Setter
+- Yac::add - Guardar en caché
+- Yac::delete - Eliminar los artículos de la memoria caché
+- Yac::dump - Volcar cache
+- Yac::flush - Limpiar el caché
+- Yac::get - Recuperar los valores de caché
+- Yac::info - Estado del caché
+- Yac::set - Guardar en el caché
+- Yaconf::get - Recuperar un elemento
+- Yaconf::has - Determinar si un elemento existe
+- Yaf_Action_Abstract::execute - Punto de entrada de una acción
+- Yaf_Action_Abstract::getController - Recupera el objeto controlador
+- Yaf_Action_Abstract::getControllerName - Obtener el nombre del controlador
+- Yaf_Application::__construct - El constructor de la clase Yaf_Application
+- Yaf_Application::__destruct - El propósito de __destruct
+- Yaf_Application::app - Recuperar una instancia de la clase Application
+- Yaf_Application::bootstrap - Llamar al arranque
+- Yaf_Application::clearLastError - Limpiar la información del último error
+- Yaf_Application::environ - Recuperar el entorno
+- Yaf_Application::execute - Ejecutar una llamada de retorno
+- Yaf_Application::getAppDirectory - Obtener el directorio de la aplicación
+- Yaf_Application::getConfig - Recuperar la instancia de configuración
+- Yaf_Application::getDispatcher - Obtener la instancia de la clase Yaf_Dispatcher
+- Yaf_Application::getLastErrorMsg - Obtener el mensaje del último error ocurrido
+- Yaf_Application::getLastErrorNo - Pbetner el código del último error ocurrido
+- Yaf_Application::getModules - Obtener los nombres de los modulos definidos
+- Yaf_Application::run - Iniciar una instancia de la clase Yaf_Application
+- Yaf_Application::setAppDirectory - Cambiar el directorio de la aplicación
+- Yaf_Config_Abstract::get - Consultor
+- Yaf_Config_Abstract::readonly - Buscar si una configuración es de sólo lectura
+- Yaf_Config_Abstract::set - Modificador
+- Yaf_Config_Abstract::toArray - Convertir en un array
+- Yaf_Config_Ini::__construct - Constructor de Yaf_Config_Ini
+- Yaf_Config_Ini::__get - Recuperar un elemento
+- Yaf_Config_Ini::__isset - Determinar si existe una clave
+- Yaf_Config_Ini::__set - El propósito de __set
+- Yaf_Config_Ini::count - Contar todos los elementos en Yaf_Config.ini
+- Yaf_Config_Ini::current - Recuperar el valor actual
+- Yaf_Config_Ini::key - Buscar la clave del elemento actual
+- Yaf_Config_Ini::next - Avanzar el puntero interno
+- Yaf_Config_Ini::offsetExists - El propósito de offsetExists
+- Yaf_Config_Ini::offsetGet - El propósito de offsetGet
+- Yaf_Config_Ini::offsetSet - El propósito de offsetSet
+- Yaf_Config_Ini::offsetUnset - El propósito de offsetUnset
+- Yaf_Config_Ini::readonly - El propósito de readonly
+- Yaf_Config_Ini::rewind - El propósito de rewind
+- Yaf_Config_Ini::toArray - Devuelve la configuración como un array PHP
+- Yaf_Config_Ini::valid - El propósito de valid
+- Yaf_Config_Simple::__construct - El propósito de __construct
+- Yaf_Config_Simple::__get - El propósito de __get
+- Yaf_Config_Simple::__isset - El propósito de __isset
+- Yaf_Config_Simple::__set - El propósito de __set
+- Yaf_Config_Simple::count - El propósito de count
+- Yaf_Config_Simple::current - El propósito de current
+- Yaf_Config_Simple::key - El propósito de key
+- Yaf_Config_Simple::next - El propósito de next
+- Yaf_Config_Simple::offsetExists - El propósito de offsetExists
+- Yaf_Config_Simple::offsetGet - El propósito de offsetGet
+- Yaf_Config_Simple::offsetSet - El propósito de offsetSet
+- Yaf_Config_Simple::offsetUnset - El propósito de offsetUnset
+- Yaf_Config_Simple::readonly - El propósito de readonly
+- Yaf_Config_Simple::rewind - El propósito de rewind
+- Yaf_Config_Simple::toArray - Devuelve un array de PHP
+- Yaf_Config_Simple::valid - El propósito de valid
+- Yaf_Controller_Abstract::__construct - Constructor de Yaf_Controller_Abstract
+- Yaf_Controller_Abstract::display - El propósito de display
+- Yaf_Controller_Abstract::forward - Avanza a la siguiente acción
+- Yaf_Controller_Abstract::getInvokeArg - El propósito de getInvokeArg
+- Yaf_Controller_Abstract::getInvokeArgs - El propósito de getInvokeArgs
+- Yaf_Controller_Abstract::getModuleName - Obtiene el nombre del módulo
+- Yaf_Controller_Abstract::getName - Obtener el nombre propio
+- Yaf_Controller_Abstract::getRequest - Recupera el objeto petición actual
+- Yaf_Controller_Abstract::getResponse - Recupera el objeto respuesta actual
+- Yaf_Controller_Abstract::getView - Recupera el motor de vistas
+- Yaf_Controller_Abstract::getViewpath - El propósito de getViewpath
+- Yaf_Controller_Abstract::init - Inicializador del controlador
+- Yaf_Controller_Abstract::initView - El propósito de initView
+- Yaf_Controller_Abstract::redirect - Redirige a un URL
+- Yaf_Controller_Abstract::render - Interpreta una plantilla de vista
+- Yaf_Controller_Abstract::setViewpath - El propósito de setViewpath
+- Yaf_Dispatcher::__construct - Constructor de la clase Yaf_Dispatcher
+- Yaf_Dispatcher::autoRender - Activa/desactiva la autointerpretación
+- Yaf_Dispatcher::catchException - Activar/desactivar la captura de excepciones
+- Yaf_Dispatcher::disableView - Deshabilita la interpretación de vistas
+- Yaf_Dispatcher::dispatch - Despachar una petición
+- Yaf_Dispatcher::enableView - Habilita la interpretación de vistas
+- Yaf_Dispatcher::flushInstantly - Activa/desactiva el vaciado instantáneo
+- Yaf_Dispatcher::getApplication - Recupera la aplicación
+- Yaf_Dispatcher::getDefaultAction - Recupera el nombre de la acción por defecto
+- Yaf_Dispatcher::getDefaultController - Recupera el nombre del controlador predeterminado
+- Yaf_Dispatcher::getDefaultModule - Recupera el nombre del módulo por defecto
+- Yaf_Dispatcher::getInstance - Recupeara la instancia despachadora
+- Yaf_Dispatcher::getRequest - Recupera la instancia de petición
+- Yaf_Dispatcher::getRouter - Recuperar la instancia de envío
+- Yaf_Dispatcher::initView - Inicializa una vista y la devuelve
+- Yaf_Dispatcher::registerPlugin - Registra un complemento
+- Yaf_Dispatcher::returnResponse - El propósito de returnResponse
+- Yaf_Dispatcher::setDefaultAction - Cambia el nombre de la acción predeterminada
+- Yaf_Dispatcher::setDefaultController - Cambia el nombre del controlador predeterminado
+- Yaf_Dispatcher::setDefaultModule - Cambia el nombre del módulo predeterminado
+- Yaf_Dispatcher::setErrorHandler - Establece el gestor de errores
+- Yaf_Dispatcher::setRequest - El propósito de setRequest
+- Yaf_Dispatcher::setView - Establecer un motor de vistas personalizado
+- Yaf_Dispatcher::throwException - Activa/desactiva el lanzamiento de excepciones
+- Yaf_Exception::__construct - El propósito de __construct
+- Yaf_Exception::getPrevious - El propósito de getPrevious
+- Yaf_Loader::__construct - El propósito de __construct
+- Yaf_Loader::autoload - El propósito de autoload
+- Yaf_Loader::clearLocalNamespace - El propósito de clearLocalNamespace
+- Yaf_Loader::getInstance - El propósito de getInstance
+- Yaf_Loader::getLibraryPath - Obtener la ruta de la biblioteca
+- Yaf_Loader::getLocalNamespace - Recupera toda la información de un espacio de nombre
+- Yaf_Loader::getNamespacePath - Recupera la ruta de un espacio de nombres registrado
+- Yaf_Loader::import - El propósito de import
+- Yaf_Loader::isLocalName - El propósito de isLocalName
+- Yaf_Loader::registerLocalNamespace - Registra un prefijo de clase local
+- Yaf_Loader::registerNamespace - Registra un espacio de nombre con ruta de búsqueda
+- Yaf_Loader::setLibraryPath - Cmabiar la ruta de la biblioteca
+- Yaf_Plugin_Abstract::dispatchLoopShutdown - El propósito de dispatchLoopShutdown
+- Yaf_Plugin_Abstract::dispatchLoopStartup - Enganchar antes del bucle de envío
+- Yaf_Plugin_Abstract::postDispatch - El propósito de postDispatch
+- Yaf_Plugin_Abstract::preDispatch - El propósito de preDispatch
+- Yaf_Plugin_Abstract::preResponse - El propósito de preResponse
+- Yaf_Plugin_Abstract::routerShutdown - El propósito de routerShutdown
+- Yaf_Plugin_Abstract::routerStartup - Enganche deEl propósito de routerStartup
+- Yaf_Registry::__construct - Yaf_Registry implementa «singleton»
+- Yaf_Registry::del - Elimina un elemento del registro
+- Yaf_Registry::get - Recupera un elemento del registro
+- Yaf_Registry::has - Comprueba si existe un elemento
+- Yaf_Registry::set - Añade un elemento al registro
+- Yaf_Request_Abstract::clearParams - Eliminar todos los parámetros
+- Yaf_Request_Abstract::getActionName - El propósito de getActionName
+- Yaf_Request_Abstract::getBaseUri - El propósito de getBaseUri
+- Yaf_Request_Abstract::getControllerName - El propósito de getControllerName
+- Yaf_Request_Abstract::getEnv - Recupera la variable ENV
+- Yaf_Request_Abstract::getException - El propósito de getException
+- Yaf_Request_Abstract::getLanguage - Recupera el lenguaje preferido del cliente
+- Yaf_Request_Abstract::getMethod - Recupera el método de solicitud
+- Yaf_Request_Abstract::getModuleName - El propósito de getModuleName
+- Yaf_Request_Abstract::getParam - Recupera el parámetro de llamada
+- Yaf_Request_Abstract::getParams - Recupera todos los parámetros de llamada
+- Yaf_Request_Abstract::getRequestUri - El propósito de getRequestUri
+- Yaf_Request_Abstract::getServer - Recupera la variable SERVER
+- Yaf_Request_Abstract::isCli - Determina si la solicitud es una solicitud CLI
+- Yaf_Request_Abstract::isDispatched - Determina si la solicitud es enviada
+- Yaf_Request_Abstract::isGet - Determina si la solicitud es una solicitud GET
+- Yaf_Request_Abstract::isHead - Determina si la solicitud es una solicitud HEAD
+- Yaf_Request_Abstract::isOptions - Determina si la solicitud es una solicitud de OPCIONES
+- Yaf_Request_Abstract::isPost - Determina si la solicitud es una solicitud POST
+- Yaf_Request_Abstract::isPut - Determina si la solicitud es una solicitud PUT
+- Yaf_Request_Abstract::isRouted - Determina si la solicitud ha sido enrutada
+- Yaf_Request_Abstract::isXmlHttpRequest - Determina si la solicitud es una solicitud AJAX
+- Yaf_Request_Abstract::setActionName - Establece el nombre de la acción
+- Yaf_Request_Abstract::setBaseUri - Establecer el URI base
+- Yaf_Request_Abstract::setControllerName - El propósito de setControllerName
+- Yaf_Request_Abstract::setDispatched - El propósito de setDispatched
+- Yaf_Request_Abstract::setModuleName - El propósito de setModuleName
+- Yaf_Request_Abstract::setParam - El propósito de setParam
+- Yaf_Request_Abstract::setRequestUri - El propósito de setRequestUri
+- Yaf_Request_Abstract::setRouted - El propósito de setRouted
+- Yaf_Request_Http::__construct - Constructor de Yaf_Request_Http
+- Yaf_Request_Http::get - Recupera una variable del cliente
+- Yaf_Request_Http::getCookie - Recupera una varible de Cookie
+- Yaf_Request_Http::getFiles - El propósito de getFiles
+- Yaf_Request_Http::getPost - Recupera una variable de POST
+- Yaf_Request_Http::getQuery - Obtiene un parámetro de una consulta
+- Yaf_Request_Http::getRaw - Recupera el cuerpo de la solicitud de raw
+- Yaf_Request_Http::getRequest - El propósito de getRequest
+- Yaf_Request_Http::isXmlHttpRequest - Determina si la solicitud es una solicitud de Ajax
+- Yaf_Request_Simple::__construct - Constructor de Yaf_Request_Simple
+- Yaf_Request_Simple::get - El propósito de get
+- Yaf_Request_Simple::getCookie - El propósito de getCookie
+- Yaf_Request_Simple::getFiles - El propósito de getFiles
+- Yaf_Request_Simple::getPost - El propósito de getPost
+- Yaf_Request_Simple::getQuery - El propósito de getQuery
+- Yaf_Request_Simple::getRequest - El propósito de getRequest
+- Yaf_Request_Simple::isXmlHttpRequest - Determina si la solicitud es una solicitud AJAX
+- Yaf_Response_Abstract::__construct - El propósito de __construct
+- Yaf_Response_Abstract::__destruct - El propósito de __destruct
+- Yaf_Response_Abstract::__toString - Recupera todo el cuerpo como un string
+- Yaf_Response_Abstract::appendBody - Añadir contenido al cuerpo de respuesta
+- Yaf_Response_Abstract::clearBody - Descarta todo el cuerpo de respuesta existente
+- Yaf_Response_Abstract::clearHeaders - Descarta todas las cabeceras establecidas
+- Yaf_Response_Abstract::getBody - Recupera un contenido existente
+- Yaf_Response_Abstract::getHeader - El propósito de getHeader
+- Yaf_Response_Abstract::prependBody - El propósito de prependBody
+- Yaf_Response_Abstract::response - Envía una respuesta
+- Yaf_Response_Abstract::setAllHeaders - El propósito de setAllHeaders
+- Yaf_Response_Abstract::setBody - Establece el contenido de una respuesta
+- Yaf_Response_Abstract::setHeader - Establece cabecera de respuesta
+- Yaf_Response_Abstract::setRedirect - El propósito de setRedirect
+- Yaf_Route_Interface::assemble - Ensamblar una petición
+- Yaf_Route_Interface::route - Enruta una petición
+- Yaf_Route_Map::__construct - El propósito de __construct
+- Yaf_Route_Map::assemble - Ensamblar un URL
+- Yaf_Route_Map::route - El propósito de route
+- Yaf_Route_Regex::__construct - Constructor de Yaf_Route_Regex
+- Yaf_Route_Regex::assemble - Ensamblar un URL
+- Yaf_Route_Regex::route - El propósito de route
+- Yaf_Route_Rewrite::__construct - Constructor de Yaf_Route_Rewrite
+- Yaf_Route_Rewrite::assemble - Ensamblar un URL
+- Yaf_Route_Rewrite::route - El propósito de route
+- Yaf_Route_Simple::__construct - El constructor de la clase Yaf_Route_Simple
+- Yaf_Route_Simple::assemble - Ensamblar un URL
+- Yaf_Route_Simple::route - Enviar una petición
+- Yaf_Route_Static::assemble - Ensamblar un URL
+- Yaf_Route_Static::match - El propósito de match
+- Yaf_Route_Static::route - Enviar una petición
+- Yaf_Route_Supervar::__construct - El propósito de __construct
+- Yaf_Route_Supervar::assemble - Ensamblar un URL
+- Yaf_Route_Supervar::route - El propósito de route
+- Yaf_Router::__construct - El constructor de Yaf_Router
+- Yaf_Router::addConfig - Añadir rutas definidas en configuración al Enrutador
+- Yaf_Router::addRoute - Añadir una nueva ruta al Enrutador
+- Yaf_Router::getCurrentRoute - Obtener el nombre de la ruta efectiva
+- Yaf_Router::getRoute - Recupera una ruta por su nombre
+- Yaf_Router::getRoutes - Recupera las rutas registradas
+- Yaf_Router::route - El propósito de route
+- Yaf_Session::__construct - Constructor de Yaf_Session
+- Yaf_Session::__get - El propósito de __get
+- Yaf_Session::__isset - El propósito de __isset
+- Yaf_Session::__set - El propósito de __set
+- Yaf_Session::__unset - El propósito de __unset
+- Yaf_Session::count - El propósito de count
+- Yaf_Session::current - El propósito de current
+- Yaf_Session::del - El propósito de del
+- Yaf_Session::getInstance - El propósito de getInstance
+- Yaf_Session::has - El propósito de has
+- Yaf_Session::key - El propósito de key
+- Yaf_Session::next - El propósito de next
+- Yaf_Session::offsetExists - El propósito de offsetExists
+- Yaf_Session::offsetGet - El propósito de offsetGet
+- Yaf_Session::offsetSet - El propósito de offsetSet
+- Yaf_Session::offsetUnset - El propósito de offsetUnset
+- Yaf_Session::rewind - El propósito de rewind
+- Yaf_Session::start - El propósito de start
+- Yaf_Session::valid - El propósito de valid
+- Yaf_View_Interface::assign - Asignar valores al motor de Vistas
+- Yaf_View_Interface::display - Interpretar e imprimir una plantilla
+- Yaf_View_Interface::getScriptPath - El propósito de getScriptPath
+- Yaf_View_Interface::render - Interpretar una plantilla
+- Yaf_View_Interface::setScriptPath - El propósito de setScriptPath
+- Yaf_View_Simple::__construct - El constructor de Yaf_View_Simple
+- Yaf_View_Simple::__get - Recupera una variable asignada
+- Yaf_View_Simple::__isset - El propósito de __isset
+- Yaf_View_Simple::__set - Establece el valor para el motor
+- Yaf_View_Simple::assign - Asignar valores
+- Yaf_View_Simple::assignRef - El propósito de assignRef
+- Yaf_View_Simple::clear - Limpiar valores asignados
+- Yaf_View_Simple::display - Interpretar y mostrar
+- Yaf_View_Simple::eval - Interpreta una plantilla
+- Yaf_View_Simple::getScriptPath - Obtiene el directorio de plantillas
+- Yaf_View_Simple::render - Interpreta una plantilla
+- Yaf_View_Simple::setScriptPath - Establece el directorio de plantillas
+- Yar_Client::__call - Llamar a un servicio
+- Yar_Client::__construct - Crear un cliente
+- Yar_Client::setOpt - Establecer los contextos de una llamada
+- Yar_Client_Exception::getType - Recuperar el tipo de excepción
+- Yar_Concurrent_Client::call - Registrar una llamada concurrente
+- Yar_Concurrent_Client::loop - Enviar todas las llamadas
+- Yar_Concurrent_Client::reset - Limpiar todas las llamadas registradas
+- Yar_Server::__construct - Registrar un servidor
+- Yar_Server::handle - Iniciar un servidor RPC
+- Yar_Server_Exception::getType - Recuperar el tipo de excepción
+- ZipArchive::addEmptyDir - Añadir un nuevo directorio
+- ZipArchive::addFile - Añade un fichero al archivo ZIP para la ruta dada
+- ZipArchive::addFromString - Añadir un fichero al archivo ZIP usando su contenido
+- ZipArchive::addGlob - Añadir ficheros de un directorio mediante un patrón glob
+- ZipArchive::addPattern - Añade ficheros de un directorio a partir de un patrón PCRE
+- ZipArchive::clearError - Clear the status error message, system and/or zip messages
+- ZipArchive::close - Cierra el fichero activo (abierto o el nuevo creado)
+- ZipArchive::count - Cuenta el número de archivos en el archivo
+- ZipArchive::deleteIndex - Elimina una entrada en el archivo usando su índice
+- ZipArchive::deleteName - Elimina una entrada en el archivo por su nombre
+- ZipArchive::extractTo - Extraer el contenido del archivo
+- ZipArchive::getArchiveComment - Devuelve el comentario del archivo ZIP
+- ZipArchive::getArchiveFlag - Returns the value of a Zip archive global flag
+- ZipArchive::getCommentIndex - Devuelve el comentario de una entrada usando la entrada díndice
+- ZipArchive::getCommentName - Devuelve el comentario de una entrada usando el nombre de la entrada
+- ZipArchive::getExternalAttributesIndex - Obtener los atributos externos de una entrada definida por su índice
+- ZipArchive::getExternalAttributesName - Obtener los atributos externos de una entrada definida por su nombre
+- ZipArchive::getFromIndex - Devuelve el contenido de la entrada usando su índice
+- ZipArchive::getFromName - Devuelve el contenido de la entrada utilizando su nombre
+- ZipArchive::getNameIndex - Devuelve el nombre de una entrada utilizando su índice
+- ZipArchive::getStatusString - Devuelve mensajes de: estado de error, de sistema y/o mensajes de zip
+- ZipArchive::getStream - Obtener un manejador de fichero para la entrada definido por su nombre (sólo lectura)
+- ZipArchive::getStreamIndex - Get a file handler to the entry defined by its index (read only)
+- ZipArchive::getStreamName - Get a file handler to the entry defined by its name (read only)
+- ZipArchive::isCompressionMethodSupported - Check if a compression method is supported by libzip
+- ZipArchive::isEncryptionMethodSupported - Check if a encryption method is supported by libzip
+- ZipArchive::locateName - Devuelve el índice de la entrada en el archivo
+- ZipArchive::open - Abrir un fichero de archivo en formato ZIP
+- ZipArchive::registerCancelCallback - Registrar una llamada para permitir la cancelación durante el cierre del archivo
+- ZipArchive::registerProgressCallback - Registra una llamada para proporcionar actualizaciones durante el cierre del archivo
+- ZipArchive::renameIndex - Renombra una entrada definida por su índice
+- ZipArchive::renameName - Renombra una entrada definida por su nombre
+- ZipArchive::replaceFile - Reemplaza fichero en el archivo ZIP con una ruta determinada
+- ZipArchive::setArchiveComment - Establece el comentario de un archivo ZIP
+- ZipArchive::setArchiveFlag - Set a global flag of a ZIP archive
+- ZipArchive::setCommentIndex - Establece el comentario de una entrada definido por su índice
+- ZipArchive::setCommentName - Establece el comentario de una entrada definido por su nombre
+- ZipArchive::setCompressionIndex - Establecer el método de compresión de una entrada definida por su índice
+- ZipArchive::setCompressionName - Establecer el método de compresión de una entrada definida por su nombre
+- ZipArchive::setEncryptionIndex - Establece el método de cifrado de una entrada definida por su índice
+- ZipArchive::setEncryptionName - Establece el método de cifrado de una entrada definida por su nombre
+- ZipArchive::setExternalAttributesIndex - Establece los atributos externos de una entrada definida por su índice
+- ZipArchive::setExternalAttributesName - Establece los atributos externos de una entrada definida por su nombre
+- ZipArchive::setMtimeIndex - Establece el tiempo de modificación de una entrada definido por su índice
+- ZipArchive::setMtimeName - Establece la hora de modificación de una entrada definida por su nombre
+- ZipArchive::setPassword - Establece la contraseña para el archivo activo
+- ZipArchive::statIndex - Obtiene los detalles de una entrada definida por su índice
+- ZipArchive::statName - Obtener los detalles de una entrada definida por su nombre
+- ZipArchive::unchangeAll - Deshacer todos los cambios hechos en el archivo
+- ZipArchive::unchangeArchive - Revertir todos los cambios globales hechos en el archivo
+- ZipArchive::unchangeIndex - Revertir todos los cambios hechos a una entrada en el índice dado
+- ZipArchive::unchangeName - Deshace todos los cambios realizados a una entrada con un nombre dado
+- ZMQ::__construct - El constructor de ZMQ
+- ZMQContext::__construct - Construir un nuevo objeto ZMQContext
+- ZMQContext::getOpt - Obtener la opción de contexto
+- ZMQContext::getSocket - Crear un nuevo socket
+- ZMQContext::isPersistent - Indicar si el contexto es persistente
+- ZMQContext::setOpt - Establecer una opción de socket
+- ZMQDevice::__construct - Construir un nuevo dispositivo
+- ZMQDevice::getIdleTimeout - Obtener el tiempo de espera de inactividad
+- ZMQDevice::getTimerTimeout - Obtener el tiempo de espera del temporizador
+- ZMQDevice::run - Ejecutar el nuevo dispositivo
+- ZMQDevice::setIdleCallback - Establecer la función de retrollamada de inactividad
+- ZMQDevice::setIdleTimeout - Establecer el tiempo de espera para la inactividad
+- ZMQDevice::setTimerCallback - Establecer la función de retrollamada del temporizador
+- ZMQDevice::setTimerTimeout - Establecer el tiempo de espera del temporizador
+- ZMQPoll::add - Añadir un elemento al conjunto de sondeo
+- ZMQPoll::clear - Limpiar el conjunto de sondeo
+- ZMQPoll::count - Contar los elementos del conjunto de sondeo
+- ZMQPoll::getLastErrors - Obtener los errores del sondeo
+- ZMQPoll::poll - Sondear los elementos
+- ZMQPoll::remove - Eliminar un elemento del conjunto de sondeo
+- ZMQSocket::__construct - Construir un nuevo ZMQSocket
+- ZMQSocket::bind - Vincular el socket
+- ZMQSocket::connect - Contectar el socket
+- ZMQSocket::disconnect - Desconectar un socket
+- ZMQSocket::getEndpoints - Obtener una lista de los extremos
+- ZMQSocket::getPersistentId - Obtener el ID de persistencia
+- ZMQSocket::getSocketType - Obtener el tipo de socket
+- ZMQSocket::getSockOpt - Obtener la opción de un socket
+- ZMQSocket::isPersistent - Comprobrar si un socket es persistente
+- ZMQSocket::recv - Recibir un mensaje
+- ZMQSocket::recvMulti - Recibir un mensaje multiparte
+- ZMQSocket::send - Enviar un mensaje
+- ZMQSocket::sendmulti - Enviar un mensaje multiparte
+- ZMQSocket::setSockOpt - Establecer una opción de socket
+- ZMQSocket::unbind - Desvincular el socket
+- Zookeeper::__construct - Create a handle to used communicate with zookeeper
+- Zookeeper::addAuth - Specify application credentials
+- Zookeeper::close - Close the zookeeper handle and free up any resources
+- Zookeeper::connect - Create a handle to used communicate with zookeeper
+- Zookeeper::create - Create a node synchronously
+- Zookeeper::delete - Delete a node in zookeeper synchronously
+- Zookeeper::exists - Checks the existence of a node in zookeeper synchronously
+- Zookeeper::get - Gets the data associated with a node synchronously
+- Zookeeper::getAcl - Gets the acl associated with a node synchronously
+- Zookeeper::getChildren - Lists the children of a node synchronously
+- Zookeeper::getClientId - Return the client session id, only valid if the connections is currently connected (ie. last watcher state is ZOO_CONNECTED_STATE)
+- Zookeeper::getConfig - Get instance of ZookeeperConfig
+- Zookeeper::getRecvTimeout - Return the timeout for this session, only valid if the connections is currently connected (ie. last watcher state is ZOO_CONNECTED_STATE). This value may change after a server re-connect
+- Zookeeper::getState - Get the state of the zookeeper connection
+- Zookeeper::isRecoverable - Checks if the current zookeeper connection state can be recovered
+- Zookeeper::set - Sets the data associated with a node
+- Zookeeper::setAcl - Sets the acl associated with a node synchronously
+- Zookeeper::setDebugLevel - Sets the debugging level for the library
+- Zookeeper::setDeterministicConnOrder - Enable/disable quorum endpoint order randomization
+- Zookeeper::setLogStream - Sets the stream to be used by the library for logging
+- Zookeeper::setWatcher - Set a watcher function
+- ZookeeperConfig::add - Add servers to the ensemble
+- ZookeeperConfig::get - Gets the last committed configuration of the ZooKeeper cluster as it is known to the server to which the client is connected, synchronously
+- ZookeeperConfig::remove - Remove servers from the ensemble
+- ZookeeperConfig::set - Change ZK cluster ensemble membership and roles of ensemble peers
