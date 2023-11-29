@@ -1,7 +1,22 @@
+# Ignorar todos los archivos .env en las subcarpetas
+**/.env
+**/.pdf
+
+# Ignorar archivos PDF
 *.pdf
+
+# Ignorar carpetas node_modules en cualquier nivel de profundidad
 **/node_modules/
+
+# Ignorar carpetas vendor en cualquier nivel de profundidad
 **/vendor/
+
+# Ignorar archivos .env en la raíz del proyecto
 .env
+
+# Ignorar logs de npm y yarn
 npm-debug.log
 yarn-error.log
+
+# Ignorar configuraciones de VSCode
 /.vscode

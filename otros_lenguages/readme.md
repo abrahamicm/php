@@ -1,0 +1,1 @@
+Por si es mas facil hacer el script en otro lenguaje para despues implementarlo en php

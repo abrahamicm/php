@@ -1,0 +1,6 @@
+{
+    "require": {
+        "cydrickn/php-watcher": "^1.0",
+        "react/event-loop": "^1.5"
+    }
+}
